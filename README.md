@@ -1,12 +1,8 @@
-<h3>Template UKM Versi 4.0</h3>
+<h2>Template UKM Versi 4.0</h2>
+
 Sedang dalam pembangunan
 
-<h3>Ciri-ciri</h3>
-* Twitter Bootstrap
-* SASS
-* Compass
-
-<h3>Pemalam Saranan</h3>
+<h2>Pemalam Saranan</h2>
 * qTranslate
 * Easing Slider "Lite"
 * Black Studio TinyMCE Widget
