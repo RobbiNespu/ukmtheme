@@ -6,12 +6,15 @@
  */
 
 // JQuery from Google API
+
 if (!is_admin()) add_action("wp_enqueue_scripts", "my_jquery_enqueue", 11);
 function my_jquery_enqueue() {
    wp_deregister_script('jquery');
    wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js", false, null);
    wp_enqueue_script('jquery');
 }
+
+// Tetapan theme
 
 function ukmtheme_setup() {
 
@@ -46,14 +49,17 @@ function ukmtheme_setup() {
 }
 add_action( 'after_setup_theme', 'ukmtheme_setup' );
 
+// Javascript dan CSS
 
 function ukmtheme_scripts_styles() {
 	global $wp_styles;
 
 	wp_enqueue_style( 'ukmtheme-style', get_stylesheet_uri() );
 
-	wp_enqueue_style( 'ukmtheme-style-ie', get_template_directory_uri() . '/css/ie.css', array( 'ukmtheme-style' ), '20121010' );
+	wp_enqueue_style( 'ukmtheme-style-ie', get_template_directory_uri() . 'ie.css', array( 'ukmtheme-style' ), '4.0' );
 	$wp_styles->add_data( 'ukmtheme-style-ie', 'conditional', 'lt IE 9' );
+
+	wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/js/modernizr.js', array( 'jquery'), '2.6', true );
 }
 add_action( 'wp_enqueue_scripts', 'ukmtheme_scripts_styles' );
 ?>

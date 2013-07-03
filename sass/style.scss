@@ -257,3 +257,29 @@ body {
 		padding-top: 10px;
 	}
 }
+
+/**
+ *	Konfigurasi skrin kecil
+ *	Jenis: Tablet dan Telefon Pintar
+ *	2013-07-03
+ */
+
+ @media screen and (max-width: 780px) {
+ 	// Grid clear floating
+ 	[class*="col-"] {
+ 		clear: both;
+ 		float: none;
+ 		width: 100%;
+ 	}
+ 	// Body padding
+ 	body {
+ 		margin: 0;
+ 		padding: 0;
+ 	}
+ 	//
+ 	header,
+ 	.slider-wrap {
+ 		padding: 0 10px;
+ 	}
+ 	
+ } // Tamat konfigurasi
