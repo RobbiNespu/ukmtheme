@@ -25,6 +25,8 @@ $grey-hard:#4F5859;
 
 @import url(http://fonts.googleapis.com/css?family=Crete+Round);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+@import url(fonts/font-awesome/css/font-awesome.min.css);
+@import url(fonts/font-awesome/css/font-awesome-ie7.min.css);
 
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -172,7 +174,7 @@ body {
 }
 #cssmenu > ul > li {
   float: left;
-  background:#1c1c1c url('assets/img/separator.gif') bottom right no-repeat;
+  background:#1c1c1c url('images/separator.gif') bottom right no-repeat;
 }
 /* --- tambahan :hover pada menu utama ---*/
 #cssmenu li a:hover, #cssmenu ul li:hover a{

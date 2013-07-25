@@ -155,7 +155,7 @@ body {
 
 #cssmenu > ul > li {
   float: left;
-  background: #1c1c1c url("assets/img/separator.gif") bottom right no-repeat;
+  background: #1c1c1c url("images/separator.gif") bottom right no-repeat;
 }
 
 /* --- tambahan :hover pada menu utama ---*/

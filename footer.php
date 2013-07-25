@@ -7,7 +7,7 @@
 wp_footer(); ?>
 <footer class="footer">
 	<div class="container footer-content">
-		<center><?php echo __('Copyright &copy; The National University of Malaysia'); ?></center>
+		<center><?php echo __('Copyright &copy; The National University of Malaysia', 'ukmtheme'); ?></center>
 	</div>
 </footer>
 </body>

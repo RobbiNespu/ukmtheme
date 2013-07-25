@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UKM Theme 4.0\n"
+"POT-Creation-Date: 2013-07-23 10:51+0800\n"
+"PO-Revision-Date: 2013-07-23 10:57+0800\n"
+"Last-Translator: \n"
+"Language-Team: UKM Web Developer <multimedia@ptm.ukm.my>\n"
+"Language: Malay\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /Applications/MAMP/htdocs/wordpress/wp-content/themes/"
+"ukm\n"
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/themes/ukm/content.php:13
+msgid "Featured post"
+msgstr "Kiriman terkini"
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/themes/ukm/content.php:22
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink pada %s"
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/themes/ukm/content.php:27
+msgid "Leave a reply"
+msgstr "Tinggalkan balasan"
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/themes/ukm/content.php:27
+msgid "1 Reply"
+msgstr "1 Balas"
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/themes/ukm/content.php:27
+msgid "% Replies"
+msgstr "% Balas"
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/themes/ukm/content.php:38
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Sambung bacaan <span class=\"meta-nav\">&rarr;</span>"
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/themes/ukm/content.php:39
+msgid "Pages:"
+msgstr "Halaman:"
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/themes/ukm/content.php:45
+msgid "Edit"
+msgstr "Sunting"
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/themes/ukm/content.php:52
+#, php-format
+msgid "About %s"
+msgstr "Mengenai %s"
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/themes/ukm/content.php:56
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Papar semua kiriman dengan %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/themes/ukm/footer.php:10
+msgid "Copyright &copy; The National University of Malaysia"
+msgstr "Hakcipta &copy; Universiti Kebangsaan Malaysia"
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/themes/ukm/functions.php:27
+msgid "Primary Menu"
+msgstr "Menu Utama"
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/themes/ukm/functions.php:29
+msgid "Secondary Menu"
+msgstr "Menu Kedua"
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/themes/ukm/functions.php:71
+msgid "Main Sidebar"
+msgstr "Sidebar Utama"
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/themes/ukm/functions.php:73
+msgid ""
+"Appears on posts and pages except the optional Front Page template, which "
+"has its own widgets"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/themes/ukm/functions.php:81
+msgid "First Front Page Widget Area"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/themes/ukm/functions.php:83
+#: /Applications/MAMP/htdocs/wordpress/wp-content/themes/ukm/functions.php:93
+msgid ""
+"Appears when using the optional Front Page template with a page set as "
+"Static Front Page"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/wp-content/themes/ukm/functions.php:91
+msgid "Second Front Page Widget Area"
+msgstr ""

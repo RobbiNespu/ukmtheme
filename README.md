@@ -1,10 +1,11 @@
-<h2>Template UKM Versi 4.0</h2>
+###<em>Theme</em> WordPress UKM
 
-Sedang dalam pembangunan
+Theme WordPress untuk kegunaan Pusat Tanggung Jawab (PTJ) UKM.
+Dibangunkan dengan kerjasama Bahagian Multimedia, PTM dan Pusat Komunikasi Korporat.
 
-<h2>Pemalam Saranan</h2>
-* qTranslate
-* Easing Slider "Lite"
-* Black Studio TinyMCE Widget
-* Slim JetPack
-* Page Builder
+###Pemalam yang Perlu dipasang
+* [qTranslate](http://wordpress.org/plugins/qtranslate/)
+* [Easing Slider "Lite"]()
+* [Black Studio TinyMCE Widget](http://wordpress.org/plugins/black-studio-tinymce-widget/)
+* [Slim JetPack](http://wordpress.org/plugins/slimjetpack/)
+* [Page Builder](http://wordpress.org/plugins/siteorigin-panels/)
