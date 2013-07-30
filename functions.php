@@ -28,6 +28,8 @@ function ukmtheme_setup() {
 
 	register_nav_menu( 'secondary', __( 'Secondary Menu', 'ukmtheme' ) );
 
+	register_nav_menu( 'social', __( 'Social Menu', 'ukmtheme' ) );
+
 	require_once locate_template( 'menu.php' );
 
 	add_theme_support( 'custom-background', array(

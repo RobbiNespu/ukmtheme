@@ -1,14 +1,13 @@
 /*!
 Theme Name: Theme UKM
-Theme URI: http://www.ukm.my
+Theme URI: http://www.ukm.my/
 Description: Official Theme
 Author: Jamaludin Rajalu
-Author URI: http://www.ukm.my
+Author URI: http://www.ukm.my/
 Version: 4.0
-Tags: red, responsive
 
-License: Creative Commons
-License URI: http://creativecommons.org/licenses/by-nc/2.5/my/legalcode
+License: GPL
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
 @import "compass";
@@ -49,46 +48,45 @@ body {
 
 [class*="col-"] {
 	@include box-sizing(border-box);
-}
-.col {
 	display: block;
 	float: left;
-	.col-1-1 {
-		width: 99.99%;
-	}
-	.col-1-2 {
-		width: 49.995%;
-	}
-	.col-1-3 {
-		width: 33.33%;
-	}
-	.col-1-4 {
-		width: 24.9975%;
-	}
-	.col-1-5 {
-		width: 19.998%;
-	}
-	.col-2-3 {
-		width: 66.66%;
-	}
-	.col-2-5 {
-		width: 39.996%;
-	}
-	.col-3-4 {
-		width: 74.9925%;
-	}
-	.col-3-5 {
-		width: 59.994%;
-	}
-	.col-4-5 {
-		width: 79.992%;
-	}
+}
+
+.col-1-1 {
+	width: 99.99%;
+}
+.col-1-2 {
+	width: 49.995%;
+}
+.col-1-3 {
+	width: 33.33%;
+}
+.col-1-4 {
+	width: 24.9975%;
+}
+.col-1-5 {
+	width: 19.998%;
+}
+.col-2-3 {
+	width: 66.66%;
+}
+.col-2-5 {
+	width: 39.996%;
+}
+.col-3-4 {
+	width: 74.9925%;
+}
+.col-3-5 {
+	width: 59.994%;
+}
+.col-4-5 {
+	width: 79.992%;
 }
 
 // Top Navigation
 
 .top-navigation-wrap {
-	height: 40px;
+	min-height: 40px;
 	background: $black;
 	.primary-navigation {
 		ul {
@@ -98,6 +96,7 @@ body {
 				display: block;
 				float: left;
 				margin-left: 10px;
+				padding-top: 10px;
 				a {
 					color: $grey-soft;
 					font-size: 12px;
@@ -112,6 +111,20 @@ body {
 			}
 		}
 	}
+}
+
+// Social Icon Link
+
+.social-icon-link li {
+	display: block;
+	float: right !important;
+	text-indent: -99999px;
+}
+.social-icon-link li a {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
 }
 
 // Header
@@ -245,7 +258,7 @@ body {
 .article {
 	background: $grey-soft;
 	padding: 10px;
-	  @include box-shadow(0 0 5px);
+	@include box-shadow(0 0 5px);
 }
 
 // Footer

@@ -21,13 +21,7 @@
 <body <?php body_class(); ?>>
 <div class="top-navigation-wrap">
 	<div class="container primary-navigation">
-		<?php wp_nav_menu( array( 
-			'theme_location' => 'primary',
-			'menu' => 'Primary Menu',
-			'container' => 'div',
-			'container_class' => '',
-			) ); 
-		?>
+		<?php get_template_part( 'inc/primary', 'menu' ); ?>
 	</div>
 </div>
 <header class="header">

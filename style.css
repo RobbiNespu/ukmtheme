@@ -1,17 +1,18 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(http://fonts.googleapis.com/css?family=Crete+Round);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+@import url(fonts/font-awesome/css/font-awesome.min.css);
+@import url(fonts/font-awesome/css/font-awesome-ie7.min.css);
 @import url(css/bootstrap.min.css);
 /*
 Theme Name: Theme UKM
-Theme URI: http://www.ukm.my
+Theme URI: http://www.ukm.my/
 Description: Official Theme
 Author: Jamaludin Rajalu
-Author URI: http://www.ukm.my
+Author URI: http://www.ukm.my/
 Version: 4.0
-Tags: red, responsive
 
-License: Creative Commons
-License URI: http://creativecommons.org/licenses/by-nc/2.5/my/legalcode
+License: GPL
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 body {
   font-family: 'Open Sans', sans-serif;
@@ -19,7 +20,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Crete Round', serif;
   font-weight: normal;
   line-height: normal;
 }
@@ -32,45 +33,52 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-.col {
   display: block;
   float: left;
 }
-.col .col-1-1 {
+
+.col-1-1 {
   width: 99.99%;
 }
-.col .col-1-2 {
+
+.col-1-2 {
   width: 49.995%;
 }
-.col .col-1-3 {
+
+.col-1-3 {
   width: 33.33%;
 }
-.col .col-1-4 {
+
+.col-1-4 {
   width: 24.9975%;
 }
-.col .col-1-5 {
+
+.col-1-5 {
   width: 19.998%;
 }
-.col .col-2-3 {
+
+.col-2-3 {
   width: 66.66%;
 }
-.col .col-2-5 {
+
+.col-2-5 {
   width: 39.996%;
 }
-.col .col-3-4 {
+
+.col-3-4 {
   width: 74.9925%;
 }
-.col .col-3-5 {
+
+.col-3-5 {
   width: 59.994%;
 }
-.col .col-4-5 {
+
+.col-4-5 {
   width: 79.992%;
 }
 
 .top-navigation-wrap {
-  height: 40px;
+  min-height: 40px;
   background: #242526;
 }
 .top-navigation-wrap .primary-navigation ul {
@@ -81,6 +89,7 @@ body {
   display: block;
   float: left;
   margin-left: 10px;
+  padding-top: 10px;
 }
 .top-navigation-wrap .primary-navigation ul li a {
   color: #f2f2f2;
@@ -92,6 +101,19 @@ body {
 }
 .top-navigation-wrap .primary-navigation ul li a:visited {
   color: #4f5859;
+}
+
+.social-icon-link li {
+  display: block;
+  float: right !important;
+  text-indent: -99999px;
+}
+
+.social-icon-link li a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: #ccc;
 }
 
 .slider-wrap,
