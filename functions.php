@@ -30,6 +30,8 @@ function ukmtheme_setup() {
 
 	register_nav_menu( 'social', __( 'Social Menu', 'ukmtheme' ) );
 
+	register_nav_menu( 'bottom', __( 'Bottom Menu', 'ukmtheme' ) );
+
 	require_once locate_template( 'menu.php' );
 
 	add_theme_support( 'custom-background', array(
@@ -80,10 +82,10 @@ function ukmtheme_widgets_init() {
 	) );
 
 	register_sidebar( array(
-		'name' => __( 'First Front Page Widget Area', 'ukmtheme' ),
+		'name' => __( 'Four Column', 'ukmtheme' ),
 		'id' => 'sidebar-2',
-		'description' => __( 'Appears when using the optional Front Page template with a page set as Static Front Page', 'ukmtheme' ),
-		'before_widget' => '<aside class="widget">',
+		'description' => __( 'Four column widget.', 'ukmtheme' ),
+		'before_widget' => '<aside class="widget col-1-4">',
 		'after_widget' => '</aside>',
 		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3>',

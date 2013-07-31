@@ -22,7 +22,7 @@ $grey-hard:#4F5859;
 
 // TYPOGRAPHY
 
-@import url(http://fonts.googleapis.com/css?family=Crete+Round);
+@import url(fonts/museo-slab/museo-slab.css);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
 @import url(fonts/font-awesome/css/font-awesome.min.css);
 @import url(fonts/font-awesome/css/font-awesome-ie7.min.css);
@@ -33,7 +33,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Crete Round', serif;
+	font-family: 'MuseoSlab-500', serif;
 	font-weight: normal;
 	line-height: normal;
 }
@@ -119,14 +119,42 @@ body {
 	display: block;
 	float: right !important;
 	text-indent: -99999px;
+	margin-top: 8px;
+	margin-left: 0 !important;
 }
 .social-icon-link li a {
 	display: block;
-	width: 20px;
-	height: 20px;
-	background: #ccc;
+	width: 16px;
+	height: 16px;
 }
-
+.facebook-icon {
+	background: url('images/social.png') 0 2px;
+	height: 16px;
+	width: 20px;
+	padding-top: 4px !important;
+	padding-bottom: 4px;
+}
+.rss-icon {
+	background: url('images/social.png') 0 -18px;
+	height: 16px;
+	width: 20px;
+	padding-top: 4px !important;
+	padding-bottom: 4px;
+}
+.twitter-icon {
+	background: url('images/social.png') 0 -38px;
+	height: 16px;
+	width: 20px;
+	padding-top: 4px !important;
+	padding-bottom: 4px;
+}
+.youtube-icon {
+	background: url('images/social.png') 0 -58px;
+	height: 16px;
+	width: 20px;
+	padding-top: 4px !important;
+	padding-bottom: 4px;
+}
 // Header
 
 .slider-wrap,
@@ -156,7 +184,7 @@ body {
   position: relative;
 }
 #cssmenu {
-  background: #1c1c1c;
+  background: $black;
   font-weight: 400;
   height: 45px;
 }
@@ -177,7 +205,7 @@ body {
 }
 #cssmenu a:hover {
     background: #ececec;
-    color: #1c1c1c;
+    color: $black;
 }
 #cssmenu ul {
   list-style: none;
@@ -187,12 +215,12 @@ body {
 }
 #cssmenu > ul > li {
   float: left;
-  background:#1c1c1c url('images/separator.gif') bottom right no-repeat;
+  background:$black url('images/separator.gif') bottom right no-repeat;
 }
 /* --- tambahan :hover pada menu utama ---*/
 #cssmenu li a:hover, #cssmenu ul li:hover a{
 	background: #ececec;
-	color:#1c1c1c;
+	color:$black;
 	text-decoration:none;
 }
 /* --- tamat --- */
@@ -211,7 +239,7 @@ body {
 }
 #cssmenu .has-sub ul li a {
   background: #ececec;
-  color: #1c1c1c;
+  color: $black;
   display: block;
   line-height: normal;
   padding: 10px 20px 10px !important;
@@ -261,6 +289,47 @@ body {
 	@include box-shadow(0 0 5px);
 }
 
+// Recent Post with Thumbnail
+
+h3.widgettitle {
+	font-size:12pt;
+	letter-spacing:0;
+	padding: 0 0 5px;
+	border-bottom:1px dotted #ccc;
+	margin-bottom:10px;
+}
+.fimage-post {
+	background:#ffffff;
+	padding:10px;
+}
+
+.fimage-post a {
+	float: none;
+}
+
+.fimage-post img {
+	float: left;
+	margin: 4px 4px 0 0;
+}
+
+.fimage-post .clear {
+	clear: both;
+}
+
+.fimage-post ul {
+	list-style:none !important;
+	margin:0 !important;
+	padding:0 !important;
+}
+
+.fimage-post li {
+	background: none repeat scroll 0 center transparent;
+	border-bottom: 1px dotted #AAAAAA;
+	list-style: none outside none !important;
+	margin: 0 !important;
+	padding: 10px 0;
+}
+
 // Footer
 
 .footer {
@@ -270,6 +339,32 @@ body {
 	.footer-content {
 		color: $grey-soft;
 		padding-top: 10px;
+	}
+}
+
+// Bottom Menu
+
+
+.bottom-menu {
+	ul {
+		list-style: none;
+		margin-left: 0;
+		li {
+			display: block;
+			float: left;
+			margin-left: 10px;
+			a {
+				color: $grey-soft;
+				font-size: 12px;
+			}
+			a:hover {
+				color: $grey-hard;
+				text-decoration: none;
+			}
+			a:visited {
+				color: $grey-hard;
+			}
+		}
 	}
 }
 

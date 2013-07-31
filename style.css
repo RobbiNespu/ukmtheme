@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Crete+Round);
+@import url(fonts/museo-slab/museo-slab.css);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
 @import url(fonts/font-awesome/css/font-awesome.min.css);
 @import url(fonts/font-awesome/css/font-awesome-ie7.min.css);
@@ -20,7 +20,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Crete Round', serif;
+  font-family: 'MuseoSlab-500', serif;
   font-weight: normal;
   line-height: normal;
 }
@@ -107,13 +107,46 @@ body {
   display: block;
   float: right !important;
   text-indent: -99999px;
+  margin-top: 8px;
+  margin-left: 0 !important;
 }
 
 .social-icon-link li a {
   display: block;
+  width: 16px;
+  height: 16px;
+}
+
+.facebook-icon {
+  background: url("images/social.png") 0 2px;
+  height: 16px;
   width: 20px;
-  height: 20px;
-  background: #ccc;
+  padding-top: 4px !important;
+  padding-bottom: 4px;
+}
+
+.rss-icon {
+  background: url("images/social.png") 0 -18px;
+  height: 16px;
+  width: 20px;
+  padding-top: 4px !important;
+  padding-bottom: 4px;
+}
+
+.twitter-icon {
+  background: url("images/social.png") 0 -38px;
+  height: 16px;
+  width: 20px;
+  padding-top: 4px !important;
+  padding-bottom: 4px;
+}
+
+.youtube-icon {
+  background: url("images/social.png") 0 -58px;
+  height: 16px;
+  width: 20px;
+  padding-top: 4px !important;
+  padding-bottom: 4px;
 }
 
 .slider-wrap,
@@ -141,7 +174,7 @@ body {
 }
 
 #cssmenu {
-  background: #1c1c1c;
+  background: #242526;
   font-weight: 400;
   height: 45px;
 }
@@ -164,7 +197,7 @@ body {
 
 #cssmenu a:hover {
   background: #ececec;
-  color: #1c1c1c;
+  color: #242526;
 }
 
 #cssmenu ul {
@@ -177,13 +210,13 @@ body {
 
 #cssmenu > ul > li {
   float: left;
-  background: #1c1c1c url("images/separator.gif") bottom right no-repeat;
+  background: #242526 url("images/separator.gif") bottom right no-repeat;
 }
 
 /* --- tambahan :hover pada menu utama ---*/
 #cssmenu li a:hover, #cssmenu ul li:hover a {
   background: #ececec;
-  color: #1c1c1c;
+  color: #242526;
   text-decoration: none;
 }
 
@@ -206,7 +239,7 @@ body {
 
 #cssmenu .has-sub ul li a {
   background: #ececec;
-  color: #1c1c1c;
+  color: #242526;
   display: block;
   line-height: normal;
   padding: 10px 20px 10px !important;
@@ -265,6 +298,46 @@ body {
   box-shadow: 0 0 5px;
 }
 
+h3.widgettitle {
+  font-size: 12pt;
+  letter-spacing: 0;
+  padding: 0 0 5px;
+  border-bottom: 1px dotted #ccc;
+  margin-bottom: 10px;
+}
+
+.fimage-post {
+  background: #ffffff;
+  padding: 10px;
+}
+
+.fimage-post a {
+  float: none;
+}
+
+.fimage-post img {
+  float: left;
+  margin: 4px 4px 0 0;
+}
+
+.fimage-post .clear {
+  clear: both;
+}
+
+.fimage-post ul {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.fimage-post li {
+  background: none repeat scroll 0 center transparent;
+  border-bottom: 1px dotted #AAAAAA;
+  list-style: none outside none !important;
+  margin: 0 !important;
+  padding: 10px 0;
+}
+
 .footer {
   background: #242526;
   min-height: 40px;
@@ -273,6 +346,27 @@ body {
 .footer .footer-content {
   color: #f2f2f2;
   padding-top: 10px;
+}
+
+.bottom-menu ul {
+  list-style: none;
+  margin-left: 0;
+}
+.bottom-menu ul li {
+  display: block;
+  float: left;
+  margin-left: 10px;
+}
+.bottom-menu ul li a {
+  color: #f2f2f2;
+  font-size: 12px;
+}
+.bottom-menu ul li a:hover {
+  color: #4f5859;
+  text-decoration: none;
+}
+.bottom-menu ul li a:visited {
+  color: #4f5859;
 }
 
 /**
