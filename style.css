@@ -1,10 +1,10 @@
 @import url(fonts/museo-slab/museo-slab.css);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
 @import url(fonts/font-awesome/css/font-awesome.min.css);
-@import url(fonts/font-awesome/css/font-awesome-ie7.min.css);
+@import url(css/grid.css);
 @import url(css/bootstrap.min.css);
 /*
-Theme Name: Theme UKM
+Theme Name: UKM Theme
 Theme URI: http://www.ukm.my/
 Description: Official Theme
 Author: Jamaludin Rajalu
@@ -35,46 +35,6 @@ body {
   box-sizing: border-box;
   display: block;
   float: left;
-}
-
-.col-1-1 {
-  width: 99.99%;
-}
-
-.col-1-2 {
-  width: 49.995%;
-}
-
-.col-1-3 {
-  width: 33.33%;
-}
-
-.col-1-4 {
-  width: 24.9975%;
-}
-
-.col-1-5 {
-  width: 19.998%;
-}
-
-.col-2-3 {
-  width: 66.66%;
-}
-
-.col-2-5 {
-  width: 39.996%;
-}
-
-.col-3-4 {
-  width: 74.9925%;
-}
-
-.col-3-5 {
-  width: 59.994%;
-}
-
-.col-4-5 {
-  width: 79.992%;
 }
 
 .top-navigation-wrap {
