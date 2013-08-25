@@ -11,6 +11,9 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
 @import "compass";
+@import url(css/grid.css);
+@import url(css/normalize.css);
+@import url(css/main.css);
 
 // COLOUR
 
@@ -38,9 +41,6 @@ h1,h2,h3,h4,h5,h6 {
 body {
 	background: $grey-soft;
 }
-
-@import url(css/grid.css);
-@import url(css/bootstrap.min.css);
 
 [class*="col-"] {
 	@include box-sizing(border-box);

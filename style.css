@@ -1,5 +1,6 @@
 @import url(css/grid.css);
-@import url(css/bootstrap.min.css);
+@import url(css/normalize.css);
+@import url(css/main.css);
 /*
 Theme Name: UKM Theme
 Theme URI: http://www.ukm.my/
