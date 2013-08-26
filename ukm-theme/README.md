@@ -1,8 +1,0 @@
-2013-08-22
-####Saranan Plugin yang Perlu dipasang
-
-* [Polylang](http://wordpress.org/plugins/polylang/)
-* [Easing Slider "Lite"]()
-* [Black Studio TinyMCE Widget](http://wordpress.org/plugins/black-studio-tinymce-widget/)
-* [Slim JetPack](http://wordpress.org/plugins/slimjetpack/)
-* [Page Builder](http://wordpress.org/plugins/siteorigin-panels/)
