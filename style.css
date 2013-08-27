@@ -84,6 +84,11 @@ body {
   margin-bottom: 10px;
 }
 
+.slide {
+  width: 940px;
+  height: 300px;
+}
+
 .logo {
   max-width: 940px;
 }

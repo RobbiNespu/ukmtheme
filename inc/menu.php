@@ -1,5 +1,5 @@
 <?php
-/*
+/**
  * @package WordPress
  * @subpackage UKM_Theme
  * @since UKM Theme 1.0

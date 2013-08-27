@@ -53,6 +53,35 @@ function ukmtheme_setup() {
 }
 add_action( 'after_setup_theme', 'ukmtheme_setup' );
 
+// Slideshow
+
+function ukmtheme_slidehow() {
+   	// jquery cycle
+	wp_register_script( 'jquery.cycle', get_template_directory_uri() . '/js/jquery.cycle.all.js', array('jquery'));
+	wp_enqueue_script( 'jquery.cycle' );
+    // jquery code for site
+	wp_register_script( 'site', get_template_directory_uri() . '/js/site.js');
+	wp_enqueue_script( 'site' );
+}
+add_action('wp_enqueue_scripts', 'ukmtheme_slidehow');
+
+function slides() {
+	register_post_type( 'slides',
+	array(
+		'labels' => array(
+			'name' => __( 'Slides' ),
+			'singular_name' => __( 'Slide' )
+		),
+	        'public' => true,
+	        'has_archive' => true,
+	        'rewrite' => array('slug' => 'slides'),
+	        'supports' => array('editor', 'thumbnail'),
+	        'menu_position' => 5
+	)
+	);
+}
+add_action( 'init', 'slides' );
+
 // Javascript dan CSS
 
 function ukmtheme_scripts_styles() {
@@ -71,7 +100,7 @@ function ukmtheme_widgets_init() {
 		'name' => __( 'Main Sidebar', 'ukmtheme' ),
 		'id' => 'sidebar-1',
 		'description' => __( 'Appears on posts and pages except the optional Front Page template, which has its own widgets', 'ukmtheme' ),
-		'before_widget' => '<aside class="widget">',
+		'before_widget' => '<aside class="widget col-1-4">',
 		'after_widget' => '</aside>',
 		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3>',

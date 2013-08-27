@@ -1,4 +1,4 @@
-<?
+<?php
 /**
  * Template Name: Frontpage
  *
@@ -10,14 +10,12 @@ get_header();
 ?>
 <div class="slider-wrap">
 	<div class="container">
-		<?php if ( function_exists( "easingsliderlite" ) ) { easingsliderlite(); } ?>
+		<?php get_template_part( 'inc/front', 'slideshow' ); ?>
 	</div>
 </div>
-<div class="container">
-	<?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
-	<?php //get_template_part( 'inc/recent', 'post' ); ?>
-	<p>
-		Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum.
-	</p>
+<div class="container cf">
+	<?php get_sidebar(); ?>
+	<?php if (dynamic_sidebar( 'sidebar-1' )) : else : ?><?php endif; ?>
+	<?php get_template_part( 'inc/recent', 'post' ); ?>
 </div>
 <? get_footer(); ?>
