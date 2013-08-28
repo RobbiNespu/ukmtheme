@@ -18,6 +18,9 @@
 ?>
 </div>
 <div class="col-1-2">
+<div class="qtrans_wrap">
+	<?php echo qtrans_generateLanguageSelectCode('image'); ?>
+</div>
 <?php wp_nav_menu( array( 
 	// Menu pautan sosial.
 	'theme_location' => 'social',

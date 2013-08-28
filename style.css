@@ -1,3 +1,6 @@
+@import url(fonts/museo-slab/museo-slab.css);
+@import url(fonts/font-awesome/css/font-awesome.min.css);
+@import url(fonts/source-sans-pro/stylesheet.css);
 @import url(css/normalize.css);
 @import url(css/foundation.css);
 @import url(css/grid.css);
@@ -42,14 +45,22 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'source_sans_proregular', sans-serif;
   color: #242526;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Rokkitt', serif;
+  font-family: 'MuseoSlab-500', serif;
   font-weight: normal;
   line-height: normal;
+}
+
+em {
+  font-family: "source_sans_proitalic";
+}
+
+b {
+  font-family: "source_sans_probold";
 }
 
 body {
@@ -75,6 +86,77 @@ body {
   background: #242526;
 }
 
+.primary ul {
+  list-style-type: none;
+  height: 40px;
+}
+.primary ul li {
+  float: left;
+}
+.primary ul li a {
+  height: 40px;
+  display: block;
+  padding: 8px;
+}
+
+.social-icon-link ul {
+  list-style-type: none;
+  height: 16px;
+  margin-top: 10px;
+  float: left;
+}
+.social-icon-link ul li {
+  float: left;
+  margin-right: 8px;
+}
+.social-icon-link ul li a {
+  height: 16px;
+  width: 16px;
+  display: block;
+  text-indent: -9999px;
+}
+
+.social-sprite, .social-facebook, .social-rss, .social-twitter, .social-youtube {
+  background: url("images/social-s60e9cf529b.png") no-repeat;
+}
+
+.social-facebook {
+  background-position: 0 -32px;
+}
+
+.social-rss {
+  background-position: 0 -16px;
+}
+
+.social-twitter {
+  background-position: 0 -48px;
+}
+
+.social-youtube {
+  background-position: 0 0;
+}
+
+.qtrans_language_chooser {
+  list-style-type: none;
+}
+.qtrans_language_chooser li {
+  float: left;
+  margin-right: 5px;
+}
+
+.bottom-menu ul {
+  list-style-type: none;
+  height: 40px;
+}
+.bottom-menu ul li {
+  float: left;
+}
+.bottom-menu ul li a {
+  height: 40px;
+  display: block;
+  padding: 8px 8px 8px 0;
+}
+
 .slider-wrap,
 .header {
   background: #d90718;
@@ -90,7 +172,8 @@ body {
 }
 
 .logo {
-  max-width: 940px;
+  width: 940px;
+  height: 100px;
 }
 
 #cssmenu ul,
@@ -226,6 +309,10 @@ body {
   -webkit-box-shadow: 0 0 5px;
   -moz-box-shadow: 0 0 5px;
   box-shadow: 0 0 5px;
+}
+
+.widget {
+  padding: 10px;
 }
 
 h3.widgettitle {

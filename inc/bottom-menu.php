@@ -12,7 +12,7 @@
 	'theme_location' => 'bottom',
 	'menu' => 'Bottom Menu',
 	'container' => 'div',
-	'container_class' => 'col-1-2',
+	'container_class' => 'col-1-2 bottom-menu',
 	) ); 
 	?>
 </div>

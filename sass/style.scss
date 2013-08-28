@@ -51,15 +51,30 @@ $grey-hard:#4F5859;
 
 // TYPOGRAPHY
 
+@import url(fonts/museo-slab/museo-slab.css);
+@import url(fonts/font-awesome/css/font-awesome.min.css);
+@import url(fonts/source-sans-pro/stylesheet.css);
+
+$bold: 'source_sans_probold';
+$bold-italic: 'source_sans_probold_italic';
+$italic: 'source_sans_proitalic';
+
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'source_sans_proregular', sans-serif;
 	color: $black;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Rokkitt', serif;
+	font-family: 'MuseoSlab-500', serif;
 	font-weight: normal;
 	line-height: normal;
+}
+
+em {
+  font-family: $italic;
+}
+b {
+  font-family: $bold;
 }
 
 // LAYOUT 
@@ -91,6 +106,77 @@ body {
 	background: $black;
 }
 
+.primary ul {
+  list-style-type: none;
+  height: 40px;
+  li {
+    float: left;
+    a {
+      height: 40px;
+      display: block;
+      padding: 8px;
+    }
+  }
+}
+.social-icon-link ul {
+  list-style-type: none;
+  height: 16px;
+  margin-top: 10px;
+  float: left;
+  li {
+    float: left;
+    margin-right: 8px;
+    a {
+      height: 16px;
+      width: 16px;
+      display: block;
+      text-indent: -9999px;
+    }
+  }
+}
+
+.social-sprite, .social-facebook, .social-rss, .social-twitter, .social-youtube {
+  background: url('images/social-s60e9cf529b.png') no-repeat;
+}
+
+.social-facebook {
+  background-position: 0 -32px;
+}
+
+.social-rss {
+  background-position: 0 -16px;
+}
+
+.social-twitter {
+  background-position: 0 -48px;
+}
+
+.social-youtube {
+  background-position: 0 0;
+}
+
+.qtrans_language_chooser {
+  list-style-type: none;
+  li {
+    float: left;
+    margin-right: 5px;
+  }
+}
+
+
+.bottom-menu ul {
+  list-style-type: none;
+  height: 40px;
+  li {
+    float: left;
+    a {
+      height: 40px;
+      display: block;
+      padding: 8px 8px 8px 0;
+    }
+  }
+}
+
 // Header
 
 .slider-wrap,
@@ -108,7 +194,8 @@ body {
 // Logo
 
 .logo {
-	max-width: 940px;
+	width: 940px;
+  height: 100px;
 }
 
 // Secondary Navigation Menu
@@ -226,6 +313,12 @@ body {
 	background: $grey-soft;
 	padding: 10px;
 	@include box-shadow(0 0 5px);
+}
+
+// Widget
+
+.widget {
+  padding: 10px;
 }
 
 // Recent Post with Thumbnail
