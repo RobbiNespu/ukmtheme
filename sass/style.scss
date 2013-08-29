@@ -15,39 +15,11 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 // COLOUR
 
 $red:#D90718;
+$blue: #2e9afe;
 $black:#242526;
 $white:#F2F2F2;
 $grey-soft:#F2F2F2;
 $grey-hard:#4F5859;
-
-// RESET CLEARFIX
-
-/**
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.cf:after {
-    clear: both;
-}
-
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-.cf {
-    *zoom: 1;
-}
 
 // TYPOGRAPHY
 
@@ -83,8 +55,6 @@ body {
 	background: $grey-soft;
 }
 
-@import url(css/normalize.css);
-@import url(css/foundation.css);
 @import url(css/grid.css);
 
 [class*="col-"] {
@@ -106,6 +76,11 @@ body {
 	background: $black;
 }
 
+.primary-navigation,
+.primary-navigation-in {
+  height: 40px;
+}
+
 .primary ul {
   list-style-type: none;
   height: 40px;
@@ -125,7 +100,7 @@ body {
   float: left;
   li {
     float: left;
-    margin-right: 8px;
+    margin-right: 6px;
     a {
       height: 16px;
       width: 16px;
@@ -133,6 +108,34 @@ body {
       text-indent: -9999px;
     }
   }
+}
+
+.text-resizer,
+.style-switcher {
+  list-style-type: none;
+  width: 70px;
+  height: 16px;
+  float: left;
+  margin-top: 7px;
+  li {
+    float: left;
+    margin-right: 6px;
+    a {
+      font-size: 18px;
+    }
+  }
+}
+.text-resizer a {
+  color: $grey-soft;
+}
+.style-primary {
+  color: $red;
+}
+.style-secondary {
+  color: $blue;
+}
+.style-tertiary {
+  color: $grey-soft;
 }
 
 .social-sprite, .social-facebook, .social-rss, .social-twitter, .social-youtube {
@@ -157,12 +160,27 @@ body {
 
 .qtrans_language_chooser {
   list-style-type: none;
+  width: 60px;
+  height: 16px;
+  float: left;
+  margin-top: 14px;
   li {
     float: left;
     margin-right: 5px;
   }
 }
 
+.search-wrap {
+  position: relative;
+  top: 8px;
+  left: 8px;
+}
+
+#searchform {
+  max-width: 170px;
+  display: block;
+  float: left;
+}
 
 .bottom-menu ul {
   list-style-type: none;

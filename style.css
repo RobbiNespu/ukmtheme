@@ -1,8 +1,6 @@
 @import url(fonts/museo-slab/museo-slab.css);
 @import url(fonts/font-awesome/css/font-awesome.min.css);
 @import url(fonts/source-sans-pro/stylesheet.css);
-@import url(css/normalize.css);
-@import url(css/foundation.css);
 @import url(css/grid.css);
 /*
 Theme Name: UKM Theme
@@ -15,35 +13,6 @@ Version: 4.0
 License: GPL
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
-/**
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-.cf:before,
-.cf:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-
-.cf:after {
-  clear: both;
-}
-
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-.cf {
-  *zoom: 1;
-}
-
 body {
   font-family: 'source_sans_proregular', sans-serif;
   color: #242526;
@@ -86,6 +55,11 @@ body {
   background: #242526;
 }
 
+.primary-navigation,
+.primary-navigation-in {
+  height: 40px;
+}
+
 .primary ul {
   list-style-type: none;
   height: 40px;
@@ -107,13 +81,47 @@ body {
 }
 .social-icon-link ul li {
   float: left;
-  margin-right: 8px;
+  margin-right: 6px;
 }
 .social-icon-link ul li a {
   height: 16px;
   width: 16px;
   display: block;
   text-indent: -9999px;
+}
+
+.text-resizer,
+.style-switcher {
+  list-style-type: none;
+  width: 70px;
+  height: 16px;
+  float: left;
+  margin-top: 7px;
+}
+.text-resizer li,
+.style-switcher li {
+  float: left;
+  margin-right: 6px;
+}
+.text-resizer li a,
+.style-switcher li a {
+  font-size: 18px;
+}
+
+.text-resizer a {
+  color: #f2f2f2;
+}
+
+.style-primary {
+  color: #d90718;
+}
+
+.style-secondary {
+  color: #2e9afe;
+}
+
+.style-tertiary {
+  color: #f2f2f2;
 }
 
 .social-sprite, .social-facebook, .social-rss, .social-twitter, .social-youtube {
@@ -138,10 +146,26 @@ body {
 
 .qtrans_language_chooser {
   list-style-type: none;
+  width: 60px;
+  height: 16px;
+  float: left;
+  margin-top: 14px;
 }
 .qtrans_language_chooser li {
   float: left;
   margin-right: 5px;
+}
+
+.search-wrap {
+  position: relative;
+  top: 8px;
+  left: 8px;
+}
+
+#searchform {
+  max-width: 170px;
+  display: block;
+  float: left;
 }
 
 .bottom-menu ul {

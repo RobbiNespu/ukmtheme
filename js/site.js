@@ -2,6 +2,6 @@ jQuery(document).ready(function($){
 	$('#slideshow').cycle({
 		fx: 'fade',
 		speed: 1500,
-		timeout: 7000
+		timeout: 3000
 	});
 });
