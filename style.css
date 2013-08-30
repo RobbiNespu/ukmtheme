@@ -168,6 +168,18 @@ body {
   float: left;
 }
 
+.carian {
+  background: #d90718;
+  border-color: #e50719;
+}
+
+.carian:hover,
+.carian:focus,
+.carian:active {
+  background: #e50719;
+  border-color: #f2f2f2;
+}
+
 .bottom-menu ul {
   list-style-type: none;
   height: 40px;

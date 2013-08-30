@@ -13,6 +13,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 @import "compass";
 
 // COLOUR
+// http://www.colorhexa.com/f81b2d
 
 $red:#D90718;
 $blue: #2e9afe;
@@ -180,6 +181,17 @@ body {
   max-width: 170px;
   display: block;
   float: left;
+}
+
+.carian {
+  background: #d90718;
+  border-color: #e50719;
+}
+.carian:hover,
+.carian:focus,
+.carian:active {
+  background: #e50719;
+  border-color: $grey-soft;
 }
 
 .bottom-menu ul {
