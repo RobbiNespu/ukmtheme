@@ -87,8 +87,6 @@ add_action( 'init', 'slides' );
 function ukmtheme_scripts_styles() {
 	global $wp_styles;
 
-	wp_enqueue_style( 'reset', get_template_directory_uri() . '/css/reset.css', 'all', '2.0' );
-
 	wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/css/bootstrap.min.css', 'all', '3.0.0' );
 
 	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array( 'jquery' ), '3.0.0', true );
