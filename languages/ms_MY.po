@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UKM Theme 6.0.0\n"
+"POT-Creation-Date: 2013-12-08 11:45+0800\n"
+"PO-Revision-Date: 2013-12-08 11:45+0800\n"
+"Last-Translator: \n"
+"Language-Team: UKM WordPress Theme Dev <webmaster@ukm.my>\n"
+"Language: ms_MY\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: /Users/jrajalu/Sites/wppdo/wp-content/themes/"
+"ukmtheme\n"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/footer.php:17
+msgid "Copyright &copy;"
+msgstr "Hakcipta &copy;"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/footer.php:19
+msgid "The National University of Malaysia"
+msgstr "Universiti Kebangsaan Malaysia"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/footer.php:24
+msgid "Copyright"
+msgstr "Hakcipta"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/footer.php:25
+msgid "Disclaimer"
+msgstr "Penafian"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/footer.php:26
+msgid "Privacy Policy"
+msgstr "Dasar Privasi"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/footer.php:27
+msgid "Security Policy"
+msgstr "Dasar Keselamatan"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/footer.php:28
+msgid "Contact Us"
+msgstr "Hubungi Kami"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/footer.php:29
+msgid "Last Update:&nbsp;"
+msgstr "Akhir Kemaskini"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/footer.php:34
+msgid "Best view: Viewable with any modern web browser (Desktop &amp; Mobile)"
+msgstr ""
+"Paparan terbaik: Kebolehpaparan oleh mana-mana pelayar web moden (Desktop "
+"&amp; Mobile)"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:40
+msgid "Primary Navigation"
+msgstr "Navigasi Utama"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:41
+msgid "Secondary Navigation"
+msgstr "Navigasi Kedua"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:42
+msgid "Tertiary Navigation"
+msgstr "Navigasi Ketiga"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:116
+msgid "Slideshows"
+msgstr ""
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:117
+msgid "Slideshow"
+msgstr ""
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:145
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:146
+msgid "UKM News"
+msgstr "Berita UKM"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:164
+msgid "Boxes: 3"
+msgstr ""
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:165
+msgid "Box: 3"
+msgstr ""
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:183
+msgid "Boxes: 4"
+msgstr ""
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:184
+msgid "Box: 4"
+msgstr ""
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:201
+msgid "Main Sidebar"
+msgstr ""
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:203
+msgid "Appears on Front Page template, which has its own widgets"
+msgstr ""
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:211
+msgid "Page Sidebar"
+msgstr ""
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:213
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:223
+msgid ""
+"Appears when using the optional Front Page template with a page set as "
+"Static Front Page"
+msgstr ""
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:221
+msgid "Post Sidebar"
+msgstr ""
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/page.php:20
+msgid "Sorry, no page matched your criteria."
+msgstr ""
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/single.php:20
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/inc/part-searchBar.php:3
+msgid "search..."
+msgstr "cari…"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/inc/part-tools.php:14
+msgid "Size:"
+msgstr "Saiz"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/inc/part-tools.php:18
+msgid "Theme:"
+msgstr "Teme"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme/lib/hc-text-widget/hc-text-widget.php:54
+msgid "Title:"
+msgstr "Tajuk"
