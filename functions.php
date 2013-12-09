@@ -32,9 +32,13 @@ function ukmtheme_setup() {
 	
 	load_theme_textdomain( 'ukmtheme', get_template_directory() . '/languages' );
 	
-	locate_template( 'inc/part-menu.php', 'ukmtheme' );
+	locate_template( 'inc/nav-secondary-menu.php', 'ukmtheme' );
+	
+	locate_template( 'inc/theme-options.php', 'ukmtheme' );
 	
 	locate_template( 'lib/hc-text-widget/hc-text-widget.php', 'ukmtheme' );
+	
+	//locate_template( '/lib/options-framework/options-framework.php', 'ukmtheme' );
 	
 	register_nav_menus( array(
 	'primary' => __( 'Primary Navigation', 'ukmtheme' ),
@@ -59,6 +63,14 @@ function ukmtheme_setup() {
 
 }
 add_action( 'after_setup_theme', 'ukmtheme_setup' );
+
+// Replaces the excerpt "more" text by a link
+
+function ukmtheme_excerpt_more($more) {
+       global $post;
+	return '<a class="moretag" href="'. get_permalink($post->ID) . '">Read More</a>';
+}
+add_filter('excerpt_more', 'ukmtheme_excerpt_more');
 
 // Javascript and Stylesheet
 
@@ -118,7 +130,7 @@ function ukmtheme_slideshow() {
 			),
 		'public' => true,
 		'has_archive' => true,
-		'menu_icon' => get_template_directory_uri() . '/images/icon.png',
+		'menu_icon' => get_template_directory_uri() . '/images/admin-menu-icon/icon-slideshow.png',
 		'supports' => array( 'thumbnail', 'title', ),
 		)
 	);
@@ -139,15 +151,18 @@ add_filter( 'get_user_option_screen_layout_ukmtheme_slideshow', 'ukmtheme_screen
 
 add_action( 'init', 'ukmtheme_news' );
 function ukmtheme_news() {
-	register_post_type( 'ukmtheme_news',
+	register_post_type( 'news',
 		array(
 			'labels' => array(
-				'name' => __( 'UKM News' ),
-				'singular_name' => __( 'UKM News' )
+				'name'              => __( 'Annc. &amp; News' ),
+				'singular_name'     => __( 'Annc. &amp; News' ),
+				'add_new_item'      => __( 'Add New News', 'ukmtheme' ),
+                'add_new'           => __( 'Add New News', 'ukmtheme' ),
+				'all_items'         => __( 'Manage News', 'ukmtheme' ),
 			),
 		'public' => true,
 		'has_archive' => true,
-		'menu_icon' => get_template_directory_uri() . '/images/icon.png',
+		'menu_icon' => get_template_directory_uri() . '/images/admin-menu-icon/icon-news.png',
 		'supports' => array( 'editor', 'excerpt', 'thumbnail', 'title', ),
 		)
 	);
@@ -161,12 +176,12 @@ function ukmtheme_threeBox() {
 	register_post_type( 'ukmtheme_threeBox',
 		array(
 			'labels' => array(
-				'name' => __( 'Boxes: 3' ),
-				'singular_name' => __( 'Box: 3' )
+				'name' => __( 'Widget 3 Box' ),
+				'singular_name' => __( 'Widget 3 Box' )
 			),
 		'public' => true,
 		'has_archive' => true,
-		'menu_icon' => get_template_directory_uri() . '/images/icon.png',
+		'menu_icon' => get_template_directory_uri() . '/images/admin-menu-icon/icon-widget.png',
 		'supports' => array( 'editor', 'excerpt', 'thumbnail', 'title', ),
 		)
 	);
@@ -180,17 +195,84 @@ function ukmtheme_fourBox() {
 	register_post_type( 'ukmtheme_fourBox',
 		array(
 			'labels' => array(
-				'name' => __( 'Boxes: 4' ),
-				'singular_name' => __( 'Box: 4' )
+				'name' => __( 'Widget 4 Box' ),
+				'singular_name' => __( 'Widget 4 Box' )
 			),
 		'public' => true,
 		'has_archive' => true,
-		'menu_icon' => get_template_directory_uri() . '/images/icon.png',
+		'menu_icon' => get_template_directory_uri() . '/images/admin-menu-icon/icon-widget.png',
 		'supports' => array( 'editor', 'excerpt', 'thumbnail', 'title', ),
 		)
 	);
 }
 
+// Custom Post Type: Staff
+
+add_action( 'init', 'register_cpt_staff' );
+
+function register_cpt_staff() {
+
+    $labels = array(
+        'name' => _x( 'Staff', 'ukmtheme' ),
+        'singular_name' => _x( 'Staff', 'ukmtheme' ),
+        'add_new' => _x( 'Add New', 'ukmtheme' ),
+        'add_new_item' => _x( 'Add New Staff Member', 'ukmtheme' ),
+        'edit_item' => _x( 'Edit Staff Member', 'ukmtheme' ),
+        'new_item' => _x( 'New Staff Member', 'ukmtheme' ),
+        'view_item' => _x( 'View Staff Member', 'ukmtheme' ),
+        'search_items' => _x( 'Search Staff', 'ukmtheme' ),
+        'not_found' => _x( 'No staff found', 'ukmtheme' ),
+        'not_found_in_trash' => _x( 'No staff found in Trash', 'ukmtheme' ),
+        'parent_item_colon' => _x( 'Parent Staff:', 'ukmtheme' ),
+        'menu_name' => _x( 'Staff', 'ukmtheme' ),
+    );
+
+    $args = array(
+        'labels' => $labels,
+        'hierarchical' => true,
+        'description' => 'Staff names and descriptions',
+        'supports' => array( 'title', 'editor', 'excerpt', 'thumbnail' ),
+        'public' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        //'menu_position' => 20,
+        'show_in_nav_menus' => true,
+        'publicly_queryable' => true,
+        'exclude_from_search' => false,
+        'has_archive' => true,
+        'query_var' => true,
+        'can_export' => true,
+        'rewrite' => true,
+        'menu_icon' => get_template_directory_uri() . '/images/admin-menu-icon/icon-staff.png',
+        'capability_type' => 'post'
+    );
+
+    register_post_type( 'staff', $args );
+}
+
+function department_init() {
+  register_taxonomy('department',array('staff'), array(
+
+    'hierarchical' => true,
+    'labels' => array(
+    'name' => _x( 'Department', 'taxonomy general name' ),
+    'singular_name' => _x( 'Department', 'taxonomy singular name' ),
+    'search_items' =>  __( 'Search Departments' ),
+    'all_items' => __( 'All Departments' ),
+    'parent_item' => __( 'Parent Department' ),
+    'parent_item_colon' => __( 'Parent Department:' ),
+    'edit_item' => __( 'Edit Department' ),
+    'update_item' => __( 'Update Department' ),
+    'add_new_item' => __( 'Add New Department' ),
+    'new_item_name' => __( 'New Department Name' ),
+    'menu_name' => __( 'Department' ),
+  ),
+    'show_ui' => true,
+    'query_var' => true,
+    'rewrite' => array( 'slug' => 'department' ),
+  ));
+}
+add_action( 'init', 'department_init' );
 
 /**
  * Widget

@@ -1,3 +1,14 @@
+<?php
+/**
+ * @link http://www.ukm.my/template
+ *
+ * @package WordPress
+ * @subpackage ukmtheme
+ * @since 4.0
+ *
+ * @author Jamaludin Rajalu
+ */
+ ?>
 <script>
 jQuery(document).ready(function(){
   $(".click").click(function(){

@@ -32,16 +32,16 @@ $(function() {
 	});
 });
 </script>
-<div id="wrapper">
-<div id="carousel">
-<?php
-$args = array( 'post_type' => 'ukmtheme_slideshow', 'posts_per_page' => 10 );
-$loop = new WP_Query( $args );
-while ( $loop->have_posts() ) : $loop->the_post();
-    the_post_thumbnail();
-endwhile;
-?>
-	</div><!--#carousel-->
+<div id="carousel-wrapper">
+    <div id="carousel">
+    <?php
+        $args = array( 'post_type' => 'ukmtheme_slideshow', 'posts_per_page' => 10 );
+        $loop = new WP_Query( $args );
+        while ( $loop->have_posts() ) : $loop->the_post();
+            the_post_thumbnail();
+        endwhile;
+    ?>
+    </div><!--#carousel-->
 	<a href="#" id="prev" title="Show previous"> </a>
 	<a href="#" id="next" title="Show next"> </a>
 	<div id="pager"></div>

@@ -1,7 +1,7 @@
 //out: ../style.css
 /**
  * Theme Name: UKM Theme
- * Version: 6.0.0
+ * Version: 6.0.10
  * Author: Jamaludin Rajalu
  */
 
@@ -19,6 +19,36 @@
 .webfont-fix {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+/* =Sticky Footer
+-------------------------------------------------------------- */
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -142px; 
+}
+
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+
+.site-footer, .page-wrap:after {
+    /* .push must be the same height as footer */
+    height: 142px; 
+}
+
+.site-footer {
+    background: @grey_1;
 }
  
 /* =Reset
@@ -42,7 +72,8 @@
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'libre_baskervilleregular';
+    //font-family: 'libre_baskervilleregular';
+    font-family: Georgia, "Times New Roman", Times, serif;
     margin: 0;
     padding: 0;
     list-style: normal;
@@ -124,7 +155,6 @@ div.slideshow {
 
 footer {
     background: @grey_1;
-    min-height: 100px;
     color: @white;
 }
 
@@ -270,6 +300,17 @@ footer {
 
 .widgets-wrap {
     margin: 5px;
+}
+
+/* =News
+-------------------------------------------------------------- */
+
+.ukmtheme-news {
+    margin-bottom: 10px;
+}
+
+.ukmtheme-news p {
+    margin-bottom: 5px;
 }
 
 /* =Footer: Social Links

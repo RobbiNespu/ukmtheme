@@ -11,13 +11,13 @@
 get_header(); ?>
 
 <div class="clearfix slideshow">
-    <?php get_template_part( 'inc/part', 'carouFredSel' ); ?>
+    <?php get_template_part( 'inc/slideshow', 'carouFredSel' ); ?>
 </div>
 <div class="wrap clearfix">
     <?php get_template_part( 'inc/widget', 'news' ); ?>
 </div>
 <div class="wrap clearfix">
-    <?php get_template_part( 'inc/part', 'threeBox' ); ?>
+    <?php get_template_part( 'inc/widget', 'threeBox' ); ?>
 </div>
 
 <?php get_footer(); ?>

@@ -9,7 +9,8 @@
  * @author Jamaludin Rajalu
  */
 wp_footer(); ?>
-<footer>
+</div><!--.page-wrap-->
+<footer class="site-footer">
     <div class="wrap">
         <?php get_template_part( 'inc/footer', 'social-link' ); ?>
     </div>
