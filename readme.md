@@ -1,3 +1,3 @@
-<h3>Pemasangan</h3>
+<h6>Pemasangan</h6>
 
-Muat naik folder <code>ukmtheme</code> ke direktori <code>/wp-content/themes</code>menggunakan FTP.
+Muat turun file dengan mengklik butang "Download ZIP" di bahagian sebelah kanan. Ekstrak fail, kemudian muat naik folder <code>ukmtheme</code> ke direktori <code>/wp-content/themes</code>menggunakan FTP.
