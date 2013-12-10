@@ -1,6 +1,15 @@
-Version 6.0.3
+Version 6.0.12
 
-Ciri-ciri baru:
-- Image Slideshow: caroufredSel atau
+Built-in:
+- Image Slideshow: caroufredSel
 - Image Slideshow: Nivo Slider
-- Built-in WYSIWYG Widget item
+- WYSIWYG Widget
+- Responsive Menu
+- Mobile mode
+- Sitemap
+- Staff Directory
+- Theme Options
+- News/Annc Widget
+- Events Manager
+- FAQ Page
+- etc.

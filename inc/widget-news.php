@@ -26,4 +26,12 @@ echo '</div>'; // .col-2-3
 ?>
 <div class="col-1-3">
     <?php if (dynamic_sidebar( 'sidebar-1' )) : else : ?><?php endif; ?>
+    <?php 
+        wp_nav_menu(array(
+            'theme_location'    => 'mobile',
+            'menu'              => 'Mobile Navigation',
+            'container_id'      => 'mobmenu', 
+            'walker'            => new Mobile_Menu_Maker_Walker()
+        )); 
+    ?>
 </div>
