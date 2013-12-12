@@ -12,7 +12,7 @@ wp_footer(); ?>
 </div><!--.page-wrap-->
 <footer class="site-footer">
     <div class="wrap">
-        <?php get_template_part( 'inc/footer', 'social-link' ); ?>
+        <?php get_template_part( 'templates/footer', 'social-link' ); ?>
     </div>
     <div class="wrap copyright">
         <?php echo __( 'Copyright &copy;', 'ukmtheme' ); ?>

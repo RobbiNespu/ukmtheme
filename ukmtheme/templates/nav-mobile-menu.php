@@ -1,4 +1,15 @@
 <?php
+/**
+ * @link http://www.ukm.my/template
+ *
+ * @package WordPress
+ * @subpackage ukmtheme
+ * @since 4.0
+ *
+ * @author Jamaludin Rajalu
+ *
+ * Responsive layout: Mobile Menu
+ */
 class Mobile_Menu_Maker_Walker extends Walker {
 
   var $db_fields = array( 'parent' => 'menu_item_parent', 'id' => 'db_id' );

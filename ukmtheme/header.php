@@ -34,8 +34,8 @@
                 ?>
             </div>
             <div class="col-1-2">
-                <?php get_template_part( 'inc/nav', 'searchBar' ); ?>
-                <?php get_template_part( 'inc/nav', 'tools' ); ?>
+                <?php get_template_part( 'templates/nav', 'searchBar' ); ?>
+                <?php get_template_part( 'templates/nav', 'tools' ); ?>
             </div>
     </div><!--.wrap-->
 </nav>
