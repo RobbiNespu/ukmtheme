@@ -4,8 +4,5 @@ Muat turun file dengan mengklik butang "Download ZIP" di bahagian sebelah kanan.
 
 <h4>Pembangunan</h4>
 
-Keperluan:
-
-Grunt 0.4.2
-
+Keperluan: Grunt 0.4.2
 Jalankan arahan <code>npm install</code>
