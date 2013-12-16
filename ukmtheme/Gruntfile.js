@@ -20,7 +20,8 @@ module.exports = function(grunt) {
           src: ['assets/js/menu-mobile.js',
                 'assets/js/uikit.js',
                 'plugins/caroufredsel/jquery.carouFredSel-6.2.1.js',
-                'plugins/nivo-slider/jquery.nivo.slider.js'
+                'plugins/nivo-slider/jquery.nivo.slider.js',
+                'plugins/jquery.bxslider/jquery.bxslider.js'
                 ],
           dest: 'assets/js/script.min.js'
         }
@@ -31,11 +32,11 @@ module.exports = function(grunt) {
           paths: ["assets/css"]
         },
         files: {
-          "assets/css/built/caroufredsel.css": "assets/less/caroufredsel.less",
-          "assets/css/built/grid-column.css": "assets/less/grid-column.less",
-          "assets/css/built/menu-mobile.css": "assets/less/menu-mobile.less",
-          "assets/css/built/menu-secondary.css": "assets/less/menu-secondary.less",
-          "assets/css/built/uikit-almost-flat.css": "assets/less/uikit-almost-flat.less"
+          "assets/css/built/caroufredsel.css": "assets/less/src/caroufredsel.less",
+          "assets/css/built/grid-column.css": "assets/less/src/grid-column.less",
+          "assets/css/built/menu-mobile.css": "assets/less/src/menu-mobile.less",
+          "assets/css/built/menu-secondary.css": "assets/less/src/menu-secondary.less",
+          "assets/css/built/uikit-almost-flat.css": "assets/less/src/uikit-almost-flat.less"
         }
       },
       production: {
@@ -45,21 +46,51 @@ module.exports = function(grunt) {
         },
         files: {
           "assets/css/default.min.css": "assets/less/default.less",
-          "assets/fonts/webfontkit-20131209-200231/webfontkit-20131209-200231.min.css": "assets/fonts/webfontkit-20131209-200231/webfontkit-20131209-200231.less"
+          "assets/fonts/museo_slab/museo_slab.min.css": "assets/fonts/museo_slab/museo_slab.less"
         }
+      }
+    },
+      
+    watch: {
+      less: {
+        files: [
+          'assets/less/*.less'
+        ],
+        tasks: ['less']
+      },
+      js: {
+        files: [
+          '<%= jshint.all %>'
+        ],
+        tasks: ['jshint', 'uglify']
+      },
+      livereload: {
+        // Browser live reloading
+        // https://github.com/gruntjs/grunt-contrib-watch#live-reloading
+        options: {
+          livereload: false
+        },
+        files: [
+          'assets/css/default.min.css',
+          'assets/js/scripts.min.js'
+        ]
       }
     }
       
   });
 
-  // Load tasks
-  grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-contrib-less');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
+// Load tasks
+grunt.loadNpmTasks('grunt-contrib-jshint');
+grunt.loadNpmTasks('grunt-contrib-less');
+grunt.loadNpmTasks('grunt-contrib-uglify');
+grunt.loadNpmTasks('grunt-contrib-watch');
 
-  // Register tasks
-  grunt.registerTask('default', [
+// Register tasks
+grunt.registerTask('default', [
     'less',
-    'uglify'
-  ]);
+    'uglify'   
+]);
+grunt.registerTask('dev', [
+    'watch'
+]);
 };

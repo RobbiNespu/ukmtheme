@@ -9,7 +9,10 @@
  * @author Jamaludin Rajalu
  */
  
-// Google jQuery Library
+/**
+ * Load jQuery from google
+ * Code reference @link http://css-tricks#Load jquery right way
+ */
 
 if (!is_admin()) add_action("wp_enqueue_scripts", "ukmtheme_jquery_enqueue", 11);
 function ukmtheme_jquery_enqueue() {
@@ -18,47 +21,49 @@ function ukmtheme_jquery_enqueue() {
     wp_enqueue_script('jquery');
 }
 
-// Theme Setup
-
+/**
+ * UKM Theme Setup
+ * Load Templates and Libraries
+ * Add Theme Support: Post format, Language, Links etc.
+ * Last update 20131214
+ *
+ */
+add_action( 'after_setup_theme', 'ukmtheme_setup' );
 function ukmtheme_setup() {
 
-	add_theme_support( 'html5', array( 'search-form' ) );
-		
+	add_theme_support( 'html5', array( 'search-form' ) );	
 	add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'audio', 'quote', 'link', 'gallery', ) );
-	
 	add_theme_support( 'post-thumbnails' );
-	
 	add_theme_support( 'automatic-feed-links' );
 	
 	load_theme_textdomain( 'ukmtheme', get_template_directory() . '/languages' );
 	
-	locate_template( 'templates/nav-secondary-menu.php', 'ukmtheme' );
-	
-	locate_template( 'templates/nav-mobile-menu.php', 'ukmtheme' );
-	
-	locate_template( 'templates/theme-options.php', 'ukmtheme' );
-	
-	locate_template( 'templates/page-sitemap.php', 'ukmtheme' );
-	
-	locate_template( 'plugins/hc-text-widget/hc-text-widget.php', 'ukmtheme' );
-	
-	//locate_template( '/plugins/options-framework/options-framework.php', 'ukmtheme' );
-	
+	locate_template( 'libraries/nav-secondary-menu.php', 'ukmtheme' );
+	locate_template( 'libraries/nav-mobile-menu.php', 'ukmtheme' );
+	locate_template( 'libraries/theme-options.php', 'ukmtheme' );
+	locate_template( 'libraries/cpt-announcement.php', 'ukmtheme' );
+	locate_template( 'libraries/cpt-staff.php', 'ukmtheme' );
+	locate_template( 'libraries/cpt-slideshow.php', 'ukmtheme' );
+    locate_template( 'libraries/cpt-faq.php', 'ukmtheme' );
+    locate_template( 'libraries/mbc-config.php', 'ukmtheme' );
+    locate_template( 'plugins/hc-text-widget/hc-text-widget.php', 'ukmtheme' );
+    locate_template( 'templates/page-sitemap.php', 'ukmtheme' );
+		
 	register_nav_menus( array(
-	'primary' => __( 'Primary Navigation', 'ukmtheme' ),
-	'secondary' => __( 'Secondary Navigation', 'ukmtheme' ),
-	'tertiary' => __( 'Tertiary Navigation', 'ukmtheme' ),
-	'mobile' => __( 'Mobile Navigation', 'ukmtheme' )
+        'primary' => __( 'Primary Navigation', 'ukmtheme' ),
+        'secondary' => __( 'Secondary Navigation', 'ukmtheme' ),
+        'tertiary' => __( 'Tertiary Navigation', 'ukmtheme' ),
+        'mobile' => __( 'Mobile Navigation', 'ukmtheme' )
 	) );
-	
-	$logo = array(
-	'width'         => 480,
-	'height'        => 100,
-	'default-image' => get_template_directory_uri() . '/assets/images/logo.png',
-	'uploads'       => true,
-	'header-text'   => false,
+
+	add_theme_support( 'custom-header', array(
+        'width'         => 480,
+        'height'        => 100,
+        'default-image' => get_template_directory_uri() . '/assets/images/logo.png',
+        'uploads'       => true,
+        'header-text'   => false,
+        )
 	);
-	add_theme_support( 'custom-header', $logo );
 	
 	add_theme_support( 'custom-background', array(
 	'default-color' => 'ffffff',
@@ -67,195 +72,33 @@ function ukmtheme_setup() {
 	add_filter('show_admin_bar', '__return_false');
 
 }
-add_action( 'after_setup_theme', 'ukmtheme_setup' );
 
 // Replaces the excerpt "more" text by a link
-
+add_filter( 'excerpt_more', 'ukmtheme_excerpt_more' );
 function ukmtheme_excerpt_more($more) {
-       global $post;
-	return '<a class="moretag" href="'. get_permalink($post->ID) . '">Read More</a>';
+    global $post;
+	    return '<a class="moretag" href="'. get_permalink($post->ID) . '">Read More</a>';
 }
-add_filter('excerpt_more', 'ukmtheme_excerpt_more');
 
 // Javascript and Stylesheet
-
+add_action( 'wp_enqueue_scripts', 'ukmtheme_scripts' );
 if (!is_admin()) add_action("wp_enqueue_scripts", "ukmtheme_scripts", 11);
 function ukmtheme_scripts() {
 	
-	// UIKit Javascript
-	wp_enqueue_script( 'default', get_template_directory_uri() . '/assets/js/script.min.js', array(), '1.0.1', true );
-    
-    // webfontkit-20131209-200231
-	wp_enqueue_style( 'webfontkit-20131209-200231', get_template_directory_uri() . '/assets/fonts/webfontkit-20131209-200231/webfontkit-20131209-200231.min.css' );
-    
-	// Nivo Slider Theme
-	wp_enqueue_style( 'default', get_template_directory_uri() . '/assets/css/default.min.css' );
+	wp_enqueue_script( 'default', get_template_directory_uri() . '/assets/js/script.min.js', array(), '6.1.1', true );
+
+	wp_enqueue_style( 'museo_slab', get_template_directory_uri() . '/assets/fonts/museo_slab/museo_slab.min.css' );
+
+	wp_enqueue_style( 'bxslider', get_template_directory_uri() . '/plugins/jquery.bxslider/jquery.bxslider.css', 'array()', '4.1.1' );
+
+	wp_enqueue_style( 'nivo-slider', get_template_directory_uri() . '/plugins/nivo-slider/nivo-slider.css' );
 	
+	wp_enqueue_style( 'nivo-slider-theme', get_template_directory_uri() . '/plugins/nivo-slider/themes/default/default.css' );
+    
+	wp_enqueue_style( 'default', get_template_directory_uri() . '/assets/css/default.min.css', 'array()', '6.1.1' );	
 }
 
-add_action( 'wp_enqueue_scripts', 'ukmtheme_scripts' );
-
-
-// Custom Post Type: Slideshow
-
-add_action( 'init', 'ukmtheme_slideshow' );
-function ukmtheme_slideshow() {
-	register_post_type( 'ukmtheme_slideshow',
-		array(
-			'labels' => array(
-				'name' => __( 'Slideshows' ),
-				'singular_name' => __( 'Slideshow' )
-			),
-		'public' => true,
-		'has_archive' => true,
-		'menu_icon' => get_template_directory_uri() . '/assets/images/admin-menu-icon/icon-slideshow.png',
-		'supports' => array( 'thumbnail', 'title', ),
-		)
-	);
-}
-
-function ukmtheme_screen_layout_columns( $columns ) {
-    $columns['ukmtheme_slideshow'] = 1;
-    return $columns;
-}
-add_filter( 'screen_layout_columns', 'ukmtheme_screen_layout_columns' );
-
-function ukmtheme_screen_layout_ukmtheme_slideshow() {
-    return 1;
-}
-add_filter( 'get_user_option_screen_layout_ukmtheme_slideshow', 'ukmtheme_screen_layout_ukmtheme_slideshow' );
-
-// Custom Post Type: News
-
-add_action( 'init', 'ukmtheme_news' );
-function ukmtheme_news() {
-	register_post_type( 'news',
-		array(
-			'labels' => array(
-				'name'              => __( 'Annc. &amp; News' ),
-				'singular_name'     => __( 'Annc. &amp; News' ),
-				'add_new_item'      => __( 'Add New News', 'ukmtheme' ),
-                'add_new'           => __( 'Add New News', 'ukmtheme' ),
-				'all_items'         => __( 'Manage News', 'ukmtheme' ),
-			),
-		'public' => true,
-		'has_archive' => true,
-		'menu_icon' => get_template_directory_uri() . '/assets/images/admin-menu-icon/icon-news.png',
-		'supports' => array( 'editor', 'excerpt', 'thumbnail', 'title', ),
-		)
-	);
-}
-
-
-// Custom Post Type: 3 Kotak
-
-add_action( 'init', 'ukmtheme_threeBox' );
-function ukmtheme_threeBox() {
-	register_post_type( 'ukmtheme_threeBox',
-		array(
-			'labels' => array(
-				'name' => __( 'Widget 3 Box' ),
-				'singular_name' => __( 'Widget 3 Box' )
-			),
-		'public' => true,
-		'has_archive' => true,
-		'menu_icon' => get_template_directory_uri() . '/assets/images/admin-menu-icon/icon-widget.png',
-		'supports' => array( 'editor', 'excerpt', 'thumbnail', 'title', ),
-		)
-	);
-}
-
-
-// Custom Post Type: 4 Kotak
-
-add_action( 'init', 'ukmtheme_fourBox' );
-function ukmtheme_fourBox() {
-	register_post_type( 'ukmtheme_fourBox',
-		array(
-			'labels' => array(
-				'name' => __( 'Widget 4 Box' ),
-				'singular_name' => __( 'Widget 4 Box' )
-			),
-		'public' => true,
-		'has_archive' => true,
-		'menu_icon' => get_template_directory_uri() . '/assets/images/admin-menu-icon/icon-widget.png',
-		'supports' => array( 'editor', 'excerpt', 'thumbnail', 'title', ),
-		)
-	);
-}
-
-// Custom Post Type: Staff
-
-add_action( 'init', 'register_cpt_staff' );
-
-function register_cpt_staff() {
-
-    $labels = array(
-        'name' => _x( 'Staff', 'ukmtheme' ),
-        'singular_name' => _x( 'Staff', 'ukmtheme' ),
-        'add_new' => _x( 'Add New', 'ukmtheme' ),
-        'add_new_item' => _x( 'Add New Staff Member', 'ukmtheme' ),
-        'edit_item' => _x( 'Edit Staff Member', 'ukmtheme' ),
-        'new_item' => _x( 'New Staff Member', 'ukmtheme' ),
-        'view_item' => _x( 'View Staff Member', 'ukmtheme' ),
-        'search_items' => _x( 'Search Staff', 'ukmtheme' ),
-        'not_found' => _x( 'No staff found', 'ukmtheme' ),
-        'not_found_in_trash' => _x( 'No staff found in Trash', 'ukmtheme' ),
-        'parent_item_colon' => _x( 'Parent Staff:', 'ukmtheme' ),
-        'menu_name' => _x( 'Staff', 'ukmtheme' ),
-    );
-
-    $args = array(
-        'labels' => $labels,
-        'hierarchical' => true,
-        'description' => 'Staff names and descriptions',
-        'supports' => array( 'title', 'editor', 'excerpt', 'thumbnail' ),
-        'public' => true,
-        'show_ui' => true,
-        'show_in_menu' => true,
-        //'menu_position' => 20,
-        'show_in_nav_menus' => true,
-        'publicly_queryable' => true,
-        'exclude_from_search' => false,
-        'has_archive' => true,
-        'query_var' => true,
-        'can_export' => true,
-        'rewrite' => true,
-        'menu_icon' => get_template_directory_uri() . '/assets/images/admin-menu-icon/icon-staff.png',
-        'capability_type' => 'post'
-    );
-
-    register_post_type( 'staff', $args );
-}
-
-function department_init() {
-  register_taxonomy('department',array('staff'), array(
-
-    'hierarchical' => true,
-    'labels' => array(
-    'name' => _x( 'Department', 'taxonomy general name' ),
-    'singular_name' => _x( 'Department', 'taxonomy singular name' ),
-    'search_items' =>  __( 'Search Departments' ),
-    'all_items' => __( 'All Departments' ),
-    'parent_item' => __( 'Parent Department' ),
-    'parent_item_colon' => __( 'Parent Department:' ),
-    'edit_item' => __( 'Edit Department' ),
-    'update_item' => __( 'Update Department' ),
-    'add_new_item' => __( 'Add New Department' ),
-    'new_item_name' => __( 'New Department Name' ),
-    'menu_name' => __( 'Department' ),
-  ),
-    'show_ui' => true,
-    'query_var' => true,
-    'rewrite' => array( 'slug' => 'department' ),
-  ));
-}
-add_action( 'init', 'department_init' );
-
-/**
- * Widget
- * @since UKM Theme 1.0
- */
+add_action( 'widgets_init', 'ukmtheme_widgets_init' );
 function ukmtheme_widgets_init() {
 	register_sidebar( array(
 		'name' => __( 'Main Sidebar', 'ukmtheme' ),
@@ -286,5 +129,24 @@ function ukmtheme_widgets_init() {
 		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3>',
 	) );
+	
+		register_sidebar( array(
+		'name' => __( 'Frontpage Three Boxes', 'ukmtheme' ),
+		'id' => 'sidebar-4',
+		'description' => __( 'Appears when using the optional Front Page template with a page set as Static Front Page', 'ukmtheme' ),
+		'before_widget' => '<aside class="col-1-3"><div class="uk-panel uk-panel-box uk-panel-box-secondary widgets-wrap">',
+		'after_widget' => '</div></aside>',
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
+
+	register_sidebar( array(
+		'name' => __( 'Frontpage Four Boxes', 'ukmtheme' ),
+		'id' => 'sidebar-5',
+		'description' => __( 'Appears when using the optional Front Page template with a page set as Static Front Page', 'ukmtheme' ),
+		'before_widget' => '<aside class="col-1-4"><div class="uk-panel uk-panel-box uk-panel-box-secondary widgets-wrap">',
+		'after_widget' => '</div></aside>',
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
 }
-add_action( 'widgets_init', 'ukmtheme_widgets_init' );

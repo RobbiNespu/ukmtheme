@@ -15,7 +15,7 @@
 get_header(); ?>
 <article class="wrap">
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-        <h2><?php the_title(); ?></h2>
+        <h1 class="content-title"><?php the_title(); ?></h1>
         <div class="content">
             <?php echo do_shortcode('[ukmtheme-sitemap]'); ?>
         </div>   

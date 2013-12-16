@@ -1,10 +1,12 @@
-@import "uikit-almost-flat";
-@import "font-awesome";
-@import "caroufredsel";
-@import "menu-mobile";
-@import "menu-secondary";
-@import "wordpress-core";
-@import "grid-column";
+/*! UKM WordPress Theme 6 */
+
+@import "src/uikit-almost-flat";
+@import "src/font-awesome";
+@import "src/caroufredsel";
+@import "src/menu-mobile";
+@import "src/menu-secondary";
+@import "src/wordpress-core";
+@import "src/grid-column";
 
 
 // Variables
@@ -94,8 +96,8 @@ article.wrap {
 
 nav.top {
     min-height: 40px;
-    background: #151515;
-    border-bottom: 1px solid #1c1c1c;
+    background: rgb(167,0,0);
+    border-bottom: 1px solid rgba(157,0,0,0.4);
 }
 
 ul.primary-menu {
@@ -148,22 +150,39 @@ div.slideshow {
     background: -ms-linear-gradient(top,  #d10000 0%,#b00000 100%); /* IE10+ */
     background: linear-gradient(to bottom,  #d10000 0%,#b00000 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d10000', endColorstr='#b00000',GradientType=0 ); /* IE6-9 */
-    height: 350px;
+    height: 380px;
     position: relative;
 }
 
-footer {
-    background: @grey_1;
-    color: @white;
+/* =Page, Post, Post Type, Article
+-------------------------------------------------------------- */
+
+.content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content-title {
+    margin-bottom: 10px;
+}
+
+section.article {
+    padding-right: 20px;
 }
 
 /* =Nivo Slider Tweak
 -------------------------------------------------------------- */
 
 .nivo-controlNav {
-    z-index: 2;
+    z-index: 2000;
     position: relative;
-    bottom: 60px;
+    bottom: 24px;
+}
+
+.theme-default .nivo-controlNav a {
+    margin: 0;
+    width: 18px;
+    height: 18px;
 }
 
 /* =UIKit Tweak: Search in navbars
@@ -228,7 +247,7 @@ footer {
     height: 40px;
     position: relative;
     min-width: 30px;
-    background: @grey_1;
+    background: transparent;
     float: right;
 }
 
@@ -312,6 +331,14 @@ footer {
     margin-bottom: 5px;
 }
 
+/* =Footer
+-------------------------------------------------------------- */
+
+footer {
+    background: @grey_1;
+    color: @white;
+}
+
 /* =Footer: Social Links
 -------------------------------------------------------------- */
 .footer-social-link-wrap {
@@ -343,6 +370,7 @@ footer {
 }
 .footer-social-icon li a:hover {
     color: #00B4F5;
+    text-decoration: none;
 }
 
 /* =Footer: Copyright
@@ -378,4 +406,77 @@ footer {
 .copyright-detail-link li a:hover {
     color: @blue;
 }
-    
+
+/* =Staff Directory
+-------------------------------------------------------------- */
+.staff-wrap {
+    margin-top: 20px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.staff-detail {
+    padding-left: 20px;
+}
+
+.staff {
+    clear: both;
+}
+
+.staff-position,
+.staff-department {
+    text-transform: capitalize;
+}
+
+.staff-email {
+    font-style: italic;
+}
+
+.staff-position,
+.staff-department,
+.staff-phone,
+.staff-email {
+    display: block;
+    clear: both;
+}
+.staff-position:before,
+.staff-department:before,
+.staff-phone:before,
+.staff-email:before {
+    font-family: FontAwesome;
+    font-style: normal;
+}
+
+.staff-position:before {
+    content: "\f007";
+}
+
+.staff-department:before {
+    content: "\f0c0";
+}
+
+.staff-phone:before {
+    content: "\f098";
+
+}
+
+.staff-email:before {
+    content: "\f0e0";
+}
+
+.staff-position:before,
+.staff-department:before,
+.staff-phone:before,
+.staff-email:before {
+    display: block;
+    width: 12px;
+    margin-right: 10px;
+    float: left;
+}
+
+/* =BX Slider Tweak
+-------------------------------------------------------------- */
+
+.bx-wrapper .bx-viewport {
+    left: 0;
+}
