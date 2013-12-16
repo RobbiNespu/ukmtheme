@@ -8,29 +8,25 @@
  *
  * @author Jamaludin Rajalu
  */
+$slideshow = new WP_Query('post_type=slideshow');
 ?> 
 <script type="text/javascript">
-    $(window).load(function() {
-        $('#slider').nivoSlider({
-            directionNav: true, 
-            controlNav: true
-        });
-    });
+$(window).load(function() {
+    $('#slider').nivoSlider();
+});
 </script>
-
-<div class="wrap slider-wrapper theme-default"> 
-    <div class="ribbon">
-<?php
-    $slideshow = new WP_Query('post_type=ukmtheme_slideshow');
-    if( $slideshow->have_posts() ) :
-    echo '<div id="slider" class="nivoSlider">';
-    while( $slideshow->have_posts() ) : $slideshow->the_post();
-?>
-<?php if(has_post_thumbnail()) { the_post_thumbnail(); } ?>
-<?php
-	endwhile;
-        echo '</div>';
-endif;
-?>
-    </div>
-</div><!-- end .slider-wrapper -->
+<div class="wrap">
+    <div class="slider-wrapper theme-default">
+    <div class="ribbon"></div><!--.ribbon-->
+        <div id="slider" class="nivoSlider">
+    <?php while( $slideshow->have_posts() ) : $slideshow->the_post(); ?>
+        <a href="<?php echo get_post_meta($post->ID,'ut_slideshow_link',true); ?>">
+            <?php 
+                $saved_data = get_post_meta($post->ID,'ut_slideshow_image',true);
+                echo '<img src="'.$saved_data['url'].'">';
+            ?>
+        </a>         
+    <?php endwhile; ?>
+        </div><!--#slider.nivoSlider-->
+    </div><!--.slider-wrapper .theme-default-->
+</div>

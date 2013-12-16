@@ -27,9 +27,9 @@ jQuery(document).ready(function(){
             <li><i class="uk-icon-font tools-color-3rd"></i></li>
             <li><i class="uk-icon-zoom-out tools-color-3rd"></i></li>
             <li><?php echo __( 'Theme:', 'ukmtheme' ); ?></li>
-            <li><i class="uk-icon-circle tools-color-1st"></i></li>
-            <li><i class="uk-icon-circle tools-color-2nd"></i></li>
-            <li><i class="uk-icon-circle tools-color-3rd"></i></li>
+            <li><a href="#" class="reset_btn"><i class="uk-icon-circle tools-color-1st"></i></a></li>
+            <li><a href="#" class="snd_btn"><i class="uk-icon-circle tools-color-2nd"></i></a></li>
+            <li><a href="#" class="trd_btn"><i class="uk-icon-circle tools-color-3rd"></i></a></li>
         </ul>
     </div>
 </div>

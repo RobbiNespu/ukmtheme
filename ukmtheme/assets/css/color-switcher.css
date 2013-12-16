@@ -1,0 +1,10 @@
+/* =JQuery Style Switcher
+-------------------------------------------------------------- */
+
+.snd_color {
+    background: <?php echo get_option('ukmtheme_snd_color'); ?> !important;
+}
+
+.trd_color {
+    background: <?php echo get_option('ukmtheme_trd_color'); ?> !important;
+}

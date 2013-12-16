@@ -12,13 +12,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>" />
-<title><?php if(is_home()) { echo bloginfo("name"); echo " | "; echo bloginfo("description"); } else { echo wp_title(" | ", false, right); echo bloginfo("name"); } ?></title>
-<meta name="description" content="<?php bloginfo( 'description' ); ?>">
-<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
-<link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<?php wp_head(); ?>
+<?php get_template_part( 'templates/header', 'html' ); ?>
 </head>
 <body <?php body_class(); ?>>
 <div class="page-wrap">
@@ -39,7 +33,7 @@
             </div>
     </div><!--.wrap-->
 </nav>
-<header>
+<header class="ut_color">
     <div class="wrap logo">
         <a href="<?php bloginfo('url'); ?>">
             <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />

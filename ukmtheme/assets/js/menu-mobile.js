@@ -1,7 +1,14 @@
-/**
- *  Mobile Menu
- *  Version: 1.0
- *  http://cssmenumaker.com/menu/jquery-accordion-menu
+/*!
+ * @link http://www.ukm.my/template
+ *
+ * @package WordPress
+ * @subpackage ukmtheme
+ * @since 4.0
+ *
+ * @author Jamaludin Rajalu
+ *
+ * Menu Mobile for responsive layout
+ *
  */
 
 //$('#mobmenu ul ul li:odd').addClass('odd');

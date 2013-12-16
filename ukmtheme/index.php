@@ -1,6 +1,7 @@
 <?php
 /**
  * @link http://www.ukm.my/template
+ * @link http://codex.wordpress.org/The_Loop
  *
  * @package WordPress
  * @subpackage ukmtheme
@@ -9,20 +10,23 @@
  * @author Jamaludin Rajalu
  */
 get_header(); ?>
-
-<div id="content" class="site-content" role="main">
-
-<?php while ( have_posts() ) : the_post(); ?>
-    
-    <h1><?php the_title(); ?></h1>
-    <article>
-        <?php the_content(); ?>
-    </article>
-    
-<?php endwhile; ?>
-
-</div>
-
-<?php get_footer(); ?> 
+<article class="wrap">
+<div class="content clearfix">
+<section class="col-3-4 article">
+    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+        <h1 class="content-title"><?php the_title(); ?></h1>
+        <div class="content-article">
+            <?php the_content(); ?>
+        </div>   
+        <?php endwhile; else: ?>
+            <p><?php _e( 'Sorry, no page matched your criteria.', 'ukmtheme' ); ?></p>
+    <?php endif; ?>
+</section>
+<aside class="col-1-4">
+	<?php get_template_part( 'sidebar', 'page' ); ?>
+</aside>
+</div><!-- content-wrap -->
+</article>
+<?php get_footer(); ?>
 
  

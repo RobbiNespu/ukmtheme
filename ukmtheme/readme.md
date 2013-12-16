@@ -1,15 +1,16 @@
-Version 6.0.12
+##Versi 6.1.1b
 
-Built-in:
-- Image Slideshow: caroufredSel
-- Image Slideshow: Nivo Slider
-- WYSIWYG Widget
-- Responsive Menu
-- Mobile mode
-- Sitemap
-- Staff Directory
-- Theme Options
-- News/Annc Widget
-- Events Manager
-- FAQ Page
-- etc.
+###Ciri-ciri
+-LESS
+-Grunt
+-Image Slideshow
+--jQuery CarouFredSel
+--jQuery Nivo Slider
+--jQuery BX-Slider
+-FAQ Manager
+-Events Manager
+-Staff Directory Manager
+-Announcement Manager
+-Theme Options
+-Logo Manager
+-Custom Social Links
