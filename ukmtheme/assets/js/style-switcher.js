@@ -13,7 +13,7 @@
 
 $(document).ready(function(){
   $( ".reset_btn" ).click(function() {
-    $( ".ut_color" ).removeClass( "snd_color trd_color");
+    $( ".ut_color, .ut_nav" ).removeClass( "snd_color trd_color snd_color_nav trd_color_nav");
     return false;
   });
   
@@ -24,6 +24,16 @@ $(document).ready(function(){
   
   $( ".trd_btn" ).click(function() {
     $( ".ut_color" ).toggleClass( "trd_color" );
+    return false;
+  });
+
+  $( ".snd_btn" ).click(function() {
+  $( ".ut_nav" ).toggleClass( "snd_color_nav" );
+    return false;
+  });
+  
+  $( ".trd_btn" ).click(function() {
+    $( ".ut_nav" ).toggleClass( "trd_color_nav" );
     return false;
   });
 });

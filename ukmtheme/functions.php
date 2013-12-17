@@ -89,7 +89,7 @@ function ukmtheme_scripts() {
 
 	wp_enqueue_style( 'museo_slab', get_template_directory_uri() . '/assets/fonts/museo_slab/museo_slab.min.css' );
 
-	wp_enqueue_style( 'bxslider', get_template_directory_uri() . '/plugins/jquery.bxslider/jquery.bxslider.css', 'array()', '4.1.1' );
+	wp_enqueue_style( 'bxslider', get_template_directory_uri() . '/plugins/bxslider/jquery.bxslider.css', 'array()', '4.1.1' );
 
 	wp_enqueue_style( 'nivo-slider', get_template_directory_uri() . '/plugins/nivo-slider/nivo-slider.css' );
 	
