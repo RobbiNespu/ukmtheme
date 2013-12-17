@@ -4,9 +4,9 @@
 * LESS
 * Grunt
 * Image Slideshow
-  * jQuery CarouFredSel
-  * jQuery Nivo Slider
-  * jQuery BX-Slider
+ * jQuery CarouFredSel
+ * jQuery Nivo Slider
+ * jQuery BX-Slider
 * FAQ Manager
 * Events Manager
 * Staff Directory Manager
