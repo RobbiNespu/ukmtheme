@@ -4,7 +4,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     jshint: {
       options: {
-        jshintrc: '.jshintrc'
+        //jshintrc: '.jshintrc'
       },
       all: [
         'Gruntfile.js',
@@ -22,7 +22,7 @@ module.exports = function(grunt) {
                 'assets/js/uikit.js',
                 'plugins/caroufredsel/jquery.carouFredSel-6.2.1.js',
                 'plugins/nivo-slider/jquery.nivo.slider.js',
-                'plugins/jquery.bxslider/jquery.bxslider.js'
+                'plugins/bxslider/jquery.bxslider.js'
                 ],
           dest: 'assets/js/script.min.js'
         }
