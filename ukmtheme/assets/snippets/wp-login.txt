@@ -1,0 +1,19 @@
+body.login div#login h1 a {
+    background-image: none, url("<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ukm-logo.svg?ver=6.1.1");
+    background-size: 320px 80px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: rgb(153, 153, 153);
+    height: 80px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin: 0px auto 25px;
+    padding: 0px;
+    text-decoration: none;
+    width: 320px;
+    text-indent: -9999px;
+    outline: 0px none;
+    overflow: hidden;
+    display: block;
+}

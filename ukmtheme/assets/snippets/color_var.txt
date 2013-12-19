@@ -1,0 +1,6 @@
+
+@blue: #1075FF
+@blue_dark: #006AFA
+
+@grey: #1F1E1E
+@grey_dark: #151515
