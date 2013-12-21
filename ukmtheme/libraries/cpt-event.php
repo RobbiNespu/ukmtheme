@@ -43,4 +43,33 @@ register_post_type('event', array(
   'parent' => 'Parent Event',
 )
 ) ); }
+
+// Custom Column Adjustment
+// @link http://codex.wordpress.org/Plugin_API/Action_Reference/manage_posts_custom_column
+
+add_action('manage_event_posts_custom_column', 'ut_event_custom_columns');
+add_filter('manage_edit-event_columns', 'ut_add_new_event_columns');
+
+function ut_add_new_event_columns( $columns ){
+  $columns = array(
+    'cb'                  => '<input type="checkbox">',
+    'title'               => __( 'Event', 'ukmtheme' ),
+    'ut_event_date'       => __( 'Date', 'ukmtheme' ),
+    'ut_event_start_time' => __( 'Start', 'ukmtheme' ),
+    'ut_event_end_time'   => __( 'End', 'ukmtheme' ),
+    'ut_event_venue'      => __( 'Venue', 'ukmtheme' )   
+  );
+  return $columns;
+}
+
+function ut_event_custom_columns( $column ){
+  global $post;
+  
+  switch ($column) {
+    case 'ut_event_date' : echo get_post_meta($post->ID,'ut_event_date',true); break;
+    case 'ut_event_start_time' : echo get_post_meta($post->ID,'ut_event_start_time',true); break;
+    case 'ut_event_end_time' : echo get_post_meta($post->ID,'ut_event_end_time',true); break;
+    case 'ut_event_venue' : echo get_post_meta($post->ID,'ut_event_venue',true); break;
+  }
+}
 ?>

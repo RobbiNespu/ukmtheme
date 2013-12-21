@@ -12,6 +12,7 @@ get_header(); ?>
 <article class="wrap clearfix">
     <div class="col-1-1 staff-wrap">
         <h1><?php the_title(); ?></h1>
+        <h2><?php echo get_the_term_list( $post->ID, 'position', '', ', ', '' ); ?></h2>
         <div class="col-1-10">
         <?php 
         	$saved_data = get_post_meta($post->ID,'ut_staff_photo',true);

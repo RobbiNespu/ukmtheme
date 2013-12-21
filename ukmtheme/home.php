@@ -25,8 +25,9 @@ get_header(); ?>
 	 */
 	?>
   <?php //get_template_part( 'templates/slideshow', 'carouFredSel' ); ?>
-  <?php get_template_part( 'templates/slideshow', 'bxslider' ); ?>
+  <?php //get_template_part( 'templates/slideshow', 'bxslider' ); ?>
   <?php //get_template_part( 'templates/slideshow', 'nivoSlider' ); ?>
+  <?php get_template_part( 'templates/slideshow', 'rslides' ); ?>
 </div>
 <div class="wrap clearfix">
     <?php get_template_part( 'templates/widget', 'event' ); ?>

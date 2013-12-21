@@ -4,17 +4,17 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     uglify: {
       options: {
-        banner: '/*! <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+        banner: '/*! UKMTheme 6 <%= grunt.template.today("yyyy-mm-dd") %> */\n'
       },
       build: {
-        src: ['assets/js/src/*.js',
+        src: ['assets/js/source/*.js',
               'plugins/caroufredsel/jquery.carouFredSel-6.2.1.js',
               'plugins/nivo-slider/jquery.nivo.slider.js',
               'plugins/nivo-lightbox/nivo-lightbox.js',
               'plugins/bxslider/jquery.bxslider.js',
               'plugins/responsive-slides/responsiveslides.js'
               ],
-        dest: 'assets/js/script.min.js'
+        dest: 'assets/js/20140101-script.min.js'
       }
     },
 
@@ -24,31 +24,36 @@ module.exports = function(grunt) {
           paths: ['assets/css']
         },
         files: {
-          'assets/css/built/default.css': ['assets/less/src/*.less', 'assets/less/*.less']
+          'assets/css/built/built_20140101.css': ['assets/less/partials/*.less', 'assets/less/*.less']
         }
       },
       production: {
         options: {
           paths: ['assets/css'],
+          compress: true,
           cleancss: true
         },
         files: {
-          'assets/css/default.min.css': ['assets/less/src/*.less', 'assets/less/*.less'],
-          'assets/fonts/museo_slab/museo_slab.min.css': 'assets/fonts/museo_slab/museo_slab.less'
+          'assets/css/20140101-stylesheet.min.css': [
+                                        'plugins/bxslider/jquery.bxslider.less',
+                                        'plugins/nivo-slider/nivo-slider.less',
+                                        'assets/less/partials/*.less',
+                                        'assets/less/*.less'
+                                        ]
         }
       }
     },
 
     watch: {
       css: {
-        files: ['assets/less/*.less', 'assets/less/src/*.less'],
+        files: ['assets/less/*.less', 'assets/less/partials/*.less'],
         tasks: ['less'],
           options: {
             livereload: false
           }
       },
       js: {
-        files: ['assets/js/src/*.js'],
+        files: ['assets/js/source/*.js'],
         tasks: ['uglify'],
           options: {
             spawn: false

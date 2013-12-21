@@ -44,15 +44,15 @@ $my_meta->Finish();
 // Custom Post Type: Slideshow
 
 $config_slideshow = array(
-    'id'             => 'slideshow_meta_box',
-    'title'          => 'Slideshow Detail',
-    'pages'          => array('slideshow'),
-    'context'        => 'normal', 
-    'priority'       => 'high',
-    'fields'         => array(),
-    'local_images'   => false,
-    'use_with_theme' =>  get_stylesheet_directory_uri() .'/plugins/meta-box-class'
-  );
+  'id'             => 'slideshow_meta_box',
+  'title'          => 'Slideshow Detail',
+  'pages'          => array('slideshow'),
+  'context'        => 'normal', 
+  'priority'       => 'high',
+  'fields'         => array(),
+  'local_images'   => false,
+  'use_with_theme' =>  get_stylesheet_directory_uri() .'/plugins/meta-box-class'
+);
   
 $my_meta_slideshow =  new AT_Meta_Box($config_slideshow);
 
@@ -65,21 +65,19 @@ $my_meta_slideshow->Finish();
 // Custom Post Type: Events
 
 $config_event = array(
-    'id'             => 'event_meta_box',
-    'title'          => 'Event Detail',
-    'pages'          => array('event'),
-    'context'        => 'normal', 
-    'priority'       => 'high',
-    'fields'         => array(),
-    'local_images'   => false,
-    'use_with_theme' =>  get_stylesheet_directory_uri() .'/plugins/meta-box-class'
-  );
+  'id'             => 'event_meta_box',
+  'title'          => 'Event Detail',
+  'pages'          => array('event'),
+  'context'        => 'normal', 
+  'priority'       => 'high',
+  'fields'         => array(),
+  'local_images'   => false,
+  'use_with_theme' =>  get_stylesheet_directory_uri() .'/plugins/meta-box-class'
+);
   
 $my_meta_event =  new AT_Meta_Box($config_event);
 
 $my_meta_event->addDate($prefix.'event_date',array('name'=> __('Date', 'ukmtheme'),'format'=> 'D, dd/mm/yy'));
-
-//$my_meta_event->addSelect($prefix.'event_day',array('selectkey1'=>__('Monday', 'ukmtheme'),'selectkey2'=>__('Tuesday', 'ukmtheme'),'selectkey3'=>__('Wednesday', 'ukmtheme'),'selectkey4'=>__('Thursday', 'ukmtheme'),'selectkey5'=>__('Friday', 'ukmtheme'),'selectkey6'=>__('Saturday', 'ukmtheme'),'selectkey7'=>__('Sunday', 'ukmtheme')),array('name'=> __('Day', 'ukmtheme'), 'std'=> array('selectkey2')));
 
 $my_meta_event->addTime($prefix.'event_start_time',array('name'=> __('Start Time', 'ukmtheme'),'format'=> 'hh:mm tt'));
 

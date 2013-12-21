@@ -23,6 +23,7 @@ register_post_type('faq', array(
 'query_var' => true,
 'supports' => array('title','editor'),
 'menu_icon' => get_template_directory_uri() . '/assets/images/admin/icon-faq.svg?ver:6.1.1',
+'has_archive' => true,
 'labels' => array (
     'name' => 'FAQs',
     'singular_name' => 'FAQ',
@@ -40,4 +41,18 @@ register_post_type('faq', array(
     'parent' => 'Parent FAQ',
 )
 ) ); }
+
+// Custom Column Adjustment
+// @link http://codex.wordpress.org/Plugin_API/Action_Reference/manage_posts_custom_column
+
+add_filter('manage_edit-faq_columns', 'ut_add_new_faq_columns');
+
+function ut_add_new_faq_columns( $columns ){
+  $columns = array(
+    'cb'                  => '<input type="checkbox">',
+    'title'               => __( 'Question', 'ukmtheme' ), 
+  );
+  return $columns;
+}
+
 ?>

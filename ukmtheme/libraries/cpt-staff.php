@@ -23,7 +23,7 @@ function cptui_register_my_cpt_staff() {
     'rewrite' => array('slug' => 'staff', 'with_front' => true),
     'query_var' => true,
     'supports' => array('title'),
-    'menu_icon' => get_template_directory_uri() . '/assets/images/admin/icon-staff.svg?ver:6.1.1',
+    'menu_icon' => get_template_directory_uri() . '/assets/images/admin/icon-staff.svg?ver=6.1.1',
     'labels' => array (
         'name' => 'Staffs',
         'singular_name' => 'Staff',
@@ -96,26 +96,40 @@ array( 'hierarchical' => false,
     )
 ) ); }
 
-// Filter by Category
+/**
+ * Filter by Category
+ * - Department
+ * - Position
+ */
 
 add_action('restrict_manage_posts','restrict_listings_by_department');
 function restrict_listings_by_department() {
     global $typenow;
     global $wp_query;
     if ($typenow=='staff') {
-        $taxonomy = 'department';
-        $department_taxonomy = get_taxonomy($taxonomy);
+    $taxonomy = 'department';
+    $term = isset($wp_query->query['department']) ? $wp_query->query['department'] :'';
+    $department_taxonomy = get_taxonomy($taxonomy);
         wp_dropdown_categories(array(
-            'show_option_all' =>  __("Show All {$department_taxonomy->label}"),
+            'show_option_all' =>  __( 'All Department', 'ukmtheme' ),
             'taxonomy'        =>  $taxonomy,
             'name'            =>  'department',
             'orderby'         =>  'name',
-            'selected'        =>  $wp_query->query['term'],
+            'selected'        =>  $term,
             'hierarchical'    =>  true,
             'depth'           =>  3,
             'show_count'      =>  true, // Show # listings in parens
-            'hide_empty'      =>  true, // Don't show businesses w/o listings
+            'hide_empty'      =>  true, // Don't show departmentes w/o listings
         ));
+    }
+}
+add_filter('parse_query','convert_department_id_to_taxonomy_term_in_query');
+function convert_department_id_to_taxonomy_term_in_query($query) {
+    global $pagenow;
+    $qv = &$query->query_vars;
+    if ($pagenow=='edit.php' && isset($qv['department']) && is_numeric($qv['department'])) {
+        $term = get_term_by('id',$qv['department'],'department');
+        $qv['department'] = ($term ? $term->slug : '');
     }
 }
 
@@ -124,20 +138,57 @@ function restrict_listings_by_position() {
     global $typenow;
     global $wp_query;
     if ($typenow=='staff') {
-        $taxonomy = 'position';
-        $position_taxonomy = get_taxonomy($taxonomy);
+    $taxonomy = 'position';
+    $term = isset($wp_query->query['position']) ? $wp_query->query['position'] :'';
+    $position_taxonomy = get_taxonomy($taxonomy);
         wp_dropdown_categories(array(
-            'show_option_all' =>  __("Show All {$position_taxonomy->label}"),
+            'show_option_all' =>  __( 'All Position', 'ukmtheme' ),
             'taxonomy'        =>  $taxonomy,
             'name'            =>  'position',
             'orderby'         =>  'name',
-            'selected'        =>  $wp_query->query['term'],
+            'selected'        =>  $term,
             'hierarchical'    =>  true,
             'depth'           =>  3,
             'show_count'      =>  true, // Show # listings in parens
-            'hide_empty'      =>  true, // Don't show businesses w/o listings
+            'hide_empty'      =>  true, // Don't show positiones w/o listings
         ));
     }
+}
+add_filter('parse_query','convert_position_id_to_taxonomy_term_in_query');
+function convert_position_id_to_taxonomy_term_in_query($query) {
+    global $pagenow;
+    $qv = &$query->query_vars;
+    if ($pagenow=='edit.php' && isset($qv['position']) && is_numeric($qv['position'])) {
+        $term = get_term_by('id',$qv['position'],'position');
+        $qv['position'] = ($term ? $term->slug : '');
+    }
+}
+
+// Custom Column Adjustment
+// @link http://codex.wordpress.org/Plugin_API/Action_Reference/manage_posts_custom_column
+
+add_action('manage_staff_posts_custom_column', 'ut_staff_custom_columns');
+add_filter('manage_edit-staff_columns', 'ut_add_new_staff_columns');
+
+function ut_add_new_staff_columns( $columns ){
+  $columns = array(
+    'cb'                  => '<input type="checkbox">',
+    'ut_staff_photo'      => __( 'Photo', 'ukmtheme' ),
+    'title'               => __( 'Name', 'ukmtheme' ),
+    'ut_staff_position'   => __( 'Position', 'ukmtheme' ),
+    'ut_staff_department' => __( 'Department', 'ukmtheme' )   
+  );
+  return $columns;
+}
+
+function ut_staff_custom_columns( $column ){
+  global $post;
+  
+  switch ($column) {
+    case 'ut_staff_photo' : $saved_data = get_post_meta($post->ID,'ut_staff_photo',true); echo '<img src="'.$saved_data['url'].'" width="60">';break;
+    case 'ut_staff_position' : echo get_post_meta($post->ID,'ut_staff_position',true); break;
+    case 'ut_staff_department' : echo get_post_meta($post->ID,'ut_staff_department',true); break;
+  }
 }
 
 ?>

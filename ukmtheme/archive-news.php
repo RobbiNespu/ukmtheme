@@ -13,42 +13,42 @@
  get_header();
 ?>
 <article class="wrap">
-<div class="content clearfix">
+  <div class="content clearfix">
     <section class="col-3-4">
     <h1><?php echo get_option('ukmtheme_annc_head'); ?></h1>
 
-        <div class="uk-panel widgets-annc">
+      <div class="uk-panel widgets-annc">
 
-        <?php while ( have_posts() ) : the_post(); ?>
+      <?php while ( have_posts() ) : the_post(); ?>
 
-            <div class="ut-news-list clearfix">
-                <div class="col-1-5 ut-news-thumb">
-                <?php
-                    if ( has_post_thumbnail() ) {
-                      the_post_thumbnail();
-                    }
-                    else {
-                      echo '<img src="' . get_template_directory_uri() . '/assets/images/thumbnail.svg?ver:6.1.1" />';
-                    }
-                ?>
-                </div>
-                <div class="col-4-5 ut-news-content">
-                    <h4 class="ut-news-title"><?php the_title(); ?></h4>
-                    <div class="ut-news-detail">
-                        <?php the_excerpt(); ?>
-                        <a href="<?php echo get_permalink(); ?>"><button class="uk-button uk-button-mini uk-button-primary uk-navbar-flip"><?php echo __('Read More', 'ukmtheme'); ?></button></a>
-                    </div><!--.ut-news-detail-->
-                </div><!--col-4-5-->
-            </div><!--.ut-news .clearfix-->
+        <div class="ut-news-list clearfix">
+            <div class="col-1-5 ut-news-thumb">
+            <?php
+                if ( has_post_thumbnail() ) {
+                  the_post_thumbnail();
+                }
+                else {
+                  echo '<img src="' . get_template_directory_uri() . '/assets/images/thumbnail.svg?ver:6.1.1" />';
+                }
+            ?>
+            </div>
+            <div class="col-4-5 ut-news-content">
+                <h4 class="ut-news-title"><?php the_title(); ?></h4>
+                <div class="ut-news-detail">
+                    <?php the_excerpt(); ?>
+                    <a href="<?php echo get_permalink(); ?>"><button class="uk-button uk-button-mini uk-button-primary uk-navbar-flip"><?php echo __('Read More', 'ukmtheme'); ?></button></a>
+                </div><!--.ut-news-detail-->
+            </div><!--col-4-5-->
+        </div><!--.ut-news .clearfix-->
 
-            <?php endwhile ?>
+          <?php endwhile ?>
 
-        </div><!--.widgets-annc-->
+      </div><!--.widgets-annc-->
 
     </section><!--.col-1-1-->
     <aside class="col-1-4">
         <?php get_template_part( 'sidebar', 'page' ); ?>
     </aside>
-    </div>
+  </div>
 </article>
 <?php get_footer(); ?>
