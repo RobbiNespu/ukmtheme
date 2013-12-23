@@ -7,13 +7,14 @@ module.exports = function(grunt) {
         banner: '/*! UKMTheme 6 <%= grunt.template.today("yyyy-mm-dd") %> */\n'
       },
       build: {
-        src: ['assets/js/source/*.js',
-              'plugins/caroufredsel/jquery.carouFredSel-6.2.1.js',
-              'plugins/nivo-slider/jquery.nivo.slider.js',
-              'plugins/nivo-lightbox/nivo-lightbox.js',
-              'plugins/bxslider/jquery.bxslider.js',
-              'plugins/responsive-slides/responsiveslides.js'
-              ],
+        src: [
+        'assets/js/source/*.js',
+        'plugins/caroufredsel/jquery.carouFredSel-6.2.1.js',
+        'plugins/nivo-slider/jquery.nivo.slider.js',
+        'plugins/nivo-lightbox/nivo-lightbox.js',
+        'plugins/bxslider/jquery.bxslider.js',
+        'plugins/responsive-slides/responsiveslides.js'
+      ],
         dest: 'assets/js/20140101-script.min.js'
       }
     },
@@ -35,12 +36,23 @@ module.exports = function(grunt) {
         },
         files: {
           'assets/css/20140101-stylesheet.min.css': [
-                                        'plugins/bxslider/jquery.bxslider.less',
-                                        'plugins/nivo-slider/nivo-slider.less',
-                                        'assets/less/partials/*.less',
-                                        'assets/less/*.less'
-                                        ]
+            'plugins/bxslider/jquery.bxslider.less',
+            'plugins/nivo-slider/nivo-slider.less',
+            'assets/less/partials/*.less',
+            'assets/less/*.less'
+          ]
         }
+      }
+    },
+
+    imageoptim: {
+      myTask: {
+        options: {
+          jpegMini: false,
+          imageAlpha: true,
+          quitAfter: true
+        },
+        src: ['assets/images', 'assets/images/public', 'assets/images/admin']
       }
     },
 
@@ -66,6 +78,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-imageoptim');
 
 
   grunt.registerTask('default', ['uglify', 'less']);
