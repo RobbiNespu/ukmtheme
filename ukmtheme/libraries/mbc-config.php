@@ -56,7 +56,7 @@ $config_slideshow = array(
   
 $my_meta_slideshow =  new AT_Meta_Box($config_slideshow);
 
-$my_meta_slideshow->addImage($prefix.'slideshow_image',array('name'=> 'Image'));
+$my_meta_slideshow->addImage($prefix.'slideshow_image',array('name'=> 'Image', 'desc' => __('Image size: H:960 x W:350px', 'ukmtheme')));
 
 $my_meta_slideshow->addText($prefix.'slideshow_link',array('name'=> 'Link URL'));
 

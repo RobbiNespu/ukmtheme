@@ -61,11 +61,12 @@ function theme_options_do_page() { ?>
           <td>
             <select name ="ukmtheme_front_slideshow">
               <?php $ut_slides = get_option('ukmtheme_front_slideshow'); ?>
-              <option value="rslider" <?php if ($ut_slides=='rslider') { echo 'selected'; } ?>>Default</option>
+              <option value="rslides" <?php if ($ut_slides=='rslides') { echo 'selected'; } ?>>Default</option>
               <option value="bxslider" <?php if ($ut_slides=='bxslider') { echo 'selected'; } ?>>BX Slider</option>
-              <option value="caroufredsel" <?php if ($ut_slides=='caraufredsel') { echo 'selected'; } ?>>CaruoFredSel</option>
-              <option value="nivoslider" <?php if ($ut_slides=='nivoslider') { echo 'selected'; } ?>>Nivo Slider</option>
+              <option value="carouFredSel" <?php if ($ut_slides=='carouFredSel') { echo 'selected'; } ?>>CarouFredSel</option>
+              <option value="nivoSlider" <?php if ($ut_slides=='nivoSlider') { echo 'selected'; } ?>>Nivo Slider</option>
             </select>
+            <p class="description"><?php _e( 'Untuk &quot;CarouFredSel&quot;, pastikan minima lima imej dimuat naik.', 'ukmtheme' ); ?></p>
           </td>
           </tr>
       </tbody>

@@ -54,6 +54,7 @@ function ukmtheme_setup() {
 	locate_template( 'libraries/mbc-config.php', 'ukmtheme' );
 	locate_template( 'libraries/cpt-archive-links.php', 'ukmtheme' );
 	locate_template( 'plugins/hc-text-widget/hc-text-widget.php', 'ukmtheme' );
+	locate_template( 'plugins/simple-page-ordering/simple-page-ordering.php', 'ukmtheme' );
 	locate_template( 'templates/page-sitemap.php', 'ukmtheme' );
 		
 	register_nav_menus( array(

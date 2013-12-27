@@ -10,6 +10,8 @@
  *
  * Tetapan muka hadapan laman
  */
+  $ut_slideshow = get_option('ukmtheme_front_slideshow');
+
 get_header(); ?>
 
 <div class="clearfix slideshow ut_color">
@@ -27,7 +29,7 @@ get_header(); ?>
   <?php //get_template_part( 'templates/slideshow', 'carouFredSel' ); ?>
   <?php //get_template_part( 'templates/slideshow', 'bxslider' ); ?>
   <?php //get_template_part( 'templates/slideshow', 'nivoSlider' ); ?>
-  <?php get_template_part( 'templates/slideshow', 'rslides' ); ?>
+  <?php get_template_part( 'templates/slideshow', $ut_slideshow ); ?>
 </div>
 <div class="wrap clearfix">
     <?php get_template_part( 'templates/widget', 'event' ); ?>
