@@ -45,17 +45,6 @@ module.exports = function(grunt) {
       }
     },
 
-    imageoptim: {
-      myTask: {
-        options: {
-          jpegMini: false,
-          imageAlpha: true,
-          quitAfter: true
-        },
-        src: ['assets/images', 'assets/images/public', 'assets/images/admin']
-      }
-    },
-
     watch: {
       css: {
         files: ['assets/less/*.less', 'assets/less/partials/*.less'],
@@ -71,15 +60,30 @@ module.exports = function(grunt) {
             spawn: false
           }
       }
+    },
+
+    compress: {
+      js: {
+        options: {
+          mode: 'gzip'
+        },
+        files: [ { expand: true, src: ['assets/js/*.js'], dest: '', ext: '.gz.js' } ]
+      },
+      
+      css: {
+        options: {
+          mode: 'gzip'
+        },
+        files: [ { expand: true, src: ['assets/css/*.css'], dest: '', ext: '.gz.css' } ]
+      }
     }
 
-  });
+  }); // closingTask
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-imageoptim');
-
+  grunt.loadNpmTasks('grunt-contrib-compress');
 
   grunt.registerTask('default', ['uglify', 'less']);
 

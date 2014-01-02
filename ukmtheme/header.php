@@ -8,6 +8,7 @@
  *
  * @author Jamaludin Rajalu
  */
+if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start('ob_gzhandler'); else ob_start();
 ?> 
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -29,7 +30,7 @@
     </div>
     <div class="col-1-2">
       <?php get_template_part( 'templates/nav', 'searchBar' ); ?>
-      <?php get_template_part( 'templates/nav', 'tools' ); ?>
+      <?php get_template_part( 'templates/nav', 'tools-dropdown' ); ?>
     </div>
   </div><!--.wrap-->
 </nav>

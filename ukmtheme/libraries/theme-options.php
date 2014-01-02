@@ -33,6 +33,7 @@ function register_mysettings() {
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_trd_color' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_trd_color_nav' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_front_slideshow' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_front_widgets_four' );
 }
 
 function theme_options_do_page() { ?>

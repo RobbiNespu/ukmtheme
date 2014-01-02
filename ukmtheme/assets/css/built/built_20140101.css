@@ -520,7 +520,7 @@
 }
 #cssmenu > ul > li {
   float: left;
-  background: #151515 url('../images/separator.gif') bottom right no-repeat;
+  background: #151515 url('../images/public/separator.gif') bottom right no-repeat;
 }
 #cssmenu li a:hover,
 #cssmenu ul li:hover a {
@@ -600,7 +600,7 @@ Supports Thumbs: true
 */
 .theme-default .nivoSlider {
   position: relative;
-  background: #ffffff url(../images/nivo/loading.gif) no-repeat 50% 50%;
+  background: #ffffff url(../images/vendor/nivo-slider/loading.gif) no-repeat 50% 50%;
   margin-bottom: 10px;
   -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
   -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
@@ -624,7 +624,7 @@ Supports Thumbs: true
   display: inline-block;
   width: 22px;
   height: 22px;
-  background: url(../images/nivo/bullets.png) no-repeat;
+  background: url(../images/vendor/nivo-slider/bullets.png) no-repeat;
   text-indent: -9999px;
   border: 0;
   margin: 0 2px;
@@ -636,7 +636,7 @@ Supports Thumbs: true
   display: block;
   width: 30px;
   height: 30px;
-  background: url(../images/nivo/arrows.png) no-repeat;
+  background: url(../images/vendor/nivo-slider/arrows.png) no-repeat;
   text-indent: -9999px;
   border: 0;
   opacity: 0;
@@ -8701,6 +8701,26 @@ section.article {
 .tools-color-3rd {
   color: #eaeaea;
 }
+.ut-tools-dropdown {
+  margin-top: 10px;
+  margin-right: 10px;
+  color: #FFF;
+}
+.ut-dropdown-tweak {
+  padding: 5px;
+  width: 150px;
+}
+.ut-dropdown-tweak-list {
+  margin: 0;
+  padding: 5px 15px;
+}
+.ut-dropdown-tweak-list li {
+  padding: 0;
+}
+.ut-dropdown-tweak-list li > a {
+  padding: 0 5px;
+  color: #000;
+}
 /* =Widgets
 -------------------------------------------------------------- */
 .widgets-wrap {
@@ -8866,6 +8886,9 @@ footer {
 }
 .ut-news-show-all {
   padding-top: 10px;
+}
+.moretag {
+  display: block;
 }
 /* =Events Widgets
 -------------------------------------------------------------- */

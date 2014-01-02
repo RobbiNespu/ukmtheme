@@ -28,6 +28,7 @@ function ut_custom_css() {
 
 /**
  * UKM Theme Setup
+ * ==============================
  * Load Templates and Libraries
  * Add Theme Support: Post format, Language, Links etc.
  * Last update 20131214
@@ -55,6 +56,7 @@ function ukmtheme_setup() {
 	locate_template( 'libraries/cpt-archive-links.php', 'ukmtheme' );
 	locate_template( 'plugins/hc-text-widget/hc-text-widget.php', 'ukmtheme' );
 	locate_template( 'plugins/simple-page-ordering/simple-page-ordering.php', 'ukmtheme' );
+	locate_template( 'plugins/tgm-plugin-activation/ut-required-plugins.php', 'ukmtheme' );
 	locate_template( 'templates/page-sitemap.php', 'ukmtheme' );
 		
 	register_nav_menus( array(
@@ -95,12 +97,12 @@ function home_page_menu_args( $args ) {
 add_filter( 'excerpt_more', 'ukmtheme_excerpt_more' );
 function ukmtheme_excerpt_more($more) {
     global $post;
-	    return '<a class="moretag" href="'. get_permalink($post->ID) . '">'. __( 'Read More','ukmtheme' ) .'</a>';
+	    return '<a class="moretag clearfix" href="'. get_permalink($post->ID) . '"><button class="uk-button uk-button-mini uk-button-primary uk-navbar-flip">'. __( 'Read More','ukmtheme' ) .'</button></a>';
 }
 
 add_filter( 'excerpt_length', 'ukmtheme_excerpt_length', 999 );
 function ukmtheme_excerpt_length( $length ) {
-	return 10;
+	return 30;
 }
 
 /**

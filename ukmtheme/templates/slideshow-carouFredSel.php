@@ -9,6 +9,7 @@
  *
  * @author Jamaludin Rajalu
  */
+$slideshow = new WP_Query('post_type=slideshow');
 ?>
 <script type="text/javascript">
 $(function() {
@@ -33,15 +34,23 @@ $(function() {
 });
 </script>
 <div id="carousel-wrapper">
-    <div id="carousel">
-    <?php
-        $args = array( 'post_type' => 'ukmtheme_slideshow', 'posts_per_page' => 10 );
-        $loop = new WP_Query( $args );
-        while ( $loop->have_posts() ) : $loop->the_post();
-            the_post_thumbnail();
-        endwhile;
-    ?>
-    </div><!--#carousel-->
+  <div id="carousel">
+    <?php if( $slideshow->have_posts() ) : while( $slideshow->have_posts() ) : $slideshow->the_post(); ?>
+      <a href="<?php echo get_post_meta($post->ID,'ut_slideshow_link',true); ?>">
+        <?php 
+          $saved_data = get_post_meta($post->ID,'ut_slideshow_image',true);
+          echo '<img src="'.$saved_data['url'].'">';
+        ?>
+      </a>         
+    <?php endwhile; else: ?>
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/slide-sample-1.jpg?ver=6.1.1" alt="">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/slide-sample-2.jpg?ver=6.1.1" alt="">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/slide-sample-3.jpg?ver=6.1.1" alt="">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/slide-sample-1.jpg?ver=6.1.1" alt="">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/slide-sample-2.jpg?ver=6.1.1" alt="">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/slide-sample-3.jpg?ver=6.1.1" alt="">
+    <?php endif; ?>
+  </div><!--#carousel-->
 	<a href="#" id="prev" title="Show previous"> </a>
 	<a href="#" id="next" title="Show next"> </a>
 	<div id="pager"></div>
