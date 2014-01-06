@@ -8,7 +8,6 @@
  *
  * @author Jamaludin Rajalu
  */
-if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start('ob_gzhandler'); else ob_start();
 ?> 
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -30,7 +29,10 @@ if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start('ob_gzhandl
     </div>
     <div class="col-1-2">
       <?php get_template_part( 'templates/nav', 'searchBar' ); ?>
-      <?php get_template_part( 'templates/nav', 'tools-dropdown' ); ?>
+      <?php // Language Switcher Enabler
+        $ut_lang_select = get_option('ukmtheme_languages');
+        get_template_part( 'templates/nav', $ut_lang_select );
+      ?>
     </div>
   </div><!--.wrap-->
 </nav>

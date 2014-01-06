@@ -589,6 +589,47 @@
   height: 45px;
 }
 
+/* liScroll styles */
+.tickercontainer {
+  /* the outer div with the black border */
+  width: 100%;
+  height: 27px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.tickercontainer .mask {
+  /* that serves as a mask. so you get a sort of padding both left and right */
+  position: relative;
+  left: 10px;
+  top: 8px;
+  width: 100%;
+  overflow: hidden;
+}
+ul.newsticker {
+  /* that's your list */
+  position: relative;
+  left: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.newsticker li {
+  float: left;
+  /* important: display inline gives incorrect results when you check for elem's width */
+  margin: 0;
+  padding: 0;
+}
+ul.newsticker a {
+  white-space: nowrap;
+  padding: 0;
+  margin: 0 50px 0 0;
+  font-style: italic;
+}
+ul.newsticker span {
+  margin: 0 10px 0 0;
+}
+
 /*
 Skin Name: Nivo Slider Default Theme
 Skin URI: http://nivo.dev7studios.com
@@ -8415,13 +8456,6 @@ a img.aligncenter {
 
 /* =Fonts
 -------------------------------------------------------------- */
-@font-face {
-  font-family: 'museo_slab300';
-  src: url('../fonts/museo_slab_300-webfont.eot');
-  src: url('../fonts/museo_slab_300-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/museo_slab_300-webfont.woff') format('woff'), url('../fonts/museo_slab_300-webfont.ttf') format('truetype'), url('../fonts/museo_slab_300-webfont.svg#museo_slab300') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 .webfont-fix {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -8481,13 +8515,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'museo_slab300';
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   list-style: normal;
 }
 body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
 /* =Layout
@@ -8615,7 +8650,7 @@ section.article {
 }
 .uk-search-field {
   width: 120px;
-  height: 16px;
+  height: 22px;
   padding: 0 30px 5px;
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 0;

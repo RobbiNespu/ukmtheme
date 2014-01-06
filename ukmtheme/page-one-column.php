@@ -9,7 +9,7 @@
  *
  * @author Jamaludin Rajalu
  *
- * Template Name: One Column
+ * Template Name: Page: One Column
  */
 get_header(); ?>
 <article class="wrap">

@@ -22,7 +22,7 @@ function cptui_register_my_cpt_staff() {
     'hierarchical' => true,
     'rewrite' => array('slug' => 'staff', 'with_front' => true),
     'query_var' => true,
-    'supports' => array('title', 'page-attributes'),
+    'supports' => array( 'title' ),
     'menu_icon' => get_template_directory_uri() . '/assets/images/admin/icon-staff.svg?ver=6.1.1',
     'labels' => array (
         'name' => 'Staffs',
@@ -186,8 +186,8 @@ function ut_staff_custom_columns( $column ){
   
   switch ($column) {
     case 'ut_staff_photo' : $saved_data = get_post_meta($post->ID,'ut_staff_photo',true); echo '<img src="'.$saved_data['url'].'" width="60">';break;
-    case 'ut_staff_position' : echo get_post_meta($post->ID,'ut_staff_position',true); break;
-    case 'ut_staff_department' : echo get_post_meta($post->ID,'ut_staff_department',true); break;
+    case 'ut_staff_position' : echo get_the_term_list( $post->ID, 'position', '', ', ',''); break;
+    case 'ut_staff_department' : echo get_the_term_list( $post->ID, 'department', '', ', ',''); break;
   }
 }
 

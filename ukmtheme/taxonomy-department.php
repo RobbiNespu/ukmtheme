@@ -28,8 +28,7 @@ get_header(); ?>
   <div class="col-6-7">
     <div class="staff-detail">
       <h2><?php the_title(); ?></h2>
-      <?php echo '<span class="staff-position">'; echo get_post_meta($post->ID, 'ut_staff_position', true); echo '</span>'; ?>
-      <?php echo '<span class="staff-department">'; echo get_post_meta($post->ID, 'ut_staff_department', true); echo '</span>'; ?>
+      <?php echo '<span class="staff-position">'; echo get_the_term_list( $post->ID, 'position', '', ', ', '' ); echo '</span>'; ?>
       <?php echo '<span class="staff-phone">'; echo get_post_meta($post->ID, 'ut_staff_phone', true); echo '</span>'; ?>
       <?php echo '<span class="staff-email">'; echo get_post_meta($post->ID, 'ut_staff_email', true); echo '</span>'; ?>
     </div>

@@ -10,6 +10,8 @@
  */
  
 /**
+ * JQuery
+ * ==============================
  * Load jQuery from google
  * Code reference @link http://css-tricks#Load jquery right way
  */
@@ -48,6 +50,7 @@ function ukmtheme_setup() {
 	locate_template( 'libraries/theme-options.php', 'ukmtheme' );
 	locate_template( 'libraries/theme-login.php', 'ukmtheme' );
 	locate_template( 'libraries/cpt-news.php', 'ukmtheme' );
+	locate_template( 'libraries/cpt-news-scroller.php', 'ukmtheme' );
 	locate_template( 'libraries/cpt-staff.php', 'ukmtheme' );
 	locate_template( 'libraries/cpt-slideshow.php', 'ukmtheme' );
 	locate_template( 'libraries/cpt-faq.php', 'ukmtheme' );
@@ -55,7 +58,6 @@ function ukmtheme_setup() {
 	locate_template( 'libraries/mbc-config.php', 'ukmtheme' );
 	locate_template( 'libraries/cpt-archive-links.php', 'ukmtheme' );
 	locate_template( 'plugins/hc-text-widget/hc-text-widget.php', 'ukmtheme' );
-	locate_template( 'plugins/simple-page-ordering/simple-page-ordering.php', 'ukmtheme' );
 	locate_template( 'plugins/tgm-plugin-activation/ut-required-plugins.php', 'ukmtheme' );
 	locate_template( 'templates/page-sitemap.php', 'ukmtheme' );
 		

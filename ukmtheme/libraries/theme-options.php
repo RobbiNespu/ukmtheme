@@ -33,32 +33,30 @@ function register_mysettings() {
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_trd_color' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_trd_color_nav' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_front_slideshow' );
-  register_setting( 'ukmtheme-settings-group', 'ukmtheme_front_widgets_four' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_languages' );
 }
 
 function theme_options_do_page() { ?>
 <div class="wrap">
 <?php screen_icon(); echo "<h2>" . get_current_theme() . __( ' Options', 'ukmtheme' ) . "</h2>"; ?>
-
+<?php if( isset($_GET['settings-updated']) ) { ?>
+    <div id="message" class="updated">
+        <p><strong><?php _e('Settings saved.') ?></strong></p>
+    </div>
+<?php } ?>
 <form method="post" action="options.php">
   <?php settings_fields( 'ukmtheme-settings-group' ); ?>
   <?php do_settings_sections( 'ukmtheme-settings-group' ); ?>
-  <h3 class="title"><?php _e( 'News Heading', 'ukmtheme' ); ?></h3>
-  <p><?php _e( 'Announcemnet or News Heading', 'ukmtheme' ); ?></p>
+  <h3 class="title"><?php _e( 'General', 'ukmtheme' ); ?></h3>
+  <p><?php _e( 'News Heading, Slideshow and Languages', 'ukmtheme' ); ?></p>
     <table class="form-table">
       <tbody>
           <tr valign="top">
-          <th scope="row">Heading</th>
+          <th scope="row">News Heading</th>
           <td><input type="text" name="ukmtheme_annc_head" value="<?php echo get_option('ukmtheme_annc_head'); ?>" class="regular-text" placeholder="Latest News" /></td>
           </tr>
-      </tbody>
-    </table>
-  <h3 class="title"><?php _e( 'Slideshow', 'ukmtheme' ); ?></h3>
-  <p><?php _e( 'Frontpage Slideshow', 'ukmtheme' ); ?></p>
-    <table class="form-table">
-      <tbody>
           <tr valign="top">
-          <th scope="row">Slideshow</th>
+          <th scope="row">Image Slideshow</th>
           <td>
             <select name ="ukmtheme_front_slideshow">
               <?php $ut_slides = get_option('ukmtheme_front_slideshow'); ?>
@@ -68,6 +66,19 @@ function theme_options_do_page() { ?>
               <option value="nivoSlider" <?php if ($ut_slides=='nivoSlider') { echo 'selected'; } ?>>Nivo Slider</option>
             </select>
             <p class="description"><?php _e( 'Untuk &quot;CarouFredSel&quot;, pastikan minima lima imej dimuat naik.', 'ukmtheme' ); ?></p>
+          </td>
+          </tr>
+          <tr valign="top">
+          <th scope="row">Language Switcher</th>
+          <td>
+            <select name ="ukmtheme_languages">
+              <?php 
+                $ut_lang_select = get_option('ukmtheme_languages'); 
+              ?>
+              <option value="tools" <?php if ($ut_lang_select=='tools') { echo 'selected'; } ?>>Disable</option>
+              <option value="tools-dropdown" <?php if ($ut_lang_select=='tools-dropdown') { echo 'selected'; } ?>>Enable</option>
+            </select>
+            <p class="description"><?php _e( 'Enable language menu', 'ukmtheme' ); ?></p>
           </td>
           </tr>
       </tbody>

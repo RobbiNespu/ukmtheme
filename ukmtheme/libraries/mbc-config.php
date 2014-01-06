@@ -31,10 +31,6 @@ $my_meta =  new AT_Meta_Box($config);
 
 $my_meta->addImage($prefix.'staff_photo',array('name'=> 'Photo'));
 
-$my_meta->addTaxonomy($prefix.'staff_position',array('taxonomy' => 'position'),array('name'=> 'Position'));
-
-$my_meta->addTaxonomy($prefix.'staff_department',array('taxonomy' => 'department'),array('name'=> 'Department'));
-
 $my_meta->addText($prefix.'staff_phone',array('name'=> 'Phone No.'));
 
 $my_meta->addText($prefix.'staff_email',array('name'=> 'Email'));

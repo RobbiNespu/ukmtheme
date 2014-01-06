@@ -10,7 +10,7 @@
  *
  * @author Jamaludin Rajalu
  *
- * Template Name: Sitemap
+ * Template Name: Page: Sitemap
  */
 get_header(); ?>
 <article class="wrap">
