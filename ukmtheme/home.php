@@ -23,12 +23,6 @@ get_header(); ?>
   } ?>
 </div>
 <div class="wrap clearfix">
-  <?php get_template_part( 'templates/widget', 'news-scroller' ); ?>
-</div>
-<div class="wrap clearfix">
-  <?php get_template_part( 'templates/widget', 'event' ); ?>
-</div>
-<div class="wrap clearfix">
   <?php get_template_part( 'templates/widget', 'news' ); ?>
 </div>
 <div class="wrap clearfix">
