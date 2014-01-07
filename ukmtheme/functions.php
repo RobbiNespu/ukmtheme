@@ -50,11 +50,11 @@ function ukmtheme_setup() {
 	locate_template( 'libraries/theme-options.php', 'ukmtheme' );
 	locate_template( 'libraries/theme-login.php', 'ukmtheme' );
 	locate_template( 'libraries/cpt-news.php', 'ukmtheme' );
-	locate_template( 'libraries/cpt-news-scroller.php', 'ukmtheme' );
+	//locate_template( 'libraries/cpt-news-scroller.php', 'ukmtheme' );
 	locate_template( 'libraries/cpt-staff.php', 'ukmtheme' );
 	locate_template( 'libraries/cpt-slideshow.php', 'ukmtheme' );
 	locate_template( 'libraries/cpt-faq.php', 'ukmtheme' );
-	locate_template( 'libraries/cpt-event.php', 'ukmtheme' );
+	//locate_template( 'libraries/cpt-event.php', 'ukmtheme' );
 	locate_template( 'libraries/mbc-config.php', 'ukmtheme' );
 	locate_template( 'libraries/cpt-archive-links.php', 'ukmtheme' );
 	locate_template( 'plugins/hc-text-widget/hc-text-widget.php', 'ukmtheme' );
