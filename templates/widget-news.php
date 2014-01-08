@@ -26,7 +26,7 @@ $loop = new WP_Query( $args );
             the_post_thumbnail();
           }
           else {
-            echo '<img src="' . get_template_directory_uri() . '/assets/images/public/thumbnail.svg?ver:6.1.1" />';
+            echo '<img src="' . get_template_directory_uri() . '/assets/images/public/thumbnail.svg?ver:6.1.1" height="auto" width="auto"/>';
           }
           ?>
         </div><!--post-thumbnail-->

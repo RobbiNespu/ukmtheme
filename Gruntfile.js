@@ -9,13 +9,9 @@ module.exports = function(grunt) {
       build: {
         src: [
         'assets/js/source/*.js',
-        'plugins/caroufredsel/jquery.carouFredSel-6.2.1.js',
-        'plugins/nivo-slider/jquery.nivo.slider.js',
-        'plugins/nivo-lightbox/nivo-lightbox.js',
-        'plugins/bxslider/jquery.bxslider.js',
-        'plugins/responsive-slides/responsiveslides.js'
+        'plugins/bxslider/jquery.bxslider.js'
       ],
-        dest: 'assets/js/20140101-script.min.js'
+        dest: 'assets/js/20140109-script.min.js'
       }
     },
 
@@ -25,7 +21,7 @@ module.exports = function(grunt) {
           paths: ['assets/css']
         },
         files: {
-          'assets/css/built/built_20140101.css': ['assets/less/partials/*.less', 'assets/less/*.less']
+          'assets/css/built/built_20140109.css': ['assets/less/partials/*.less', 'assets/less/*.less']
         }
       },
       production: {
@@ -35,9 +31,8 @@ module.exports = function(grunt) {
           cleancss: true
         },
         files: {
-          'assets/css/20140101-stylesheet.min.css': [
+          'assets/css/20140109-stylesheet.min.css': [
             'plugins/bxslider/jquery.bxslider.less',
-            'plugins/nivo-slider/nivo-slider.less',
             'assets/less/partials/*.less',
             'assets/less/*.less'
           ]

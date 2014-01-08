@@ -74,12 +74,12 @@ function cptui_register_my_taxes_position() {
 register_taxonomy( 'position',array (
   0 => 'staff',
 ),
-array( 'hierarchical' => false,
+array( 'hierarchical' => true,
   'label' => 'Positions',
   'show_ui' => true,
   'query_var' => true,
   'rewrite' => array( 'slug' => 'position' ),
-  'show_admin_column' => false,
+  'show_admin_column' => true,
   'labels' => array (
       'search_items' => 'Position',
       'popular_items' => 'Popular Positions',

@@ -26,7 +26,7 @@ get_header(); ?>
     <?php endif; ?>
   </section>
   <aside class="col-1-4">
-    <?php get_template_part( 'sidebar', 'sitemap' ); ?>
+    <?php get_template_part( 'sidebar', 'page' ); ?>
   </aside>
 </div>
 </article>

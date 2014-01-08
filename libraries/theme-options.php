@@ -32,8 +32,9 @@ function register_mysettings() {
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_snd_color_nav' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_trd_color' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_trd_color_nav' );
-  register_setting( 'ukmtheme-settings-group', 'ukmtheme_front_slideshow' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_languages' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_copyright_id' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_contact_id' );
 }
 
 function theme_options_do_page() { ?>
@@ -48,7 +49,7 @@ function theme_options_do_page() { ?>
   <?php settings_fields( 'ukmtheme-settings-group' ); ?>
   <?php do_settings_sections( 'ukmtheme-settings-group' ); ?>
   <h3 class="title"><?php _e( 'General', 'ukmtheme' ); ?></h3>
-  <p><?php _e( 'News Heading, Slideshow and Languages', 'ukmtheme' ); ?></p>
+  <p>Masukkan perincian di bawah mengikut keperluan. Untuk templat grafik seperti logo, slideshow dah lain-lain boleh didapati <a href="<?php echo get_template_directory_uri(); ?>/assets/templates/templates.zip">di sini</a>.<br/>Gunakan perisian GIMP sebagai alternatif kepada perisian grafik dan boleh didapatkan di halaman berikut <a href="http://www.gimp.org/">www.gimp.org</a>.<br/>Sekiranya anda memerlukan khidmat bantuan pengendalian tema ini, anda boleh berhung terus dengan pembangun di alamat emel <em>jamaludin@ptm.ukm.my</em>.<br/>Nota: Tema ini tidak melakukan keajaiban dan tidak semestinya memenuhi kehendak seperti yang anda mahukan.</p>
     <table class="form-table">
       <tbody>
           <tr valign="top">
@@ -56,17 +57,12 @@ function theme_options_do_page() { ?>
           <td><input type="text" name="ukmtheme_annc_head" value="<?php echo get_option('ukmtheme_annc_head'); ?>" class="regular-text" placeholder="Latest News" /></td>
           </tr>
           <tr valign="top">
-          <th scope="row">Image Slideshow</th>
-          <td>
-            <select name ="ukmtheme_front_slideshow">
-              <?php $ut_slides = get_option('ukmtheme_front_slideshow'); ?>
-              <option value="rslides" <?php if ($ut_slides=='rslides') { echo 'selected'; } ?>>Default</option>
-              <option value="bxslider" <?php if ($ut_slides=='bxslider') { echo 'selected'; } ?>>BX Slider</option>
-              <option value="carouFredSel" <?php if ($ut_slides=='carouFredSel') { echo 'selected'; } ?>>CarouFredSel</option>
-              <option value="nivoSlider" <?php if ($ut_slides=='nivoSlider') { echo 'selected'; } ?>>Nivo Slider</option>
-            </select>
-            <p class="description"><?php _e( 'Untuk &quot;CarouFredSel&quot;, pastikan minima lima imej dimuat naik.', 'ukmtheme' ); ?></p>
-          </td>
+          <th scope="row">Footer Copyright Link</th>
+          <td><input type="text" name="ukmtheme_copyright_id" value="<?php echo get_option('ukmtheme_copyright_id'); ?>" class="regular-text" placeholder="100" /></td>
+          </tr>
+          <tr valign="top">
+          <th scope="row">Footer Contact Link</th>
+          <td><input type="text" name="ukmtheme_contact_id" value="<?php echo get_option('ukmtheme_contact_id'); ?>" class="regular-text" placeholder="101" /></td>
           </tr>
           <tr valign="top">
           <th scope="row">Language Switcher</th>
@@ -101,7 +97,7 @@ function theme_options_do_page() { ?>
         <th scope="row">Youtube</th>
         <td>
           <input type="text" name="ukmtheme_youtube" value="<?php echo get_option('ukmtheme_youtube'); ?>" class="regular-text" placeholder="http://www.youtube.com/user/ptmukm" />
-          <p class="description"><?php echo __( 'Masukkan url lengkap cth: https://www.twitter.com/ukmnewsportal', 'ukmtheme' ); ?></p>
+          <p class="description"><?php _e( 'Enter full url e.g: https://www.twitter.com/ukmnewsportal', 'ukmtheme' ); ?></p>
         </td>
         </tr>
       </tbody>

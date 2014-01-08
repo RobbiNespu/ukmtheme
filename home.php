@@ -10,17 +10,12 @@
  *
  * Tetapan muka hadapan laman
  */
-  $ut_slideshow = get_option('ukmtheme_front_slideshow');
-
 get_header(); ?>
 
 <div class="clearfix slideshow ut_color">
-  <?php if ( is_home() ) {
-    get_template_part( 'templates/slideshow', $ut_slideshow );
-  }
-  else {
-    get_template_part( 'templates/slideshow', 'rslides' );
-  } ?>
+  <?php
+    get_template_part( 'templates/slideshow', 'bxslider' );
+  ?>
 </div>
 <div class="wrap clearfix">
   <?php get_template_part( 'templates/widget', 'news-scroller' ); ?>
