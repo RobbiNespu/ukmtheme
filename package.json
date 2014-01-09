@@ -6,7 +6,7 @@
   "license": "GPL",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jrajalu/UKM-WordPress-Theme"
+    "url": "git://github.com/jrajalu/ukmtheme"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
