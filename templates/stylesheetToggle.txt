@@ -1,0 +1,9 @@
+  <ul>
+    <li><a href="serversideSwitch.html?style=style1" rel="styles1" class="styleswitch">styles1</a></li>
+    <li><a href="serversideSwitch.html?style=style2" rel="styles2" class="styleswitch">styles2</a></li>
+    <li><a href="serversideSwitch.html?style=style3" rel="styles3" class="styleswitch">styles3</a></li>
+  </ul>
+  
+  <link rel="stylesheet" type="text/css" href="styles1.css" title="styles1" media="screen" />
+  <link rel="alternate stylesheet" type="text/css" href="styles2.css" title="styles2" media="screen" />
+  <link rel="alternate stylesheet" type="text/css" href="styles3.css" title="styles3" media="screen" />
