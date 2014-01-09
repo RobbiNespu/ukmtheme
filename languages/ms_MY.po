@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: UKM Theme 6.1.2\n"
+"Project-Id-Version: UKM Theme 6.1.3\n"
 "POT-Creation-Date: 2014-01-09 09:44+0800\n"
-"PO-Revision-Date: 2014-01-09 10:41+0800\n"
+"PO-Revision-Date: 2014-01-09 20:57+0800\n"
 "Last-Translator: \n"
 "Language-Team: UKM WordPress Theme Dev <multimedia@ptm.ukm.my>\n"
 "Language: ms_MY\n"
@@ -85,7 +85,9 @@ msgstr "Akhir Kemaskini:&nbsp;"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/footer.php:37
 msgid "Best view: Viewable with any modern web browser (Desktop &amp; Mobile)"
-msgstr "Paparan terbaik: Kebolehpaparan oleh mana-mana pelayar web moden (Desktop &amp; Mobile)"
+msgstr ""
+"Paparan terbaik: Kebolehpaparan oleh mana-mana pelayar web moden (Desktop "
+"&amp; Mobile)"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:79
 msgid "Primary Navigation"
@@ -325,7 +327,8 @@ msgid "Reference/Download"
 msgstr "Rujukan/Muat Turun"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:120
-msgid "e.g: http://www.example.com or http://www.example.com/softcopy-example.pdf"
+msgid ""
+"e.g: http://www.example.com or http://www.example.com/softcopy-example.pdf"
 msgstr "cth: http://www.contoh.com or http://www.contoh.com/salinan-contoh.pdf"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-documentation.php:22
@@ -365,8 +368,12 @@ msgid "Social Links"
 msgstr "Pautan Sosial"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:83
-msgid "Pautan capaian ke laman Facebook, Twitter dan Youtube rasmi UKM atau PTJ. Masukkan url lengkap seperti keterangan di bawah."
-msgstr "Pautan capaian ke laman Facebook, Twitter dan Youtube rasmi UKM atau PTJ. Masukkan url lengkap seperti keterangan di bawah."
+msgid ""
+"Pautan capaian ke laman Facebook, Twitter dan Youtube rasmi UKM atau PTJ. "
+"Masukkan url lengkap seperti keterangan di bawah."
+msgstr ""
+"Pautan capaian ke laman Facebook, Twitter dan Youtube rasmi UKM atau PTJ. "
+"Masukkan url lengkap seperti keterangan di bawah."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:100
 msgid "Enter full url e.g: https://www.twitter.com/ukmnewsportal"
@@ -409,8 +416,14 @@ msgstr "Maaf, anda tidak boleh memuat naik jenis fail untuk ruangan ini."
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/simple-page-ordering/simple-page-ordering
 #: copy.php:50
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/simple-page-ordering/simple-page-ordering.php:50
-msgid "To reposition an item, simply drag and drop the row by \"clicking and holding\" it anywhere (outside of the links and form controls) and moving it to its new position."
-msgstr "Untuk mengubah semula item, hanya seret dan lepaskan berturut-turut dengan \"klik dan memegang \" di mana-mana (di luar satu pautan dan kawalan bentuk) dan bergerak ke kedudukan baru."
+msgid ""
+"To reposition an item, simply drag and drop the row by \"clicking and holding"
+"\" it anywhere (outside of the links and form controls) and moving it to its "
+"new position."
+msgstr ""
+"Untuk mengubah semula item, hanya seret dan lepaskan berturut-turut dengan "
+"\"klik dan memegang \" di mana-mana (di luar satu pautan dan kawalan bentuk) "
+"dan bergerak ke kedudukan baru."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:155
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/example.php:86
@@ -498,9 +511,13 @@ msgid "Installed But Not Activated"
 msgstr "Dipasang Tetapi Tidak Aktif"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1275
-#, fuzzy, php-format
-msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
-msgstr "Kembali ke Papan Pemuka"
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"Tiada pemalam untu dipasang dan diaktifkan. <a href=\"%1$s\"title=\"Kembali "
+"ke Papan Pemuka\">Kembali ke Papan Pemuka</a>"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1291
 msgid "Plugin"
@@ -533,7 +550,8 @@ msgstr "Pakej pemasangan tidak ada"
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1824
 #, php-format
 msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
-msgstr "Memuat turun pakej pemasangan dari <span class=\”code\”>%s</span>&#8230;"
+msgstr ""
+"Memuat turun pakej pemasangan dari <span class=\"code\">%s</span>&#8230;"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1825
 msgid "Unpacking the package&#8230;"
@@ -556,8 +574,12 @@ msgid "Plugin activation failed."
 msgstr "Pengaktifan pemalam gagal."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1949
-msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
-msgstr "Proses pemasangan dan pengaktifan sedang bermula. Proses ini mengambil masa pada sesetengah hos, harap bersabar."
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Proses pemasangan dan pengaktifan sedang bermula. Proses ini mengambil masa "
+"pada sesetengah hos, harap bersabar."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1950
 #, php-format
@@ -579,270 +601,306 @@ msgid "All installations and activations have been completed."
 msgstr "Semua pemesangan dan pengaktifan telah lengkap."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1952
-#, fuzzy, php-format
+#, php-format
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
-msgstr "Memasang Pemalam: %s"
+msgstr "Memasang dan Mengaktifkan Pemalam %1$s (%2$d/%3$d)"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
-#, fuzzy
-msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
-msgstr "Proses pemasangan dan pengaktifan sedang bermula. Proses ini mengambil masa pada sesetengah hos, harap bersabar."
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Proses pemasangan dan pengaktifan sedang bermula. Proses ini mengambil masa "
+"pada sesetengah hos, harap bersabar."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1957
-#, fuzzy, php-format
+#, php-format
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
-msgstr "Memasang Pemalam: %s"
+msgstr "Ralat berlaku semasa memasang %1$s: <strong>%2$s</strong>."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1958
-#, fuzzy, php-format
+#, php-format
 msgid "The installation of %1$s failed."
-msgstr "%1$s berjaya dipasang dan diaktifkan."
+msgstr "Pemasangan %1$s gagal."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1959
-#, fuzzy, php-format
+#, php-format
 msgid "%1$s installed successfully."
-msgstr "%1$s berjaya dipasang dan diaktifkan."
+msgstr "%1$s berjaya dipasang."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1960
-#, fuzzy
 msgid "All installations have been completed."
-msgstr "Semua pemesangan dan pengaktifan telah lengkap."
+msgstr "Semua pemasangan telah lengkap."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1961
-#, fuzzy, php-format
+#, php-format
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
-msgstr "Memasang Pemalam: %s"
+msgstr "Memasang Pemalam %1$s (%2$d/%3$d)"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2052
-#, fuzzy
 msgid "Return to the Dashboard"
 msgstr "Kembali ke Papan Pemuka"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/example.php:89
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/ut-required-plugins.php:83
-#, fuzzy
 msgid "Something went wrong with the plugin API."
-msgstr "Sesuatu telah berlaku."
+msgstr "Sesuatu telah berlaku kepada pemalam API."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/example.php:102
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/ut-required-plugins.php:96
-#, fuzzy, php-format
+#, php-format
 msgid "All plugins installed and activated successfully. %s"
-msgstr "Semua pemalam berjaya dipasang dan diaktifkan. %1$s"
+msgstr "Semua pemalam berjaya dipasang dan diaktifkan. %s"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/parsers.php:42
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/parsers.php:72
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/parsers.php:80
-#, fuzzy
 msgid "There was an error when reading this WXR file"
-msgstr "Muncul apabila menggunakan halaman pilihan"
+msgstr "Terdapat ralat semasa membaca fail WXR ini"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/parsers.php:43
-#, fuzzy
-msgid "Details are shown above. The importer will now try again with a different parser..."
-msgstr "Butiran Penerbitan"
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+"Butiran dipaparkan di atas. Sekarang pengimport mencuba semula dengan "
+"pengurai yang lain..."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/parsers.php:84
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/parsers.php:89
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/parsers.php:279
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/parsers.php:468
-msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
-msgstr ""
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "Ini tidak muncul sebagai fail WXR, hilang/tidak sah nombor versi WXR"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:134
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:143
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:194
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:198
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:207
-#, fuzzy
 msgid "Sorry, there has been an error."
-msgstr "Semua pemesangan dan pengaktifan telah lengkap."
+msgstr "Maaf, terdapat ralat."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:135
-#, fuzzy
 msgid "The file does not exist, please try again."
-msgstr "Proses pemasangan dan pengaktifan sedang bermula. Proses ini mengambil masa pada sesetengah hos, harap bersabar."
+msgstr "Fail tidak wujud, sila cuba lagi."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:178
-#, fuzzy
 msgid "All done."
-msgstr "Pilih Semua"
+msgstr "Selesai semua."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:178
-#, fuzzy
 msgid "Have fun!"
-msgstr "Semua pemesangan dan pengaktifan telah lengkap."
+msgstr "Bergembira!"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:179
-#, fuzzy
 msgid "Remember to update the passwords and roles of imported users."
-msgstr "Akhir Kemaskini:&nbsp;"
+msgstr ""
+"Jangan lupa untuk mengemas kini kata laluan dan peranan pengguna yang "
+"diimport."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:199
-#, fuzzy, php-format
-msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
-msgstr "Memuat turun pakej pemasangan dari <span class=\”code\”>%s</span>&#8230;"
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+"Fail yang diexport tidak dijumpai di <code>%s</code>. Ia mungkin disebabkan "
+"oleh masalah keizinan."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:215
-#, fuzzy, php-format
-msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
-msgstr "Proses pemasangan dan pengaktifan sedang bermula. Proses ini mengambil masa pada sesetengah hos, harap bersabar."
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+"Fail WXR (version %s) mungkin tidak disokong oleh versi pengimport. Sila "
+"pertimbangkan mengemaskini."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:240
-#, fuzzy, php-format
-msgid "Failed to import author %s. Their posts will be attributed to the current user."
-msgstr "Pengarang"
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+"Gagal mengimport pengarang %s. Kiriman mereka akan dikaitkan kepada pengguna "
+"semasa."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:266
 msgid "Assign Authors"
-msgstr ""
+msgstr "Tugaskan penulis"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:267
-#, fuzzy
-msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
-msgstr "Memuat turun pakej pemasangan dari <span class=\”code\”>%s</span>&#8230;"
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+"Untuk membuatnya lebih mudah untuk anda menyunting dan menyimpan kandungan "
+"yang diimport, anda mungkin mahu memberi semula pengarang item yang diimport "
+"kepada pengguna yang sedia ada laman web ini. Sebagai contoh, anda mungkin "
+"mahu untuk mengimport semua entri sebagai <code>admin</code>s penyertaan."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:269
-#, fuzzy, php-format
-msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
-msgstr "Memasang Pemalam: %s"
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+"Jika seorang pengguna baru dicipta oleh WordPress, kata laluan baru akan "
+"dijanakan secara rawak dan peranan pengguna baru akan ditetapkan sebagai "
+"%s.  Perlu tukar maklumat pengguna baru secara manual."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:279
 msgid "Import Attachments"
-msgstr ""
+msgstr "Import Lampiran"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:282
-#, fuzzy
 msgid "Download and import file attachments"
-msgstr "Rujukan/Muat Turun"
+msgstr "Muat turun dan import lampiran fail"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:299
-#, fuzzy
 msgid "Import author:"
-msgstr "Pengarang"
+msgstr "Import pengarang:"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:310
-#, fuzzy
 msgid "or create new user with login name:"
-msgstr "Nama"
+msgstr "atau mencipta pengguna baru dengan nama log masuk:"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:313
 msgid "as a new user:"
-msgstr ""
+msgstr "sebagai pengguna baru"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:321
 msgid "assign posts to an existing user:"
-msgstr ""
+msgstr "serah hak kiriman kepada pengguna sedia ada:"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:323
 msgid "or assign posts to an existing user:"
-msgstr ""
+msgstr "atau menyerah hak kiriman untuk pengguna sedia ada:"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:324
-#, fuzzy
 msgid "- Select -"
-msgstr "Pilih …"
+msgstr "- Pilih -"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:374
-#, fuzzy, php-format
-msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
-msgstr "Memasang pemalam gagal."
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+"Gagal untuk mencipta pengguna baru untuk %s. Kiriman mereka akan dikaitkan "
+"dengan pengguna semasa."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:425
-#, fuzzy, php-format
+#, php-format
 msgid "Failed to import category %s"
-msgstr "Memasang pemalam gagal."
+msgstr "Gagal mengimport kategori %s"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:465
-#, fuzzy, php-format
+#, php-format
 msgid "Failed to import post tag %s"
-msgstr "Barsisi Kiriman"
+msgstr "Gagal mengimport tag kiriman %s"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:511
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:652
-#, fuzzy, php-format
+#, php-format
 msgid "Failed to import %s %s"
-msgstr "Memasang Pemalam: %s"
+msgstr "Memasang Pemalam %s  %s"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:537
-#, fuzzy, php-format
+#, php-format
 msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
-msgstr "Memasang Pemalam: %s"
+msgstr "Gagal mengimport &#8220;%s&#8221;: jenis kiriman tidak sah %s"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:559
-#, fuzzy, php-format
+#, php-format
 msgid "%s &#8220;%s&#8221; already exists."
-msgstr "Memasang Pemalam: %s"
+msgstr "%s &#8220;%s&#8221; sudah ada."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:618
-#, fuzzy, php-format
+#, php-format
 msgid "Failed to import %s &#8220;%s&#8221;"
-msgstr "Memasang Pemalam: %s"
+msgstr "Gagal mengimport %s &#8220;%s&#8221;"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:783
 msgid "Menu item skipped due to missing menu slug"
-msgstr ""
+msgstr "Item menu dilangkau kerana menu hilang ringkasan"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:790
-#, fuzzy, php-format
+#, php-format
 msgid "Menu item skipped due to invalid menu slug: %s"
-msgstr "Memasang Pemalam: %s"
+msgstr "Item menu dilangkau kerana ringkasan menu tidak sah: %s"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:853
 msgid "Fetching attachments is not enabled"
-msgstr ""
+msgstr "Kutipan lampiran tidak dihidupkan"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:866
-#, fuzzy
 msgid "Invalid file type"
-msgstr "Jenis"
+msgstr "Jenis fail tidak sah"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:910
 msgid "Remote server did not respond"
-msgstr ""
+msgstr "Pelayan kawalan tidak memberi respon"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:916
-#, fuzzy, php-format
+#, php-format
 msgid "Remote server returned error response %1$d %2$s"
-msgstr "%1$s berjaya dipasang dan diaktifkan."
+msgstr "Pelayar kawalan memberi respon ralat %1$d %2$s"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:923
-#, fuzzy
 msgid "Remote file is incorrect size"
-msgstr "Saiz:"
+msgstr "Saiz fail kawalan salah"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:928
-#, fuzzy
 msgid "Zero size file downloaded"
-msgstr "Saiz:"
+msgstr "Sifar saiz telah dimuat turun"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:934
-#, fuzzy, php-format
+#, php-format
 msgid "Remote file is too large, limit is %s"
-msgstr "Memasang Pemalam: %s"
+msgstr "Fail kawalan sangat besar, tahap adalah %s"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:1033
 msgid "Import WordPress"
 msgstr "Import WordPress"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:1040
-#, fuzzy, php-format
-msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
-msgstr "Pakej pemasangan tidak ada"
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+"Versi baru pengimport ini sudah ada. Sila kemas kini kepada versi %s untuk "
+"memastikan keserasian dengan fail eksport yang lebih baru."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:1055
-#, fuzzy
-msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
-msgstr "Repositori WordPress"
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+"Howdy! Memuat naik WordPress eXtended RSS (WXR) fail dan kami akan "
+"mengimport kiriman, laman, komen, medan tempahan, kategori, dan tag ke dalam "
+"laman web ini."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:1056
 msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
 msgstr ""
+"Pilih fail WXR (.xml) untuk dimuat naik, kemudian klik Muat Naik fail dan "
+"import."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:1130
-#, fuzzy
-msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
-msgstr "Repositori WordPress"
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+"Import <strong> kiriman, laman, komen, ruang khas, kategori, dan tag </"
+"strong> daripada fail eksport WordPress."
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/templates/nav-searchBar.php:14
 msgid "search..."
