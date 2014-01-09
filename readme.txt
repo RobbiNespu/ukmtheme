@@ -1,4 +1,4 @@
-UKM Theme Versi 6.1.2
+UKM Theme Versi 6.1.3
 
 Diskripsi
 =====================================
@@ -14,12 +14,17 @@ Kami mengalu-alukan penglibatan dan sumnagan pengguna untuk memberi pendapat, me
 
 Log Ubah
 =====================================
+6.1.3
+
+- Menambah Post Type Publication
+- Kemaskini senarai taxonomy
+
 6.1.2
 
 - Menetapkan satu sahaja slideshow muka hadapan
 - Menetapkan semua widget di muka hadapan
 - Kemaskini skrip plugin
-- Kenetapkan cadagan pemalam yang perlu dipasang (polylang dan slimjetpack)
+- Menetapkan cadagan pemalam yang perlu dipasang (polylang dan slimjetpack)
 - Kemaskini text-domain untuk terjemahan
 
 6.1.1
