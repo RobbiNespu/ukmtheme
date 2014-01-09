@@ -18,7 +18,7 @@
 require 'libraries/theme-update-checker.php';
 $ukmtheme_update_checker = new ThemeUpdateChecker(
   'ukmtheme',
-  'https://github.com/jrajalu/UKM-WordPress-Theme/blob/theme_version.json'
+  'https://raw.github.com/jrajalu/ukmtheme/master/theme_version.json'
 );
  
 /**
