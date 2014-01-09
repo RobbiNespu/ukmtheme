@@ -22,7 +22,7 @@ function ukmtheme_documentation_options() {
     wp_die( __( 'You do not have sufficient permissions to access this page.' ) );
 } ?>
 <div class="wrap">
-<?php screen_icon(); echo "<h2>" . get_current_theme() . __( ' Documentations', 'ukmtheme' ) . "</h2>"; ?>
+<h2><?php _e( 'Documentations', 'ukmtheme' ); ?></h2>
   <div class="postbox">
     <div class="inside">
     <h3 class="title"><?php _e('Contents','ukmtheme') ?></h3>
