@@ -19,10 +19,12 @@ get_header(); ?>
 	    ?>
 		  </div>
   		<div class="col-9-10">
-        <?php echo '<span class="staff-position">'; echo get_the_term_list( $post->ID, 'position', '', ', ', '' ); echo '</span>'; ?>
-        <?php echo '<span class="staff-position">'; echo get_the_term_list( $post->ID, 'department', '', ', ', '' ); echo '</span>'; ?>
-        <?php echo '<span class="staff-phone">'; echo get_post_meta($post->ID, 'ut_staff_phone', true); echo '</span>'; ?>
-        <?php echo '<span class="staff-email">'; echo get_post_meta($post->ID, 'ut_staff_email', true); echo '</span>'; ?>
+        <div class="staff-detail">
+          <?php echo '<span class="staff-position">'; echo get_the_term_list( $post->ID, 'position', '', ', ', '' ); echo '</span>'; ?>
+          <?php echo '<span class="staff-department">'; echo get_the_term_list( $post->ID, 'department', '', ', ', '' ); echo '</span>'; ?>
+          <?php echo '<span class="staff-phone">'; echo get_post_meta($post->ID, 'ut_staff_phone', true); echo '</span>'; ?>
+          <?php echo '<span class="staff-email">'; echo get_post_meta($post->ID, 'ut_staff_email', true); echo '</span>'; ?>
+        </div>
       </div>
   </div>
 </article>
