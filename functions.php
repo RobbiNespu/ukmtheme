@@ -59,7 +59,7 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
 
 		locate_template( 'libraries/nav-secondary-menu.php', 'ukmtheme' );
 		locate_template( 'libraries/nav-mobile-menu.php', 'ukmtheme' );
-		locate_template( 'libraries/theme-documentation.php', 'ukmtheme' );
+		locate_template( 'libraries/theme-docs.php', 'ukmtheme' );
 		locate_template( 'libraries/theme-options.php', 'ukmtheme' );
 		locate_template( 'libraries/theme-login.php', 'ukmtheme' );
 		locate_template( 'libraries/cpt-news.php', 'ukmtheme' );

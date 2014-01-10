@@ -14,7 +14,7 @@
 add_action( 'admin_menu', 'ukmtheme_documentation_page_menu' );
 
 function ukmtheme_documentation_page_menu() {
-  add_theme_page( 'UKM Theme Documentation', 'Theme Docs', 'manage_options', 'ukmtheme-documentation', 'ukmtheme_documentation_options' );
+  add_theme_page( __('UKM Theme Documentation', 'ukmtheme'), __('Theme Docs','ukmtheme'), 'manage_options', 'ukmtheme-documentation', 'ukmtheme_documentation_options' );
 }
 
 function ukmtheme_documentation_options() {
