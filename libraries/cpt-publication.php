@@ -111,13 +111,13 @@ add_filter('manage_edit-publication_columns', 'ut_add_new_publication_columns');
 
 function ut_add_new_publication_columns( $columns ){
   $columns = array(
-    'cb'                  => '<input type="checkbox">',
-    'ut_publication_cover'      => __( 'Cover', 'ukmtheme' ),
-    'title'               => __( 'Title', 'ukmtheme' ),
-    'publication_category'      => __( 'Category', 'ukmtheme' ),
-    'ut_publication_author'   => __( 'Author', 'ukmtheme' ),
-    'ut_publication_publisher' => __( 'Publisher', 'ukmtheme' ),
-    'ut_publication_year' => __( 'Year', 'ukmtheme' )
+    'cb'                          => '<input type="checkbox">',
+    'ut_publication_cover'        => __( 'Cover', 'ukmtheme' ),
+    'title'                       => __( 'Title', 'ukmtheme' ),
+    'publication_category'        => __( 'Category', 'ukmtheme' ),
+    'ut_publication_author'       => __( 'Author', 'ukmtheme' ),
+    'ut_publication_publisher'    => __( 'Publisher', 'ukmtheme' ),
+    'ut_publication_year'         => __( 'Year', 'ukmtheme' )
   );
   return $columns;
 }
@@ -128,9 +128,9 @@ function ut_publication_custom_columns( $column ){
   switch ($column) {
     case 'ut_publication_cover' : $saved_data = get_post_meta($post->ID,'ut_publication_cover',true); echo '<img src="'.$saved_data['url'].'" width="60">';break;
     case 'publication_category' : echo get_the_term_list( $post->ID, 'publication_category', '', ', ',''); break;
-    case 'ut_publication_author' : $saved_data = get_post_meta($post->ID,'ut_publication_author',true); break;
-    case 'ut_publication_publisher' : $saved_data = get_post_meta($post->ID,'ut_publication_publisher',true); break;
-    case 'ut_publication_year' : $saved_data = get_post_meta($post->ID,'ut_publication_year',true); 
+    case 'ut_publication_author' : echo $saved_data = get_post_meta($post->ID,'ut_publication_author',true); break;
+    case 'ut_publication_publisher' : echo $saved_data = get_post_meta($post->ID,'ut_publication_publisher',true); break;
+    case 'ut_publication_year' : echo $saved_data = get_post_meta($post->ID,'ut_publication_year',true); 
   }
 }
 ?>

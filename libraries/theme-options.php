@@ -38,7 +38,7 @@ function register_mysettings() {
 
 function theme_options_do_page() { ?>
 <div class="wrap">
-<?php screen_icon(); echo "<h2>" . get_current_theme() . __( ' Options', 'ukmtheme' ) . "</h2>"; ?>
+<h2><?php _e( 'Theme Options', 'ukmtheme' ); ?></h2>
 <?php if( isset($_GET['settings-updated']) ) { ?>
     <div id="message" class="updated">
         <p><strong><?php _e('Settings saved.') ?></strong></p>
