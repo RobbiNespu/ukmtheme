@@ -1,4 +1,5 @@
-.column-ut_staff_photo {
+.column-ut_staff_photo,
+.column-ut_publication_cover {
   width: 10%;
 }
 .column-ut_slideshow_image {

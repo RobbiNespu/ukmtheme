@@ -113,8 +113,8 @@ function ut_add_new_publication_columns( $columns ){
   $columns = array(
     'cb'                  => '<input type="checkbox">',
     'ut_publication_cover'      => __( 'Cover', 'ukmtheme' ),
-    'publication_category'      => __( 'Category', 'ukmtheme' ),
     'title'               => __( 'Title', 'ukmtheme' ),
+    'publication_category'      => __( 'Category', 'ukmtheme' ),
     'ut_publication_author'   => __( 'Author', 'ukmtheme' ),
     'ut_publication_publisher' => __( 'Publisher', 'ukmtheme' ),
     'ut_publication_year' => __( 'Year', 'ukmtheme' )

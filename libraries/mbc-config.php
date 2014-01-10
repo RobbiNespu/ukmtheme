@@ -34,7 +34,7 @@ $config = array(
   
 $my_meta =  new AT_Meta_Box($config);
 
-$my_meta->addImage($prefix.'staff_photo',array('name'=> __('Photo','ukmtheme'), 'desc' => __('Image size: 200x250px', 'ukmtheme')));
+$my_meta->addImage($prefix.'staff_photo',array('name'=> __('Photo','ukmtheme'), 'desc' => __('Image dimension: W:200 x H:250 pixel, graphic template for this image can be downloaded here: <a href="'.get_template_directory_uri().'/assets/templates/templates.zip">templates.zip</a>', 'ukmtheme')));
 
 $my_meta->addText($prefix.'staff_phone',array('name'=> __('Phone No.','ukmtheme'), 'desc' => __('eg: 03-8921-7070','ukmtheme')));
 
@@ -57,9 +57,9 @@ $config_slideshow = array(
   
 $my_meta_slideshow =  new AT_Meta_Box($config_slideshow);
 
-$my_meta_slideshow->addImage($prefix.'slideshow_image',array('name'=> 'Image', 'desc' => __('Image size: 960x350px', 'ukmtheme')));
+$my_meta_slideshow->addImage($prefix.'slideshow_image',array('name'=> 'Image', 'desc' => __('Image dimension: W:960 x H:350 pixel, graphic template for this image can be downloaded here: <a href="'.get_template_directory_uri().'/assets/templates/templates.zip">templates.zip</a>', 'ukmtheme')));
 
-$my_meta_slideshow->addText($prefix.'slideshow_link',array('name'=> 'Link URL'));
+$my_meta_slideshow->addText($prefix.'slideshow_link',array('name'=> 'Link URL', 'desc' => __('This is optional. If so enter full url e.g: http://www.ukm.my','ukmtheme')));
 
 $my_meta_slideshow->Finish();
 
@@ -105,7 +105,7 @@ $config_publication = array(
   
 $my_meta_publication =  new AT_Meta_Box($config_publication);
 
-$my_meta_publication->addImage($prefix.'publication_cover',array('name'=> __('Cover Image','ukmtheme'), 'desc' => __('Image size: 200x250px', 'ukmtheme')));
+$my_meta_publication->addImage($prefix.'publication_cover',array('name'=> __('Cover Image','ukmtheme'), 'desc' => __('Image dimension: W:200 x H:250 pixel, graphic template for this image can be downloaded here: <a href="'.get_template_directory_uri().'/assets/templates/templates.zip">templates.zip</a>', 'ukmtheme')));
 
 //$my_meta_publication->addText($prefix.'publication_ISBN',array('name'=> __('ISBN','ukmtheme'), 'desc' => __('eg: 978-983-99557-1-2','ukmtheme')));
 

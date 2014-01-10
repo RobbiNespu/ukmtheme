@@ -8809,6 +8809,22 @@ h2 {
   color: #151515;
   margin: 0 5px 5px;
 }
+/* =Publication
+-------------------------------------------------------------- */
+.ut-publication-archive-wrap {
+  margin-bottom: 20px;
+}
+.ut-publication-archive-wrap,
+.ut-publication {
+  position: relative;
+}
+.ut-publication-detail {
+  position: absolute;
+  bottom: 20px;
+}
+.ut-publication-detail-table {
+  margin-bottom: 10px;
+}
 /* =Visitor Counter
 -------------------------------------------------------------- */
 .visitor-counter {
