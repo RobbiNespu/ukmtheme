@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: UKM Theme 6.1.3\n"
-"POT-Creation-Date: 2014-01-10 12:41+0800\n"
-"PO-Revision-Date: 2014-01-10 12:42+0800\n"
+"POT-Creation-Date: 2014-01-10 16:13+0800\n"
+"PO-Revision-Date: 2014-01-10 16:14+0800\n"
 "Last-Translator: \n"
 "Language-Team: UKM WordPress Theme Dev <multimedia@ptm.ukm.my>\n"
 "Language: ms_MY\n"
@@ -42,13 +42,13 @@ msgid "Events List"
 msgstr "Senarai Peristiwa"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/archive-event.php:32
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/archive-publication.php:37
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/archive-publication.php:43
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-event.php:27
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-faq.php:22
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-news.php:22
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-publication.php:41
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single.php:22
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-publication_category.php:37
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-publication_category.php:43
 msgid "Sorry, no post matched your criteria."
 msgstr "Maaf, tiada kiriman yang sepadan kriteria."
 
@@ -56,35 +56,62 @@ msgstr "Maaf, tiada kiriman yang sepadan kriteria."
 msgid "Frequently Asked Questions"
 msgstr "Soalan Lazim"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/archive-publication.php:28
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-publication.php:29
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-publication_category.php:28
-msgid "Author:"
-msgstr "Pengarang:"
-
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/archive-publication.php:29
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-publication.php:30
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-publication.php:26
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-publication_category.php:29
-msgid "Publisher:"
-msgstr "Penerbit:"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/archive-publication.php:30
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-publication.php:31
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-publication_category.php:30
-msgid "Year:"
-msgstr "Tahun:"
+msgid "Detail"
+msgstr "Butiran"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/archive-publication.php:31
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-publication.php:32
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-publication.php:28
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-publication_category.php:31
-msgid "Number of Pages:"
-msgstr "Jumlah Halaman:"
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-publication.php:118
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:112
+msgid "Author"
+msgstr "Pengarang"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/archive-publication.php:32
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-publication.php:33
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-publication.php:29
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-publication_category.php:32
-msgid "Reference/Download:"
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-publication.php:119
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:114
+msgid "Publisher"
+msgstr "Penerbit"
+
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/archive-publication.php:33
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-publication.php:30
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-publication_category.php:33
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-publication.php:120
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:116
+msgid "Year"
+msgstr "Tahun"
+
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/archive-publication.php:34
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-publication.php:31
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-publication_category.php:34
+msgid "Number of Pages"
+msgstr "Jumlah Halaman"
+
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/archive-publication.php:35
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-publication.php:32
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-publication_category.php:35
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:120
+msgid "Reference/Download"
 msgstr "Rujukan/Muat Turun"
+
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/archive-publication.php:35
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-publication.php:32
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-publication_category.php:35
+msgid "Get it"
+msgstr "Dapatkan"
+
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/archive-publication.php:37
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:115
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-publication_category.php:37
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/templates/widget-news-scroller.php:25
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/templates/widget-news-ticker.php:28
+msgid "Read More"
+msgstr "Baca Selanjutnya"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/footer.php:20
 msgid "Copyright &copy;"
@@ -140,12 +167,6 @@ msgstr "Navigasi Ketiga"
 msgid "Mobile Navigation"
 msgstr "Navigasi Utama"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:115
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/templates/widget-news-scroller.php:25
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/templates/widget-news-ticker.php:28
-msgid "Read More"
-msgstr "Baca Selanjutnya"
-
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:158
 msgid "Main Sidebar"
 msgstr "Barsisi Utama"
@@ -182,6 +203,11 @@ msgstr "Muncul apabila menggunakan Halaman Depan pilhan"
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:198
 msgid "Frontpage Four Boxes"
 msgstr "Empat Kotak Halaman Depan"
+
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-publication.php:35
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:89
+msgid "Summary"
+msgstr "Ringkasan"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-department.php:40
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-position.php:41
@@ -240,28 +266,13 @@ msgid "Cover"
 msgstr "Kulit"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-publication.php:116
-msgid "Category"
-msgstr "Kategori"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-publication.php:117
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-slideshow.php:54
 msgid "Title"
 msgstr "Tajuk"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-publication.php:118
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:112
-msgid "Author"
-msgstr "Pengarang"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-publication.php:119
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:114
-msgid "Publisher"
-msgstr "Penerbit"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-publication.php:120
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:116
-msgid "Year"
-msgstr "Tahun"
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-publication.php:117
+msgid "Category"
+msgstr "Kategori"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-slideshow.php:53
 msgid "Image"
@@ -297,12 +308,14 @@ msgid "Staff Detail"
 msgstr "Butiran Staf"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:37
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:108
+#, fuzzy
 msgid ""
 "Image dimension: W:200 x H:250 pixel, graphic template for this image can be "
-"downloaded here: &lt;a href=&quot;"
+"downloaded here: <a href=\""
 msgstr ""
 "Dimensi imej: L:200 x T:250 pixel, templat grafik boleh dimuat turun di "
-"sini: &lt;a href=&quot;"
+"sini: <a href=\""
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:39
 msgid "Phone No."
@@ -325,13 +338,13 @@ msgid "Slideshow Detail"
 msgstr "Butiran Tayangan Slaid"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:60
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:108
+#, fuzzy
 msgid ""
 "Image dimension: W:960 x H:350 pixel, graphic template for this image can be "
-"downloaded here: &lt;a href=&quot;"
+"downloaded here: <a href=\""
 msgstr ""
 "Dimensi imej: L:960 x T:350 pixel, templat grafik boleh dimuat turun di "
-"sini: &lt;a href=&quot;"
+"sini: <a href=\""
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:62
 msgid "This is optional. If so enter full url e.g: http://www.ukm.my"
@@ -350,10 +363,6 @@ msgstr "Masa Mula"
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:85
 msgid "End Time"
 msgstr "Masa Tamat"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:89
-msgid "Summary"
-msgstr "Ringkasan"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:97
 msgid "Publication Details"
@@ -384,10 +393,6 @@ msgid "e.g: 199"
 msgstr "cth: 199"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:120
-msgid "Reference/Download"
-msgstr "Rujukan/Muat Turun"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:120
 msgid ""
 "e.g: http://www.example.com or http://www.example.com/softcopy-example.pdf"
 msgstr "cth: http://www.contoh.com or http://www.contoh.com/salinan-contoh.pdf"
@@ -416,27 +421,39 @@ msgstr "Hubungi Kami"
 msgid "Theme Options"
 msgstr "Opsyen Tema"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:42
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:41
 msgid " Options"
 msgstr "Opsyen"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:45
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:44
 msgid "Settings saved."
 msgstr "Tetapan disimpan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:51
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:50
 msgid "General"
 msgstr "Umum"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:77
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:55
+msgid "Footer Copyright Link"
+msgstr "Pautan Hakcipta Pembawah"
+
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:59
+msgid "Footer Contact Link"
+msgstr "Pautan Hubungi Pembawah"
+
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:63
+msgid "Language Switcher"
+msgstr "Pengalih Bahasa"
+
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:72
 msgid "Enable language menu"
 msgstr "Membolehkan menu bahasa"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:82
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:77
 msgid "Social Links"
 msgstr "Pautan Sosial"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:83
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:78
 msgid ""
 "Pautan capaian ke laman Facebook, Twitter dan Youtube rasmi UKM atau PTJ. "
 "Masukkan url lengkap seperti keterangan di bawah."
@@ -444,17 +461,33 @@ msgstr ""
 "Pautan capaian ke laman Facebook, Twitter dan Youtube rasmi UKM atau PTJ. "
 "Masukkan url lengkap seperti keterangan di bawah."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:100
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:95
 msgid "Enter full url e.g: https://www.twitter.com/ukmnewsportal"
 msgstr "Masukkan url lengkap cth: https://www.twitter.com/ukmnewsportal"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:105
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:100
 msgid "Colour Options"
 msgstr "Opsyen Warna"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:106
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:101
 msgid "Colour option for colour switcher"
 msgstr "Opsyen warna untuk pengalih warna"
+
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:105
+msgid "Second Colour"
+msgstr "Warna Kedua"
+
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:109
+msgid "Second Colour Dark"
+msgstr "Warna Kedua Gelap"
+
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:113
+msgid "Third Colour"
+msgstr "Warna Ketiga"
+
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:117
+msgid "Third Colour Dark"
+msgstr "Warna Ketiga Gelap"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/hc-text-widget/hc-text-widget.php:54
 msgid "Title:"
@@ -990,6 +1023,10 @@ msgstr "Saiz Font"
 msgid "Language"
 msgstr "Bahasa"
 
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/templates/nav-tools-dropdown.php:40
+msgid "&nbsp;LANG"
+msgstr "&nbsp;BHS"
+
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/templates/nav-tools.php:25
 msgid "Size:"
 msgstr "Saiz:"
@@ -1006,14 +1043,34 @@ msgstr "Pengunjung"
 msgid "View Full Stat"
 msgstr "Papar Stat Lengkap"
 
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/templates/widget-event-vertical.php:17
+msgid "Upcoming Event"
+msgstr "Peristiwa Akan Datang"
+
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/templates/widget-news-scroller.php:27
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/templates/widget-news-ticker.php:30
 msgid "Hello, welcome to Universiti Kebangsaan Malaysia!"
 msgstr "Hello, semalat datang ke Universiti Kebangsaan Malaysia!"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/templates/widget-news.php:47
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/templates/widget-news.php:20
+msgid "Latest News"
+msgstr "Berita Terkini"
+
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/templates/widget-news.php:48
 msgid "News Archive"
 msgstr "Arkib Berita"
+
+#~ msgid "Author:"
+#~ msgstr "Pengarang:"
+
+#~ msgid "Publisher:"
+#~ msgstr "Penerbit:"
+
+#~ msgid "Year:"
+#~ msgstr "Tahun:"
+
+#~ msgid "Reference/Download:"
+#~ msgstr "Rujukan/Muat Turun"
 
 #~ msgid "Image size: 200x250px"
 #~ msgstr "Saiz imej: 200x250px"

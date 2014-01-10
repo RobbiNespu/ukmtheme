@@ -17,7 +17,7 @@ $loop = new WP_Query( $args );
 <div class="uk-panel uk-panel-box uk-panel-box-secondary widgets-wrap">
   <div class="col-2-3">
     <div class="uk-panel widgets-annc">
-    <h3><?php echo get_option('ukmtheme_annc_head'); ?></h3>
+    <h3><?php _e('Latest News','ukmtheme') ?></h3>
     <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
       <div class="ut-news-list clearfix">
         <div class="col-1-5 ut-news-thumb">
@@ -26,7 +26,7 @@ $loop = new WP_Query( $args );
             the_post_thumbnail();
           }
           else {
-            echo '<img src="' . get_template_directory_uri() . '/assets/images/public/thumbnail.svg?ver:6.1.1" height="auto" width="auto"/>';
+            echo '<img src="' . get_template_directory_uri() . '/assets/images/public/thumbnail.svg?ver=6.1.3" height="auto" width="auto"/>';
           }
           ?>
         </div><!--post-thumbnail-->
@@ -41,6 +41,7 @@ $loop = new WP_Query( $args );
     </div><!--.widgets-annc-->
   </div><!--.col-2-3-->
   <div class="col-1-3">
+    <?php //get_template_part( 'templates/widget','event-vertical' ); ?>
     <?php if (dynamic_sidebar( 'sidebar-1' )) : else : ?><?php endif; ?>
   </div><!--.col-1-3-->
   <div class="col-1-1 uk-panel ut-news-show-all clearfix">

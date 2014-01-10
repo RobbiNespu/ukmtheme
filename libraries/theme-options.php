@@ -24,7 +24,6 @@ function ukmtheme_create_menu() {
 
 function register_mysettings() {
   //register our settings
-  register_setting( 'ukmtheme-settings-group', 'ukmtheme_annc_head' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_facebook' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_twitter' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_youtube' );
@@ -53,19 +52,15 @@ function theme_options_do_page() { ?>
     <table class="form-table">
       <tbody>
           <tr valign="top">
-          <th scope="row">News Heading</th>
-          <td><input type="text" name="ukmtheme_annc_head" value="<?php echo get_option('ukmtheme_annc_head'); ?>" class="regular-text" placeholder="Latest News" /></td>
-          </tr>
-          <tr valign="top">
-          <th scope="row">Footer Copyright Link</th>
+          <th scope="row"><?php _e('Footer Copyright Link','ukmtheme'); ?></th>
           <td><input type="text" name="ukmtheme_copyright_id" value="<?php echo get_option('ukmtheme_copyright_id'); ?>" class="regular-text" placeholder="100" /></td>
           </tr>
           <tr valign="top">
-          <th scope="row">Footer Contact Link</th>
+          <th scope="row"><?php _e('Footer Contact Link','ukmtheme'); ?></th>
           <td><input type="text" name="ukmtheme_contact_id" value="<?php echo get_option('ukmtheme_contact_id'); ?>" class="regular-text" placeholder="101" /></td>
           </tr>
           <tr valign="top">
-          <th scope="row">Language Switcher</th>
+          <th scope="row"><?php _e('Language Switcher','ukmtheme'); ?></th>
           <td>
             <select name ="ukmtheme_languages">
               <?php 
@@ -107,19 +102,19 @@ function theme_options_do_page() { ?>
     <table class="form-table">
       <tbody>
         <tr valign="top">
-        <th scope="row">2nd Colour</th>
+        <th scope="row"><?php _e('Second Colour','ukmtheme'); ?></th>
         <td><input type="text" name="ukmtheme_snd_color" value="<?php echo get_option('ukmtheme_snd_color'); ?>" class="regular-text" placeholder="#1075FF" /></td>
         </tr>
         <tr valign="top">
-        <th scope="row">2nd Colour Dark</th>
+        <th scope="row"><?php _e('Second Colour Dark','ukmtheme'); ?></th>
         <td><input type="text" name="ukmtheme_snd_color_nav" value="<?php echo get_option('ukmtheme_snd_color_nav'); ?>" class="regular-text" placeholder="#006AFA" /></td>
         </tr>        
         <tr valign="top">
-        <th scope="row">3rd Colour</th>
+        <th scope="row"><?php _e('Third Colour','ukmtheme'); ?></th>
         <td><input type="text" name="ukmtheme_trd_color" value="<?php echo get_option('ukmtheme_trd_color'); ?>" class="regular-text" placeholder="#1F1E1E" /></td>
         </tr>
         <tr valign="top">
-        <th scope="row">3rd Colour Dark</th>
+        <th scope="row"><?php _e('Third Colour Dark','ukmtheme'); ?></th>
         <td><input type="text" name="ukmtheme_trd_color_nav" value="<?php echo get_option('ukmtheme_trd_color_nav'); ?>" class="regular-text" placeholder="#151515" /><p class="description">Masukkan kod hex warna cth: #000000 atau rgb(255, 0, 0). Kod hex warna boleh dijana di laman berikut <a href="http://www.colorpicker.com/">ColorPicker.com</a></p></td>
         </tr>
       </tbody>

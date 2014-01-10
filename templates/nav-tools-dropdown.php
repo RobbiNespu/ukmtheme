@@ -37,7 +37,7 @@ jQuery(document).ready(function(){
   </div>
   <!-- LANGUAGES -->
   <div class="uk-button-dropdown uk-navbar-flip ut-tools-dropdown" data-uk-dropdown="">
-  <div><i class="uk-icon-flag"></i>&nbsp;LANG</div>
+  <div><i class="uk-icon-flag"></i><?php _e('&nbsp;LANG','ukmtheme'); ?></div>
     <div class="uk-dropdown uk-dropdown-flip ut-dropdown-tweak">
       <ul class="uk-nav uk-nav-dropdown">
         <li class="uk-nav-header"><?php _e( 'Language', 'ukmtheme' ) ?></li>
