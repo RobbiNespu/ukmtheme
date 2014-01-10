@@ -12,7 +12,7 @@
 add_action('init', 'cptui_register_my_cpt_news');
 function cptui_register_my_cpt_news() {
 register_post_type('news', array(
-'label' => 'Annc. & News',
+'label' => 'News',
 'description' => 'Announcements or news',
 'public' => true,
 'show_ui' => true,
@@ -23,23 +23,23 @@ register_post_type('news', array(
 'rewrite' => array('slug' => 'news', 'with_front' => true),
 'query_var' => true,
 'supports' => array('title','editor','excerpt','thumbnail'),
-'menu_icon' => get_template_directory_uri() . '/assets/images/admin/icon-news.svg?ver:6.1.1',
+'menu_icon' => get_template_directory_uri() . '/assets/images/admin/icon-news.svg?ver:6.1.3',
 'has_archive' => true,
 'labels' => array (
-    'name' => 'Annc. & News',
-    'singular_name' => 'Annc. & News',
-    'menu_name' => 'Annc. or News',
+    'name' => 'News',
+    'singular_name' => 'News',
+    'menu_name' => 'News',
     'add_new' => 'Add New',
-    'add_new_item' => 'Annc. & News',
+    'add_new_item' => 'News',
     'edit' => 'Edit',
-    'edit_item' => 'Edit Annc. & News',
-    'new_item' => 'New Annc. & News',
-    'view' => 'View Annc. & News',
-    'view_item' => 'View Annc. & News',
-    'search_items' => 'Search Annc. & News',
-    'not_found' => 'No Annc. & News Found',
-    'not_found_in_trash' => 'No Annc. & News found in Trash',
-    'parent' => 'Parent Annc. & News',
+    'edit_item' => 'Edit News',
+    'new_item' => 'New News',
+    'view' => 'View News',
+    'view_item' => 'View News',
+    'search_items' => 'Search News',
+    'not_found' => 'No News Found',
+    'not_found_in_trash' => 'No News found in Trash',
+    'parent' => 'Parent News',
     )
 ) ); }
 ?>

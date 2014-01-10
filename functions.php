@@ -117,7 +117,7 @@ add_filter( 'excerpt_more', 'ukmtheme_excerpt_more' );
 
 add_filter( 'excerpt_length', 'ukmtheme_excerpt_length', 999 );
 	function ukmtheme_excerpt_length( $length ) {
-		return 30;
+		return 20;
 	}
 
 add_filter('upload_mimes','add_custom_mime_types');

@@ -10,7 +10,7 @@
  * @author Jamaludin Rajalu
  */
 
-$args = array( 'post_type' => 'news', 'posts_per_page' => 3 );
+$args = array( 'post_type' => 'news', 'posts_per_page' => 4 );
 $loop = new WP_Query( $args );
 
 ?>
@@ -44,6 +44,6 @@ $loop = new WP_Query( $args );
     <?php if (dynamic_sidebar( 'sidebar-1' )) : else : ?><?php endif; ?>
   </div><!--.col-1-3-->
   <div class="col-1-1 uk-panel ut-news-show-all clearfix">
-    <a href="<?php echo get_post_type_archive_link( 'news' ); ?>"><button class="uk-button uk-button-small uk-button-primary"><?php _e('News Archive'); ?></button></a>
+    <a href="<?php echo get_post_type_archive_link('news'); ?>"><button class="uk-button uk-button-small uk-button-primary"><?php _e('News Archive'); ?></button></a>
   </div><!--.ut-news-show-all-->
 </div><!--.widgets-wrap-->
