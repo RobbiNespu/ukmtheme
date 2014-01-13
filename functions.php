@@ -57,23 +57,24 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
 
 		load_theme_textdomain( 'ukmtheme', get_template_directory() . '/languages' );
 
-		locate_template( 'libraries/nav-secondary-menu.php', 'ukmtheme' );
-		locate_template( 'libraries/nav-mobile-menu.php', 'ukmtheme' );
-		locate_template( 'libraries/theme-docs.php', 'ukmtheme' );
-		locate_template( 'libraries/theme-options.php', 'ukmtheme' );
-		locate_template( 'libraries/theme-login.php', 'ukmtheme' );
-		locate_template( 'libraries/cpt-news.php', 'ukmtheme' );
-		locate_template( 'libraries/cpt-news-scroller.php', 'ukmtheme' );
-		locate_template( 'libraries/cpt-staff.php', 'ukmtheme' );
-		locate_template( 'libraries/cpt-slideshow.php', 'ukmtheme' );
-		locate_template( 'libraries/cpt-faq.php', 'ukmtheme' );
-		locate_template( 'libraries/cpt-event.php', 'ukmtheme' );
-		locate_template( 'libraries/cpt-publication.php', 'ukmtheme' );
-		locate_template( 'libraries/mbc-config.php', 'ukmtheme' );
-		locate_template( 'libraries/cpt-archive-links.php', 'ukmtheme' );
-		locate_template( 'plugins/hc-text-widget/hc-text-widget.php', 'ukmtheme' );
-		locate_template( 'plugins/tgm-plugin-activation/ut-required-plugins.php', 'ukmtheme' );
-		locate_template( 'templates/page-sitemap.php', 'ukmtheme' );
+		require( 'libraries/nav-secondary-menu.php' );
+		require( 'libraries/nav-mobile-menu.php' );
+		require( 'libraries/theme-docs.php' );
+		require( 'libraries/theme-options.php' );
+		require( 'libraries/theme-login.php' );
+		require( 'libraries/cpt-news.php');
+		require( 'libraries/cpt-news-scroller.php');
+		require( 'libraries/cpt-staff.php');
+		require( 'libraries/cpt-slideshow.php');
+		require( 'libraries/cpt-faq.php');
+		require( 'libraries/cpt-event.php' );
+		require( 'libraries/cpt-publication.php' );
+		require( 'libraries/mbc-config.php' );
+		require( 'libraries/cpt-archive-links.php' );
+		require( 'libraries/widget-event.php' );
+		require( 'plugins/hc-text-widget/hc-text-widget.php' );
+		require( 'plugins/tgm-plugin-activation/ut-required-plugins.php' );
+		require( 'templates/page-sitemap.php' );
 			
 		register_nav_menus( array(
 	    'primary' => __( 'Primary Navigation', 'ukmtheme' ),
