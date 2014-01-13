@@ -16,6 +16,7 @@ Log Ubah
 =====================================
 6.1.3
 
+- Menambah Events Widget
 - Menambah Post Type Publication
 - Kemaskini senarai taxonomy
 
