@@ -15,7 +15,7 @@
 <article class="wrap">
   <div class="content clearfix">
     <section class="col-3-4">
-    <h1><?php echo get_option('ukmtheme_annc_head'); ?></h1>
+    <h1><?php _e( 'Archives', 'ukmtheme' ) ; ?></h1>
 
       <div class="uk-panel widgets-annc">
 
