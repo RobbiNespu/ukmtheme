@@ -1,4 +1,4 @@
-UKM Theme Versi 6.1.3
+UKM Theme Versi 6.1.4
 
 Diskripsi
 =====================================
@@ -14,6 +14,11 @@ Kami mengalu-alukan penglibatan dan sumnagan pengguna untuk memberi pendapat, me
 
 Log Ubah
 =====================================
+6.1.4
+
+- Kemaskini sumber kod dan direktori
+- Menambah Opsyen tema Jumlah Pengunjung
+
 6.1.3
 
 - Menambah Events Widget
