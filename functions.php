@@ -77,8 +77,8 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
 		register_nav_menus( array(
 	    'primary' => __( 'Primary Navigation', 'ukmtheme' ),
 	    'secondary' => __( 'Secondary Navigation', 'ukmtheme' ),
-	    'tertiary' => __( 'Tertiary Navigation', 'ukmtheme' ),
-	    'mobile' => __( 'Mobile Navigation', 'ukmtheme' )
+	    //'tertiary' => __( 'Tertiary Navigation', 'ukmtheme' ),
+	    //'mobile' => __( 'Mobile Navigation', 'ukmtheme' )
 		) );
 
 		add_theme_support( 'custom-header', array(
