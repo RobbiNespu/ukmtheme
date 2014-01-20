@@ -34,6 +34,7 @@ function register_mysettings() {
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_languages' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_copyright_id' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_contact_id' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_visitor_id' );
 }
 
 function theme_options_do_page() { ?>
@@ -58,6 +59,13 @@ function theme_options_do_page() { ?>
           <tr valign="top">
           <th scope="row"><?php _e('Footer Contact Link','ukmtheme'); ?></th>
           <td><input type="text" name="ukmtheme_contact_id" value="<?php echo get_option('ukmtheme_contact_id'); ?>" class="regular-text" placeholder="101" /></td>
+          </tr>
+          <tr valign="top">
+          <th scope="row"><?php _e('Visitor Counter ID','ukmtheme'); ?></th>
+          <td>
+          <input type="text" name="ukmtheme_visitor_id" value="<?php echo get_option('ukmtheme_visitor_id'); ?>" class="regular-text" placeholder="768059" />
+          <p class="description"><?php _e( 'Generate your id here <a href="http://www.supercounters.com/hitcounter">Supercounter</a>', 'ukmtheme' ); ?></p>
+          </td>
           </tr>
           <tr valign="top">
           <th scope="row"><?php _e('Language Switcher','ukmtheme'); ?></th>

@@ -9,7 +9,7 @@ module.exports = function(grunt) {
       build: {
         src: [
         'assets/js/source/*.js',
-        'plugins/bxslider/jquery.bxslider.js'
+        'lib/bxslider/jquery.bxslider.js'
       ],
         dest: 'assets/js/20140109-script.min.js'
       }
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
         },
         files: {
           'assets/css/20140109-stylesheet.min.css': [
-            'plugins/bxslider/jquery.bxslider.less',
+            'lib/bxslider/jquery.bxslider.less',
             'assets/less/partials/*.less',
             'assets/less/*.less'
           ]

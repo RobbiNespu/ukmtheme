@@ -15,7 +15,7 @@
  * Initialize the update checker
  *
  */
-require 'libraries/theme-update-checker.php';
+require 'inc/theme-update-checker.php';
 $ukmtheme_update_checker = new ThemeUpdateChecker(
   'ukmtheme',
   'https://raw.github.com/jrajalu/ukmtheme/master/theme_version.json'
@@ -25,7 +25,6 @@ $ukmtheme_update_checker = new ThemeUpdateChecker(
  * JQuery
  * ==============================
  * Load jQuery from google
- * Code reference @link http://css-tricks#Load jquery right way
  */
 
 if (!is_admin()) add_action("wp_enqueue_scripts", "ukmtheme_jquery_enqueue", 11);
@@ -37,13 +36,13 @@ if (!is_admin()) add_action("wp_enqueue_scripts", "ukmtheme_jquery_enqueue", 11)
 
 add_action('admin_head', 'ut_custom_css');
 	function ut_custom_css() {
-	  echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/assets/css/20140109-admin.min.css?ver=6.1.1" type="text/css" media="all" />';
+	  echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/assets/css/20140109-admin.min.css?ver=6.1.4" type="text/css" media="all" />';
 	}
 
 /**
  * UKM Theme Setup
  * ==============================
- * Load Templates and Libraries
+ * Load Templates and inc
  * Add Theme Support: Post format, Language, Links etc.
  * Last update 20131214
  */
@@ -55,25 +54,24 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
 		add_theme_support( 'post-thumbnails' );
 		add_theme_support( 'automatic-feed-links' );
 
-		load_theme_textdomain( 'ukmtheme', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'ukmtheme', get_template_directory() . '/lang' );
 
-		require( 'libraries/nav-secondary-menu.php' );
-		require( 'libraries/nav-mobile-menu.php' );
-		require( 'libraries/theme-docs.php' );
-		require( 'libraries/theme-options.php' );
-		require( 'libraries/theme-login.php' );
-		require( 'libraries/cpt-news.php');
-		require( 'libraries/cpt-news-scroller.php');
-		require( 'libraries/cpt-staff.php');
-		require( 'libraries/cpt-slideshow.php');
-		require( 'libraries/cpt-faq.php');
-		require( 'libraries/cpt-event.php' );
-		require( 'libraries/cpt-publication.php' );
-		require( 'libraries/mbc-config.php' );
-		require( 'libraries/cpt-archive-links.php' );
-		require( 'libraries/widget-event.php' );
-		require( 'plugins/hc-text-widget/hc-text-widget.php' );
-		require( 'plugins/tgm-plugin-activation/ut-required-plugins.php' );
+		require( 'inc/nav-secondary-menu.php' );
+		require( 'inc/nav-mobile-menu.php' );
+		require( 'inc/theme-docs.php' );
+		require( 'inc/theme-options.php' );
+		require( 'inc/theme-login.php' );
+		require( 'inc/cpt-news.php');
+		require( 'inc/cpt-news-scroller.php');
+		require( 'inc/cpt-staff.php');
+		require( 'inc/cpt-slideshow.php');
+		require( 'inc/cpt-faq.php');
+		require( 'inc/cpt-event.php' );
+		require( 'inc/cpt-publication.php' );
+		require( 'inc/mbc-config.php' );
+		require( 'inc/widget-event.php' );
+		require( 'lib/hc-text-widget/hc-text-widget.php' );
+		require( 'lib/tgm-plugin-activation/ut-required-plugins.php' );
 		require( 'templates/page-sitemap.php' );
 			
 		register_nav_menus( array(
@@ -86,7 +84,7 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
 		add_theme_support( 'custom-header', array(
 	    'width'         => 960,
 	    'height'        => 100,
-	    'default-image' => get_template_directory_uri() . '/assets/images/public/logo.svg?ver=6.1.1',
+	    'default-image' => get_template_directory_uri() . '/assets/images/public/logo.svg?ver=6.1.4',
 	    'uploads'       => true,
 	    'header-text'   => false,
 	    )
@@ -140,8 +138,8 @@ add_filter('upload_mimes','add_custom_mime_types');
 add_action( 'wp_enqueue_scripts', 'ukmtheme_scripts' );
 if (!is_admin()) add_action("wp_enqueue_scripts", "ukmtheme_scripts", 11);
 function ukmtheme_scripts() {
-	wp_enqueue_script( 'default', get_template_directory_uri() . '/assets/js/20140109-script.min.js', array(), '6.1.1', true );
-	wp_enqueue_style( 'default', get_template_directory_uri() . '/assets/css/20140109-stylesheet.min.css', 'array()', '6.1.1' );
+	wp_enqueue_script( 'default', get_template_directory_uri() . '/assets/js/20140109-script.min.js', array(), '6.1.4', true );
+	wp_enqueue_style( 'default', get_template_directory_uri() . '/assets/css/20140109-stylesheet.min.css', 'array()', '6.1.4' );
 }
 
 /**

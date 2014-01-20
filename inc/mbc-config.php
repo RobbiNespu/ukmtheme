@@ -14,7 +14,7 @@
  *
  */
 
-require_once get_template_directory() . '/plugins/meta-box-class/my-meta-box-class.php';
+require_once get_template_directory() . '/lib/meta-box-class/my-meta-box-class.php';
 if (is_admin()){
 
 $prefix = 'ut_';
@@ -29,7 +29,7 @@ $config = array(
     'priority'       => 'high',
     'fields'         => array(),
     'local_images'   => false,
-    'use_with_theme' =>  get_stylesheet_directory_uri() .'/plugins/meta-box-class'
+    'use_with_theme' =>  get_stylesheet_directory_uri() .'/lib/meta-box-class'
   );
   
 $my_meta =  new AT_Meta_Box($config);
@@ -52,7 +52,7 @@ $config_slideshow = array(
   'priority'       => 'high',
   'fields'         => array(),
   'local_images'   => false,
-  'use_with_theme' =>  get_stylesheet_directory_uri() .'/plugins/meta-box-class'
+  'use_with_theme' =>  get_stylesheet_directory_uri() .'/lib/meta-box-class'
 );
   
 $my_meta_slideshow =  new AT_Meta_Box($config_slideshow);
@@ -73,7 +73,7 @@ $config_event = array(
   'priority'       => 'high',
   'fields'         => array(),
   'local_images'   => false,
-  'use_with_theme' =>  get_stylesheet_directory_uri() .'/plugins/meta-box-class'
+  'use_with_theme' =>  get_stylesheet_directory_uri() .'/lib/meta-box-class'
 );
   
 $my_meta_event =  new AT_Meta_Box($config_event);
@@ -100,7 +100,7 @@ $config_publication = array(
     'priority'       => 'high',
     'fields'         => array(),
     'local_images'   => false,
-    'use_with_theme' =>  get_stylesheet_directory_uri() .'/plugins/meta-box-class'
+    'use_with_theme' =>  get_stylesheet_directory_uri() .'/lib/meta-box-class'
   );
   
 $my_meta_publication =  new AT_Meta_Box($config_publication);
