@@ -64,7 +64,7 @@ function theme_options_do_page() { ?>
           <th scope="row"><?php _e('Visitor Counter ID','ukmtheme'); ?></th>
           <td>
           <input type="text" name="ukmtheme_visitor_id" value="<?php echo get_option('ukmtheme_visitor_id'); ?>" class="regular-text" placeholder="768059" />
-          <p class="description"><?php _e( 'Generate your id here <a href="http://www.supercounters.com/hitcounter">Supercounter</a>', 'ukmtheme' ); ?></p>
+          <p class="description"><?php _e( 'Generate your id here', 'ukmtheme' ); ?>&nbsp;<a href="http://www.supercounters.com/hitcounter">Supercounter</a></p>
           </td>
           </tr>
           <tr valign="top">

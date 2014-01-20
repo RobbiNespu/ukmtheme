@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: UKM Theme 6.1.3\n"
-"POT-Creation-Date: 2014-01-10 16:13+0800\n"
-"PO-Revision-Date: 2014-01-10 16:14+0800\n"
+"POT-Creation-Date: 2014-01-20 10:09+0800\n"
+"PO-Revision-Date: 2014-01-20 10:11+0800\n"
 "Last-Translator: \n"
 "Language-Team: UKM WordPress Theme Dev <multimedia@ptm.ukm.my>\n"
 "Language: ms_MY\n"
@@ -15,8 +15,6 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme\n"
-"X-Poedit-SearchPath-1: /Users/jrajalu/Sites/wppdo/wp-content/themes/"
-"ukmtheme\n"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/404.php:16
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/index.php:22
@@ -65,24 +63,24 @@ msgstr "Butiran"
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/archive-publication.php:31
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-publication.php:28
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-publication_category.php:31
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-publication.php:118
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:112
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-publication.php:118
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:112
 msgid "Author"
 msgstr "Pengarang"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/archive-publication.php:32
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-publication.php:29
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-publication_category.php:32
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-publication.php:119
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:114
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-publication.php:119
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:114
 msgid "Publisher"
 msgstr "Penerbit"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/archive-publication.php:33
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-publication.php:30
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-publication_category.php:33
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-publication.php:120
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:116
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-publication.php:120
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:116
 msgid "Year"
 msgstr "Tahun"
 
@@ -95,7 +93,7 @@ msgstr "Jumlah Halaman"
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/archive-publication.php:35
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-publication.php:32
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-publication_category.php:35
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:120
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:120
 msgid "Reference/Download"
 msgstr "Rujukan/Muat Turun"
 
@@ -106,12 +104,17 @@ msgid "Get it"
 msgstr "Dapatkan"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/archive-publication.php:37
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:115
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:114
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-publication_category.php:37
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/templates/widget-news-scroller.php:25
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/templates/widget-news-ticker.php:28
 msgid "Read More"
 msgstr "Baca Selanjutnya"
+
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/archive.php:18
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-archive-links.php:89
+msgid "Archives"
+msgstr "Arkib"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/footer.php:20
 msgid "Copyright &copy;"
@@ -151,165 +154,152 @@ msgstr ""
 "Paparan terbaik: Kebolehpaparan oleh mana-mana pelayar web moden (Desktop "
 "&amp; Mobile)"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:79
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:78
 msgid "Primary Navigation"
 msgstr "Navigasi Utama"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:80
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:79
 msgid "Secondary Navigation"
 msgstr "Navigasi Kedua"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:81
-msgid "Tertiary Navigation"
-msgstr "Navigasi Ketiga"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:82
-msgid "Mobile Navigation"
-msgstr "Navigasi Utama"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:158
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:157
 msgid "Main Sidebar"
 msgstr "Barsisi Utama"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:160
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:159
 msgid "Appears on Front Page template, which has its own widgets"
 msgstr "Muncul pada Muka Hadapan templat, yang mempunyai widget sendiri"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:168
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:167
 msgid "Page Sidebar"
 msgstr "Barsisi Halaman"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:170
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:169
 msgid "Appears when using the optional page"
 msgstr "Muncul apabila menggunakan halaman pilihan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:178
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:177
 msgid "Post Sidebar"
 msgstr "Barsisi Kiriman"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:180
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:179
 msgid "Appears when using the optional post"
 msgstr "Muncul apabila mengunakan kiriman pilihan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:188
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:187
 msgid "Frontpage Three Boxes"
 msgstr "Tiga Kotak Halaman Depan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:190
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:200
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:189
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:199
 msgid "Appears when using the optional Front Page"
 msgstr "Muncul apabila menggunakan Halaman Depan pilhan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:198
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/functions.php:197
 msgid "Frontpage Four Boxes"
 msgstr "Empat Kotak Halaman Depan"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/single-publication.php:35
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:89
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:89
 msgid "Summary"
 msgstr "Ringkasan"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-department.php:40
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-position.php:41
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/taxonomy-position.php:40
 msgid "Sorry, no posts matched your criteria."
 msgstr "Maaf, tiada kiriman yang sepadan kriteria."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-archive-links.php:40
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-archive-links.php:40
 msgid "View All"
 msgstr "Papar Semua"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-archive-links.php:65
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-archive-links.php:65
 msgid "No results found."
 msgstr "Tiada keputusan dijumpai."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-archive-links.php:72
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-archive-links.php:72
 msgid "Select All"
 msgstr "Pilih Semua"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-archive-links.php:89
-msgid "Archives"
-msgstr "Arkib"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-event.php:56
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-event.php:56
 msgid "Event"
 msgstr "Peristiwa"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-event.php:57
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-slideshow.php:55
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:81
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-event.php:57
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-slideshow.php:55
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:81
 msgid "Date"
 msgstr "Tarikh"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-event.php:58
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-event.php:58
 msgid "Start"
 msgstr "Mula"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-event.php:59
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-event.php:59
 msgid "End"
 msgstr "Tamat"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-event.php:60
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:87
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-event.php:60
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:87
 msgid "Venue"
 msgstr "Lokasi"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-faq.php:53
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-faq.php:53
 msgid "Question"
 msgstr "Soalan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-publication.php:84
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-publication.php:84
 msgid "All Publication"
 msgstr "Semua Penerbitan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-publication.php:115
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-publication.php:115
 msgid "Cover"
 msgstr "Kulit"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-publication.php:116
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-slideshow.php:54
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-publication.php:116
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-slideshow.php:54
 msgid "Title"
 msgstr "Tajuk"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-publication.php:117
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-publication.php:117
 msgid "Category"
 msgstr "Kategori"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-slideshow.php:53
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-slideshow.php:53
 msgid "Image"
 msgstr "Imej"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-staff.php:114
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-staff.php:114
 msgid "All Department"
 msgstr "Semua Jabatan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-staff.php:145
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-staff.php:145
 msgid "All Position"
 msgstr "Semua Jawatan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-staff.php:176
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:37
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-staff.php:176
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:37
 msgid "Photo"
 msgstr "Foto"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-staff.php:177
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-staff.php:177
 msgid "Name"
 msgstr "Nama"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-staff.php:178
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-staff.php:178
 msgid "Position"
 msgstr "Jawatan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/cpt-staff.php:179
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/cpt-staff.php:179
 msgid "Department"
 msgstr "Jabatan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:26
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:26
 msgid "Staff Detail"
 msgstr "Butiran Staf"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:37
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:108
-#, fuzzy
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:37
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:108
 msgid ""
 "Image dimension: W:200 x H:250 pixel, graphic template for this image can be "
 "downloaded here: <a href=\""
@@ -317,28 +307,27 @@ msgstr ""
 "Dimensi imej: L:200 x T:250 pixel, templat grafik boleh dimuat turun di "
 "sini: <a href=\""
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:39
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:39
 msgid "Phone No."
 msgstr "No. Telefon"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:39
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:39
 msgid "eg: 03-8921-7070"
 msgstr "cth: 03-8921-7070"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:41
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:41
 msgid "Email"
 msgstr "Emel"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:41
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:41
 msgid "e.g: username@ukm.my"
 msgstr "cth: namapengguna@ukm.my"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:49
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:49
 msgid "Slideshow Detail"
 msgstr "Butiran Tayangan Slaid"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:60
-#, fuzzy
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:60
 msgid ""
 "Image dimension: W:960 x H:350 pixel, graphic template for this image can be "
 "downloaded here: <a href=\""
@@ -346,114 +335,119 @@ msgstr ""
 "Dimensi imej: L:960 x T:350 pixel, templat grafik boleh dimuat turun di "
 "sini: <a href=\""
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:62
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:62
 msgid "This is optional. If so enter full url e.g: http://www.ukm.my"
 msgstr ""
 "Ini adalah pilihan. Sekiranya ada, masukkan url lengkap cth: http://www.ukm."
 "my"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:70
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:70
 msgid "Event Detail"
 msgstr "Butiran Peristiwa"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:83
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:83
 msgid "Start Time"
 msgstr "Masa Mula"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:85
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:85
 msgid "End Time"
 msgstr "Masa Tamat"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:97
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:97
 msgid "Publication Details"
 msgstr "Butiran Penerbitan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:108
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:108
 msgid "Cover Image"
 msgstr "Imej Kulit"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:112
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:112
 msgid "e.g: Jamaludin Rajalu"
 msgstr "cth: Jamaludin Rajalu"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:114
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:114
 msgid "e.g: Pusat Teknologi Maklumat"
 msgstr "cth: Pusat Teknologi Maklumat"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:116
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:116
 msgid "eg: 2014"
 msgstr "cth: 2014"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:118
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:118
 msgid "Number of page"
 msgstr "Jumlah Halaman"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:118
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:118
 msgid "e.g: 199"
 msgstr "cth: 199"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/mbc-config.php:120
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/mbc-config.php:120
 msgid ""
 "e.g: http://www.example.com or http://www.example.com/softcopy-example.pdf"
 msgstr "cth: http://www.contoh.com or http://www.contoh.com/salinan-contoh.pdf"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-docs.php:17
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-docs.php:17
 msgid "UKM Theme Documentation"
 msgstr "Dokumentasi Tema UKM"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-docs.php:17
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-docs.php:17
 msgid "Theme Docs"
 msgstr "Dokumentasi Tema"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-docs.php:22
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-docs.php:22
 msgid "You do not have sufficient permissions to access this page."
 msgstr "Anda tidak mempunyai kebenaran untuk mencapai laman ini."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-docs.php:25
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-docs.php:25
 msgid "Documentations"
 msgstr "Dokumentasi"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-docs.php:28
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-docs.php:28
 msgid "Contents"
 msgstr "Hubungi Kami"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:19
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-options.php:19
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-options.php:42
 msgid "Theme Options"
 msgstr "Opsyen Tema"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:41
-msgid " Options"
-msgstr "Opsyen"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:44
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-options.php:45
 msgid "Settings saved."
 msgstr "Tetapan disimpan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:50
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-options.php:51
 msgid "General"
 msgstr "Umum"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:55
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-options.php:56
 msgid "Footer Copyright Link"
 msgstr "Pautan Hakcipta Pembawah"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:59
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-options.php:60
 msgid "Footer Contact Link"
 msgstr "Pautan Hubungi Pembawah"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:63
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-options.php:64
+msgid "Visitor Counter ID"
+msgstr "ID Jumlah Pengunjung"
+
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-options.php:67
+msgid "Generate your id here"
+msgstr "Jana id anda di sini"
+
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-options.php:71
 msgid "Language Switcher"
 msgstr "Pengalih Bahasa"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:72
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-options.php:80
 msgid "Enable language menu"
 msgstr "Membolehkan menu bahasa"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:77
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-options.php:85
 msgid "Social Links"
 msgstr "Pautan Sosial"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:78
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-options.php:86
 msgid ""
 "Pautan capaian ke laman Facebook, Twitter dan Youtube rasmi UKM atau PTJ. "
 "Masukkan url lengkap seperti keterangan di bawah."
@@ -461,63 +455,80 @@ msgstr ""
 "Pautan capaian ke laman Facebook, Twitter dan Youtube rasmi UKM atau PTJ. "
 "Masukkan url lengkap seperti keterangan di bawah."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:95
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-options.php:103
 msgid "Enter full url e.g: https://www.twitter.com/ukmnewsportal"
 msgstr "Masukkan url lengkap cth: https://www.twitter.com/ukmnewsportal"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:100
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-options.php:108
 msgid "Colour Options"
 msgstr "Opsyen Warna"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:101
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-options.php:109
 msgid "Colour option for colour switcher"
 msgstr "Opsyen warna untuk pengalih warna"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:105
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-options.php:113
 msgid "Second Colour"
 msgstr "Warna Kedua"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:109
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-options.php:117
 msgid "Second Colour Dark"
 msgstr "Warna Kedua Gelap"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:113
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-options.php:121
 msgid "Third Colour"
 msgstr "Warna Ketiga"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/libraries/theme-options.php:117
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/theme-options.php:125
 msgid "Third Colour Dark"
 msgstr "Warna Ketiga Gelap"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/hc-text-widget/hc-text-widget.php:54
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/widget-event.php:18
+msgid "Upcoming Events"
+msgstr "Majlis Akan Datang"
+
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/widget-event.php:19
+msgid "Upcoming Event Lists"
+msgstr "Senarai Majlis"
+
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/widget-event.php:74
+msgid "New title"
+msgstr "Tajuk Baru"
+
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/widget-event.php:86
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/hc-text-widget/hc-text-widget.php:54
 msgid "Title:"
 msgstr "Tajuk"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/meta-box-class/my-meta-box-class.php:420
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/meta-box-class/my-meta-box-class.php:459
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/inc/widget-event.php:88
+msgid "Number Event to Show:"
+msgstr "Jumlah Majlis untuk Dipaparkan:"
+
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/meta-box-class/my-meta-box-class.php:420
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/meta-box-class/my-meta-box-class.php:459
 msgid "Remove"
 msgstr "Hapus"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/meta-box-class/my-meta-box-class.php:432
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/meta-box-class/my-meta-box-class.php:432
 msgid "Add"
 msgstr "Tambah"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/meta-box-class/my-meta-box-class.php:789
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/meta-box-class/my-meta-box-class.php:789
 msgid "Select a color"
 msgstr "Pilih warna"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/meta-box-class/my-meta-box-class.php:877
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/meta-box-class/my-meta-box-class.php:877
 msgid "Select ..."
 msgstr "Pilih …"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/meta-box-class/my-meta-box-class.php:1824
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/meta-box-class/my-meta-box-class.php:1832
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/meta-box-class/my-meta-box-class.php:1824
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/meta-box-class/my-meta-box-class.php:1832
 msgid "Sorry, you cannot upload this file type for this field."
 msgstr "Maaf, anda tidak boleh memuat naik jenis fail untuk ruangan ini."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/simple-page-ordering/simple-page-ordering
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/simple-page-ordering/simple-page-ordering
 #: copy.php:50
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/simple-page-ordering/simple-page-ordering.php:50
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/simple-page-ordering/simple-page-ordering.php:50
 msgid ""
 "To reposition an item, simply drag and drop the row by \"clicking and holding"
 "\" it anywhere (outside of the links and form controls) and moving it to its "
@@ -527,92 +538,92 @@ msgstr ""
 "\"klik dan memegang \" di mana-mana (di luar satu pautan dan kawalan bentuk) "
 "dan bergerak ke kedudukan baru."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:155
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/example.php:86
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/ut-required-plugins.php:80
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:155
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/example.php:86
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/ut-required-plugins.php:81
 msgid "Install Required Plugins"
 msgstr "Pasang Pemalam yang Diperlukan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:156
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/example.php:87
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/ut-required-plugins.php:81
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:156
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/example.php:87
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/ut-required-plugins.php:82
 msgid "Install Plugins"
 msgstr "Pasang Pemalam"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:157
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/example.php:88
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/ut-required-plugins.php:82
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:157
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/example.php:88
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/ut-required-plugins.php:83
 #, php-format
 msgid "Installing Plugin: %s"
 msgstr "Memasang Pemalam: %s"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:158
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:158
 msgid "Something went wrong."
 msgstr "Sesuatu telah berlaku."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:169
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/example.php:100
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/ut-required-plugins.php:94
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:169
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/example.php:100
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/ut-required-plugins.php:95
 msgid "Return to Required Plugins Installer"
 msgstr "Kembali ke Pemasang Pemalam yang Diperlukan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:170
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:170
 msgid "Return to the dashboard"
 msgstr "Kembali ke Papan Pemuka"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:171
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1840
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/example.php:101
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/ut-required-plugins.php:95
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:171
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1840
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/example.php:101
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/ut-required-plugins.php:96
 msgid "Plugin activated successfully."
 msgstr "Pemalam berjaya diaktifkan."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:172
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:172
 msgid "The following plugin was activated successfully:"
 msgstr "Pemalam berikut telah berjaya diaktifkan:"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:173
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:173
 #, php-format
 msgid "All plugins installed and activated successfully. %1$s"
 msgstr "Semua pemalam berjaya dipasang dan diaktifkan. %1$s"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:174
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:174
 msgid "Dismiss this notice"
 msgstr "Hapus notis ini"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1085
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1085
 msgid "External Link"
 msgstr "Pautan Luar"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1090
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1090
 msgid "Private Repository"
 msgstr "Repositori Persendirian"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1093
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1093
 msgid "Pre-Packaged"
 msgstr "Pra-Pakej"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1097
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1097
 msgid "WordPress Repository"
 msgstr "Repositori WordPress"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1100
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1100
 msgid "Required"
 msgstr "Diperlukan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1100
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1100
 msgid "Recommended"
 msgstr "Disarankan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1103
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1103
 msgid "Not Installed"
 msgstr "Tidak Dipasang"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1105
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1105
 msgid "Installed But Not Activated"
 msgstr "Dipasang Tetapi Tidak Aktif"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1275
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1275
 #, php-format
 msgid ""
 "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
@@ -621,61 +632,61 @@ msgstr ""
 "Tiada pemalam untu dipasang dan diaktifkan. <a href=\"%1$s\"title=\"Kembali "
 "ke Papan Pemuka\">Kembali ke Papan Pemuka</a>"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1291
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1291
 msgid "Plugin"
 msgstr "Pemalam"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1292
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1292
 msgid "Source"
 msgstr "Sumber"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1293
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1293
 msgid "Type"
 msgstr "Jenis"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1294
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1294
 msgid "Status"
 msgstr "Status"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1312
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1312
 msgid "Install"
 msgstr "Pasang"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1313
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1313
 msgid "Activate"
 msgstr "Aktifkan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1823
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1823
 msgid "Install package not available."
 msgstr "Pakej pemasangan tidak ada"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1824
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1824
 #, php-format
 msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
 msgstr ""
 "Memuat turun pakej pemasangan dari <span class=\"code\">%s</span>&#8230;"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1825
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1825
 msgid "Unpacking the package&#8230;"
 msgstr "Memunggah pakej&#8230;"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1826
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1826
 msgid "Installing the plugin&#8230;"
 msgstr "Memasang pemalam&#8230;"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1827
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1827
 msgid "Plugin install failed."
 msgstr "Memasang pemalam gagal."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1828
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1828
 msgid "Plugin installed successfully."
 msgstr "Pemalam berjaya dipasang"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1839
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1839
 msgid "Plugin activation failed."
 msgstr "Pengaktifan pemalam gagal."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1949
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1949
 msgid ""
 "The installation and activation process is starting. This process may take a "
 "while on some hosts, so please be patient."
@@ -683,31 +694,31 @@ msgstr ""
 "Proses pemasangan dan pengaktifan sedang bermula. Proses ini mengambil masa "
 "pada sesetengah hos, harap bersabar."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1950
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1950
 #, php-format
 msgid "%1$s installed and activated successfully."
 msgstr "%1$s berjaya dipasang dan diaktifkan."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1950
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1959
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1950
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1959
 msgid "Show Details"
 msgstr "Papar Butiran"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1950
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1959
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1950
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1959
 msgid "Hide Details"
 msgstr "Sembunyi Butiran"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1951
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1951
 msgid "All installations and activations have been completed."
 msgstr "Semua pemesangan dan pengaktifan telah lengkap."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1952
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1952
 #, php-format
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
 msgstr "Memasang dan Mengaktifkan Pemalam %1$s (%2$d/%3$d)"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
 msgid ""
 "The installation process is starting. This process may take a while on some "
 "hosts, so please be patient."
@@ -715,52 +726,52 @@ msgstr ""
 "Proses pemasangan dan pengaktifan sedang bermula. Proses ini mengambil masa "
 "pada sesetengah hos, harap bersabar."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1957
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1957
 #, php-format
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr "Ralat berlaku semasa memasang %1$s: <strong>%2$s</strong>."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1958
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1958
 #, php-format
 msgid "The installation of %1$s failed."
 msgstr "Pemasangan %1$s gagal."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1959
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1959
 #, php-format
 msgid "%1$s installed successfully."
 msgstr "%1$s berjaya dipasang."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1960
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1960
 msgid "All installations have been completed."
 msgstr "Semua pemasangan telah lengkap."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1961
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1961
 #, php-format
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr "Memasang Pemalam %1$s (%2$d/%3$d)"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2052
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2052
 msgid "Return to the Dashboard"
 msgstr "Kembali ke Papan Pemuka"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/example.php:89
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/ut-required-plugins.php:83
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/example.php:89
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/ut-required-plugins.php:84
 msgid "Something went wrong with the plugin API."
 msgstr "Sesuatu telah berlaku kepada pemalam API."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/example.php:102
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/tgm-plugin-activation/ut-required-plugins.php:96
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/example.php:102
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/tgm-plugin-activation/ut-required-plugins.php:97
 #, php-format
 msgid "All plugins installed and activated successfully. %s"
 msgstr "Semua pemalam berjaya dipasang dan diaktifkan. %s"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/parsers.php:42
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/parsers.php:72
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/parsers.php:80
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/parsers.php:42
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/parsers.php:72
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/parsers.php:80
 msgid "There was an error when reading this WXR file"
 msgstr "Terdapat ralat semasa membaca fail WXR ini"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/parsers.php:43
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/parsers.php:43
 msgid ""
 "Details are shown above. The importer will now try again with a different "
 "parser..."
@@ -768,41 +779,41 @@ msgstr ""
 "Butiran dipaparkan di atas. Sekarang pengimport mencuba semula dengan "
 "pengurai yang lain..."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/parsers.php:84
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/parsers.php:89
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/parsers.php:279
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/parsers.php:468
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/parsers.php:84
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/parsers.php:89
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/parsers.php:279
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/parsers.php:468
 msgid ""
 "This does not appear to be a WXR file, missing/invalid WXR version number"
 msgstr "Ini tidak muncul sebagai fail WXR, hilang/tidak sah nombor versi WXR"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:134
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:143
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:194
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:198
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:207
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:134
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:143
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:194
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:198
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:207
 msgid "Sorry, there has been an error."
 msgstr "Maaf, terdapat ralat."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:135
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:135
 msgid "The file does not exist, please try again."
 msgstr "Fail tidak wujud, sila cuba lagi."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:178
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:178
 msgid "All done."
 msgstr "Selesai semua."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:178
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:178
 msgid "Have fun!"
 msgstr "Bergembira!"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:179
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:179
 msgid "Remember to update the passwords and roles of imported users."
 msgstr ""
 "Jangan lupa untuk mengemas kini kata laluan dan peranan pengguna yang "
 "diimport."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:199
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:199
 #, php-format
 msgid ""
 "The export file could not be found at <code>%s</code>. It is likely that "
@@ -811,7 +822,7 @@ msgstr ""
 "Fail yang diexport tidak dijumpai di <code>%s</code>. Ia mungkin disebabkan "
 "oleh masalah keizinan."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:215
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:215
 #, php-format
 msgid ""
 "This WXR file (version %s) may not be supported by this version of the "
@@ -820,7 +831,7 @@ msgstr ""
 "Fail WXR (version %s) mungkin tidak disokong oleh versi pengimport. Sila "
 "pertimbangkan mengemaskini."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:240
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:240
 #, php-format
 msgid ""
 "Failed to import author %s. Their posts will be attributed to the current "
@@ -829,11 +840,11 @@ msgstr ""
 "Gagal mengimport pengarang %s. Kiriman mereka akan dikaitkan kepada pengguna "
 "semasa."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:266
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:266
 msgid "Assign Authors"
 msgstr "Tugaskan penulis"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:267
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:267
 msgid ""
 "To make it easier for you to edit and save the imported content, you may "
 "want to reassign the author of the imported item to an existing user of this "
@@ -845,7 +856,7 @@ msgstr ""
 "kepada pengguna yang sedia ada laman web ini. Sebagai contoh, anda mungkin "
 "mahu untuk mengimport semua entri sebagai <code>admin</code>s penyertaan."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:269
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:269
 #, php-format
 msgid ""
 "If a new user is created by WordPress, a new password will be randomly "
@@ -856,39 +867,39 @@ msgstr ""
 "dijanakan secara rawak dan peranan pengguna baru akan ditetapkan sebagai "
 "%s.  Perlu tukar maklumat pengguna baru secara manual."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:279
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:279
 msgid "Import Attachments"
 msgstr "Import Lampiran"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:282
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:282
 msgid "Download and import file attachments"
 msgstr "Muat turun dan import lampiran fail"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:299
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:299
 msgid "Import author:"
 msgstr "Import pengarang:"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:310
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:310
 msgid "or create new user with login name:"
 msgstr "atau mencipta pengguna baru dengan nama log masuk:"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:313
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:313
 msgid "as a new user:"
 msgstr "sebagai pengguna baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:321
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:321
 msgid "assign posts to an existing user:"
 msgstr "serah hak kiriman kepada pengguna sedia ada:"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:323
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:323
 msgid "or assign posts to an existing user:"
 msgstr "atau menyerah hak kiriman untuk pengguna sedia ada:"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:324
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:324
 msgid "- Select -"
 msgstr "- Pilih -"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:374
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:374
 #, php-format
 msgid ""
 "Failed to create new user for %s. Their posts will be attributed to the "
@@ -897,81 +908,81 @@ msgstr ""
 "Gagal untuk mencipta pengguna baru untuk %s. Kiriman mereka akan dikaitkan "
 "dengan pengguna semasa."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:425
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:425
 #, php-format
 msgid "Failed to import category %s"
 msgstr "Gagal mengimport kategori %s"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:465
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:465
 #, php-format
 msgid "Failed to import post tag %s"
 msgstr "Gagal mengimport tag kiriman %s"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:511
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:652
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:511
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:652
 #, php-format
 msgid "Failed to import %s %s"
 msgstr "Memasang Pemalam %s  %s"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:537
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:537
 #, php-format
 msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
 msgstr "Gagal mengimport &#8220;%s&#8221;: jenis kiriman tidak sah %s"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:559
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:559
 #, php-format
 msgid "%s &#8220;%s&#8221; already exists."
 msgstr "%s &#8220;%s&#8221; sudah ada."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:618
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:618
 #, php-format
 msgid "Failed to import %s &#8220;%s&#8221;"
 msgstr "Gagal mengimport %s &#8220;%s&#8221;"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:783
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:783
 msgid "Menu item skipped due to missing menu slug"
 msgstr "Item menu dilangkau kerana menu hilang ringkasan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:790
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:790
 #, php-format
 msgid "Menu item skipped due to invalid menu slug: %s"
 msgstr "Item menu dilangkau kerana ringkasan menu tidak sah: %s"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:853
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:853
 msgid "Fetching attachments is not enabled"
 msgstr "Kutipan lampiran tidak dihidupkan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:866
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:866
 msgid "Invalid file type"
 msgstr "Jenis fail tidak sah"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:910
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:910
 msgid "Remote server did not respond"
 msgstr "Pelayan kawalan tidak memberi respon"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:916
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:916
 #, php-format
 msgid "Remote server returned error response %1$d %2$s"
 msgstr "Pelayar kawalan memberi respon ralat %1$d %2$s"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:923
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:923
 msgid "Remote file is incorrect size"
 msgstr "Saiz fail kawalan salah"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:928
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:928
 msgid "Zero size file downloaded"
 msgstr "Sifar saiz telah dimuat turun"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:934
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:934
 #, php-format
 msgid "Remote file is too large, limit is %s"
 msgstr "Fail kawalan sangat besar, tahap adalah %s"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:1033
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:1033
 msgid "Import WordPress"
 msgstr "Import WordPress"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:1040
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:1040
 #, php-format
 msgid ""
 "A new version of this importer is available. Please update to version %s to "
@@ -980,7 +991,7 @@ msgstr ""
 "Versi baru pengimport ini sudah ada. Sila kemas kini kepada versi %s untuk "
 "memastikan keserasian dengan fail eksport yang lebih baru."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:1055
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:1055
 msgid ""
 "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
 "the posts, pages, comments, custom fields, categories, and tags into this "
@@ -990,13 +1001,13 @@ msgstr ""
 "mengimport kiriman, laman, komen, medan tempahan, kategori, dan tag ke dalam "
 "laman web ini."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:1056
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:1056
 msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
 msgstr ""
 "Pilih fail WXR (.xml) untuk dimuat naik, kemudian klik Muat Naik fail dan "
 "import."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/plugins/wordpress-importer/wordpress-importer.php:1130
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/lib/wordpress-importer/wordpress-importer.php:1130
 msgid ""
 "Import <strong>posts, pages, comments, custom fields, categories, and tags</"
 "strong> from a WordPress export file."
@@ -1059,6 +1070,22 @@ msgstr "Berita Terkini"
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme/templates/widget-news.php:48
 msgid "News Archive"
 msgstr "Arkib Berita"
+
+#~ msgid ""
+#~ "Generate your id here <a href=\"http://www.supercounters.com/hitcounter"
+#~ "\">Supercounter</a>"
+#~ msgstr ""
+#~ "Jana id anda di sini <a href=\"http://www.supercounters.com/hitcounter"
+#~ "\">Supercounter</a>"
+
+#~ msgid "Tertiary Navigation"
+#~ msgstr "Navigasi Ketiga"
+
+#~ msgid "Mobile Navigation"
+#~ msgstr "Navigasi Utama"
+
+#~ msgid " Options"
+#~ msgstr "Opsyen"
 
 #~ msgid "Author:"
 #~ msgstr "Pengarang:"
