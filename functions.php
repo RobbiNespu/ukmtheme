@@ -18,7 +18,7 @@
 require 'inc/theme-update-checker.php';
 $ukmtheme_update_checker = new ThemeUpdateChecker(
   'ukmtheme',
-  '//raw.github.com/jrajalu/ukmtheme/master/theme_version.json'
+  'http://raw.github.com/jrajalu/ukmtheme/master/theme_version.json'
 );
 
 
