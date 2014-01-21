@@ -11,7 +11,7 @@ module.exports = function(grunt) {
         'assets/js/source/*.js',
         'lib/bxslider/jquery.bxslider.js'
       ],
-        dest: 'assets/js/20140109-script.min.js'
+        dest: 'assets/js/20140122-script.min.js'
       }
     },
 
@@ -21,7 +21,7 @@ module.exports = function(grunt) {
           paths: ['assets/css']
         },
         files: {
-          'assets/css/built/built_20140109.css': ['assets/less/partials/*.less', 'assets/less/*.less']
+          'assets/css/built/built_20140122.css': ['assets/less/partials/*.less', 'assets/less/*.less']
         }
       },
       production: {
@@ -31,7 +31,7 @@ module.exports = function(grunt) {
           cleancss: true
         },
         files: {
-          'assets/css/20140109-stylesheet.min.css': [
+          'assets/css/20140122-stylesheet.min.css': [
             'lib/bxslider/jquery.bxslider.less',
             'assets/less/partials/*.less',
             'assets/less/*.less'
