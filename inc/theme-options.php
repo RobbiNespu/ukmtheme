@@ -35,6 +35,7 @@ function register_mysettings() {
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_copyright_id' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_contact_id' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_visitor_id' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_layout' );
 }
 
 function theme_options_do_page() { ?>
@@ -78,6 +79,26 @@ function theme_options_do_page() { ?>
               <option value="tools-dropdown" <?php if ($ut_lang_select=='tools-dropdown') { echo 'selected'; } ?>>Enable</option>
             </select>
             <p class="description"><?php _e( 'Enable language menu', 'ukmtheme' ); ?></p>
+          </td>
+          </tr>
+          <tr valign="top">
+          <th scope="row">
+          <?php _e('Frontpage Layout','ukmtheme'); ?><br/>
+          <small><?php _e('Customize frontpage widget area','ukmtheme') ?></small>
+          </th>
+          <td>
+            <select name ="ukmtheme_layout">
+              <?php 
+                $ut_layout = get_option('ukmtheme_layout'); 
+              ?>
+              <option value="default" <?php if ($ut_layout=='default') { echo 'selected'; } ?>>Default</option>
+              <option value="full-boxes" <?php if ($ut_layout=='full-boxes') { echo 'selected'; } ?>>Full Boxes</option>              
+              <option value="three-boxes" <?php if ($ut_layout=='three-boxes') { echo 'selected'; } ?>>Three Boxes</option>
+              <option value="four-boxes" <?php if ($ut_layout=='four-boxes') { echo 'selected'; } ?>>Four Boxes</option>
+              <option value="full-boxes-scroller" <?php if ($ut_layout=='full-boxes-scroller') { echo 'selected'; } ?>>Full Boxes with News Scroller</option>
+              <option value="three-boxes-scroller" <?php if ($ut_layout=='three-boxes-scroller') { echo 'selected'; } ?>>Three Boxes with News Scroller</option>
+              <option value="four-boxes-scroller" <?php if ($ut_layout=='four-boxes-scroller') { echo 'selected'; } ?>>Four Boxes with News Scroller</option>
+            </select>
           </td>
           </tr>
       </tbody>

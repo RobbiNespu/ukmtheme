@@ -113,7 +113,7 @@ function ut_publication_custom_columns( $column ){
   global $post;
   
   switch ($column) {
-    case 'ut_publication_cover' : $saved_data = get_post_meta($post->ID,'ut_publication_cover',true); echo '<img src="'.$saved_data['url'].'" width="20">';break;
+    case 'ut_publication_cover' : $saved_data = get_post_meta($post->ID,'ut_publication_cover',true); echo '<img src="'.$saved_data['url'].'" width="60">';break;
     case 'pubcat' : echo get_the_term_list( $post->ID, 'pubcat', '', ', ',''); break;
     case 'ut_publication_author' : echo $saved_data = get_post_meta($post->ID,'ut_publication_author',true); break;
     case 'ut_publication_publisher' : echo $saved_data = get_post_meta($post->ID,'ut_publication_publisher',true); break;

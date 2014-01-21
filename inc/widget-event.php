@@ -48,7 +48,7 @@ class Event_Widget extends WP_Widget {
           <ul class="ut-event-list-widget-wrap">
           <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
             <li class="ut-event-list-widget">
-              <h4><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h4>
+              <a href="<?php echo get_permalink(); ?>"><h4><?php the_title(); ?></h4></a>
               <ul class="ut-event-list">
                 <li class="ut-event-list-content ut-event-date"><?php global $post; echo get_post_meta($post->ID, 'ut_event_date', true); ?></li>
                 <li class="ut-event-list-content ut-event-time"><?php global $post; echo get_post_meta($post->ID, 'ut_event_start_time', true); ?>&nbsp;-&nbsp;<?php echo get_post_meta($post->ID, 'ut_event_end_time', true); ?></li>

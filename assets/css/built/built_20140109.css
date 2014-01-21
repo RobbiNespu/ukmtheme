@@ -8538,6 +8538,9 @@ section.article {
 }
 /* =Widgets
 -------------------------------------------------------------- */
+.widgets {
+  margin-bottom: 14px;
+}
 .widgets-wrap {
   margin: 5px;
 }
