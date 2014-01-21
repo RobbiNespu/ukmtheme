@@ -11,7 +11,6 @@
  * 1. Staff Directory
  * 2. Frontpage Slideshow
  * 3. Events Manager
- *
  */
 
 require_once get_template_directory() . '/lib/meta-box-class/my-meta-box-class.php';
