@@ -56,6 +56,12 @@ function my_theme_register_required_plugins() {
 			'required'	=> false,
 		),
 
+		array(
+			'name'			=> 'WordPress SEO by Yoast',
+			'slug'			=> 'wordpress-seo',
+			'required'	=> false,
+		),
+
 	);
 
 	// Change this to your theme text domain, used for internationalising strings
