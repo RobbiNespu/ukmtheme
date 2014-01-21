@@ -40,7 +40,7 @@ function ut_publication() {
     'show_in_menu'        => true,
     'show_in_nav_menus'   => true,
     'show_in_admin_bar'   => true,
-    'menu_position'       => 60,
+    //'menu_position'       => 20,
     'menu_icon'           => get_template_directory_uri() . '/assets/images/admin/icon-publication.svg?ver=6.1.5',
     'can_export'          => true,
     'has_archive'         => true,
@@ -113,7 +113,7 @@ function ut_publication_custom_columns( $column ){
   global $post;
   
   switch ($column) {
-    case 'ut_publication_cover' : $saved_data = get_post_meta($post->ID,'ut_publication_cover',true); echo '<img src="'.$saved_data['url'].'" width="60">';break;
+    case 'ut_publication_cover' : $saved_data = get_post_meta($post->ID,'ut_publication_cover',true); echo '<img src="'.$saved_data['url'].'" width="20">';break;
     case 'pubcat' : echo get_the_term_list( $post->ID, 'pubcat', '', ', ',''); break;
     case 'ut_publication_author' : echo $saved_data = get_post_meta($post->ID,'ut_publication_author',true); break;
     case 'ut_publication_publisher' : echo $saved_data = get_post_meta($post->ID,'ut_publication_publisher',true); break;

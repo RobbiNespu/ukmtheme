@@ -9,6 +9,7 @@
  * @author Jamaludin Rajalu
  *
  * Post Type: Staff Directory
+ * 20140121
  */
 
 function ut_staff_directory() {
@@ -40,7 +41,7 @@ function ut_staff_directory() {
     'show_in_menu'        => true,
     'show_in_nav_menus'   => true,
     'show_in_admin_bar'   => true,
-    'menu_position'       => 60,
+    //'menu_position'       => 20,
     'menu_icon'           => get_template_directory_uri() . '/assets/images/admin/icon-staff.svg?ver=6.1.5',
     'can_export'          => true,
     'has_archive'         => true,
@@ -215,7 +216,7 @@ function ut_staff_custom_columns( $column ){
   global $post;
   
   switch ($column) {
-    case 'ut_staff_photo' : $saved_data = get_post_meta($post->ID,'ut_staff_photo',true); echo '<img src="'.$saved_data['url'].'" width="60">';break;
+    case 'ut_staff_photo' : $saved_data = get_post_meta($post->ID,'ut_staff_photo',true); echo '<img src="'.$saved_data['url'].'" width="20">';break;
     case 'ut_staff_position' : echo get_the_term_list( $post->ID, 'position', '', ', ',''); break;
     case 'ut_staff_department' : echo get_the_term_list( $post->ID, 'department', '', ', ',''); break;
   }

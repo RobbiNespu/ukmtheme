@@ -18,7 +18,7 @@
 require 'inc/theme-update-checker.php';
 $ukmtheme_update_checker = new ThemeUpdateChecker(
   'ukmtheme',
-  'https://raw.github.com/jrajalu/ukmtheme/master/theme_version.json'
+  '//raw.github.com/jrajalu/ukmtheme/master/theme_version.json'
 );
 
 
@@ -49,13 +49,14 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
 		require( 'inc/theme-docs.php' );
 		require( 'inc/theme-options.php' );
 		require( 'inc/theme-login.php' );
+		require( 'inc/post-type-event.php' );
+		require( 'inc/post-type-expertise.php' );
+		require( 'inc/post-type-faq.php');
 		require( 'inc/post-type-news.php');
 		require( 'inc/post-type-news-scroller.php');
+		require( 'inc/post-type-publication.php' );
 		require( 'inc/post-type-staff.php');
 		require( 'inc/post-type-slideshow.php');
-		require( 'inc/post-type-faq.php');
-		require( 'inc/post-type-event.php' );
-		require( 'inc/post-type-publication.php' );
 		require( 'inc/theme-archive-links.php' );
 		require( 'inc/metabox-setup.php' );
 		require( 'inc/widget-event.php' );

@@ -38,7 +38,7 @@ function ut_slideshow() {
     'show_in_menu'        => true,
     'show_in_nav_menus'   => true,
     'show_in_admin_bar'   => true,
-    'menu_position'       => 60,
+    //'menu_position'       => 20,
     'menu_icon'           => get_template_directory_uri() . '/assets/images/admin/icon-slideshow.svg?ver=6.1.5',
     'can_export'          => true,
     'has_archive'         => true,
