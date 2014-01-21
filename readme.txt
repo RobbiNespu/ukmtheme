@@ -18,6 +18,7 @@ Log Ubah
 
 - Namakan semula fail-fail terpenting
 - Menambah Post Type Expertise
+- Kemaskini Opsyen tema untuk pilihan rekaletak muka hadapan
 
 6.1.4
 

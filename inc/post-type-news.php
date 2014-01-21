@@ -32,7 +32,7 @@ function ut_news() {
     'label'               => __( 'news', 'ukmtheme' ),
     'description'         => __( 'News manager for UKM', 'ukmtheme' ),
     'labels'              => $labels,
-    'supports'            => array( 'title', ),
+    'supports'            => array( 'title', 'editor', 'thumbnail', 'revisions', ),
     //'taxonomies'          => array( 'category', 'post_tag' ),
     'hierarchical'        => false,
     'public'              => true,

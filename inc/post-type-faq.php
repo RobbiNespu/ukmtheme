@@ -32,7 +32,7 @@ function ut_faq() {
     'label'               => __( 'faq', 'ukmtheme' ),
     'description'         => __( 'FAQ manager for UKM', 'ukmtheme' ),
     'labels'              => $labels,
-    'supports'            => array( 'title', ),
+    'supports'            => array( 'title', 'editor', 'revisions', ),
     //'taxonomies'          => array( 'category', 'post_tag' ),
     'hierarchical'        => false,
     'public'              => true,

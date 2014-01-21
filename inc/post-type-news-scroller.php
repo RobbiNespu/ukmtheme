@@ -31,7 +31,7 @@ function ut_news_scroller() {
     'label'               => __( 'news_scroller', 'ukmtheme' ),
     'description'         => __( 'News Scroller manager for UKM', 'ukmtheme' ),
     'labels'              => $labels,
-    'supports'            => array( 'title', ),
+    'supports'            => array( 'title', 'editor', 'revisions', ),
     //'taxonomies'          => array( 'category', 'post_tag' ),
     'hierarchical'        => false,
     'public'              => true,
