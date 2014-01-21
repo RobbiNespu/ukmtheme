@@ -20,19 +20,7 @@ $ukmtheme_update_checker = new ThemeUpdateChecker(
   'ukmtheme',
   'https://raw.github.com/jrajalu/ukmtheme/master/theme_version.json'
 );
- 
-/**
- * JQuery
- * ==============================
- * Load jQuery from google
- */
 
-if (!is_admin()) add_action("wp_enqueue_scripts", "ukmtheme_jquery_enqueue", 11);
-	function ukmtheme_jquery_enqueue() {
-	  wp_deregister_script('jquery');
-	  wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js", false, null);
-	  wp_enqueue_script('jquery');
-	}
 
 add_action('admin_head', 'ut_custom_css');
 	function ut_custom_css() {
@@ -68,6 +56,7 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
 		require( 'inc/cpt-faq.php');
 		require( 'inc/cpt-event.php' );
 		require( 'inc/cpt-publication.php' );
+		require( 'inc/cpt-archive-links.php' );
 		require( 'inc/mbc-config.php' );
 		require( 'inc/widget-event.php' );
 		require( 'lib/hc-text-widget/hc-text-widget.php' );
@@ -135,9 +124,10 @@ add_filter('upload_mimes','add_custom_mime_types');
  * 1.	Main javascript loading
  * 2.	Main stylesheet loading
  */
-add_action( 'wp_enqueue_scripts', 'ukmtheme_scripts' );
-if (!is_admin()) add_action("wp_enqueue_scripts", "ukmtheme_scripts", 11);
+if (!is_admin()) add_action('wp_enqueue_scripts', 'ukmtheme_scripts', 11);
 function ukmtheme_scripts() {
+	wp_deregister_script('jquery' );
+	wp_enqueue_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js', array(), '1.10.2', false );
 	wp_enqueue_script( 'default', get_template_directory_uri() . '/assets/js/20140109-script.min.js', array(), '6.1.4', true );
 	wp_enqueue_style( 'default', get_template_directory_uri() . '/assets/css/20140109-stylesheet.min.css', 'array()', '6.1.4' );
 }
