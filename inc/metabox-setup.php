@@ -195,6 +195,83 @@ $ut_publication->addText(
 
 $ut_publication->Finish();
 
-}
+// Custom Post Type: expertise
 
-?>
+$config_expertise = array(
+    'id'             => 'expertise_meta_box',
+    'title'          => __('Expertise Details','ukmtheme'),
+    'pages'          => array('expertise'),
+    'context'        => 'normal', 
+    'priority'       => 'high',
+    'fields'         => array(),
+    'local_images'   => false,
+    'use_with_theme' =>  get_stylesheet_directory_uri() .'/lib/meta-box-class'
+  );
+
+$ut_expertise =  new AT_Meta_Box($config_expertise);
+
+$ut_expertise->addImage(
+  $prefix.'expertise_photo',
+  array(
+    'name'      => __('Photo','ukmtheme'),
+    'desc'      => __('Image dimension: W:200 x H:250 pixel, graphic template for this image can be downloaded here: <a href="'.get_template_directory_uri().'/assets/templates/templates.zip">templates.zip</a>', 'ukmtheme')
+  ));
+
+$ut_expertise->addText(
+  $prefix.'expertise_title',
+  array(
+    'name'      => __('Title','ukmtheme'),
+    'desc'      => __('e.g: Professor', 'ukmtheme')
+  ));
+
+$ut_expertise->addText(
+  $prefix.'expertise_email',
+  array(
+    'name'      => __('Email','ukmtheme'),
+    'desc'      => __('e.g: expertisename@ukm.my', 'ukmtheme')
+  ));
+
+$ut_expertise->addText(
+  $prefix.'expertise_contact',
+  array(
+    'name'      => __('Contact','ukmtheme'),
+    'desc'      => __('eg: 03-8921-7070','ukmtheme')
+  ));
+
+$repeater_fields[] = $ut_expertise->addText(
+  $prefix.'re_expertise_qualification',
+  array(
+    'name'      => __('Qualification','ukmtheme'),
+    'desc'      => __('eg: Doctor of Philosophy (University of Malaya) [2002-2005','ukmtheme')
+  ),
+  true
+);
+
+$ut_expertise->addText(
+  $prefix.'expertise_specialisation',
+  array(
+    'name'      => __('Specialisation','ukmtheme'),
+    'desc'      => __('e.g: Tourism and Hospitality Marketing, &amp; Services Marketing', 'ukmtheme')
+  ));
+
+$repeater_fields[] = $ut_expertise->addText(
+  $prefix.'re_expertise_research_consultation',
+  array(
+    'name'      => __('Research/Consultation/Expansion','ukmtheme'),
+    'desc'      => __('eg: Developing A Higher Education Brand Index for Malaysia. Jan1, 2009-June 30,2010. GSB-001-2009 (External Grant). Ongoing.','ukmtheme')
+  ),
+  true
+);
+
+/**
+$ut_expertise->addRepeaterBlock($prefix.'re_',array(
+  'inline'   => true, 
+  'name'     => __('This is a Repeater Block','ukmtheme'),
+  'fields'   => $repeater_fields, 
+  'sortable' => true
+));
+*/
+
+$ut_expertise->Finish();
+
+} ?>
