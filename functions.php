@@ -72,7 +72,11 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
 		) );
 		
 		add_filter('show_admin_bar', '__return_false');
+		
 	}
+	
+if ( ! isset( $content_width ) )
+    $content_width = 960;
 
 // Add Home Item in Apperance > Menus
 
