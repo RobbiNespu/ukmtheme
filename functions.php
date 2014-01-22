@@ -14,13 +14,16 @@ add_action('admin_head', 'ut_custom_css');
 	  echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/assets/css/20140122-admin.min.css?ver=6.1.5" type="text/css" media="all" />';
 	}
 
-/**
- * UKM Theme Setup
- * ==============================
- * Load Templates and inc
- * Add Theme Support: Post format, Language, Links etc.
- * Last update 20131214
- */
+// Theme Update Checker
+
+require( 'inc/theme-update-checker.php' );
+$ukmtheme_update_checker = new ThemeUpdateChecker(
+  'ukmtheme',
+  'https://raw.github.com/jrajalu/ukmtheme/master/version.json'
+);
+
+// Theme Setup
+
 add_action( 'after_setup_theme', 'ukmtheme_setup' );
 	function ukmtheme_setup() {
 
@@ -36,6 +39,7 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
 		require( 'inc/theme-docs.php' );
 		require( 'inc/theme-options.php' );
 		require( 'inc/theme-login.php' );
+		require( 'inc/theme-plugins.php' );
 		require( 'inc/post-type-event.php' );
 		require( 'inc/post-type-expertise.php' );
 		require( 'inc/post-type-faq.php');
@@ -48,14 +52,12 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
 		require( 'inc/metabox-setup.php' );
 		require( 'inc/widget-event.php' );
 		require( 'lib/hc-text-widget/hc-text-widget.php' );
-		require( 'lib/tgm-plugin-activation/ut-required-plugins.php' );
-		require( 'lib/theme-updater/updater.php' );
+		require( 'lib/hc-custom-wp-admin-url/hc-custom-wp-admin-url.php' );
 		require( 'templates/page-sitemap.php' );
 			
 		register_nav_menus( array(
 	    'primary' => __( 'Primary Navigation', 'ukmtheme' ),
 	    'secondary' => __( 'Secondary Navigation', 'ukmtheme' ),
-	    //'tertiary' => __( 'Tertiary Navigation', 'ukmtheme' ),
 	    //'mobile' => __( 'Mobile Navigation', 'ukmtheme' )
 		) );
 
@@ -75,9 +77,6 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
 		add_filter('show_admin_bar', '__return_false');
 		
 	}
-	
-if ( ! isset( $content_width ) )
-    $content_width = 960;
 
 // Add Home Item in Apperance > Menus
 
@@ -111,12 +110,8 @@ add_filter('upload_mimes','add_custom_mime_types');
 		));
 	}
 
-/**
- * Javascript and Stylesheet
- * ==============================
- * 1.	Main javascript loading
- * 2.	Main stylesheet loading
- */
+// Scripts and Style Enqueue
+
 if (!is_admin()) add_action('wp_enqueue_scripts', 'ukmtheme_scripts', 11);
 function ukmtheme_scripts() {
 	wp_deregister_script('jquery' );
@@ -125,15 +120,8 @@ function ukmtheme_scripts() {
 	wp_enqueue_style( 'default', get_template_directory_uri() . '/assets/css/20140122-stylesheet.min.css', 'array()', '6.1.5' );
 }
 
-/**
- * Widgets Init
- * ==============================
- * 1.	Main Sidebar: Frontpage
- * 2.	Page Sidebar
- * 3.	Post Sidebar
- * 4.	Frontpage: Three Column
- * 5.	Frontpage: Four Column
- */
+// Widget Init
+
 add_action( 'widgets_init', 'ukmtheme_widgets_init' );
 function ukmtheme_widgets_init() {
 	register_sidebar( array(
