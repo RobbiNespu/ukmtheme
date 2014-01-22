@@ -9,19 +9,6 @@
  * @author Jamaludin Rajalu
  */
 
-/**
- * Theme Update Checker
- * ==============================
- * Initialize the update checker
- *
- */
-require 'inc/theme-update-checker.php';
-$ukmtheme_update_checker = new ThemeUpdateChecker(
-  'ukmtheme',
-  'http://raw.github.com/jrajalu/ukmtheme/master/theme_version.json'
-);
-
-
 add_action('admin_head', 'ut_custom_css');
 	function ut_custom_css() {
 	  echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/assets/css/20140122-admin.min.css?ver=6.1.5" type="text/css" media="all" />';
