@@ -31,7 +31,7 @@ function ut_expertise() {
     'label'               => __( 'expertise', 'ukmtheme' ),
     'description'         => __( 'Expertise manager for UKM', 'ukmtheme' ),
     'labels'              => $labels,
-    'supports'            => array( 'title', 'editor', 'thumbnail', 'revisions', ),
+    'supports'            => array( 'title', 'revisions', ),
     //'taxonomies'          => array( 'category', 'post_tag' ),
     'hierarchical'        => false,
     'public'              => true,
