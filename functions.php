@@ -49,6 +49,7 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
 		require( 'inc/widget-event.php' );
 		require( 'lib/hc-text-widget/hc-text-widget.php' );
 		require( 'lib/tgm-plugin-activation/ut-required-plugins.php' );
+		require( 'lib/theme-updater/updater.php' );
 		require( 'templates/page-sitemap.php' );
 			
 		register_nav_menus( array(
