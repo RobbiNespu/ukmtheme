@@ -238,15 +238,6 @@ $ut_expertise->addText(
     'desc'      => __('eg: 03-8921-7070','ukmtheme')
   ));
 
-$repeater_fields[] = $ut_expertise->addText(
-  $prefix.'re_expertise_qualification',
-  array(
-    'name'      => __('Qualification','ukmtheme'),
-    'desc'      => __('eg: Doctor of Philosophy (University of Malaya) [2002-2005','ukmtheme')
-  ),
-  true
-);
-
 $ut_expertise->addText(
   $prefix.'expertise_specialisation',
   array(
@@ -254,24 +245,34 @@ $ut_expertise->addText(
     'desc'      => __('e.g: Tourism and Hospitality Marketing, &amp; Services Marketing', 'ukmtheme')
   ));
 
-$repeater_fields[] = $ut_expertise->addText(
-  $prefix.'re_expertise_research_consultation',
+$ut_expertise->addWysiwyg(
+  $prefix.'expertise_qualification',
+  array(
+    'name'      => __('Qualifications','ukmtheme'),
+    'desc'      => __('e.g: Doctor of Philosophy (University of Malaya) [2002-2005]', 'ukmtheme')
+  ));
+
+$ut_expertise->addWysiwyg(
+  $prefix.'expertise_research_area',
+  array(
+    'name'      => __('Areas of Research','ukmtheme'),
+    'desc'      => __('e.g: Services Marketing and Consumer Behavior Analysis', 'ukmtheme')
+  ));
+
+$ut_expertise->addWysiwyg(
+  $prefix.'expertise_research_consultation',
   array(
     'name'      => __('Research/Consultation/Expansion','ukmtheme'),
-    'desc'      => __('eg: Developing A Higher Education Brand Index for Malaysia. Jan1, 2009-June 30,2010. GSB-001-2009 (External Grant). Ongoing.','ukmtheme')
-  ),
-  true
-);
+    'desc'      => __('e.g: Developing A Higher Education Brand Index for Malaysia. Jan1, 2009-June 30,2010. GSB-001-2009 (External Grant). Ongoing.', 'ukmtheme')
+  ));
 
-/**
-$ut_expertise->addRepeaterBlock($prefix.'re_',array(
-  'inline'   => true, 
-  'name'     => __('This is a Repeater Block','ukmtheme'),
-  'fields'   => $repeater_fields, 
-  'sortable' => true
-));
-*/
+$ut_expertise->addWysiwyg(
+  $prefix.'expertise_journal',
+  array(
+    'name'      => __('Publications Journals','ukmtheme'),
+    'desc'      => __('e.g: Ahmad Azmi M. Ariffin & Mohd Safar Hashim. 2009. Marketing Malaysia to the Middle East Tourists: Towards a Prime Inter-Regional Destination. International Journal of West Asian Studies. 1(1): 43-58. ISSN 1394-0902.', 'ukmtheme')
+  ));
 
-$ut_expertise->Finish();
+  $ut_expertise->Finish();
 
 } ?>
