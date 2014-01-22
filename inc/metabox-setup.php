@@ -214,7 +214,7 @@ $ut_expertise->addImage(
   $prefix.'expertise_photo',
   array(
     'name'      => __('Photo','ukmtheme'),
-    'desc'      => __('Image dimension: W:200 x H:250 pixel, graphic template for this image can be downloaded here: <a href="'.get_template_directory_uri().'/assets/templates/templates.zip">templates.zip</a>', 'ukmtheme')
+    'desc'      => __('Image dimension: W:200 x H:250 pixel, graphic template for this image can be downloaded here: <a href="'.get_template_directory_uri().'/assets/templates/templates.zip">templates.zip</a>', 'ukmtheme'),
   ));
 
 $ut_expertise->addText(
