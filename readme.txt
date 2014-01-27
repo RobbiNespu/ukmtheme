@@ -1,4 +1,4 @@
-UKM Theme Versi 6.1.5
+UKM Theme Versi 6.1.6
 
 Diskripsi
 =====================================
@@ -14,6 +14,11 @@ Kami mengalu-alukan penglibatan dan sumnagan pengguna untuk memberi pendapat, me
 
 Log Ubah
 =====================================
+6.1.6
+
+- Kemaskini media dan pemalam saranan
+- Kemaskini kod
+
 6.1.5
 
 - Namakan semula fail-fail terpenting
