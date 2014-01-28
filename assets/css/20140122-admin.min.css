@@ -1,5 +1,6 @@
 .column-ut_staff_photo,
-.column-ut_publication_cover {
+.column-ut_publication_cover,
+.column-ut_expertise_photo {
   width: 10%;
 }
 .column-ut_slideshow_image {

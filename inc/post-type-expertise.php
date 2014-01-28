@@ -54,4 +54,33 @@ function ut_expertise() {
 // Hook into the 'init' action
 add_action( 'init', 'ut_expertise', 0 );
 
+// Custom Column Adjustment
+// @link http://codex.wordpress.org/Plugin_API/Action_Reference/manage_posts_custom_column
+
+add_action('manage_expertise_posts_custom_column', 'ut_expertise_custom_columns');
+add_filter('manage_edit-expertise_columns', 'ut_add_new_expertise_columns');
+
+function ut_add_new_expertise_columns( $columns ){
+  $columns = array(
+    'cb'                          => '<input type="checkbox">',
+    'ut_expertise_photo'        => __( 'Photo', 'ukmtheme' ),
+    'title'                       => __( 'Name', 'ukmtheme' ),
+    'ut_expertise_title'       => __( 'Title', 'ukmtheme' ),
+    'ut_expertise_email'    => __( 'Email', 'ukmtheme' ),
+    'ut_expertise_contact'         => __( 'Contact', 'ukmtheme' )
+  );
+  return $columns;
+}
+
+function ut_expertise_custom_columns( $column ){
+  global $post;
+  
+  switch ($column) {
+    case 'ut_expertise_photo' : $saved_data = get_post_meta($post->ID,'ut_expertise_photo',true); echo '<img src="'.$saved_data['url'].'" width="60">';break;
+    case 'ut_expertise_title' : echo $saved_data = get_post_meta($post->ID,'ut_expertise_title',true); break;
+    case 'ut_expertise_email' : echo $saved_data = get_post_meta($post->ID,'ut_expertise_email',true); break;
+    case 'ut_expertise_contact' : echo $saved_data = get_post_meta($post->ID,'ut_expertise_contact',true); 
+  }
+}
+
 ?>

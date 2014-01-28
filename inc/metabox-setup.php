@@ -273,6 +273,62 @@ $ut_expertise->addWysiwyg(
     'desc'      => __('e.g: Ahmad Azmi M. Ariffin & Mohd Safar Hashim. 2009. Marketing Malaysia to the Middle East Tourists: Towards a Prime Inter-Regional Destination. International Journal of West Asian Studies. 1(1): 43-58. ISSN 1394-0902.', 'ukmtheme')
   ));
 
+$ut_expertise->addWysiwyg(
+  $prefix.'expertise_proceeedings',
+  array(
+    'name'      => __('Proceedings','ukmtheme'),
+    'desc'      => __('e.g: Ahmad Azmi M.Ariffin, Aliah Hanim M.Salleh, Norzalita A.Aziz & Astuti A.Asbudin. 2009. Determining Passengers’ Expectation, Service Quality and Satisfaction for Low Cost Carriers. The Proceeding of The 11th. International Business Research Conference. Sydney Australia. Dec 2-4, 2009. ISBN: 978-0-980-4557-0-7 (Presenter).', 'ukmtheme')
+  ));
+
+$ut_expertise->addWysiwyg(
+  $prefix.'expertise_antologi',
+  array(
+    'name'      => __('Articles in Antologi/Chapters in Book','ukmtheme'),
+    'desc'      => __('e.g: Ahmad Azmi Mohd. Ariffin, Norzalita Abd. Aziz. 2009. Chapter 5: Service Quality and Zone of Tolerance in Malaysian Banking Services. In Services Management and Marketing: Studies in Malaysia. Edited by Aliah Hanim Mohd. Salleh, Ahmad Azmi Mohd. Ariffin, June M. L. Poon & Aini Aman. GSB-UKM. Bangi.', 'ukmtheme')
+  ));
+
+$ut_expertise->addWysiwyg(
+  $prefix.'expertise_monograph',
+  array(
+    'name'      => __('Monograph, Working Papers and Non-Periodical Publications','ukmtheme'),
+    'desc'      => __('e.g: Module ”Tourism Marketing” (Code: BBAS 3103).  Open University Malaysia. 2007/2008', 'ukmtheme')
+  ));
+
+$ut_expertise->addWysiwyg(
+  $prefix.'expertise_award',
+  array(
+    'name'      => __('Award','ukmtheme'),
+    'desc'      => __('e.g: EXCELLENT SERVICE AWARD 2007. Faculty of Economics and BusinessUniversiti Kebangsaan Malaysia', 'ukmtheme')
+  ));
+
+$ut_expertise->addWysiwyg(
+  $prefix.'expertise_supervision',
+  array(
+    'name'      => __('Supervision','ukmtheme'),
+    'desc'      => __('e.g: Lim Chui Seong (DBA. Disertasi) The Influence of e-Hospitality on Websites Satisfaction and Loyalty (Ongoing)', 'ukmtheme')
+  ));
+
+$ut_expertise->addWysiwyg(
+  $prefix.'expertise_administrative',
+  array(
+    'name'      => __('Administrative Services/Committee','ukmtheme'),
+    'desc'      => __('e.g: MANAGING EDITOR OF JURNAL PENGURUSAN 1 April 2007 – Present Graduate School of Business, Universiti Kebangsaan Malaysia', 'ukmtheme')
+  ));
+
+$ut_expertise->addWysiwyg(
+  $prefix.'expertise_reports',
+  array(
+    'name'      => __('Reports: Technical/Research/Consultation','ukmtheme'),
+    'desc'      => __('e.g: Mohd Fauzi Mohd Jani, Zaimah Derawi, Tih Sio Hong, Rozita Amirudin, Ahmad Azmi Ariffin, Zafir Makhbul, Aini Aman, Mohd Radzuan Rahid, Ahmad Raflis Omar, Kamalrudin Mohamed Saleh. 2008. “Laporan Akhir Program Latihan Keusahawanan: Kerjasama Pelajar Universiti dan Entepris Kecil dan Sederhana (EKS)”. SMIDEC.', 'ukmtheme')
+  ));
+
+$ut_expertise->addWysiwyg(
+  $prefix.'expertise_teaching',
+  array(
+    'name'      => __('Teaching','ukmtheme'),
+    'desc'      => __('e.g: Courses Taught at Ph.D./DBA Level Hospitality Marketing: Theory and Research', 'ukmtheme')
+  ));
+
   $ut_expertise->Finish();
 
 } ?>
