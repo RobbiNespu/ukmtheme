@@ -210,6 +210,13 @@ $config_expertise = array(
 
 $ut_expertise =  new AT_Meta_Box($config_expertise);
 
+$ut_expertise->addWysiwyg(
+  $prefix.'expertise_biography',
+  array(
+    'name'      => __('Biography','ukmtheme'),
+    'desc'      => __('e.g: Ahmad Azmi Mohd. Ariffin (Dr.) is an Associate Professor at UKM-Graduate School of Business. His research interests are in the areas of Tourism and Hospitality Marketing, as well as Services Marketing...', 'ukmtheme')
+  ));
+
 $ut_expertise->addImage(
   $prefix.'expertise_photo',
   array(
