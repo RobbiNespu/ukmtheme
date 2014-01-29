@@ -29,5 +29,3 @@ get_header(); ?>
 </div><!-- content-wrap -->
 </article>
 <?php get_footer(); ?>
-
- 
