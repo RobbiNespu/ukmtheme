@@ -1,5 +1,5 @@
 WebFontConfig = {
-  google: { families: [ 'Roboto+Slab:400:latin', 'Open+Sans:300italic,600italic,300,600:latin' ] }
+  google: { families: [ 'Open+Sans:300italic,600italic,300,600:latin' ] }
 };
 (function() {
   var wf = document.createElement('script');
