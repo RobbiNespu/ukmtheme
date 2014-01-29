@@ -11,7 +11,7 @@
 
 add_action('admin_head', 'ut_custom_css');
 	function ut_custom_css() {
-	  echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/assets/css/20140122-admin.min.css?ver=6.1.7" type="text/css" media="all" />';
+	  echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/assets/css/63db59f288d0f4e2eb4491da4007cc98-admin.min.css?ver=6.1.7" type="text/css" media="all" />';
 	}
 
 // Theme Update Checker
@@ -116,8 +116,8 @@ if (!is_admin()) add_action('wp_enqueue_scripts', 'ukmtheme_scripts', 11);
 function ukmtheme_scripts() {
 	wp_deregister_script('jquery' );
 	wp_enqueue_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js', array(), '1.10.2', false );
-	wp_enqueue_script( 'default', get_template_directory_uri() . '/assets/js/20140122-script.min.js', array(), '6.1.7', true );
-	wp_enqueue_style( 'default', get_template_directory_uri() . '/assets/css/20140122-stylesheet.min.css', false, '6.1.7' );
+	wp_enqueue_script( 'default', get_template_directory_uri() . '/assets/js/8e8cdc8a0fdf023886e76fced322ce50-script.min.js', array(), '6.1.7', true );
+	wp_enqueue_style( 'default', get_template_directory_uri() . '/assets/css/63db59f288d0f4e2eb4491da4007cc98-stylesheet.min.css', false, '6.1.7' );
 }
 
 // Widget Init
