@@ -14,7 +14,7 @@
 ?>
 <article class="wrap">
   <div class="content clearfix">
-    <section class="col-3-4">
+    <section class="col-3-4 article">
     <h1><?php _e( 'Archives', 'ukmtheme' ) ; ?></h1>
 
       <div class="uk-panel widgets-annc">

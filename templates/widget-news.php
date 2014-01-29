@@ -31,20 +31,20 @@ $loop = new WP_Query( $args );
           ?>
         </div><!--post-thumbnail-->
         <div class="col-4-5 ut-news-content">
-            <h4 class="ut-news-title"><?php the_title(); ?></h4>
+            <a href="<?php echo get_permalink(); ?>"><h4 class="ut-news-title"><?php the_title(); ?></h4></a>
             <div class="ut-news-detail">
                 <?php the_excerpt(); ?>
             </div><!--.ut-news-detail-->
         </div><!--col-4-5-->
       </div><!--.ut-news .clearfix-->
     <?php endwhile ?>
+    <div class="col-1-1 uk-panel ut-news-show-all">
+      <a href="<?php echo get_post_type_archive_link('news'); ?>"><button class="uk-button uk-button-small uk-button-primary"><?php _e('News Archive'); ?></button></a>
+    </div><!--.ut-news-show-all-->
     </div><!--.widgets-annc-->
   </div><!--.col-2-3-->
   <div class="col-1-3">
     <?php //get_template_part( 'templates/widget','event-vertical' ); ?>
     <?php if (dynamic_sidebar( 'sidebar-1' )) : else : ?><?php endif; ?>
   </div><!--.col-1-3-->
-  <div class="col-1-1 uk-panel ut-news-show-all clearfix">
-    <a href="<?php echo get_post_type_archive_link('news'); ?>"><button class="uk-button uk-button-small uk-button-primary"><?php _e('News Archive'); ?></button></a>
-  </div><!--.ut-news-show-all-->
 </div><!--.widgets-wrap-->
