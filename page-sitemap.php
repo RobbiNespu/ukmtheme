@@ -15,7 +15,7 @@
 get_header(); ?>
 <article class="wrap">
 <div class="content clearfix">
-	<section class="col-3-4">
+	<section class="col-3-4 article">
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
       <h1 class="content-title"><?php the_title(); ?></h1>
         <div class="content">
