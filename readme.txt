@@ -1,4 +1,4 @@
-UKM Theme Versi 6.1.8
+UKM Theme Versi 6.1.9
 
 Diskripsi
 =====================================
@@ -14,6 +14,9 @@ Kami mengalu-alukan penglibatan dan sumnagan pengguna untuk memberi pendapat, me
 
 Log Ubah
 =====================================
+6.1.9
+- Kemaskini layout tools
+
 6.1.8
 
 - Kemaskini Opsyen Tema
