@@ -39,7 +39,7 @@ $loop = new WP_Query( $args );
       </div><!--.ut-news .clearfix-->
     <?php endwhile ?>
     <div class="col-1-1 uk-panel ut-news-show-all">
-      <a href="<?php echo get_post_type_archive_link('news'); ?>"><button class="uk-button uk-button-small uk-button-primary"><?php _e('News Archive'); ?></button></a>
+      <a href="<?php echo get_post_type_archive_link('news'); ?>"><button class="uk-button uk-button-mini uk-button-primary"><?php _e('News Archive'); ?></button></a>
     </div><!--.ut-news-show-all-->
     </div><!--.widgets-annc-->
   </div><!--.col-2-3-->
