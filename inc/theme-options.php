@@ -129,15 +129,15 @@ function theme_options_do_page() { ?>
       </tbody>
     </table>
     <h3 class="title"><?php _e( 'Colour Options', 'ukmtheme' ); ?></h3>
-    <p><?php _e( 'Colour option for colour switcher', 'ukmtheme' ); ?></p>
+    <p><?php _e( 'Colour option for colour switcher. Enter the default value first e.g. #000000 or enter a value based on the values ​​provided', 'ukmtheme' ); ?></p>
     <table class="form-table">
       <tbody>
         <tr valign="top">
         <th scope="row"><?php _e('Main Colour','ukmtheme'); ?></th>
         <td>
           <div class="color-picker" style="position: relative;">
-            <input type="text" name="ukmtheme_mn_color" value="<?php echo get_option('ukmtheme_mn_color'); ?>" id="color" placeholder="#D10000" />
-            <div style="position: absolute; z-index: 100;" id="colorpicker"></div>
+            <input type="text" name="ukmtheme_mn_color" value="<?php echo get_option('ukmtheme_mn_color'); ?>" id="color" placeholder="#B10000" />
+            <div style="position: absolute; z-index: 100; top: -10px; left: 250px;" id="colorpicker"></div>
           </div>
         </td>
         </tr>
@@ -149,7 +149,7 @@ function theme_options_do_page() { ?>
         <td>
           <div class="color-picker" style="position: relative;">
             <input type="text" name="ukmtheme_mn_color_nav" value="<?php echo get_option('ukmtheme_mn_color_nav'); ?>" id="colorMainComb" placeholder="#A70000" />
-            <div style="position: absolute; z-index: 100;" id="colorpickerMainComb"></div>
+            <div style="position: absolute; z-index: 100; top: -40px; left: 250px;" id="colorpickerMainComb"></div>
           </div>
         </td>
         </tr>
@@ -158,7 +158,7 @@ function theme_options_do_page() { ?>
         <td>
           <div class="color-picker" style="position: relative;">
             <input type="text" name="ukmtheme_snd_color" value="<?php echo get_option('ukmtheme_snd_color'); ?>" id="colorSnd" placeholder="#1075FF" />
-            <div style="position: absolute; z-index: 100;" id="colorpickerSnd"></div>
+            <div style="position: absolute; z-index: 100; top: -80px; left: 250px;" id="colorpickerSnd"></div>
           </div>
         </td>
         </tr>
@@ -170,7 +170,7 @@ function theme_options_do_page() { ?>
         <td>
           <div class="color-picker" style="position: relative;">
             <input type="text" name="ukmtheme_snd_color_nav" value="<?php echo get_option('ukmtheme_snd_color_nav'); ?>" id="colorSndComb" placeholder="#006AFA" />
-            <div style="position: absolute; z-index: 100;" id="colorpickerSndComb"></div>
+            <div style="position: absolute; z-index: 100; top: -100px; left: 250px;" id="colorpickerSndComb"></div>
           </div>
         </td>
         </tr>
@@ -179,7 +179,7 @@ function theme_options_do_page() { ?>
         <td>
           <div class="color-picker" style="position: relative;">
             <input type="text" name="ukmtheme_trd_color" value="<?php echo get_option('ukmtheme_trd_color'); ?>" id="colorTrd" placeholder="#1F1E1E" />
-            <div style="position: absolute; z-index: 100;" id="colorpickerTrd"></div>
+            <div style="position: absolute; z-index: 100; top: -140px; left: 250px;" id="colorpickerTrd"></div>
           </div>
         </td>
         </tr>
@@ -191,7 +191,7 @@ function theme_options_do_page() { ?>
         <td>
           <div class="color-picker" style="position: relative;">
             <input type="text" name="ukmtheme_trd_color_nav" value="<?php echo get_option('ukmtheme_trd_color_nav'); ?>" id="colorTrdComb" placeholder="#151515" />
-            <div style="position: absolute; z-index: 100;" id="colorpickerTrdComb"></div>
+            <div style="position: absolute; z-index: 100; top: -150px; left: 250px;" id="colorpickerTrdComb"></div>
           </div>
         </td>
         </tr>
