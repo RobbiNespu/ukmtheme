@@ -6,7 +6,7 @@ Tema WordPress ini adalah percuma dan boleh digunakan oleh semua Fakulti/Institu
 
 Pemasangan
 =====================================
-Pemasangan boleh dilakukan melalui WordPress Dashboard atau melalui FTP. Tema akan memklumkan sekiranya terdapat kemaskini. Pastikan anda sentiasa mengemaskini kepada versi terkini.
+Pemasangan boleh dilakukan melalui WordPress Dashboard atau melalui FTP. Tema ini akan memaklumkan sekiranya terdapat kemaskini. Pastikan anda sentiasa mengemaskini kepada versi terkini.
 
 Kolaborasi
 =====================================
