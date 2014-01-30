@@ -8747,6 +8747,9 @@ footer {
   padding-top: 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
+.event-widgets-wrap {
+  padding-right: 10px;
+}
 .ut-event-list-widget-wrap {
   margin: 0;
   padding: 0;

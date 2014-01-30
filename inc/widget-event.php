@@ -42,13 +42,13 @@ class Event_Widget extends WP_Widget {
         $loop = new WP_Query( $args );
       ?>
 
-      <div class="widgets-wrap">
+      <div class="event-widgets-wrap">
         <div class="ut-event-list-vertical">
           <div class="col-1-1">
           <ul class="ut-event-list-widget-wrap">
           <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
             <li class="ut-event-list-widget">
-              <a href="<?php echo get_permalink(); ?>"><h4><?php the_title(); ?></h4></a>
+              <a href="<?php echo get_permalink(); ?>"><h5><?php the_title(); ?></h5></a>
               <ul class="ut-event-list">
                 <li class="ut-event-list-content ut-event-date"><?php global $post; echo get_post_meta($post->ID, 'ut_event_date', true); ?></li>
                 <li class="ut-event-list-content ut-event-time"><?php global $post; echo get_post_meta($post->ID, 'ut_event_start_time', true); ?>&nbsp;-&nbsp;<?php echo get_post_meta($post->ID, 'ut_event_end_time', true); ?></li>
