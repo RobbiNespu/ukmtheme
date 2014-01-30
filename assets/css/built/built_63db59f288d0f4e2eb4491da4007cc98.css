@@ -8536,6 +8536,48 @@ section.article {
   padding: 0 5px;
   color: #000;
 }
+/* =Off Canvas Tools
+-------------------------------------------------------------- */
+.off-canvas-tools-wrap {
+  height: 40px;
+  position: relative;
+  min-width: 30px;
+  background: transparent;
+  float: right;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+.off-canvas-tools-wrap a {
+  color: #ffffff;
+}
+.off-canvas-tools-wrap a:visited {
+  color: #ffffff;
+}
+.ut-off-canvas {
+  padding: 10px 20px;
+  color: #ffffff;
+}
+.ut-off-canvas h1,
+.ut-off-canvas h2,
+.ut-off-canvas h3,
+.ut-off-canvas h4,
+.ut-off-canvas h5,
+.ut-off-canvas h6 {
+  color: #ffffff;
+}
+.ut-off-canvas ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.ut-off-canvas a {
+  color: #ffffff;
+}
+.ut-off-canvas a:visited {
+  color: #ffffff;
+}
 /* =Widgets
 -------------------------------------------------------------- */
 .widgets {

@@ -31,7 +31,7 @@
       <?php get_template_part( 'templates/nav', 'searchBar' ); ?>
       <?php // Language Switcher Enabler
         $ut_lang_select = get_option('ukmtheme_languages');
-        get_template_part( 'templates/nav', $ut_lang_select );
+        get_template_part( 'templates/off', $ut_lang_select );
       ?>
     </div>
   </div><!--.wrap-->

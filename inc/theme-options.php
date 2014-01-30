@@ -77,8 +77,8 @@ function theme_options_do_page() { ?>
               <?php 
                 $ut_lang_select = get_option('ukmtheme_languages'); 
               ?>
-              <option value="tools" <?php if ($ut_lang_select=='tools') { echo 'selected'; } ?>>Disable</option>
-              <option value="tools-dropdown" <?php if ($ut_lang_select=='tools-dropdown') { echo 'selected'; } ?>>Enable</option>
+              <option value="canvas-tools" <?php if ($ut_lang_select=='canvas-tools') { echo 'selected'; } ?>>Disable</option>
+              <option value="canvas-lang" <?php if ($ut_lang_select=='canvas-lang') { echo 'selected'; } ?>>Enable</option>
             </select>
             <p class="description"><?php _e( 'Enable language menu', 'ukmtheme' ); ?></p>
           </td>

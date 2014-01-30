@@ -11,14 +11,14 @@
 
 add_action('admin_head', 'ut_custom_css');
   function ut_custom_css() {
-    echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/assets/css/63db59f288d0f4e2eb4491da4007cc98-admin.min.css?ver=6.1.8" type="text/css" media="all" />';
+    echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/assets/css/63db59f288d0f4e2eb4491da4007cc98-admin.min.css?ver=6.1.9" type="text/css" media="all" />';
   }
 
 add_action( 'admin_enqueue_scripts', 'ut_wp_admin_scripts' );
 function ut_wp_admin_scripts() {
   wp_enqueue_style( 'farbtastic' );
   wp_enqueue_script( 'farbtastic' );
-  wp_enqueue_script( 'ut-extra-option', get_template_directory_uri() . '/assets/js/8e8cdc8a0fdf023886e76fced322ce50-options.js', array( 'farbtastic', 'jquery' ), '6.1.8', true );
+  wp_enqueue_script( 'ut-extra-option', get_template_directory_uri() . '/assets/js/8e8cdc8a0fdf023886e76fced322ce50-options.js', array( 'farbtastic', 'jquery' ), '6.1.9', true );
 }
 
 // Theme Update Checker
@@ -71,7 +71,7 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
     add_theme_support( 'custom-header', array(
       'width'         => 960,
       'height'        => 100,
-      'default-image' => get_template_directory_uri() . '/assets/images/public/logo.svg?ver=6.1.8',
+      'default-image' => get_template_directory_uri() . '/assets/images/public/logo.svg?ver=6.1.9',
       'uploads'       => true,
       'header-text'   => false,
       )
@@ -123,8 +123,8 @@ if (!is_admin()) add_action('wp_enqueue_scripts', 'ukmtheme_scripts', 11);
 function ukmtheme_scripts() {
   wp_deregister_script('jquery' );
   wp_enqueue_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js', array(), '1.10.2', false );
-  wp_enqueue_script( 'default', get_template_directory_uri() . '/assets/js/8e8cdc8a0fdf023886e76fced322ce50-script.min.js', array(), '6.1.8', true );
-  wp_enqueue_style( 'default', get_template_directory_uri() . '/assets/css/63db59f288d0f4e2eb4491da4007cc98-stylesheet.min.css', false, '6.1.8' );
+  wp_enqueue_script( 'default', get_template_directory_uri() . '/assets/js/8e8cdc8a0fdf023886e76fced322ce50-script.min.js', array(), '6.1.9', true );
+  wp_enqueue_style( 'default', get_template_directory_uri() . '/assets/css/63db59f288d0f4e2eb4491da4007cc98-stylesheet.min.css', false, '6.1.9' );
 }
 
 // Widget Init
