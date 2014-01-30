@@ -6,17 +6,18 @@ Tema WordPress ini adalah percuma dan boleh digunakan oleh semua Fakulti/Institu
 
 Pemasangan
 =====================================
-Tema WordPress ini adalah percuma. Boleh digunakan oleh semua Fakulti/Institut/Jabatan/Pusat di Universiti Kebangsaan Malaysia. Pemasangan boleh dilakukan melalui WordPress Dashboard atau melalui FTP.
+Pemasangan boleh dilakukan melalui WordPress Dashboard atau melalui FTP. Tema akan memklumkan sekiranya terdapat kemaskini. Pastikan anda sentiasa mengemaskini kepada versi terkini.
 
 Kolaborasi
 =====================================
-Kami mengalu-alukan penglibatan dan sumnagan pengguna untuk memberi pendapat, menguji cuba serta melaporkan ralat untuk penamabahbaikan. Sekiranya terdapat kegagalan atau ralat semasa penggunaan, kami mengharapkan pengguna dapat melaporkan segera ralat tersebet dengan segera kepada pembangun di alamat emel jrajalu@gmail.com
+Kami mengalu-alukan penglibatan dan sumnagan pengguna untuk memberi pendapat, menguji cuba serta melaporkan ralat untuk penamabahbaikan. Sekiranya terdapat kegagalan atau ralat semasa penggunaan, kami mengharapkan pengguna dapat melaporkan segera ralat tersebut dengan segera kepada pembangun di alamat emel jrajalu@gmail.com
 
 Log Ubah
 =====================================
 6.1.7
 
 - Kemaskini font/css/js
+- Kemaskini Opsyen Tema untuk pilihan warna
 
 6.1.6
 
