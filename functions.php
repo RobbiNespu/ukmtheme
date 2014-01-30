@@ -14,6 +14,13 @@ add_action('admin_head', 'ut_custom_css');
     echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/assets/css/63db59f288d0f4e2eb4491da4007cc98-admin.min.css?ver=6.1.7" type="text/css" media="all" />';
   }
 
+add_action( 'admin_enqueue_scripts', 'ut_wp_admin_scripts' );
+function ut_wp_admin_scripts() {
+  wp_enqueue_style( 'farbtastic' );
+  wp_enqueue_script( 'farbtastic' );
+  wp_enqueue_script( 'ut-extra-option', get_template_directory_uri() . '/assets/js/8e8cdc8a0fdf023886e76fced322ce50-options.js', array( 'farbtastic', 'jquery' ), '6.1.7', true );
+}
+
 // Theme Update Checker
 
 require( 'inc/theme-update-checker.php' );

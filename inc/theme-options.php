@@ -27,6 +27,8 @@ function register_mysettings() {
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_facebook' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_twitter' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_youtube' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_mn_color' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_mn_color_nav' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_snd_color' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_snd_color_nav' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_trd_color' );
@@ -131,20 +133,67 @@ function theme_options_do_page() { ?>
     <table class="form-table">
       <tbody>
         <tr valign="top">
-        <th scope="row"><?php _e('Second Colour','ukmtheme'); ?></th>
-        <td><input type="text" name="ukmtheme_snd_color" value="<?php echo get_option('ukmtheme_snd_color'); ?>" class="regular-text" placeholder="#1075FF" /></td>
+        <th scope="row"><?php _e('Main Colour','ukmtheme'); ?></th>
+        <td>
+          <div class="color-picker" style="position: relative;">
+            <input type="text" name="ukmtheme_mn_color" value="<?php echo get_option('ukmtheme_mn_color'); ?>" id="color" placeholder="#D10000" />
+            <div style="position: absolute; z-index: 100;" id="colorpicker"></div>
+          </div>
+        </td>
         </tr>
         <tr valign="top">
-        <th scope="row"><?php _e('Second Colour Dark','ukmtheme'); ?></th>
-        <td><input type="text" name="ukmtheme_snd_color_nav" value="<?php echo get_option('ukmtheme_snd_color_nav'); ?>" class="regular-text" placeholder="#006AFA" /></td>
-        </tr>        
+        <th scope="row">
+          <?php _e('Main Colour Combination','ukmtheme'); ?>
+          <small><?php _e('The color should be slightly darker','ukmtheme') ?></small>
+        </th>
+        <td>
+          <div class="color-picker" style="position: relative;">
+            <input type="text" name="ukmtheme_mn_color_nav" value="<?php echo get_option('ukmtheme_mn_color_nav'); ?>" id="colorMainComb" placeholder="#A70000" />
+            <div style="position: absolute; z-index: 100;" id="colorpickerMainComb"></div>
+          </div>
+        </td>
+        </tr>
+        <tr valign="top">
+        <th scope="row"><?php _e('Second Colour','ukmtheme'); ?></th>
+        <td>
+          <div class="color-picker" style="position: relative;">
+            <input type="text" name="ukmtheme_snd_color" value="<?php echo get_option('ukmtheme_snd_color'); ?>" id="colorSnd" placeholder="#1075FF" />
+            <div style="position: absolute; z-index: 100;" id="colorpickerSnd"></div>
+          </div>
+        </td>
+        </tr>
+        <tr valign="top">
+        <th scope="row">
+          <?php _e('Second Colour Combination','ukmtheme'); ?>
+          <small><?php _e('The color should be slightly darker','ukmtheme') ?></small>
+        </th>
+        <td>
+          <div class="color-picker" style="position: relative;">
+            <input type="text" name="ukmtheme_snd_color_nav" value="<?php echo get_option('ukmtheme_snd_color_nav'); ?>" id="colorSndComb" placeholder="#006AFA" />
+            <div style="position: absolute; z-index: 100;" id="colorpickerSndComb"></div>
+          </div>
+        </td>
+        </tr>
         <tr valign="top">
         <th scope="row"><?php _e('Third Colour','ukmtheme'); ?></th>
-        <td><input type="text" name="ukmtheme_trd_color" value="<?php echo get_option('ukmtheme_trd_color'); ?>" class="regular-text" placeholder="#1F1E1E" /></td>
+        <td>
+          <div class="color-picker" style="position: relative;">
+            <input type="text" name="ukmtheme_trd_color" value="<?php echo get_option('ukmtheme_trd_color'); ?>" id="colorTrd" placeholder="#1F1E1E" />
+            <div style="position: absolute; z-index: 100;" id="colorpickerTrd"></div>
+          </div>
+        </td>
         </tr>
         <tr valign="top">
-        <th scope="row"><?php _e('Third Colour Dark','ukmtheme'); ?></th>
-        <td><input type="text" name="ukmtheme_trd_color_nav" value="<?php echo get_option('ukmtheme_trd_color_nav'); ?>" class="regular-text" placeholder="#151515" /><p class="description">Masukkan kod hex warna cth: #000000 atau rgb(255, 0, 0). Kod hex warna boleh dijana di laman berikut <a href="http://www.colorpicker.com/">ColorPicker.com</a></p></td>
+        <th scope="row">
+          <?php _e('Third Colour Combination','ukmtheme'); ?>
+          <small><?php _e('The color should be slightly darker','ukmtheme') ?></small>
+        </th>
+        <td>
+          <div class="color-picker" style="position: relative;">
+            <input type="text" name="ukmtheme_trd_color_nav" value="<?php echo get_option('ukmtheme_trd_color_nav'); ?>" id="colorTrdComb" placeholder="#151515" />
+            <div style="position: absolute; z-index: 100;" id="colorpickerTrdComb"></div>
+          </div>
+        </td>
         </tr>
       </tbody>
     </table>
