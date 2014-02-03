@@ -15,7 +15,7 @@ get_header(); ?>
       <div class="col-1-10">
       <?php 
         $saved_data = get_post_meta($post->ID,'ut_staff_photo',true);
-        echo '<img src="'.$saved_data['url'].'">';
+        echo '<img src="'.$saved_data.'">';
 	    ?>
 		  </div>
   		<div class="col-9-10">

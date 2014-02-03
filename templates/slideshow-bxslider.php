@@ -23,10 +23,7 @@ $(document).ready(function(){
     <?php if( $slideshow->have_posts() ) : while( $slideshow->have_posts() ) : $slideshow->the_post(); ?>
       <li>
       <a href="<?php echo get_post_meta($post->ID,'ut_slideshow_link',true); ?>">
-        <?php 
-          $saved_data = get_post_meta($post->ID,'ut_slideshow_image',true);
-          echo '<img src="'.$saved_data['url'].'">';
-        ?>
+        <img src="<?php echo get_post_meta($post->ID,'ut_slideshow_image',true); ?>" alt="">
       </a>
       </li>            
     <?php endwhile; else: ?>

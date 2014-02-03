@@ -73,7 +73,7 @@ function ut_slideshow_custom_columns( $column ){
   global $post;
   
   switch ($column) {
-    case 'ut_slideshow_image' : $saved_data = get_post_meta($post->ID,'ut_slideshow_image',true); echo '<img src="'.$saved_data['url'].'" width="120">';break;
+    case 'ut_slideshow_image' : $slideshowURL = get_post_meta($post->ID,'ut_slideshow_image',true); echo '<img src="'.$slideshowURL.'" width="120">';break;
   }
 }
 

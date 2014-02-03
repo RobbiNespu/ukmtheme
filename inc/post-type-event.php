@@ -65,8 +65,8 @@ function ut_add_new_event_columns( $columns ){
     'cb'                  => '<input type="checkbox">',
     'title'               => __( 'Event', 'ukmtheme' ),
     'ut_event_date'       => __( 'Date', 'ukmtheme' ),
-    'ut_event_start_time' => __( 'Start', 'ukmtheme' ),
-    'ut_event_end_time'   => __( 'End', 'ukmtheme' ),
+    'ut_event_time_start' => __( 'Start', 'ukmtheme' ),
+    'ut_event_time_end'   => __( 'End', 'ukmtheme' ),
     'ut_event_venue'      => __( 'Venue', 'ukmtheme' )   
   );
   return $columns;
@@ -77,8 +77,8 @@ function ut_event_custom_columns( $column ){
   
   switch ($column) {
     case 'ut_event_date' : echo get_post_meta($post->ID,'ut_event_date',true); break;
-    case 'ut_event_start_time' : echo get_post_meta($post->ID,'ut_event_start_time',true); break;
-    case 'ut_event_end_time' : echo get_post_meta($post->ID,'ut_event_end_time',true); break;
+    case 'ut_event_start_time' : echo get_post_meta($post->ID,'ut_event_time_start',true); break;
+    case 'ut_event_end_time' : echo get_post_meta($post->ID,'ut_event_time_end',true); break;
     case 'ut_event_venue' : echo get_post_meta($post->ID,'ut_event_venue',true); break;
   }
 }

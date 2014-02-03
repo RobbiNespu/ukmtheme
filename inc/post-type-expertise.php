@@ -76,10 +76,10 @@ function ut_expertise_custom_columns( $column ){
   global $post;
   
   switch ($column) {
-    case 'ut_expertise_photo' : $saved_data = get_post_meta($post->ID,'ut_expertise_photo',true); echo '<img src="'.$saved_data['url'].'" width="60">';break;
-    case 'ut_expertise_title' : echo $saved_data = get_post_meta($post->ID,'ut_expertise_title',true); break;
-    case 'ut_expertise_email' : echo $saved_data = get_post_meta($post->ID,'ut_expertise_email',true); break;
-    case 'ut_expertise_contact' : echo $saved_data = get_post_meta($post->ID,'ut_expertise_contact',true); 
+    case 'ut_expertise_photo' : $expertPhoto = get_post_meta($post->ID,'ut_expertise_photo',true); echo '<img src="'.$expertPhoto.'" width="60">';break;
+    case 'ut_expertise_title' : echo get_post_meta($post->ID,'ut_expertise_title',true); break;
+    case 'ut_expertise_email' : echo get_post_meta($post->ID,'ut_expertise_email',true); break;
+    case 'ut_expertise_contact' : echo get_post_meta($post->ID,'ut_expertise_contact',true); 
   }
 }
 

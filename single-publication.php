@@ -18,7 +18,7 @@ get_header(); ?>
             <div class="col-3-10 article">
             <?php 
               $saved_data = get_post_meta($post->ID,'ut_publication_cover',true);
-              echo '<img src="'.$saved_data['url'].'">';
+              echo '<img src="'.$saved_data.'">';
             ?>
             </div>
             <div class="col-7-10">

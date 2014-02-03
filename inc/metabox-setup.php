@@ -8,334 +8,320 @@
  *
  * @author Jamaludin Rajalu
  *
+ * Tetapan muka hadapan laman
  */
 
-require_once get_template_directory() . '/lib/meta-box-class/my-meta-box-class.php';
-if (is_admin()){
+add_filter( 'cmb_meta_boxes', 'ukmtheme_metaboxes' );
+/**
+ * Define the metabox and field configurations.
+ *
+ * @param  array $meta_boxes
+ * @return array
+ */
+function ukmtheme_metaboxes( array $meta_boxes ) {
 
-$prefix = 'ut_';
+  // Start with an underscore to hide fields from custom fields list
+  $prefix = 'ut_';
 
-// Custom Post Type: Staff Detail
+  // SLIDESHOW
 
-$config = array(
-    'id'             => 'staff_meta_box',
-    'title'          => __('Staff Detail','ukmtheme'),
-    'pages'          => array('staff'),
-    'context'        => 'normal', 
-    'priority'       => 'high',
-    'fields'         => array(),
-    'local_images'   => false,
-    'use_with_theme' =>  get_stylesheet_directory_uri() .'/lib/meta-box-class'
-  );
-  
-$ut =  new AT_Meta_Box($config);
-
-$ut->addImage(
-  $prefix.'staff_photo',
-  array(
-    'name'      => __('Photo','ukmtheme'),
-    'desc'      => __('Image dimension: W:200 x H:250 pixel, graphic template for this image can be downloaded here: <a href="'.get_template_directory_uri().'/assets/templates/templates.zip">templates.zip</a>', 'ukmtheme')
-  ));
-
-$ut->addText(
-  $prefix.'staff_phone',
-  array(
-    'name'      => __('Phone No.','ukmtheme'),
-    'desc'      => __('eg: 03-8921-7070','ukmtheme')
-  ));
-
-$ut->addText(
-  $prefix.'staff_email',
-  array(
-    'name'      => __('Email','ukmtheme'),
-    'desc'      => __('e.g: username@ukm.my', 'ukmtheme')
-  ));
-
-$ut->Finish();
-
-// Custom Post Type: Slideshow
-
-$config_slideshow = array(
-  'id'             => 'slideshow_meta_box',
-  'title'          => __('Slideshow Detail','ukmtheme'),
-  'pages'          => array('slideshow'),
-  'context'        => 'normal', 
-  'priority'       => 'high',
-  'fields'         => array(),
-  'local_images'   => false,
-  'use_with_theme' =>  get_stylesheet_directory_uri() .'/lib/meta-box-class'
-);
-  
-$ut_slideshow =  new AT_Meta_Box($config_slideshow);
-
-$ut_slideshow->addImage(
-  $prefix.'slideshow_image',
-  array(
-    'name'      => 'Image',
-    'desc'      => __('Image dimension: W:960 x H:350 pixel, graphic template for this image can be downloaded here: <a href="'.get_template_directory_uri().'/assets/templates/templates.zip">templates.zip</a>', 'ukmtheme')
-  ));
-
-$ut_slideshow->addText(
-  $prefix.'slideshow_link',
-  array(
-    'name'      => 'Link URL',
-    'desc'      => __('This is optional. If so enter full url e.g: http://www.ukm.my','ukmtheme')
-  ));
-
-$ut_slideshow->Finish();
-
-// Custom Post Type: Events
-
-$config_event = array(
-  'id'             => 'event_meta_box',
-  'title'          => __('Event Detail','ukmtheme'),
-  'pages'          => array('event'),
-  'context'        => 'normal', 
-  'priority'       => 'high',
-  'fields'         => array(),
-  'local_images'   => false,
-  'use_with_theme' =>  get_stylesheet_directory_uri() .'/lib/meta-box-class'
-);
-  
-$ut_event =  new AT_Meta_Box($config_event);
-
-$ut_event->addDate(
-  $prefix.'event_date',
-  array(
-    'name'      => __('Date', 'ukmtheme'),
-    'format'    => 'D, dd/mm/yy'
-  ));
-
-$ut_event->addTime(
-  $prefix.'event_start_time',
-  array(
-    'name'      => __('Start Time', 'ukmtheme'),
-    'format'    => 'hh:mm tt'
-  ));
-
-$ut_event->addTime(
-  $prefix.'event_end_time',
-  array(
-    'name'      => __('End Time', 'ukmtheme'),
-    'format'    => 'hh:mm tt'
-  ));
-
-$ut_event->addText(
-  $prefix.'event_venue',
-  array(
-    'name'      => __('Venue', 'ukmtheme')
-  ));
-
-$ut_event->addWysiwyg(
-  $prefix.'event_summary',
-  array(
-    'name'      => __('Summary', 'ukmtheme')
-  ));
-
-$ut_event->Finish();
-
-// Custom Post Type: Publication
-
-$config_publication = array(
-    'id'             => 'publication_meta_box',
-    'title'          => __('Publication Details','ukmtheme'),
-    'pages'          => array('publication'),
-    'context'        => 'normal', 
-    'priority'       => 'high',
-    'fields'         => array(),
-    'local_images'   => false,
-    'use_with_theme' =>  get_stylesheet_directory_uri() .'/lib/meta-box-class'
-  );
-  
-$ut_publication =  new AT_Meta_Box($config_publication);
-
-$ut_publication->addImage(
-  $prefix.'publication_cover',
-  array(
-    'name'      => __('Cover Image','ukmtheme'),
-    'desc'      => __('Image dimension: W:200 x H:250 pixel, graphic template for this image can be downloaded here: <a href="'.get_template_directory_uri().'/assets/templates/templates.zip">templates.zip</a>', 'ukmtheme')
-  ));
-
-//$ut_publication->addText($prefix.'publication_ISBN',array('name'=> __('ISBN','ukmtheme'), 'desc' => __('eg: 978-983-99557-1-2','ukmtheme')));
-
-$ut_publication->addText(
-  $prefix.'publication_author',
-  array(
-    'name'      => __('Author','ukmtheme'),
-    'desc'      => __('e.g: Jamaludin Rajalu', 'ukmtheme')
-  ));
-
-$ut_publication->addText(
-  $prefix.'publication_publisher',
-  array(
-    'name'      => __('Publisher','ukmtheme'),
-    'desc'      => __('e.g: Pusat Teknologi Maklumat', 'ukmtheme')
-  ));
-
-$ut_publication->addText(
-  $prefix.'publication_year',
-  array(
-    'name'      => __('Year','ukmtheme'),
-    'desc'      => __('eg: 2014','ukmtheme')
-  ));
-
-$ut_publication->addText(
-  $prefix.'publication_pages',
-  array(
-    'name'      => __('Number of page','ukmtheme'),
-    'desc'      => __('e.g: 199', 'ukmtheme')
-  ));
-
-$ut_publication->addText(
-  $prefix.'publication_reference',
-  array(
-    'name'      => __('Reference/Download','ukmtheme'),
-    'desc'      => __('e.g: http://www.example.com or http://www.example.com/softcopy-example.pdf', 'ukmtheme')
-  ));
-
-$ut_publication->Finish();
-
-// Custom Post Type: expertise
-
-$config_expertise = array(
-    'id'             => 'expertise_meta_box',
-    'title'          => __('Expertise Details','ukmtheme'),
-    'pages'          => array('expertise'),
-    'context'        => 'normal', 
-    'priority'       => 'high',
-    'fields'         => array(),
-    'local_images'   => false,
-    'use_with_theme' =>  get_stylesheet_directory_uri() .'/lib/meta-box-class'
+  $meta_boxes['slideshow_metabox'] = array(
+    'id'         => 'slideshow_metabox',
+    'title'      => __( 'Slideshow Detail', 'ukmtheme' ),
+    'pages'      => array( 'slideshow', ),
+    'context'    => 'normal',
+    'priority'   => 'high',
+    'show_names' => true,
+    'fields'     => array(
+      array(
+        'name' => __( 'Slideshow Image', 'ukmtheme' ),
+        'desc' => __( 'Upload an image or enter a URL. dimensions of the image should be 960x350 pixels.', 'ukmtheme' ),
+        'id'   => $prefix . 'slideshow_image',
+        'type' => 'file',
+        'allow' => array('url'),
+      ),
+      array(
+        'name' => __( 'Slideshow Link', 'ukmtheme' ),
+        'desc' => __( 'links to posts, pages or external web.', 'ukmtheme' ),
+        'id'   => $prefix . 'slideshow_link',
+        'type' => 'text',
+      ),
+    ),
   );
 
-$ut_expertise =  new AT_Meta_Box($config_expertise);
+  // EVENT MANAGER
 
-$ut_expertise->addWysiwyg(
-  $prefix.'expertise_biography',
-  array(
-    'name'      => __('Biography','ukmtheme'),
-    'desc'      => __('e.g: Ahmad Azmi Mohd. Ariffin (Dr.) is an Associate Professor at UKM-Graduate School of Business. His research interests are in the areas of Tourism and Hospitality Marketing, as well as Services Marketing...', 'ukmtheme')
-  ));
+  $meta_boxes['event_metabox'] = array(
+    'id'         => 'event_metabox',
+    'title'      => __( 'Event Detail', 'ukmtheme' ),
+    'pages'      => array( 'event', ),
+    'context'    => 'normal',
+    'priority'   => 'high',
+    'show_names' => true,
+    'fields'     => array(
+      array(
+        'name' => __( 'Date', 'ukmtheme' ),
+        'desc' => __( 'Date of event', 'ukmtheme' ),
+        'id'   => $prefix . 'event_date',
+        'type' => 'text_date',
+      ),
+      array(
+        'name' => __( 'Time: Start', 'ukmtheme' ),
+        'desc' => __( 'Start time of the event', 'ukmtheme' ),
+        'id'   => $prefix . 'event_time_start',
+        'type' => 'text_time',
+      ),
+      array(
+        'name' => __( 'Time: End', 'ukmtheme' ),
+        'desc' => __( 'End time of the event', 'ukmtheme' ),
+        'id'   => $prefix . 'event_time_end',
+        'type' => 'text_time',
+      ),
+      array(
+        'name' => __( 'Venue', 'ukmtheme' ),
+        'desc' => __( 'Venue of the event', 'ukmtheme' ),
+        'id'   => $prefix . 'event_venue',
+        'type' => 'text',
+      ),
+      array(
+        'name'    => __( 'Summary', 'ukmtheme' ),
+        'desc'    => __( 'Event Summary', 'ukmtheme' ),
+        'id'      => $prefix . 'event_summary',
+        'type'    => 'wysiwyg',
+        'options' => array( 'textarea_rows' => 5, ),
+      ),
+    ),
+  );
 
-$ut_expertise->addImage(
-  $prefix.'expertise_photo',
-  array(
-    'name'      => __('Photo','ukmtheme'),
-    'desc'      => __('Image dimension: W:200 x H:250 pixel, graphic template for this image can be downloaded here: <a href="'.get_template_directory_uri().'/assets/templates/templates.zip">templates.zip</a>', 'ukmtheme'),
-  ));
+  // PUBLICATION
 
-$ut_expertise->addText(
-  $prefix.'expertise_title',
-  array(
-    'name'      => __('Title','ukmtheme'),
-    'desc'      => __('e.g: Professor', 'ukmtheme')
-  ));
+  $meta_boxes['publication_metabox'] = array(
+    'id'         => 'publication_metabox',
+    'title'      => __( 'Publication Detail', 'ukmtheme' ),
+    'pages'      => array( 'publication', ),
+    'context'    => 'normal',
+    'priority'   => 'high',
+    'show_names' => true,
+    'fields'     => array(
+      array(
+        'name' => __( 'Cover Image', 'ukmtheme' ),
+        'desc' => __( 'Upload an image or enter a URL. dimensions of the image should be 300x350 pixels.', 'ukmtheme' ),
+        'id'   => $prefix . 'publication_cover',
+        'type' => 'file',
+        'allow' => array('url'),
+      ),
+      array(
+        'name' => __( 'Author', 'ukmtheme' ),
+        'desc' => __( 'e.g. Jamaludin Rajalu', 'ukmtheme' ),
+        'id'   => $prefix . 'publication_author',
+        'type' => 'text',
+      ),
+      array(
+        'name' => __( 'Publisher', 'ukmtheme' ),
+        'desc' => __( 'e.g. Pusat Teknologi Maklumat', 'ukmtheme' ),
+        'id'   => $prefix . 'publication_publisher',
+        'type' => 'text',
+      ),
+      array(
+        'name' => __( 'Year', 'ukmtheme' ),
+        'desc' => __( 'e.g. 2014', 'ukmtheme' ),
+        'id'   => $prefix . 'publication_year',
+        'type' => 'text',
+      ),
+      array(
+        'name' => __( 'Number of Pages', 'ukmtheme' ),
+        'desc' => __( 'e.g. 199', 'ukmtheme' ),
+        'id'   => $prefix . 'publication_pages',
+        'type' => 'text',
+      ),
+      array(
+        'name' => __( 'Reference', 'ukmtheme' ),
+        'desc' => __( 'e.g. http://www.ukm.my', 'ukmtheme' ),
+        'id'   => $prefix . 'publication_reference',
+        'type' => 'text_url',
+      ),
+      array(
+        'name' => __( 'Download', 'ukmtheme' ),
+        'desc' => __( 'Upload an image or enter a URL.', 'ukmtheme' ),
+        'id'   => $prefix . 'publication_download',
+        'type' => 'file',
+        'allow' => array('url'),
+      ),
+    ),
+  );
 
-$ut_expertise->addText(
-  $prefix.'expertise_email',
-  array(
-    'name'      => __('Email','ukmtheme'),
-    'desc'      => __('e.g: expertisename@ukm.my', 'ukmtheme')
-  ));
+  // STAFF DIRECTORY
 
-$ut_expertise->addText(
-  $prefix.'expertise_contact',
-  array(
-    'name'      => __('Contact','ukmtheme'),
-    'desc'      => __('eg: 03-8921-7070','ukmtheme')
-  ));
+  $meta_boxes['staff_metabox'] = array(
+    'id'         => 'staff_metabox',
+    'title'      => __( 'Staff Detail', 'ukmtheme' ),
+    'pages'      => array( 'staff', ),
+    'context'    => 'normal',
+    'priority'   => 'high',
+    'show_names' => true,
+    'fields'     => array(
+      array(
+        'name' => __( 'Staff Photo', 'ukmtheme' ),
+        'desc' => __( 'Upload an image or enter a URL. dimensions of the image should be 300x350 pixels.', 'ukmtheme' ),
+        'id'   => $prefix . 'staff_photo',
+        'type' => 'file',
+        'allow' => array('url'),
+      ),
+      array(
+        'name' => __( 'Phone No.', 'ukmtheme' ),
+        'desc' => __( 'e.g. 03-8921-7070', 'ukmtheme' ),
+        'id'   => $prefix . 'staff_phone',
+        'type' => 'text',
+      ),
+      array(
+        'name' => __( 'Email', 'ukmtheme' ),
+        'desc' => __( 'e.g. user@ukm.edu.my', 'ukmtheme' ),
+        'id'   => $prefix . 'staff_email',
+        'type' => 'text_email',
+      ),
+    ),
+  );
 
-$ut_expertise->addText(
-  $prefix.'expertise_specialisation',
-  array(
-    'name'      => __('Specialisation','ukmtheme'),
-    'desc'      => __('e.g: Tourism and Hospitality Marketing, &amp; Services Marketing', 'ukmtheme')
-  ));
+  // EXPERTISE
 
-$ut_expertise->addWysiwyg(
-  $prefix.'expertise_qualification',
-  array(
-    'name'      => __('Qualifications','ukmtheme'),
-    'desc'      => __('e.g: Doctor of Philosophy (University of Malaya) [2002-2005]', 'ukmtheme')
-  ));
+  $meta_boxes['expertise_metabox'] = array(
+    'id'         => 'expertise_metabox',
+    'title'      => __( 'Expertise Detail', 'ukmtheme' ),
+    'pages'      => array( 'expertise', ),
+    'context'    => 'normal',
+    'priority'   => 'high',
+    'show_names' => true,
+    'fields'     => array(
+      array(
+        'name' => __( 'Expert Photo', 'ukmtheme' ),
+        'desc' => __( 'Upload an image or enter a URL. dimensions of the image should be 300x350 pixels.', 'ukmtheme' ),
+        'id'   => $prefix . 'expertise_photo',
+        'type' => 'file',
+        'allow' => array('url'),
+      ),
+      array(
+        'name'    => __( 'Biography', 'ukmtheme' ),
+        'desc'    => __( 'A brief biography', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_biography',
+        'type'    => 'wysiwyg',
+        'options' => array( 'textarea_rows' => 5, ),
+      ),
+      array(
+        'name' => __( 'Contact', 'ukmtheme' ),
+        'desc' => __( 'e.g. 03-8921-7070', 'ukmtheme' ),
+        'id'   => $prefix . 'expertise_contact',
+        'type' => 'text',
+      ),
+      array(
+        'name' => __( 'Specialisation', 'ukmtheme' ),
+        'desc' => __( 'Tourism and Hospitality Marketing, &amp; Services Marketing', 'ukmtheme' ),
+        'id'   => $prefix . 'expertise_contact',
+        'type' => 'text',
+      ),
+      array(
+        'name' => __( 'Email', 'ukmtheme' ),
+        'desc' => __( 'e.g. user@ukm.edu.my', 'ukmtheme' ),
+        'id'   => $prefix . 'expertise_email',
+        'type' => 'text_email',
+      ),
+      array(
+        'name'    => __( 'Qualifications', 'ukmtheme' ),
+        'desc'    => __( 'e.g. Doctor of Philosophy (University of Malaya) [2002-2005]', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_qualification',
+        'type'    => 'wysiwyg',
+        'options' => array( 'textarea_rows' => 5, ),
+      ),
+      array(
+        'name'    => __( 'Areas of Research', 'ukmtheme' ),
+        'desc'    => __( 'e.g. Services Marketing and Consumer Behavior Analysis', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_research_area',
+        'type'    => 'wysiwyg',
+        'options' => array( 'textarea_rows' => 5, ),
+      ),
+      array(
+        'name'    => __( 'Research/Consultation/Expansion', 'ukmtheme' ),
+        'desc'    => __( 'e.g. Developing A Higher Education Brand Index for Malaysia. Jan1, 2009-June 30,2010. GSB-001-2009 (External Grant). Ongoing.', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_research_consultation',
+        'type'    => 'wysiwyg',
+        'options' => array( 'textarea_rows' => 5, ),
+      ),
+      array(
+        'name'    => __( 'Publications Journals', 'ukmtheme' ),
+        'desc'    => __( 'e.g. Ahmad Azmi M. Ariffin & Mohd Safar Hashim. 2009. Marketing Malaysia to the Middle East Tourists: Towards a Prime Inter-Regional Destination. International Journal of West Asian Studies. 1(1): 43-58. ISSN 1394-0902.', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_journal',
+        'type'    => 'wysiwyg',
+        'options' => array( 'textarea_rows' => 5, ),
+      ),
+      array(
+        'name'    => __( 'Proceedings', 'ukmtheme' ),
+        'desc'    => __( 'e.g. Ahmad Azmi M.Ariffin, Aliah Hanim M.Salleh, Norzalita A.Aziz & Astuti A.Asbudin. 2009. Determining Passengers’ Expectation, Service Quality and Satisfaction for Low Cost Carriers. The Proceeding of The 11th. International Business Research Conference. Sydney Australia. Dec 2-4, 2009. ISBN: 978-0-980-4557-0-7 (Presenter).', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_proceeedings',
+        'type'    => 'wysiwyg',
+        'options' => array( 'textarea_rows' => 5, ),
+      ),
+      array(
+        'name'    => __( 'Articles in Antologi/Chapters in Book', 'ukmtheme' ),
+        'desc'    => __( 'e.g. Ahmad Azmi Mohd. Ariffin, Norzalita Abd. Aziz. 2009. Chapter 5: Service Quality and Zone of Tolerance in Malaysian Banking Services. In Services Management and Marketing: Studies in Malaysia. Edited by Aliah Hanim Mohd. Salleh, Ahmad Azmi Mohd. Ariffin, June M. L. Poon & Aini Aman. GSB-UKM. Bangi.', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_antologi',
+        'type'    => 'wysiwyg',
+        'options' => array( 'textarea_rows' => 5, ),
+      ),
+      array(
+        'name'    => __( 'Monograph, Working Papers and Non-Periodical Publications', 'ukmtheme' ),
+        'desc'    => __( 'e.g. Module ”Tourism Marketing” (Code: BBAS 3103).  Open University Malaysia. 2007/2008', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_monograph',
+        'type'    => 'wysiwyg',
+        'options' => array( 'textarea_rows' => 5, ),
+      ),
+      array(
+        'name'    => __( 'Award', 'ukmtheme' ),
+        'desc'    => __( 'e.g. EXCELLENT SERVICE AWARD 2007. Faculty of Economics and BusinessUniversiti Kebangsaan Malaysia', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_award',
+        'type'    => 'wysiwyg',
+        'options' => array( 'textarea_rows' => 5, ),
+      ),
+      array(
+        'name'    => __( 'Supervision', 'ukmtheme' ),
+        'desc'    => __( 'e.g. Lim Chui Seong (DBA. Disertasi) The Influence of e-Hospitality on Websites Satisfaction and Loyalty (Ongoing)', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_supervision',
+        'type'    => 'wysiwyg',
+        'options' => array( 'textarea_rows' => 5, ),
+      ),
+      array(
+        'name'    => __( 'Administrative Services/Committee', 'ukmtheme' ),
+        'desc'    => __( 'e.g. MANAGING EDITOR OF JURNAL PENGURUSAN 1 April 2007 – Present Graduate School of Business, Universiti Kebangsaan Malaysia', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_administrative',
+        'type'    => 'wysiwyg',
+        'options' => array( 'textarea_rows' => 5, ),
+      ),
+      array(
+        'name'    => __( 'Reports: Technical/Research/Consultation', 'ukmtheme' ),
+        'desc'    => __( 'e.g. Mohd Fauzi Mohd Jani, Zaimah Derawi, Tih Sio Hong, Rozita Amirudin, Ahmad Azmi Ariffin, Zafir Makhbul, Aini Aman, Mohd Radzuan Rahid, Ahmad Raflis Omar, Kamalrudin Mohamed Saleh. 2008. “Laporan Akhir Program Latihan Keusahawanan: Kerjasama Pelajar Universiti dan Entepris Kecil dan Sederhana (EKS)”. SMIDEC.', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_reports',
+        'type'    => 'wysiwyg',
+        'options' => array( 'textarea_rows' => 5, ),
+      ),
+      array(
+        'name'    => __( 'Teaching', 'ukmtheme' ),
+        'desc'    => __( 'e.g. Courses Taught at Ph.D./DBA Level Hospitality Marketing: Theory and Research', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_teaching',
+        'type'    => 'wysiwyg',
+        'options' => array( 'textarea_rows' => 5, ),
+      ),
+    ),
+  );
 
-$ut_expertise->addWysiwyg(
-  $prefix.'expertise_research_area',
-  array(
-    'name'      => __('Areas of Research','ukmtheme'),
-    'desc'      => __('e.g: Services Marketing and Consumer Behavior Analysis', 'ukmtheme')
-  ));
+// END HERE
 
-$ut_expertise->addWysiwyg(
-  $prefix.'expertise_research_consultation',
-  array(
-    'name'      => __('Research/Consultation/Expansion','ukmtheme'),
-    'desc'      => __('e.g: Developing A Higher Education Brand Index for Malaysia. Jan1, 2009-June 30,2010. GSB-001-2009 (External Grant). Ongoing.', 'ukmtheme')
-  ));
+  return $meta_boxes;
 
-$ut_expertise->addWysiwyg(
-  $prefix.'expertise_journal',
-  array(
-    'name'      => __('Publications Journals','ukmtheme'),
-    'desc'      => __('e.g: Ahmad Azmi M. Ariffin & Mohd Safar Hashim. 2009. Marketing Malaysia to the Middle East Tourists: Towards a Prime Inter-Regional Destination. International Journal of West Asian Studies. 1(1): 43-58. ISSN 1394-0902.', 'ukmtheme')
-  ));
+}
 
-$ut_expertise->addWysiwyg(
-  $prefix.'expertise_proceeedings',
-  array(
-    'name'      => __('Proceedings','ukmtheme'),
-    'desc'      => __('e.g: Ahmad Azmi M.Ariffin, Aliah Hanim M.Salleh, Norzalita A.Aziz & Astuti A.Asbudin. 2009. Determining Passengers’ Expectation, Service Quality and Satisfaction for Low Cost Carriers. The Proceeding of The 11th. International Business Research Conference. Sydney Australia. Dec 2-4, 2009. ISBN: 978-0-980-4557-0-7 (Presenter).', 'ukmtheme')
-  ));
+add_action( 'init', 'cmb_initialize_cmb_meta_boxes', 9999 );
 
-$ut_expertise->addWysiwyg(
-  $prefix.'expertise_antologi',
-  array(
-    'name'      => __('Articles in Antologi/Chapters in Book','ukmtheme'),
-    'desc'      => __('e.g: Ahmad Azmi Mohd. Ariffin, Norzalita Abd. Aziz. 2009. Chapter 5: Service Quality and Zone of Tolerance in Malaysian Banking Services. In Services Management and Marketing: Studies in Malaysia. Edited by Aliah Hanim Mohd. Salleh, Ahmad Azmi Mohd. Ariffin, June M. L. Poon & Aini Aman. GSB-UKM. Bangi.', 'ukmtheme')
-  ));
+function cmb_initialize_cmb_meta_boxes() {
 
-$ut_expertise->addWysiwyg(
-  $prefix.'expertise_monograph',
-  array(
-    'name'      => __('Monograph, Working Papers and Non-Periodical Publications','ukmtheme'),
-    'desc'      => __('e.g: Module ”Tourism Marketing” (Code: BBAS 3103).  Open University Malaysia. 2007/2008', 'ukmtheme')
-  ));
-
-$ut_expertise->addWysiwyg(
-  $prefix.'expertise_award',
-  array(
-    'name'      => __('Award','ukmtheme'),
-    'desc'      => __('e.g: EXCELLENT SERVICE AWARD 2007. Faculty of Economics and BusinessUniversiti Kebangsaan Malaysia', 'ukmtheme')
-  ));
-
-$ut_expertise->addWysiwyg(
-  $prefix.'expertise_supervision',
-  array(
-    'name'      => __('Supervision','ukmtheme'),
-    'desc'      => __('e.g: Lim Chui Seong (DBA. Disertasi) The Influence of e-Hospitality on Websites Satisfaction and Loyalty (Ongoing)', 'ukmtheme')
-  ));
-
-$ut_expertise->addWysiwyg(
-  $prefix.'expertise_administrative',
-  array(
-    'name'      => __('Administrative Services/Committee','ukmtheme'),
-    'desc'      => __('e.g: MANAGING EDITOR OF JURNAL PENGURUSAN 1 April 2007 – Present Graduate School of Business, Universiti Kebangsaan Malaysia', 'ukmtheme')
-  ));
-
-$ut_expertise->addWysiwyg(
-  $prefix.'expertise_reports',
-  array(
-    'name'      => __('Reports: Technical/Research/Consultation','ukmtheme'),
-    'desc'      => __('e.g: Mohd Fauzi Mohd Jani, Zaimah Derawi, Tih Sio Hong, Rozita Amirudin, Ahmad Azmi Ariffin, Zafir Makhbul, Aini Aman, Mohd Radzuan Rahid, Ahmad Raflis Omar, Kamalrudin Mohamed Saleh. 2008. “Laporan Akhir Program Latihan Keusahawanan: Kerjasama Pelajar Universiti dan Entepris Kecil dan Sederhana (EKS)”. SMIDEC.', 'ukmtheme')
-  ));
-
-$ut_expertise->addWysiwyg(
-  $prefix.'expertise_teaching',
-  array(
-    'name'      => __('Teaching','ukmtheme'),
-    'desc'      => __('e.g: Courses Taught at Ph.D./DBA Level Hospitality Marketing: Theory and Research', 'ukmtheme')
-  ));
-
-  $ut_expertise->Finish();
+  if ( ! class_exists( 'cmb_Meta_Box' ) )
+    require_once get_template_directory() . '/lib/metabox/init.php';
 
 } ?>
