@@ -1,4 +1,4 @@
-UKM Theme Versi 6.1.9
+UKM Theme Versi 6.1.10
 
 Diskripsi
 =====================================
@@ -14,8 +14,12 @@ Kami mengalu-alukan penglibatan dan sumnagan pengguna untuk memberi pendapat, me
 
 Log Ubah
 =====================================
+6.1.10
+- Metabox baru
+
 6.1.9
 - Kemaskini layout tools
+- Tambahbaik ralat js
 
 6.1.8
 
