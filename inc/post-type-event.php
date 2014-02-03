@@ -77,8 +77,8 @@ function ut_event_custom_columns( $column ){
   
   switch ($column) {
     case 'ut_event_date' : echo get_post_meta($post->ID,'ut_event_date',true); break;
-    case 'ut_event_start_time' : echo get_post_meta($post->ID,'ut_event_time_start',true); break;
-    case 'ut_event_end_time' : echo get_post_meta($post->ID,'ut_event_time_end',true); break;
+    case 'ut_event_time_start' : echo get_post_meta($post->ID,'ut_event_time_start',true); break;
+    case 'ut_event_time_end' : echo get_post_meta($post->ID,'ut_event_time_end',true); break;
     case 'ut_event_venue' : echo get_post_meta($post->ID,'ut_event_venue',true); break;
   }
 }
