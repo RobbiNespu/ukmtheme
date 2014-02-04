@@ -39,6 +39,9 @@ wp_footer(); ?>
   <div class="wrap visitor-counter">
     <?php get_template_part( 'templates/visitor', 'counter' ); ?>
   </div>
+  <div class="wrap">
+    <p style="text-align:center;font-size:12px;"><?php _e('Powered by','ukmtheme'); ?>&nbsp;<a href="http://www.ukm.my/template/" target="_blank">UKMTheme</a></p>
+  </div>
 </footer>
 </body>
 </html>
