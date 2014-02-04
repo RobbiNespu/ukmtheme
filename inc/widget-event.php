@@ -57,7 +57,7 @@ class Event_Widget extends WP_Widget {
             </li>
           <?php endwhile; ?>
           </ul>
-          <a href="<?php echo get_post_type_archive_link( 'event' ); ?>"><button class="uk-button uk-button-mini uk-button-primary">More Event</button></a>
+          <a href="<?php echo get_post_type_archive_link( 'event' ); ?>"><button class="uk-button uk-button-mini uk-button-primary"><?php _e('More Event','ukmtheme'); ?></button></a>
           </div>
         </div>
       </div>
@@ -85,7 +85,7 @@ class Event_Widget extends WP_Widget {
     <p>
     <label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?></label> 
     <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>" />
-    <label for="<?php echo $this->get_field_id( 'total' ); ?>"><?php _e( 'Number Event to Show:' ); ?></label> 
+    <label for="<?php echo $this->get_field_id( 'total' ); ?>"><?php _e( 'Number Event to Show:','ukmtheme' ); ?></label> 
     <input class="widefat" id="<?php echo $this->get_field_id( 'total' ); ?>" name="<?php echo $this->get_field_name( 'total' ); ?>" type="text" value="<?php echo esc_attr( $total ); ?>" />
     </p>
     <?php 

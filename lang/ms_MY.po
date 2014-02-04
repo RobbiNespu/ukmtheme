@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: UKM Theme 6.1.5\n"
-"POT-Creation-Date: 2014-02-04 22:26+0800\n"
-"PO-Revision-Date: 2014-02-04 22:35+0800\n"
+"POT-Creation-Date: 2014-02-04 22:45+0800\n"
+"PO-Revision-Date: 2014-02-04 22:46+0800\n"
 "Last-Translator: \n"
 "Language-Team: UKM WordPress Theme Dev <multimedia@ptm.ukm.my>\n"
 "Language: ms_MY\n"
@@ -1346,6 +1346,10 @@ msgstr "Acara Akan Datang"
 msgid "Upcoming Event Lists"
 msgstr "Senarai Acara Akan Datang"
 
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-event.php:60
+msgid "More Event"
+msgstr "Lagi Cari"
+
 #: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-event.php:74
 msgid "New title"
 msgstr "Tajuk Baru"
@@ -1556,38 +1560,41 @@ msgid ""
 "href=\"http://codex.wordpress.org/Embeds\">http://codex.wordpress.org/"
 "Embeds</a>."
 msgstr ""
+"Enter a youtube, twitter, or instagram URL. Supports services listed at <a "
+"href=\"http://codex.wordpress.org/Embeds\">http://codex.wordpress.org/"
+"Embeds</a>."
 
 #: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:254
 msgid "About Page Metabox"
-msgstr ""
+msgstr "About Page Metabox"
 
 #: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:275
 msgid "User Profile Metabox"
-msgstr ""
+msgstr "User Profile Metabox"
 
 #: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:281
 msgid "Extra Info"
-msgstr ""
+msgstr "Extra Info"
 
 #: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:288
 msgid "Avatar"
-msgstr ""
+msgstr "Avatar"
 
 #: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:295
 msgid "Facebook URL"
-msgstr ""
+msgstr "Facebook URL"
 
 #: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:301
 msgid "Twitter URL"
-msgstr ""
+msgstr "Twitter URL"
 
 #: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:307
 msgid "Google+ URL"
-msgstr ""
+msgstr "Google+ URL"
 
 #: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:313
 msgid "Linkedin URL"
-msgstr ""
+msgstr "Linkedin URL"
 
 #: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:319
 msgid "User Field"
@@ -1634,7 +1641,7 @@ msgstr "Hapus Embed"
 #: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_ajax.php:134
 #, php-format
 msgid "No oEmbed Results Found for %s. View more info at"
-msgstr ""
+msgstr "No oEmbed Results Found for %s. View more info at"
 
 #: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:150
 msgid "Add Row"
