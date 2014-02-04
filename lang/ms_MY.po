@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: UKM Theme 6.1.5\n"
 "POT-Creation-Date: 2014-02-04 22:45+0800\n"
-"PO-Revision-Date: 2014-02-04 22:46+0800\n"
+"PO-Revision-Date: 2014-02-04 22:50+0800\n"
 "Last-Translator: \n"
 "Language-Team: UKM WordPress Theme Dev <multimedia@ptm.ukm.my>\n"
 "Language: ms_MY\n"
@@ -1348,7 +1348,7 @@ msgstr "Senarai Acara Akan Datang"
 
 #: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-event.php:60
 msgid "More Event"
-msgstr "Lagi Cari"
+msgstr "Lagi Acara"
 
 #: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-event.php:74
 msgid "New title"
@@ -1624,7 +1624,7 @@ msgstr "Pilih warna"
 
 #: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/init.php:246
 msgid "Current Color"
-msgstr "Warna Terkini"
+msgstr "Warna Semasa"
 
 #: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/init.php:1226
 msgid "Save"
