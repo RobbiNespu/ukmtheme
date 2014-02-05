@@ -1,6 +1,7 @@
 <?php
 /**
  * @link http://www.ukm.my/template
+ * @link http://codex.wordpress.org/Widgets_API
  *
  * @package WordPress
  * @subpackage ukmtheme
@@ -19,7 +20,7 @@ class Youtube_Widget extends WP_Widget {
   function __construct() {
     parent::__construct(
       'youtube_widget', // Base ID
-      __('Youtube Video', 'ukmtheme'), // Name
+      __('#Youtube Video', 'ukmtheme'), // Name
       array( 'description' => __( 'Youtube video for sidebar', 'ukmtheme' ), ) // Args
     );
   }
@@ -34,7 +35,7 @@ class Youtube_Widget extends WP_Widget {
    */
   public function widget( $args, $instance ) {
     $title = apply_filters( 'widget_title', $instance['title'] );
-    
+
     echo $args['before_widget'];
     if ( ! empty( $title ) )
       echo $args['before_title'] . $title . $args['after_title'];
