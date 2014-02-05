@@ -26,7 +26,7 @@ html, body {
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -150px; 
+  margin-bottom: -160px; 
 }
 
 .page-wrap:after {
@@ -36,7 +36,7 @@ html, body {
 
 .site-footer, .page-wrap:after {
   /* .push must be the same height as footer */
-  min-height: 150px; 
+  height: 160px; 
 }
 
 .site-footer {
@@ -46,9 +46,9 @@ html, body {
 /* =Reset
 -------------------------------------------------------------- */
 
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
   box-sizing: border-box;
 }
 
