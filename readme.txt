@@ -1,4 +1,4 @@
-UKM Theme Versi 6.1.11
+UKM Theme Versi 6.1.12
 
 Penerangan
 =====================================
@@ -16,6 +16,9 @@ Nota: Penglih saiz font masih tidak aktif.
 
 Log Ubah
 =====================================
+6.1.12
+- Kemakini dokumentasi
+
 6.1.11
 - Kemaskini terjemahan
 - Kemaskini CSS untuk muka hadapan

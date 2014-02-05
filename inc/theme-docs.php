@@ -36,7 +36,8 @@ function ukmtheme_documentation_options() {
       <li><a href="#Slideshow">Slideshow</a></li>
       <li><a href="#Staff Directory">Staff Directory</a></li>
     </ol>
-    <p>Maaf tiada dokumentasi buat masa ini. Sekiranya anda ingin menyumbangkan penulisan berkenaan pengendalian perkara-perkara di atas atau memerlukan khidmat bantuan pengendalian tema ini, boleh menghubungi pembangun di alamat emel <em>jamaludin@ptm.ukm.my</em>. Penglibatan anda amat dialu-alukan. Terima kasih.</p>
+    <a name="Layout"><h4>Layout</h4></a>
+    <p>Untuk menukar layout muka hadapan, anda boleh memilih jenis layout yang hendak digunakan di menu Appearance > Theme Options. </p>
     </div>
   </div>
 </div>
