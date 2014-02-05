@@ -34,7 +34,8 @@ class Youtube_Widget extends WP_Widget {
    */
   public function widget( $args, $instance ) {
     $title = apply_filters( 'widget_title', $instance['title'] );
-
+    
+    echo $args['before_widget'];
     if ( ! empty( $title ) )
       echo $args['before_title'] . $title . $args['after_title'];
 
@@ -50,6 +51,7 @@ class Youtube_Widget extends WP_Widget {
       <iframe width="266" height="auto" src="//www.youtube.com/embed/<?php echo $youtubeVidID ?>?rel=0" frameborder="0" allowfullscreen></iframe>
     </div>
     <?php
+    echo $args['after_widget'];
   }
 
   /**
