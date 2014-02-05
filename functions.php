@@ -58,6 +58,7 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
     require( 'inc/theme-archive-links.php' );
     require( 'inc/metabox-setup.php' );
     require( 'inc/widget-event.php' );
+    require( 'inc/widget-youtube.php' );
     require( 'lib/hc-text-widget/hc-text-widget.php' );
     require( 'lib/hc-custom-wp-admin-url/hc-custom-wp-admin-url.php' );
     require( 'templates/page-sitemap.php' );

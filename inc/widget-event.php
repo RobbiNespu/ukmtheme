@@ -1,13 +1,14 @@
 <?php
 /**
  * @link http://www.ukm.my/template
- * @link http://codex.wordpress.org/The_Loop
  *
  * @package WordPress
  * @subpackage ukmtheme
  * @since 4.0
  *
  * @author Jamaludin Rajalu
+ *
+ * Widget: Events
  */
 
 class Event_Widget extends WP_Widget {
@@ -15,8 +16,8 @@ class Event_Widget extends WP_Widget {
   function __construct() {
     parent::__construct(
       'foo_widget', // Base ID
-      __('Upcoming Events', 'ukmtheme'),
-      array( 'description' => __( 'Upcoming Event Lists', 'ukmtheme' ), )
+      __('Events', 'ukmtheme'),
+      array( 'description' => __( 'Event Lists', 'ukmtheme' ), )
     );
   }
 
