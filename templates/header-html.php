@@ -15,7 +15,6 @@
 <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<link rel="alternate stylesheet" type="text/css" media="screen" title="second" href="<?php echo get_template_directory_uri(); ?>/assets/css/fd8c7d827a5424968a2114340cdd222f-second.css" />
+<link rel="alternate stylesheet" type="text/css" media="screen" title="third" href="<?php echo get_template_directory_uri(); ?>/assets/css/20e80641e77bc4f2bd7e3e8def8c716c-third.css" />
 <?php wp_head(); ?>
-<style>
-.snd_color{background:<?php echo get_option('ukmtheme_snd_color');?>!important}.snd_color_nav{background:<?php echo get_option('ukmtheme_snd_color_nav');?>!important}.trd_color{background:<?php echo get_option('ukmtheme_trd_color');?>!important}.trd_color_nav{background:<?php echo get_option('ukmtheme_trd_color_nav');?>!important}
-</style>

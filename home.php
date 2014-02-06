@@ -12,13 +12,6 @@
  */
 get_header(); ?>
 
-<div class="clearfix slideshow ut_color">
-  <?php
-    //get_template_part( 'templates/slideshow', 'bxslider' );
-  get_template_part( 'templates/slideshow', 'flexslider' );
-  ?>
-</div>
-
 <?php
   if ( is_home() ) {
     $ut_layout = get_option('ukmtheme_layout');

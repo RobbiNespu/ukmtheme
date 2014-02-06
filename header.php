@@ -8,7 +8,7 @@
  *
  * @author Jamaludin Rajalu
  */
-?> 
+?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -52,4 +52,11 @@
       )); 
     ?>
   </div>
+  <?php
+  if ( is_home() ) {
+    get_template_part( 'templates/slideshow', 'flexslider' );
+  } else {
+    // no slideshow
+  }
+?>
 </header>
