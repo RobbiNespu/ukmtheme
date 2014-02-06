@@ -49,6 +49,44 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
     ),
   );
 
+  // APPRECIATION
+
+  $meta_boxes['appreciation_metabox'] = array(
+    'id'         => 'appreciation_metabox',
+    'title'      => __( 'AppreciationDetail', 'ukmtheme' ),
+    'pages'      => array( 'appreciation', ),
+    'context'    => 'normal',
+    'priority'   => 'high',
+    'show_names' => true,
+    'fields'     => array(
+      array(
+        'name' => __( 'By', 'ukmtheme' ),
+        'desc' => __( 'e.g. Jamaludin Rajalu', 'ukmtheme' ),
+        'id'   => $prefix . 'appreciation_by',
+        'type' => 'text',
+      ),
+      array(
+        'name' => __( 'PTJ', 'ukmtheme' ),
+        'desc' => __( 'e.g. Pusat Teknologi Maklumat', 'ukmtheme' ),
+        'id'   => $prefix . 'appreciation_ptj',
+        'type' => 'text',
+      ),
+      array(
+        'name' => __( 'Date', 'ukmtheme' ),
+        'desc' => __( 'Date of appreciation', 'ukmtheme' ),
+        'id'   => $prefix . 'appreciation_date',
+        'type' => 'text_date',
+      ),
+      array(
+        'name'    => __( 'Greeting', 'ukmtheme' ),
+        'desc'    => __( 'e.g. Terima kasih atas sumbangan sebagai urusetia majlis', 'ukmtheme' ),
+        'id'      => $prefix . 'appreciation_greeting',
+        'type'    => 'wysiwyg',
+        'options' => array( 'textarea_rows' => 5, ),
+      ),
+    ),
+  );
+
   // EVENT MANAGER
 
   $meta_boxes['event_metabox'] = array(

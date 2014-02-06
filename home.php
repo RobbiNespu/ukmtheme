@@ -14,7 +14,8 @@ get_header(); ?>
 
 <div class="clearfix slideshow ut_color">
   <?php
-    get_template_part( 'templates/slideshow', 'bxslider' );
+    //get_template_part( 'templates/slideshow', 'bxslider' );
+  get_template_part( 'templates/slideshow', 'flexslider' );
   ?>
 </div>
 

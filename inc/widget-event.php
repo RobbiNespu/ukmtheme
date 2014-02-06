@@ -16,7 +16,7 @@ class Event_Widget extends WP_Widget {
 
   function __construct() {
     parent::__construct(
-      'foo_widget', // Base ID
+      'event_widget', // Base ID
       __('#Events', 'ukmtheme'),
       array( 'description' => __( 'Event Lists', 'ukmtheme' ), )
     );
@@ -108,4 +108,5 @@ class Event_Widget extends WP_Widget {
 function register_event_widget() {
     register_widget( 'Event_Widget' );
 }
-add_action( 'widgets_init', 'register_event_widget' );
+add_action( 'widgets_init', 'register_Event_Widget' );
+?>

@@ -1,4 +1,4 @@
-UKM Theme Versi 6.1.13
+UKM Theme Versi 6.1.14
 
 Penerangan
 =====================================
@@ -16,6 +16,12 @@ Nota: Penglih saiz font masih tidak aktif.
 
 Log Ubah
 =====================================
+6.1.14
+- Menambahbaik css
+- Menambah Widget Latest News
+- Menukar skrip slideshow kepada flexslider
+- Menambah Post Type: Penghargaan
+
 6.1.13
 - Menambah Widget untuk video dari Youtube
 - Kemaskini JS
