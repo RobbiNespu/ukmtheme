@@ -53,7 +53,7 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
 
   $meta_boxes['appreciation_metabox'] = array(
     'id'         => 'appreciation_metabox',
-    'title'      => __( 'AppreciationDetail', 'ukmtheme' ),
+    'title'      => __( 'Appreciation Detail', 'ukmtheme' ),
     'pages'      => array( 'appreciation', ),
     'context'    => 'normal',
     'priority'   => 'high',
