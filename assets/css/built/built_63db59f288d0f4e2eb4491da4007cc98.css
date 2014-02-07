@@ -8726,6 +8726,9 @@ footer {
 }
 /* =Flex Slider 2 Tweak
 -------------------------------------------------------------- */
+.flexslider {
+  margin: 0;
+}
 .flex-control-nav li {
   margin: 0 3px;
 }
