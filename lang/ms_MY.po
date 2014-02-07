@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: UKM Theme 6.1.14\n"
-"POT-Creation-Date: 2014-02-07 11:42+0800\n"
-"PO-Revision-Date: 2014-02-07 11:43+0800\n"
+"Project-Id-Version: UKM Theme 6.1.15\n"
+"POT-Creation-Date: 2014-02-07 14:42+0800\n"
+"PO-Revision-Date: 2014-02-07 14:43+0800\n"
 "Last-Translator: \n"
-"Language-Team: UKM WordPress Theme Dev <ptm.ukm.my@gmail.com>\n"
+"Language-Team: Multimedia UKM <multimedia@ptm.ukm.my>\n"
 "Language: ms_MY\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1723,8 +1723,6 @@ msgid "Clear"
 msgstr "Bersihkan"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/init.php:244
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:7
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-tools.php:7
 msgid "Default"
 msgstr "Lalai"
 
@@ -2008,15 +2006,20 @@ msgstr "Bahasa &amp; Alatan"
 msgid "Press esc key to close"
 msgstr "Tekan kekunci esc untuk tutup"
 
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:7
+#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-tools.php:7
+msgid "Theme One"
+msgstr "Tema Satu"
+
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:8
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-tools.php:8
-msgid "Option #1"
-msgstr "Opsyen #2"
+msgid "Theme Two"
+msgstr "Tema Dua"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:9
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-tools.php:9
-msgid "Option #2"
-msgstr "Opsyen #1"
+msgid "Theme Three"
+msgstr "Tema Tiga"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:13
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-tools.php:13
@@ -2057,6 +2060,12 @@ msgstr "Berita Terkini"
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/widget-news.php:42
 msgid "News Archive"
 msgstr "Arkib Berita"
+
+#~ msgid "Option #1"
+#~ msgstr "Opsyen #2"
+
+#~ msgid "Option #2"
+#~ msgstr "Opsyen #1"
 
 #~ msgid "Upcoming Events"
 #~ msgstr "Acara Akan Datang"
