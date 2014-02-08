@@ -1,4 +1,4 @@
-UKM Theme Versi 6.1.15
+UKM Theme Versi 6.1.16
 
 Penerangan
 =====================================
@@ -16,6 +16,12 @@ Nota: Penglih saiz font masih tidak aktif.
 
 Log Ubah
 =====================================
+6.1.16
+- kemaskini post template
+- Kemaskni terjemahan
+- Menambah Paginate
+- Menambah pautan 'Edit This'
+
 6.1.15
 - Kemaskini terjemahan
 
