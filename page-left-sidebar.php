@@ -27,6 +27,7 @@ get_header(); ?>
         <h1 class="content-title"><?php _e( 'Not Found', 'ukmtheme' ); ?></h1>
         <p><?php _e( 'Sorry, no page matched your criteria.', 'ukmtheme' ); ?></p>
       <?php endif; ?>
+      <?php get_template_part('templates/content','edit' ); ?>
     </section>
   </div><!-- content-wrap -->
 </article>

@@ -40,6 +40,7 @@ get_header(); ?>
 <p><?php _e( 'Sorry, no posts matched your criteria.', 'ukmtheme' ); ?></p>
     
 <?php endif; ?>
+<p><?php get_template_part( 'templates/content', 'paginate' ); ?></p>
 </section>
 <aside class="col-1-4">
     <?php get_template_part( 'sidebar', 'page'); ?>

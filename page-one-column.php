@@ -23,6 +23,7 @@ get_header(); ?>
     <?php endwhile; else: ?>
       <p><?php _e( 'Sorry, no page matched your criteria.', 'ukmtheme' ); ?></p>
   <?php endif; ?>
+  <?php get_template_part('templates/content','edit' ); ?>
 </section>
 </div><!-- content-wrap -->
 </article>

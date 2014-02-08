@@ -21,6 +21,7 @@ get_header(); ?>
     <?php endwhile; else: ?>
       <p><?php _e( 'Sorry, no post matched your criteria.', 'ukmtheme' ); ?></p>
     <?php endif; ?>
+    <?php get_template_part('templates/content','edit' ); ?>
   </section>
   <aside class="col-1-4">
   	<?php get_sidebar(); ?>
