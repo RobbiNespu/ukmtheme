@@ -10,6 +10,6 @@ Pemasangan boleh dilakukan melalui WordPress Dashboard atau melalui FTP. Tema in
 
 Kolaborasi
 =====================================
-Kami mengalu-alukan penglibatan dan sumnagan pengguna untuk memberi pendapat, menguji cuba serta melaporkan ralat untuk penamabahbaikan. Sekiranya terdapat kegagalan atau ralat semasa penggunaan, kami mengharapkan pengguna dapat melaporkan segera ralat tersebut dengan segera kepada pembangun di alamat emel jrajalu@gmail.com
+Kami mengalu-alukan penglibatan dan sumbangan pengguna untuk memberi pendapat, menguji cuba serta melaporkan ralat untuk penamabahbaikan. Sekiranya terdapat kegagalan atau ralat semasa penggunaan, kami mengharapkan pengguna dapat melaporkan segera ralat tersebut dengan segera kepada pembangun di alamat emel jrajalu@gmail.com
 
 Nota: Penglih saiz font masih tidak aktif.
