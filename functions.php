@@ -51,6 +51,7 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
     require( 'inc/post-type-event.php' );
     require( 'inc/post-type-expertise.php' );
     require( 'inc/post-type-faq.php');
+    require( 'inc/post-type-gallery.php');
     require( 'inc/post-type-news.php');
     require( 'inc/post-type-news-scroller.php');
     require( 'inc/post-type-publication.php' );
