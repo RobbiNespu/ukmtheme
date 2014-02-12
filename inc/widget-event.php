@@ -40,8 +40,8 @@ class Event_Widget extends WP_Widget {
        * Events Widget Output
        * @link http://codex.wordpress.org/Widgets_API
        */
-        $args = array( 'post_type' => 'event', 'posts_per_page' => $total, );
-        $loop = new WP_Query( $args );
+        $ut_event = array( 'post_type' => 'event', 'posts_per_page' => $total, );
+        $loop = new WP_Query( $ut_event );
       ?>
 
       <div class="event-widgets-wrap">

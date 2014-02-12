@@ -42,14 +42,8 @@ class Youtube_Widget extends WP_Widget {
 
     $youtubeVidID = $instance[ 'youtubeVidID' ];
     ?>
-    <script>
-      $(document).ready(function(){
-        // Target your .container, .wrapper, .post, etc.
-        $("#youtubeWidget").fitVids();
-      });
-    </script>
     <div id="youtubeWidget" style="margin-top:10px;margin-bottom-10px;">
-      <iframe width="266" height="auto" src="//www.youtube.com/embed/<?php echo $youtubeVidID ?>?rel=0" frameborder="0" allowfullscreen></iframe>
+      <iframe src="//www.youtube.com/embed/<?php echo $youtubeVidID ?>?rel=0" frameborder="0" allowfullscreen></iframe>
     </div>
     <?php
     echo $args['after_widget'];

@@ -40,8 +40,8 @@ class Latest_News_Widget extends WP_Widget {
        * Events Widget Output
        * @link http://codex.wordpress.org/Widgets_API
        */
-        $args = array( 'post_type' => 'news', 'posts_per_page' => $totalNews, );
-        $loop = new WP_Query( $args );
+        $ut_news = array( 'post_type' => 'news', 'posts_per_page' => $totalNews, );
+        $loop = new WP_Query( $ut_news );
       ?>
         <ul>
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
