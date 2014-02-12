@@ -8315,6 +8315,15 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
+.uk-button-primary:hover,
+.uk-button-primary:focus {
+  background-color: #b00000;
+  color: #fff;
+}
+.uk-button-primary {
+  background-color: #d10000;
+  color: #fff;
+}
 /* =Layout
 -------------------------------------------------------------- */
 div.wrap,
