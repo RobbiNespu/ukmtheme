@@ -8,7 +8,7 @@
  *
  * @author Jamaludin Rajalu
  *
- * Post Type: Frequently Asked Questions
+ * Post Type: Appreciation
  */
 
 function ut_appreciation() {
