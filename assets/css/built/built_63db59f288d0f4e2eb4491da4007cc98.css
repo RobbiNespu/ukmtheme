@@ -8394,6 +8394,10 @@ div.slideshow {
 section.article {
   padding-right: 20px;
 }
+.article {
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
 /* =UIKit Tweak: Search in navbars
 -------------------------------------------------------------- */
 .uk-search {

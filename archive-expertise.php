@@ -18,19 +18,22 @@ get_header(); ?>
 <div class="uk-panel uk-panel-box uk-panel-box-secondary staff-wrap">
   <div class="col-1-7">
       <div class="staff-photo">
+      <a href="<?php echo get_permalink(); ?>">
         <?php 
-          $saved_data = get_post_meta($post->ID,'ut_staff_photo',true);
-          echo '<img src="'.$saved_data['url'].'">';
+          $saved_data = get_post_meta($post->ID,'ut_expertise_photo',true);
+          echo '<img src="'.$saved_data.'">';
         ?>
+      </a>
       </div>
   </div>
 
   <div class="col-6-7">
     <div class="staff-detail">
-      <h2><?php the_title(); ?></h2>
-      <?php echo '<span class="staff-position">'; echo get_the_term_list( $post->ID, 'position', '', ', ', '' ); echo '</span>'; ?>
-      <?php echo '<span class="staff-phone">'; echo get_post_meta($post->ID, 'ut_staff_phone', true); echo '</span>'; ?>
-      <?php echo '<span class="staff-email">'; echo get_post_meta($post->ID, 'ut_staff_email', true); echo '</span>'; ?>
+      <a href="<?php echo get_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
+      <?php echo '<span class="staff-position">'; echo get_post_meta($post->ID, 'ut_expertise_position', true); echo '</span>'; ?>
+      <?php echo '<span class="staff-phone">'; echo get_post_meta($post->ID, 'ut_expertise_contact', true); echo '</span>'; ?>
+      <?php echo '<span class="staff-email">'; echo get_post_meta($post->ID, 'ut_expertise_email', true); echo '</span>'; ?>
+      <p><strong><?php _e( 'Specialisation', 'ukmtheme' ) ?></strong><br/><?php echo get_post_meta($post->ID, 'ut_expertise_specialisation', true); ?></p>
     </div>
   </div>
 </div><!--staff-wrap-->

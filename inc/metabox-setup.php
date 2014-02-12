@@ -251,16 +251,22 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
         'type' => 'text',
       ),
       array(
-        'name' => __( 'Specialisation', 'ukmtheme' ),
-        'desc' => __( 'Tourism and Hospitality Marketing, &amp; Services Marketing', 'ukmtheme' ),
-        'id'   => $prefix . 'expertise_contact',
-        'type' => 'text',
-      ),
-      array(
         'name' => __( 'Email', 'ukmtheme' ),
         'desc' => __( 'e.g. user@ukm.edu.my', 'ukmtheme' ),
         'id'   => $prefix . 'expertise_email',
         'type' => 'text_email',
+      ),
+      array(
+        'name' => __( 'Current Position', 'ukmtheme' ),
+        'desc' => __( 'e.g. 03-8921-7070', 'ukmtheme' ),
+        'id'   => $prefix . 'expertise_position',
+        'type' => 'text',
+      ),
+      array(
+        'name' => __( 'Specialisation', 'ukmtheme' ),
+        'desc' => __( 'Tourism and Hospitality Marketing, &amp; Services Marketing', 'ukmtheme' ),
+        'id'   => $prefix . 'expertise_specialisation',
+        'type' => 'text',
       ),
       array(
         'name'    => __( 'Qualifications', 'ukmtheme' ),
@@ -293,7 +299,7 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
       array(
         'name'    => __( 'Proceedings', 'ukmtheme' ),
         'desc'    => __( 'e.g. Ahmad Azmi M.Ariffin, Aliah Hanim M.Salleh, Norzalita A.Aziz & Astuti A.Asbudin. 2009. Determining Passengers’ Expectation, Service Quality and Satisfaction for Low Cost Carriers. The Proceeding of The 11th. International Business Research Conference. Sydney Australia. Dec 2-4, 2009. ISBN: 978-0-980-4557-0-7 (Presenter).', 'ukmtheme' ),
-        'id'      => $prefix . 'expertise_proceeedings',
+        'id'      => $prefix . 'expertise_proceedings',
         'type'    => 'wysiwyg',
         'options' => array( 'textarea_rows' => 5, ),
       ),
