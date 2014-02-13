@@ -15,7 +15,7 @@
 <article class="wrap">
   <div class="content clearfix">
     <section class="col-3-4 article">
-    <h1><?php _e('Latest News','ukmtheme'); ?></h1>
+    <h1><?php _e( 'Gallery', 'ukmtheme' ) ; ?></h1>
 
       <div class="uk-panel widgets-annc">
 
@@ -24,26 +24,23 @@
         <div class="ut-news-list clearfix">
             <div class="col-1-5 ut-news-thumb">
             <?php
-                if ( has_post_thumbnail() ) {
-                  the_post_thumbnail();
-                }
-                else {
-                  echo '<img src="' . get_template_directory_uri() . '/assets/images/public/thumbnail.svg?ver:6.1.1" />';
-                }
+                  $saved_data = get_post_meta($post->ID,'ut_gallery_cover',true);
+                  echo '<img src="'.$saved_data.'">'
             ?>
             </div>
             <div class="col-4-5 ut-news-content">
-                <h4 class="ut-news-title"><?php the_title(); ?></h4>
+                <a href="<?php echo get_permalink(); ?>"><h3 class="ut-news-title"><?php the_title(); ?></h3></a>
                 <div class="ut-news-detail">
-                    <?php the_excerpt(); ?>
-                </div><!--.ut-news-detail-->
+                <p><?php _e( 'Date:&nbsp;'); ?><?php echo get_post_meta($post->ID, 'ut_gallery_date', true); ?><br/>
+                <?php _e( 'Photo by:&nbsp;'); ?><?php echo get_post_meta($post->ID, 'ut_gallery_photographer', true); ?></p>
+                </div>
             </div><!--col-4-5-->
         </div><!--.ut-news .clearfix-->
 
           <?php endwhile ?>
 
       </div><!--.widgets-annc-->
-    <p><?php get_template_part( 'templates/content', 'paginate' ); ?></p>
+      <p><?php get_template_part( 'templates/content', 'paginate' ); ?></p>
     </section><!--.col-1-1-->
     <aside class="col-1-4">
         <?php get_template_part( 'sidebar', 'page' ); ?>

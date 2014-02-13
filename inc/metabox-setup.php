@@ -23,6 +23,38 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
   // Start with an underscore to hide fields from custom fields list
   $prefix = 'ut_';
 
+  // GALLERY
+
+  $meta_boxes['gallery_metabox'] = array(
+    'id'         => 'gallery_metabox',
+    'title'      => __( 'Gallery Detail', 'ukmtheme' ),
+    'pages'      => array( 'gallery', ),
+    'context'    => 'normal',
+    'priority'   => 'high',
+    'show_names' => true,
+    'fields'     => array(
+      array(
+        'name' => __( 'Gallery Cover Image', 'ukmtheme' ),
+        'desc' => __( 'Upload an image or enter a URL. dimensions of the image should be 300x300 pixels.', 'ukmtheme' ),
+        'id'   => $prefix . 'gallery_cover',
+        'type' => 'file',
+        'allow' => array('url'),
+      ),
+      array(
+        'name' => __( 'Date', 'ukmtheme' ),
+        'desc' => __( 'Gallery Date', 'ukmtheme' ),
+        'id'   => $prefix . 'gallery_date',
+        'type' => 'text_date',
+      ),
+      array(
+        'name' => __( 'Phographer', 'ukmtheme' ),
+        'desc' => __( 'Photo by.', 'ukmtheme' ),
+        'id'   => $prefix . 'gallery_photographer',
+        'type' => 'text',
+      ),
+    ),
+  );
+
   // SLIDESHOW
 
   $meta_boxes['slideshow_metabox'] = array(

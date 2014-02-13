@@ -16,6 +16,8 @@ get_header(); ?>
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
       <h1 class="content-title"><?php the_title(); ?></h1>
       <div class="content-article">
+        <p><?php _e( 'Date:&nbsp;'); ?><?php echo get_post_meta($post->ID, 'ut_gallery_date', true); ?>&nbsp;|&nbsp;
+        <?php _e( 'Photo by:&nbsp;'); ?><?php echo get_post_meta($post->ID, 'ut_gallery_photographer', true); ?></p>
         <?php the_content(); ?>
       </div>   
     <?php endwhile; else: ?>
