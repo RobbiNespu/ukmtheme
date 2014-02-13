@@ -18,7 +18,7 @@ get_header(); ?>
       <div class="content-article">
         <p><?php _e('Date:&nbsp;','ukmtheme'); ?><?php echo get_post_meta($post->ID, 'ut_gallery_date', true); ?>&nbsp;|&nbsp;
         <?php _e('Photo by:&nbsp;','ukmtheme'); ?><?php echo get_post_meta($post->ID, 'ut_gallery_photographer', true); ?>&nbsp;|&nbsp;
-        <a href="<?php echo get_post_type_archive_link( 'gallery' ); ?>"><?php _e('Back to Main'); ?></a></p>
+        <a href="<?php echo get_post_type_archive_link( 'gallery' ); ?>"><?php _e('Back to Main','ukmtheme'); ?></a></p>
         <?php the_content(); ?>
       </div>   
     <?php endwhile; else: ?>
