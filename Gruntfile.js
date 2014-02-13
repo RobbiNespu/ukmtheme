@@ -12,7 +12,7 @@ module.exports = function(grunt) {
         'lib/bxslider/jquery.bxslider.js',
         'lib/flexslider/jquery.flexslider.js'
       ],
-        dest: 'assets/js/8e8cdc8a0fdf023886e76fced322ce50-script.min.js'
+        dest: 'assets/js/script.min.js'
       }
     },
 
@@ -22,7 +22,7 @@ module.exports = function(grunt) {
           paths: ['assets/css']
         },
         files: {
-          'assets/css/built/built_63db59f288d0f4e2eb4491da4007cc98.css': ['assets/less/partials/*.less', 'assets/less/*.less']
+          'assets/css/built/style.css': ['assets/less/partials/*.less', 'assets/less/*.less']
         }
       },
       production: {
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
           cleancss: true
         },
         files: {
-          'assets/css/63db59f288d0f4e2eb4491da4007cc98-stylesheet.min.css': [
+          'assets/css/style.min.css': [
             'lib/bxslider/jquery.bxslider.less',
             'lib/flexslider/flexslider.less',
             'assets/less/partials/*.less',
