@@ -38,7 +38,7 @@ function ukmtheme_scripts() {
 
 require( 'inc/theme-update-checker.php' );
 $ukmtheme_update_checker = new ThemeUpdateChecker(
-  'ukmtheme',
+  'ukmtheme-master',
   'http://raw.github.com/jrajalu/ukmtheme/master/version.json'
 );
 
