@@ -31,8 +31,8 @@
             <div class="col-4-5 ut-news-content">
                 <a href="<?php echo get_permalink(); ?>"><h3 class="ut-news-title"><?php the_title(); ?></h3></a>
                 <div class="ut-news-detail">
-                <p><?php _e( 'Date:&nbsp;'); ?><?php echo get_post_meta($post->ID, 'ut_gallery_date', true); ?><br/>
-                <?php _e( 'Photo by:&nbsp;'); ?><?php echo get_post_meta($post->ID, 'ut_gallery_photographer', true); ?></p>
+                <p><?php _e('Date:&nbsp;','ukmtheme'); ?><?php echo get_post_meta($post->ID, 'ut_gallery_date', true); ?><br/>
+                <?php _e('Photo by:&nbsp;','ukmtheme'); ?><?php echo get_post_meta($post->ID, 'ut_gallery_photographer', true); ?></p>
                 </div>
             </div><!--col-4-5-->
         </div><!--.ut-news .clearfix-->
