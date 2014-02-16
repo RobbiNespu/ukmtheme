@@ -33,7 +33,7 @@ wp_footer(); ?>
       </ul>
     </div>
   </div>
-  <div class="wrap copyright">
+  <div class="wrap copyright best-view">
     <?php _e( 'Best view: Viewable with any modern web browser (Desktop &amp; Mobile)', 'ukmtheme' ); ?>
   </div>
   <div class="wrap visitor-counter">

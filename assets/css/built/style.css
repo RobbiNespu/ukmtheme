@@ -8053,4 +8053,23 @@ h2 {
     display: none;
     height: 0;
   }
+  .widgets-annc,
+  .widgets-1 {
+    padding-left: 0;
+  }
+  .ut-news-content {
+    padding-left: 0;
+  }
+  .ut-news-show-all {
+    padding-bottom: 10px;
+  }
+  section.article {
+    padding: 20px;
+    padding-top: 0;
+  }
+  .best-view,
+  .copyright-detail-link-wrap,
+  .visitor-counter {
+    display: none;
+  }
 }
