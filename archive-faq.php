@@ -21,7 +21,7 @@ $(document).ready(function(){
 <article class="wrap">
   <div class="content clearfix">
     <section class="col-3-4 article">
-    <h1><?php echo __( 'Frequently Asked Questions', 'ukmtheme' ) ?></h1>
+    <h2><?php echo __( 'Frequently Asked Questions', 'ukmtheme' ) ?></h2>
     <ol class="ut-faq">
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <li class="ut-faq-list">

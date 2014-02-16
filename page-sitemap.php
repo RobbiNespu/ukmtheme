@@ -17,7 +17,7 @@ get_header(); ?>
 <div class="content clearfix">
 	<section class="col-3-4 article">
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-      <h1 class="content-title"><?php the_title(); ?></h1>
+      <h2 class="content-title"><?php the_title(); ?></h2>
         <div class="content">
           <?php echo do_shortcode('[ukmtheme-sitemap]'); ?>
         </div>   

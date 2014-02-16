@@ -14,12 +14,12 @@ get_header(); ?>
   <div class="content clearfix">
     <section class="col-3-4 article">
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-        <h1 class="content-title"><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h1>
+        <h2 class="content-title"><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h2>
         <div class="content-article">
           <?php the_excerpt(); ?>
         </div>   
       <?php endwhile; else: ?>
-        <h1 class="content-title"><?php _e( 'Not Found', 'ukmtheme' ); ?></h1>
+        <h2 class="content-title"><?php _e( 'Not Found', 'ukmtheme' ); ?></h2>
         <p><?php _e( 'Sorry, no page matched your criteria.', 'ukmtheme' ); ?></p>
       <?php endif; ?>
       <?php get_search_form(); ?>

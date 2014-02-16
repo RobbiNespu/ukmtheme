@@ -13,7 +13,7 @@ get_header(); ?>
 <article class="wrap">
   <div class="content clearfix">
     <section class="col-1-1 article">
-      <h1 class="content-title"><?php _e( 'Not Found', 'ukmtheme' ); ?></h1>
+      <h2 class="content-title"><?php _e( 'Not Found', 'ukmtheme' ); ?></h2>
       <p><?php _e( 'Sorry, no page matched your criteria.', 'ukmtheme' ); ?></p>
       <?php get_search_form(); ?>
     </section>

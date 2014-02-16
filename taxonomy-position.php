@@ -12,7 +12,7 @@ get_header(); ?>
 <article class="wrap">
 <div class="content clearfix">
 <section class="col-3-4 article">
-<h1 class="content-title"><?php single_cat_title(); ?></h1>
+<h2 class="content-title"><?php single_cat_title(); ?></h2>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <div class="uk-panel uk-panel-box uk-panel-box-secondary staff-wrap">

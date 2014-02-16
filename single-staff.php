@@ -11,7 +11,7 @@
 get_header(); ?>
 <article class="wrap clearfix">
   <div class="col-1-1 staff-wrap">
-    <h1 class="content-title"><?php the_title(); ?></h1>
+    <h2 class="content-title"><?php the_title(); ?></h2>
       <div class="col-1-10">
       <?php 
         $saved_data = get_post_meta($post->ID,'ut_staff_photo',true);

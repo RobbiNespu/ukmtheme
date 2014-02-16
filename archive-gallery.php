@@ -15,7 +15,7 @@
 <article class="wrap">
   <div class="content clearfix">
     <section class="col-3-4 article">
-    <h1><?php _e( 'Gallery', 'ukmtheme' ) ; ?></h1>
+    <h2><?php _e( 'Gallery', 'ukmtheme' ) ; ?></h2>
 
       <div class="uk-panel widgets-annc">
 

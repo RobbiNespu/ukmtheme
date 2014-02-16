@@ -13,7 +13,7 @@ get_header(); ?>
 <article class="wrap">
 <div class="content clearfix">
 <section class="col-3-4 article">
-<h1><?php echo __( 'Events List', 'ukmtheme' ); ?></h1>
+<h2><?php echo __( 'Events List', 'ukmtheme' ); ?></h2>
   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     <div class="content-article ut-event-page-archive clearfix">
       <div class="col-1-4">
