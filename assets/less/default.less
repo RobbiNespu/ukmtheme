@@ -48,7 +48,7 @@ html, body {
 
 *, *:before, *:after {
   -webkit-box-sizing: border-box; 
-  -moz-box-sizing: border-box; 
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -90,7 +90,8 @@ body {
 -------------------------------------------------------------- */
 
 div.wrap,
-article.wrap {
+article.wrap,
+.wrap {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
@@ -764,3 +765,26 @@ footer {
 .visitor-counter {
   font-size: 12px;
 }
+
+/*--------------------------------------------------------------
+// MOBILE DEVICES
+-------------------------------------------------------------- */
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) {
+
+[class*="col-"] {
+  width: 99.99%;
+  display: block;
+  float: none;
+}
+
+.uk-navbar-flip,
+.off-canvas-tools-wrap,
+.ut-news-thumb,
+.ut-news-thumb img {
+  display: none;
+  height: 0;
+}
+
+} // @media end

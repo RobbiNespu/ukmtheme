@@ -10,9 +10,9 @@
     </ul>
     <h4><?php _e( 'Font Size', 'ukmtheme' ); ?></h4>
     <ul>
-      <li><i class="uk-icon-zoom-in"></i><?php _e('&nbsp;Large','ukmtheme'); ?></li>
-      <li><i class="uk-icon-font"></i><?php _e('&nbsp;Reset','ukmtheme'); ?></li>
-      <li><i class="uk-icon-zoom-out"></i><?php _e('&nbsp;Small','ukmtheme'); ?></li>
+      <li><a href="#"><i class="uk-icon-plus-square"></i><?php _e('&nbsp;Large','ukmtheme'); ?></a></li>
+      <li><a href="#"><i class="uk-icon-font"></i><?php _e('&nbsp;Reset','ukmtheme'); ?></a></li>
+      <li><a href="#"><i class="uk-icon-minus-square"></i><?php _e('&nbsp;Small','ukmtheme'); ?></a></li>
     </ul>
     <h4><?php _e( 'Language', 'ukmtheme' ); ?></h4>
     <ul>
