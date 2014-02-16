@@ -7445,6 +7445,11 @@ body {
   background-color: #d10000;
   color: #fff;
 }
+.uk-panel-box img {
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+}
 /* =Layout
 -------------------------------------------------------------- */
 div.wrap,

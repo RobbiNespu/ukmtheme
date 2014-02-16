@@ -9,10 +9,17 @@
       <li><a href="#" class="trd_btn"><i class="uk-icon-circle tools-color-3rd">&nbsp;</i><?php _e('Theme Three','ukmtheme'); ?></a></li>
     </ul>
     <h4><?php _e( 'Font Size', 'ukmtheme' ); ?></h4>
-    <ul>
-      <li><a href="#"><i class="uk-icon-plus-square"></i><?php _e('&nbsp;Large','ukmtheme'); ?></a></li>
-      <li><a href="#"><i class="uk-icon-font"></i><?php _e('&nbsp;Reset','ukmtheme'); ?></a></li>
+    <script>
+      $(document).ready(function () {
+        $("#text-resizer-controls li a").textresizer({
+          target: "body"
+        });
+      });
+    </script>
+    <ul id="text-resizer-controls" class="textresizer">
       <li><a href="#"><i class="uk-icon-minus-square"></i><?php _e('&nbsp;Small','ukmtheme'); ?></a></li>
+      <li><a href="#"><i class="uk-icon-font"></i><?php _e('&nbsp;Reset','ukmtheme'); ?></a></li>
+      <li><a href="#"><i class="uk-icon-plus-square"></i><?php _e('&nbsp;Large','ukmtheme'); ?></a></li>
     </ul>
     <h4><?php _e( 'Language', 'ukmtheme' ); ?></h4>
     <ul>
