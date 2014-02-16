@@ -12,4 +12,4 @@ Kolaborasi
 =====================================
 Kami mengalu-alukan penglibatan dan sumbangan pengguna untuk memberi pendapat, menguji cuba serta melaporkan ralat untuk penamabahbaikan. Sekiranya terdapat kegagalan atau ralat semasa penggunaan, kami mengharapkan pengguna dapat melaporkan segera ralat tersebut kepada pembangun di alamat emel jrajalu@ukm.edu.my
 
-Nota: Rekabentuk Resposive adan Penglih saiz font masih tidak aktif.
+Nota: Penglih saiz font masih tidak aktif.
