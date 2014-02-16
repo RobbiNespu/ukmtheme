@@ -390,7 +390,7 @@
   transition: color 0.25s ease-out;
 }
 #cssmenu > ul > li.has-sub > a {
-  padding-right: 5px;
+  padding-right: 32px;
 }
 #cssmenu > ul > li:hover > a {
   color: #eaeaea;
@@ -403,12 +403,10 @@
   height: 0;
 }
 #cssmenu > ul > li.has-sub::after {
-  /*
   right: 10px;
   top: 20px;
   border: 5px solid transparent;
   border-top-color: #ffffff;
-  */
 }
 #cssmenu > ul > li:hover::after {
   border-top-color: #eaeaea;
