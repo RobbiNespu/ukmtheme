@@ -26,7 +26,7 @@ html, body {
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -160px; 
+  margin-bottom: -180px; 
 }
 
 .page-wrap:after {
@@ -36,7 +36,7 @@ html, body {
 
 .site-footer, .page-wrap:after {
   /* .push must be the same height as footer */
-  height: 160px; 
+  height: 180px; 
 }
 
 .site-footer {
@@ -152,6 +152,26 @@ div.secondary-menu {
 
 /* =Page, Post, Post Type, Article
 -------------------------------------------------------------- */
+.home-content-wrap {
+  padding-bottom: 10px;
+  background: #d1d1d1; /* Old browsers */
+  background: -moz-linear-gradient(top,  #d1d1d1 0%, #ffffff 50%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d1d1d1), color-stop(50%,#ffffff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #d1d1d1 0%,#ffffff 50%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #d1d1d1 0%,#ffffff 50%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #d1d1d1 0%,#ffffff 50%); /* IE10+ */
+  background: linear-gradient(to bottom,  #d1d1d1 0%,#ffffff 50%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.home-content {
+  background: @white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow:    0px 1px 5px 0px rgba(50, 50, 50, 0.5);
+  box-shadow:         0px 1px 5px 0px rgba(50, 50, 50, 0.5);
+}
 
 .content {
   margin-top: 20px;
@@ -391,6 +411,7 @@ aside iframe {
 footer {
   background: @grey_1;
   color: @white;
+  padding-top: 10px;
 }
 
 /* =Footer: Social Links
