@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: UKM Theme 6.1.22\n"
 "POT-Creation-Date: 2014-02-13 12:29+0800\n"
-"PO-Revision-Date: 2014-02-13 12:30+0800\n"
+"PO-Revision-Date: 2014-02-17 11:37+0800\n"
 "Last-Translator: \n"
 "Language-Team: Multimedia UKM <multimedia@ptm.ukm.my>\n"
 "Language: ms_MY\n"
@@ -196,7 +196,7 @@ msgstr ""
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/footer.php:43
 msgid "Powered by"
-msgstr "Dikuasakan oleh"
+msgstr "Dijana dengan"
 
 #: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:70
 msgid "Primary Navigation"

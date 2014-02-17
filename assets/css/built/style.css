@@ -8046,6 +8046,7 @@ h2 {
     display: block;
     float: none;
   }
+  nav.top,
   .uk-navbar-flip,
   .off-canvas-tools-wrap,
   .ut-news-thumb,
@@ -8056,6 +8057,9 @@ h2 {
   .widgets-annc,
   .widgets-1 {
     padding-left: 0;
+  }
+  .widgets {
+    padding: 10px;
   }
   .ut-news-content {
     padding-left: 0;
