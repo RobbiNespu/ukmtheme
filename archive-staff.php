@@ -12,7 +12,7 @@ get_header(); ?>
 <article class="wrap">
 <div class="content clearfix">
 <section class="col-3-4 article">
-<h2 class="content-title"><?php single_cat_title(); ?></h2>
+<h2 class="content-title"><?php _e('Directory', 'ukmtheme'); ?></h2>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <div class="uk-panel uk-panel-box uk-panel-box-secondary staff-wrap">
@@ -20,14 +20,14 @@ get_header(); ?>
       <div class="staff-photo">
         <?php 
           $saved_data = get_post_meta($post->ID,'ut_staff_photo',true);
-          echo '<img src="'.$saved_data['url'].'">';
+          echo '<img src="'.$saved_data.'">';
         ?>
       </div>
   </div>
 
   <div class="col-6-7">
     <div class="staff-detail">
-      <h2><?php the_title(); ?></h2>
+      <h3><?php the_title(); ?></h3>
       <?php echo '<span class="staff-position">'; echo get_the_term_list( $post->ID, 'position', '', ', ', '' ); echo '</span>'; ?>
       <?php echo '<span class="staff-phone">'; echo get_post_meta($post->ID, 'ut_staff_phone', true); echo '</span>'; ?>
       <?php echo '<span class="staff-email">'; echo get_post_meta($post->ID, 'ut_staff_email', true); echo '</span>'; ?>
