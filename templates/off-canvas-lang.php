@@ -1,4 +1,4 @@
-<div class="off-canvas-tools-wrap"><a href="#ut-tools" data-uk-offcanvas><?php _e('Language &amp; Tools','ukmtheme'); ?></a></div>
+<div class="off-canvas-tools-wrap"><a href="#ut-tools" data-uk-offcanvas class="off-canvas-icon"><i class="uk-icon-flag"></i>&nbsp;<i class="uk-icon-cogs"></i></a></div>
 <div id="ut-tools" class="uk-offcanvas">
   <div class="uk-offcanvas-bar uk-offcanvas-bar-flip ut-off-canvas">
   <p><?php _e( 'Press esc key to close', 'ukmtheme' ); ?></p>
