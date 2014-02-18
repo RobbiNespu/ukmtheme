@@ -11,19 +11,6 @@
  * Tetapan muka hadapan laman
  */
 ?>
-
-<div class="clearfix">
-  <?php //get_template_part( 'templates/widget', 'news-scroller' ); ?>
-</div>
-<div class="clearfix">
-  <?php //get_template_part( 'templates/widget', 'event' ); ?>
-</div>
 <div class="clearfix">
   <?php get_template_part( 'templates/widget', 'news' ); ?>
-</div>
-<div class="clearfix">
-  <?php //get_template_part( 'templates/widget', 'three-column' ); ?>
-</div>
-<div class="clearfix">
-  <?php //get_template_part( 'templates/widget', 'four-column' ); ?>
 </div>

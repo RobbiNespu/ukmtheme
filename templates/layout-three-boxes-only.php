@@ -13,8 +13,5 @@
 ?>
 
 <div class="wrap clearfix">
-  <?php get_template_part( 'templates/widget', 'news' ); ?>
-</div>
-<div class="wrap clearfix">
-  <?php get_template_part( 'templates/widget', 'four-column' ); ?>
+  <?php get_template_part( 'templates/widget', 'three-column' ); ?>
 </div>

@@ -95,8 +95,11 @@ function theme_options_do_page() { ?>
               ?>
               <option value="default" <?php if ($ut_layout=='default') { echo 'selected'; } ?>>Default</option>
               <option value="full-boxes" <?php if ($ut_layout=='full-boxes') { echo 'selected'; } ?>>Full Boxes</option>              
-              <option value="three-boxes" <?php if ($ut_layout=='three-boxes') { echo 'selected'; } ?>>Three Boxes</option>
-              <option value="four-boxes" <?php if ($ut_layout=='four-boxes') { echo 'selected'; } ?>>Four Boxes</option>
+              <option value="three-boxes" <?php if ($ut_layout=='three-boxes') { echo 'selected'; } ?>>Add Three Boxes</option>
+              <option value="four-boxes" <?php if ($ut_layout=='four-boxes') { echo 'selected'; } ?>>Add Four Boxes</option>
+              <option value="three-boxes-only" <?php if ($ut_layout=='three-boxes-only') { echo 'selected'; } ?>>Three Boxes</option>
+              <option value="four-boxes-only" <?php if ($ut_layout=='four-boxes-only') { echo 'selected'; } ?>>Four Boxes</option>
+              <option value="three-four-boxes" <?php if ($ut_layout=='three-four-boxes') { echo 'selected'; } ?>>Three and Four Boxes</option>                    
               <option value="full-boxes-scroller" <?php if ($ut_layout=='full-boxes-scroller') { echo 'selected'; } ?>>Full Boxes with News Scroller</option>
               <option value="three-boxes-scroller" <?php if ($ut_layout=='three-boxes-scroller') { echo 'selected'; } ?>>Three Boxes with News Scroller</option>
               <option value="four-boxes-scroller" <?php if ($ut_layout=='four-boxes-scroller') { echo 'selected'; } ?>>Four Boxes with News Scroller</option>
