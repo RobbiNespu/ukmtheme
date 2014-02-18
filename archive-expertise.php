@@ -29,7 +29,7 @@ get_header(); ?>
 
   <div class="col-6-7">
     <div class="staff-detail">
-      <a href="<?php echo get_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
+      <a href="<?php echo get_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
       <?php echo '<span class="staff-position">'; echo get_post_meta($post->ID, 'ut_expertise_position', true); echo '</span>'; ?>
       <?php echo '<span class="staff-phone">'; echo get_post_meta($post->ID, 'ut_expertise_contact', true); echo '</span>'; ?>
       <?php echo '<span class="staff-email">'; echo get_post_meta($post->ID, 'ut_expertise_email', true); echo '</span>'; ?>
