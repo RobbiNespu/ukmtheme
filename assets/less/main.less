@@ -1,7 +1,7 @@
-// Variables
+/* =Colors
+-------------------------------------------------------------- */
 
-@grey_1: #1b2027;
-@grey_2: #1c1c1c;
+@dark: #1b2027;
 @white: #ffffff;
 @blue: #00B4F5;
 
@@ -16,7 +16,7 @@
 /* =Sticky Footer
 -------------------------------------------------------------- */
 * {
-    margin: 0;
+  margin: 0;
 }
 
 html, body {
@@ -40,7 +40,7 @@ html, body {
 }
 
 .site-footer {
-  background: @grey_1;
+  background: @dark;
 }
  
 /* =Reset
@@ -87,9 +87,9 @@ body {
 }
 
 .uk-panel-box img {
--webkit-border-radius: 1px;
--moz-border-radius: 1px;
-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
 }
 
 /* =Layout
@@ -420,9 +420,15 @@ aside iframe {
 -------------------------------------------------------------- */
 
 footer {
-  background: @grey_1;
+  background: @dark;
   color: @white;
   padding-top: 10px;
+}
+
+footer a,
+footer p,
+footer {
+  font-size: 12px;
 }
 
 /* =Footer: Social Links
@@ -463,7 +469,6 @@ footer {
 -------------------------------------------------------------- */
 .copyright {
   text-align: center;
-  font-size: 12px;
 }
 
 .copyright-detail-link-wrap {
@@ -560,33 +565,6 @@ footer {
   float: left;
 }
 
-// ut_staff_admin
-
-.column-ut_staff_photo {
-  width: 10%;
-}
-
-/* =BX Slider Tweak
--------------------------------------------------------------- */
-
-.bx-wrapper .bx-viewport {
-  left: 0;
-  border: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-}
-
-.bx-viewport {
-  z-index: 1;
-}
-
-.bxslider {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-
 /* =Flex Slider 2 Tweak
 -------------------------------------------------------------- */
 .flexslider {
@@ -613,11 +591,11 @@ footer {
 -------------------------------------------------------------- */
 
 .ut-news-list {
-  padding-bottom: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
+
 .ut-news-thumb {
   min-height: 80px;
   background-color: transparent;
@@ -633,6 +611,7 @@ footer {
 
 .moretag {
   display: block;
+  padding-top: 5px;
 }
 
 /* =Events Widgets
@@ -750,7 +729,7 @@ footer {
   display: block;
   text-decoration: none;
   color: #fff;
-  background: #35b3ee;
+  background: @dark;
   padding: 10px;
   margin: 5px 5px 0;
   position: relative;
