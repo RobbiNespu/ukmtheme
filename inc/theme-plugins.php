@@ -56,6 +56,12 @@ function my_theme_register_required_plugins() {
       'required'  => false,
     ),
 
+    array(
+      'name'      => 'CMS Tree Page View',
+      'slug'      => 'cms-tree-page-view',
+      'required'  => false,
+    ),
+
   );
 
   // Change this to your theme text domain, used for internationalising strings
