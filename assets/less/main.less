@@ -5,12 +5,25 @@
 @white: #ffffff;
 @blue: #00B4F5;
 
-/* =Fonts
+/* =Typography
 -------------------------------------------------------------- */
 
 .webfont-fix {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
 /* =Sticky Footer
@@ -62,19 +75,6 @@ html, body {
 }
 * html .clearfix             { zoom: 1; } /* IE6 */
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 5px;
-}
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-}
 
 .uk-button-primary:hover, .uk-button-primary:focus {
   background-color: #b00000;
@@ -247,103 +247,6 @@ section.article {
   background: 0 0;
 }
 
-/* =Tools
--------------------------------------------------------------- */
-
-.tools-wrap {
-  height: 40px;
-  position: relative;
-  min-width: 30px;
-  background: transparent;
-  float: right;
-}
-
-.click {
-  position: absolute;
-  right: 0;
-  top: 25%;
-  clear: both;
-  margin-right: 20px;
-}
-
-.tools-toggle {
-  color: #eaeaea;
-  -webkit-transition: color 0.5s ease-in;
-  -moz-transition: color color 0.5s ease-in;
-  -ms-transition: color color 0.5s ease-in;
-  -o-transition: color color 0.5s ease-in;
-  transition: color color 0.5s ease-in;
-  font-size: 20px;
-  width: 20px;
-  text-align: center;
-  position: relative;
-  left: 10px;
-  cursor: pointer;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.tools-toggle:hover {
-  color: #00B4F5;
-}
-
-.expand {
-  display: none;
-}
-
-.tools-item {
-  float: right;
-  list-style-type: none;  
-  margin-right: 30px;
-  margin-top: 10px;
-  margin-left: 0;
-  padding: 0;
-}
-
-.tools-item li {
-  color: #fff;
-  display: inline-block;
-  font-size: 12px;
-  margin-left: 0;    
-  margin-right: 4px;    
-}
-
-.tools-color-1st {
-  color: #DD1144;
-}
-
-.tools-color-2nd {
-  color: #00B4F5;
-}
-
-.tools-color-3rd {
-  color: #eaeaea;
-}
-
-.ut-tools-dropdown {
-  margin-top: 10px;
-  margin-right: 10px;
-  color: #FFF;
-
-}
-
-.ut-dropdown-tweak {
-  padding: 5px;
-  width: 150px;
-}
-
-.ut-dropdown-tweak-list {
-  margin: 0;
-  padding: 5px 15px;
-  li {
-    padding: 0;
-    > a {
-      padding: 0 5px;
-      color: #000;
-    }
-  }
-}
-
 /* =Off Canvas Tools
 -------------------------------------------------------------- */
 
@@ -391,6 +294,14 @@ section.article {
 .off-canvas-icon:hover {
   text-decoration: none;
   color: #eaeaea;
+}
+
+.uk-offcanvas-bar {
+  background: @dark;
+}
+
+.uk-offcanvas-bar:after {
+  content: none;
 }
 
 /* =Widgets
@@ -569,9 +480,21 @@ footer {
 -------------------------------------------------------------- */
 .flexslider {
   margin: 0;
+  background: transparent;
+  border: 0 solid #fff;
+  position: relative;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+  -o-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+  box-shadow: 0 1px 4px rgba(0,0,0,.2);
+  zoom: 1;
 }
 
 .flex-viewport {
+  max-height: 350px;
   z-index: 1;
 }
 .flex-control-nav {
@@ -679,38 +602,6 @@ footer {
   padding-bottom: 10px;
   margin-bottom: 10px;
   border-bottom: 1px solid #ccc;
-}
-
-
-/* =Pager Navigation
--------------------------------------------------------------- */
-
-.ut-navigation li a,
-.ut-navigation li a:hover,
-.ut-navigation li.active a,
-.ut-navigation li.disabled {
-  color: #fff;
-  text-decoration:none;
-}
-
-.ut-navigation li {
-  display: inline;
-}
-
-.ut-navigation li a,
-.ut-navigation li a:hover,
-.ut-navigation li.active a,
-.ut-navigation li.disabled {
-  background-color: #6FB7E9;
-  border-radius: 3px;
-  cursor: pointer;
-  padding: 12px;
-  padding: 0.75rem;
-}
-
-.ut-navigation li a:hover,
-.ut-navigation li.active a {
-  background-color: #3C8DC5;
 }
 
 /* =FAQs

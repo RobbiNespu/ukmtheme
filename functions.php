@@ -57,7 +57,6 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
     load_theme_textdomain( 'ukmtheme', get_template_directory() . '/lang' );
 
     require( 'inc/nav-secondary-menu.php' );
-    require( 'inc/nav-mobile-menu.php' );
     require( 'inc/theme-docs.php' );
     require( 'inc/theme-options.php' );
     require( 'inc/theme-login.php' );
