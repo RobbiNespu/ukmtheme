@@ -315,7 +315,7 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
         'options' => array( 'textarea_rows' => 5, ),
       ),
       array(
-        'name'    => __( 'Research/Consultation/Expansion', 'ukmtheme' ),
+        'name'    => __( 'Research/<br/>Consultation/<br/>Expansion', 'ukmtheme' ),
         'desc'    => __( 'e.g. Developing A Higher Education Brand Index for Malaysia. Jan1, 2009-June 30,2010. GSB-001-2009 (External Grant). Ongoing.', 'ukmtheme' ),
         'id'      => $prefix . 'expertise_research_consultation',
         'type'    => 'wysiwyg',
@@ -336,14 +336,14 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
         'options' => array( 'textarea_rows' => 5, ),
       ),
       array(
-        'name'    => __( 'Articles in Antologi/Chapters in Book', 'ukmtheme' ),
+        'name'    => __( 'Articles in Antologi/<br/>Chapters in Book', 'ukmtheme' ),
         'desc'    => __( 'e.g. Ahmad Azmi Mohd. Ariffin, Norzalita Abd. Aziz. 2009. Chapter 5: Service Quality and Zone of Tolerance in Malaysian Banking Services. In Services Management and Marketing: Studies in Malaysia. Edited by Aliah Hanim Mohd. Salleh, Ahmad Azmi Mohd. Ariffin, June M. L. Poon & Aini Aman. GSB-UKM. Bangi.', 'ukmtheme' ),
         'id'      => $prefix . 'expertise_antologi',
         'type'    => 'wysiwyg',
         'options' => array( 'textarea_rows' => 5, ),
       ),
       array(
-        'name'    => __( 'Monograph, Working Papers and Non-Periodical Publications', 'ukmtheme' ),
+        'name'    => __( 'Monograph,<br/> Working Papers<br/> and Non-Periodical<br/> Publications', 'ukmtheme' ),
         'desc'    => __( 'e.g. Module ”Tourism Marketing” (Code: BBAS 3103).  Open University Malaysia. 2007/2008', 'ukmtheme' ),
         'id'      => $prefix . 'expertise_monograph',
         'type'    => 'wysiwyg',
@@ -364,14 +364,14 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
         'options' => array( 'textarea_rows' => 5, ),
       ),
       array(
-        'name'    => __( 'Administrative Services/Committee', 'ukmtheme' ),
+        'name'    => __( 'Administrative<br/> Services/Committee', 'ukmtheme' ),
         'desc'    => __( 'e.g. MANAGING EDITOR OF JURNAL PENGURUSAN 1 April 2007 – Present Graduate School of Business, Universiti Kebangsaan Malaysia', 'ukmtheme' ),
         'id'      => $prefix . 'expertise_administrative',
         'type'    => 'wysiwyg',
         'options' => array( 'textarea_rows' => 5, ),
       ),
       array(
-        'name'    => __( 'Reports: Technical/Research/Consultation', 'ukmtheme' ),
+        'name'    => __( 'Reports: Technical/<br/>Research/<br/>Consultation', 'ukmtheme' ),
         'desc'    => __( 'e.g. Mohd Fauzi Mohd Jani, Zaimah Derawi, Tih Sio Hong, Rozita Amirudin, Ahmad Azmi Ariffin, Zafir Makhbul, Aini Aman, Mohd Radzuan Rahid, Ahmad Raflis Omar, Kamalrudin Mohamed Saleh. 2008. “Laporan Akhir Program Latihan Keusahawanan: Kerjasama Pelajar Universiti dan Entepris Kecil dan Sederhana (EKS)”. SMIDEC.', 'ukmtheme' ),
         'id'      => $prefix . 'expertise_reports',
         'type'    => 'wysiwyg',

@@ -65,7 +65,7 @@ function ut_add_new_expertise_columns( $columns ){
     'cb'                          => '<input type="checkbox">',
     'ut_expertise_photo'        => __( 'Photo', 'ukmtheme' ),
     'title'                       => __( 'Name', 'ukmtheme' ),
-    'ut_expertise_title'       => __( 'Title', 'ukmtheme' ),
+    'ut_expertise_position'       => __( 'Current Position', 'ukmtheme' ),
     'ut_expertise_email'    => __( 'Email', 'ukmtheme' ),
     'ut_expertise_contact'         => __( 'Contact', 'ukmtheme' )
   );
@@ -77,7 +77,7 @@ function ut_expertise_custom_columns( $column ){
   
   switch ($column) {
     case 'ut_expertise_photo' : $expertPhoto = get_post_meta($post->ID,'ut_expertise_photo',true); echo '<img src="'.$expertPhoto.'" width="60">';break;
-    case 'ut_expertise_title' : echo get_post_meta($post->ID,'ut_expertise_title',true); break;
+    case 'ut_expertise_position' : echo get_post_meta($post->ID,'ut_expertise_position',true); break;
     case 'ut_expertise_email' : echo get_post_meta($post->ID,'ut_expertise_email',true); break;
     case 'ut_expertise_contact' : echo get_post_meta($post->ID,'ut_expertise_contact',true); 
   }
