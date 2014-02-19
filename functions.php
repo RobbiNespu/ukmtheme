@@ -15,7 +15,7 @@ add_action( 'admin_enqueue_scripts', 'ut_wp_admin_scripts' );
 function ut_wp_admin_scripts() {
 
   wp_enqueue_script( 'wp-color-picker' );
-  wp_enqueue_script( 'wp-color-picker-option', get_template_directory_uri() . '/assets/js/options.js', array('wp-color-picker'), 'false', true );
+  wp_enqueue_script( 'wp-color-picker-option', get_template_directory_uri() . '/assets/js/options.js', array('wp-color-picker'), '6.1', true );
   wp_enqueue_style( 'wp-color-picker' );
   wp_enqueue_style( 'admin', get_template_directory_uri() . '/assets/css/admin.min.css', false, '6.1' );
   

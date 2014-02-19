@@ -13,17 +13,17 @@
 
 $(document).ready(function(){
   $( ".reset_btn" ).click(function() {
-    $( ".ut_color, .ut_nav" ).removeClass( "snd_color trd_color snd_color_nav trd_color_nav");
+    $( ".ut_color, .ut_nav" ).removeClass( "snd_color trd_color");
     return false;
   });
   
   $( ".snd_btn" ).click(function() {
-    $( ".ut_color" ).toggleClass( "snd_color" );
+    $( ".ut_color" ).addClass("snd_color");
     return false;
   });
   
   $( ".trd_btn" ).click(function() {
-    $( ".ut_color" ).toggleClass( "trd_color" );
+    $( ".ut_color" ).addClass("trd_color");
     return false;
   });
 
