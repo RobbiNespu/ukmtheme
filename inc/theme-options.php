@@ -28,11 +28,8 @@ function register_mysettings() {
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_twitter' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_youtube' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_mn_color' );
-  register_setting( 'ukmtheme-settings-group', 'ukmtheme_mn_color_nav' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_snd_color' );
-  register_setting( 'ukmtheme-settings-group', 'ukmtheme_snd_color_nav' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_trd_color' );
-  register_setting( 'ukmtheme-settings-group', 'ukmtheme_trd_color_nav' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_languages' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_copyright_id' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_contact_id' );
@@ -67,7 +64,7 @@ function theme_options_do_page() { ?>
           <th scope="row"><?php _e('Visitor Counter ID','ukmtheme'); ?></th>
           <td>
           <input type="text" name="ukmtheme_visitor_id" value="<?php echo get_option('ukmtheme_visitor_id'); ?>" class="regular-text" placeholder="768059" />
-          <p class="description"><?php _e( 'Generate your id here', 'ukmtheme' ); ?>&nbsp;<a href="http://www.supercounters.com/hitcounter">Supercounter</a></p>
+          <p class="description"><?php _e( 'Generate your id here', 'ukmtheme' ); ?>&nbsp;<a href="http://www.supercounters.com/hitcounter" target="_blank">Supercounter</a></p>
           </td>
           </tr>
           <tr valign="top">
@@ -93,10 +90,10 @@ function theme_options_do_page() { ?>
               <?php 
                 $ut_layout = get_option('ukmtheme_layout'); 
               ?>
-              <option value="default" <?php if ($ut_layout=='default') { echo 'selected'; } ?>>Default</option>
+              <option value="default" <?php if ($ut_layout=='default') { echo 'selected'; } ?>>Basic</option>
               <option value="full-boxes" <?php if ($ut_layout=='full-boxes') { echo 'selected'; } ?>>Full Boxes</option>              
-              <option value="three-boxes" <?php if ($ut_layout=='three-boxes') { echo 'selected'; } ?>>Add Three Boxes</option>
-              <option value="four-boxes" <?php if ($ut_layout=='four-boxes') { echo 'selected'; } ?>>Add Four Boxes</option>
+              <option value="three-boxes" <?php if ($ut_layout=='three-boxes') { echo 'selected'; } ?>>Basic with Three Boxes</option>
+              <option value="four-boxes" <?php if ($ut_layout=='four-boxes') { echo 'selected'; } ?>>Basic with Four Boxes</option>
               <option value="three-boxes-only" <?php if ($ut_layout=='three-boxes-only') { echo 'selected'; } ?>>Three Boxes</option>
               <option value="four-boxes-only" <?php if ($ut_layout=='four-boxes-only') { echo 'selected'; } ?>>Four Boxes</option>
               <option value="three-four-boxes" <?php if ($ut_layout=='three-four-boxes') { echo 'selected'; } ?>>Three and Four Boxes</option>                    
@@ -132,70 +129,30 @@ function theme_options_do_page() { ?>
       </tbody>
     </table>
     <h3 class="title"><?php _e( 'Colour Options', 'ukmtheme' ); ?></h3>
-    <p><?php _e( 'Colour option for colour switcher. Enter the default value first e.g. #000000 or enter a value based on the values ​​provided', 'ukmtheme' ); ?></p>
+    <p><?php _e( 'Colour option for style switcher.', 'ukmtheme' ); ?></p>
     <table class="form-table">
       <tbody>
+
+      <?php $theme_one = get_option('ukmtheme_mn_color'); ?>
+      <?php $theme_two = get_option('ukmtheme_snd_color'); ?>
+      <?php $theme_three = get_option('ukmtheme_trd_color'); ?>
+
         <tr valign="top">
-        <th scope="row"><?php _e('Main Colour','ukmtheme'); ?></th>
+        <th scope="row"><?php _e('Theme One','ukmtheme'); ?></th>
         <td>
-          <div class="color-picker" style="position: relative;">
-            <input type="text" name="ukmtheme_mn_color" value="<?php echo get_option('ukmtheme_mn_color'); ?>" id="color" placeholder="#B10000" />
-            <div style="position: absolute; z-index: 100; top: -10px; left: 190px;" id="colorpicker"></div>
-          </div>
+          <input type="text" name="ukmtheme_mn_color" value="<?php if ( isset( $theme_one ) ) echo $theme_one; ?>" class="theme-one" data-default-color="#d10000" />
         </td>
         </tr>
         <tr valign="top">
-        <th scope="row">
-          <?php _e('Main Colour Combination','ukmtheme'); ?>
-          <small><?php _e('The color should be slightly darker','ukmtheme') ?></small>
-        </th>
+        <th scope="row"><?php _e('Theme Two','ukmtheme'); ?></th>
         <td>
-          <div class="color-picker" style="position: relative;">
-            <input type="text" name="ukmtheme_mn_color_nav" value="<?php echo get_option('ukmtheme_mn_color_nav'); ?>" id="colorMainComb" placeholder="#A70000" />
-            <div style="position: absolute; z-index: 100; top: -40px; left: 190px;" id="colorpickerMainComb"></div>
-          </div>
+          <input type="text" name="ukmtheme_snd_color" value="<?php if ( isset( $theme_two ) ) echo $theme_two; ?>" class="theme-two" data-default-color="#0050a0" />
         </td>
         </tr>
         <tr valign="top">
-        <th scope="row"><?php _e('Second Colour','ukmtheme'); ?></th>
+        <th scope="row"><?php _e('Theme Three','ukmtheme'); ?></th>
         <td>
-          <div class="color-picker" style="position: relative;">
-            <input type="text" name="ukmtheme_snd_color" value="<?php echo get_option('ukmtheme_snd_color'); ?>" id="colorSnd" placeholder="#1075FF" />
-            <div style="position: absolute; z-index: 100; top: -80px; left: 190px;" id="colorpickerSnd"></div>
-          </div>
-        </td>
-        </tr>
-        <tr valign="top">
-        <th scope="row">
-          <?php _e('Second Colour Combination','ukmtheme'); ?>
-          <small><?php _e('The color should be slightly darker','ukmtheme') ?></small>
-        </th>
-        <td>
-          <div class="color-picker" style="position: relative;">
-            <input type="text" name="ukmtheme_snd_color_nav" value="<?php echo get_option('ukmtheme_snd_color_nav'); ?>" id="colorSndComb" placeholder="#006AFA" />
-            <div style="position: absolute; z-index: 100; top: -100px; left: 190px;" id="colorpickerSndComb"></div>
-          </div>
-        </td>
-        </tr>
-        <tr valign="top">
-        <th scope="row"><?php _e('Third Colour','ukmtheme'); ?></th>
-        <td>
-          <div class="color-picker" style="position: relative;">
-            <input type="text" name="ukmtheme_trd_color" value="<?php echo get_option('ukmtheme_trd_color'); ?>" id="colorTrd" placeholder="#1F1E1E" />
-            <div style="position: absolute; z-index: 100; top: -140px; left: 190px;" id="colorpickerTrd"></div>
-          </div>
-        </td>
-        </tr>
-        <tr valign="top">
-        <th scope="row">
-          <?php _e('Third Colour Combination','ukmtheme'); ?>
-          <small><?php _e('The color should be slightly darker','ukmtheme') ?></small>
-        </th>
-        <td>
-          <div class="color-picker" style="position: relative;">
-            <input type="text" name="ukmtheme_trd_color_nav" value="<?php echo get_option('ukmtheme_trd_color_nav'); ?>" id="colorTrdComb" placeholder="#151515" />
-            <div style="position: absolute; z-index: 100; top: -150px; left: 190px;" id="colorpickerTrdComb"></div>
-          </div>
+          <input type="text" name="ukmtheme_trd_color" value="<?php if ( isset( $theme_three ) ) echo $theme_three; ?>" class="theme-three" data-default-color="#494949" />
         </td>
         </tr>
       </tbody>

@@ -19,5 +19,10 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php wp_head(); ?>
 <style>
-.snd_color{background:<?php echo get_option('ukmtheme_snd_color');?>!important}.snd_color_nav{background:<?php echo get_option('ukmtheme_snd_color_nav');?>!important}.trd_color{background:<?php echo get_option('ukmtheme_trd_color');?>!important}.trd_color_nav{background:<?php echo get_option('ukmtheme_trd_color_nav');?>!important}
+.snd_color {
+  background:<?php echo get_option('ukmtheme_snd_color'); ?> !important;
+}
+.trd_color {
+  background:<?php echo get_option('ukmtheme_trd_color'); ?> !important;
+}
 </style>

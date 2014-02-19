@@ -27,13 +27,4 @@ $(document).ready(function(){
     return false;
   });
 
-  $( ".snd_btn" ).click(function() {
-  $( ".ut_nav" ).toggleClass( "snd_color_nav" );
-    return false;
-  });
-  
-  $( ".trd_btn" ).click(function() {
-    $( ".ut_nav" ).toggleClass( "trd_color_nav" );
-    return false;
-  });
 });

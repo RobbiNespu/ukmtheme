@@ -23,7 +23,7 @@ get_header(); ?>
       <?php endif; ?>
     </section>
     <aside class="col-1-4">
-    	<?php get_template_part( 'sidebar', 'single' ); ?>
+    	<?php get_template_part( 'sidebar', 'page' ); ?>
     </aside>
   </div><!-- content-wrap -->
 </article>

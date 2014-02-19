@@ -8,7 +8,7 @@ module.exports = function(grunt) {
       },
       build: {
         src: [
-        'assets/js/source/*.js',
+        'assets/js/partials/*.js',
         'lib/flexslider/jquery.flexslider.js'
       ],
         dest: 'assets/js/script.min.js'
@@ -16,14 +16,6 @@ module.exports = function(grunt) {
     },
 
     less: {
-      development: {
-        options: {
-          paths: ['assets/css']
-        },
-        files: {
-          'assets/css/uncompress/style-uncompress.css': ['assets/less/partials/*.less', 'assets/less/*.less']
-        }
-      },
       production: {
         options: {
           paths: ['assets/css'],
@@ -49,7 +41,7 @@ module.exports = function(grunt) {
           }
       },
       js: {
-        files: ['assets/js/source/*.js'],
+        files: ['assets/js/partials/*.js'],
         tasks: ['uglify'],
           options: {
             spawn: false

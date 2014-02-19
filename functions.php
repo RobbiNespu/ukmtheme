@@ -13,10 +13,12 @@
 
 add_action( 'admin_enqueue_scripts', 'ut_wp_admin_scripts' );
 function ut_wp_admin_scripts() {
-  wp_enqueue_style( 'farbtastic' );
-  wp_enqueue_script( 'farbtastic' );
-  wp_enqueue_script( 'ut-extra-option', get_template_directory_uri() . '/assets/js/options.js', array( 'farbtastic', 'jquery' ), '6.1', true );
+
+  wp_enqueue_script( 'wp-color-picker' );
+  wp_enqueue_script( 'wp-color-picker-option', get_template_directory_uri() . '/assets/js/options.js', array('wp-color-picker'), 'false', true );
+  wp_enqueue_style( 'wp-color-picker' );
   wp_enqueue_style( 'admin', get_template_directory_uri() . '/assets/css/admin.min.css', false, '6.1' );
+  
 }
 
 // Public Scripts and Style Enqueue
@@ -157,20 +159,10 @@ function ukmtheme_widgets_init() {
     'before_title' => '<h3 class="widget-title">',
     'after_title' => '</h3>',
   ) );
-
-  register_sidebar( array(
-    'name' => __( 'Post Sidebar', 'ukmtheme' ),
-    'id' => 'sidebar-3',
-    'description' => __( 'Appears when using the optional post', 'ukmtheme' ),
-    'before_widget' => '<aside class="widgets">',
-    'after_widget' => '</aside>',
-    'before_title' => '<h3 class="widget-title">',
-    'after_title' => '</h3>',
-  ) );
   
-    register_sidebar( array(
+  register_sidebar( array(
     'name' => __( 'Frontpage Three Boxes', 'ukmtheme' ),
-    'id' => 'sidebar-4',
+    'id' => 'sidebar-3',
     'description' => __( 'Appears when using the optional Front Page', 'ukmtheme' ),
     'before_widget' => '<aside class="col-1-3"><div class="uk-panel widgets-wrap">',
     'after_widget' => '</div></aside>',
@@ -180,7 +172,7 @@ function ukmtheme_widgets_init() {
 
   register_sidebar( array(
     'name' => __( 'Frontpage Four Boxes', 'ukmtheme' ),
-    'id' => 'sidebar-5',
+    'id' => 'sidebar-4',
     'description' => __( 'Appears when using the optional Front Page', 'ukmtheme' ),
     'before_widget' => '<aside class="col-1-4"><div class="uk-panel widgets-wrap">',
     'after_widget' => '</div></aside>',

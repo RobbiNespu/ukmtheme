@@ -16,7 +16,7 @@
 </head>
 <body <?php body_class(); ?>>
 <div class="page-wrap">
-<nav class="top ut_nav">
+<nav class="top ut_color">
   <div class="wrap">
     <div class="col-1-2">
       <?php
