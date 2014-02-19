@@ -45,7 +45,6 @@
   <div class="wrap secondary-menu">
     <?php 
       wp_nav_menu(array(
-        'theme_location'    => 'secondary',
         'menu'              => 'Secondary Navigation', 
         'container_id'      => 'cssmenu', 
         'walker'            => new CSS_Menu_Maker_Walker()
