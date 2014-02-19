@@ -26,11 +26,11 @@ $loop = new WP_Query( $args );
             the_post_thumbnail();
           }
           else {
-            echo '<img src="' . get_template_directory_uri() . '/assets/images/public/thumbnail.svg?ver=6.1.3" height="auto" width="auto"/>';
+            echo '<img src="' . get_template_directory_uri() . '/assets/images/public/thumbnail.jpg?ver=6.1" height="auto" width="auto"/>';
           }
           ?>
         </div><!--post-thumbnail-->
-        <div class="col-4-5 ut-news-content">
+        <div class="col-4-5 ut-news-content-widget">
             <a href="<?php echo get_permalink(); ?>"><h4 class="ut-news-title"><?php the_title(); ?></h4></a>
             <div class="ut-news-detail">
                 <?php the_excerpt(); ?>
