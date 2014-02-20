@@ -1,4 +1,4 @@
 $(document).ready(function(){
   // Target your .container, .wrapper, .post, etc.
-  $("aside").fitVids();
+  $("aside, .content-article, .video-archive").fitVids();
 });

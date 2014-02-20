@@ -23,6 +23,25 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
   // Start with an underscore to hide fields from custom fields list
   $prefix = 'ut_';
 
+  // Video
+
+  $meta_boxes['video_metabox'] = array(
+    'id'         => 'video_metabox',
+    'title'      => __( 'Video Detail', 'ukmtheme' ),
+    'pages'      => array( 'video', ),
+    'context'    => 'normal',
+    'priority'   => 'high',
+    'show_names' => true,
+    'fields'     => array(
+      array(
+        'name' => __( 'Video Link', 'cmb' ),
+        'desc' => __( 'Enter a youtube, twitter, or instagram URL. Supports services listed at <a href="http://codex.wordpress.org/Embeds">http://codex.wordpress.org/Embeds</a>.', 'ukmtheme' ),
+        'id'   => $prefix . 'video_url',
+        'type' => 'oembed',
+      ),
+    ),
+  );
+
   // GALLERY
 
   $meta_boxes['gallery_metabox'] = array(
