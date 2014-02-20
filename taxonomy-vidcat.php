@@ -23,7 +23,7 @@
 
         <div class="col-1-3 video-archive">
           <?php echo apply_filters( 'the_content', get_post_meta( get_the_ID(), $prefix . 'ut_video_url', true ) ); ?>
-           <a href="<?php echo get_permalink(); ?>"><h4><?php the_title(); ?></h4></a>
+           <a class="video-archive-title" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
         </div>
         <?php endwhile ?>
       </div>
