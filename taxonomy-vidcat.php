@@ -15,7 +15,7 @@
 <article class="wrap">
   <div class="content clearfix">
     <section class="article-video">
-    <h2><?php _e( 'Video', 'ukmtheme' ) ; ?></h2>
+    <h2><?php _e( 'Video', 'ukmtheme' ); ?>:&nbsp;<?php single_cat_title(); ?></h2>
 
       <div class="uk-panel video-archive-wrap">
 
@@ -23,7 +23,7 @@
 
         <div class="col-1-3 video-archive">
           <?php echo apply_filters( 'the_content', get_post_meta( get_the_ID(), $prefix . 'ut_video_url', true ) ); ?>
-          <a href="<?php echo get_permalink(); ?>"><h4><?php the_title(); ?></h4></a>
+           <a href="<?php echo get_permalink(); ?>"><h4><?php the_title(); ?></h4></a>
         </div>
         <?php endwhile ?>
       </div>
