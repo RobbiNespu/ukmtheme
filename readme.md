@@ -1,6 +1,6 @@
 ##UKM Theme v6.1.37
 
-Muat turun versi terkini [di sini](https://github.com/jrajalu/ukmtheme/archive/master.zip).
+Muat turun versi terkini [ukmtheme-master.zip](https://github.com/jrajalu/ukmtheme/archive/master.zip).
 
 ###Penerangan
 Tema WordPress ini adalah percuma dan boleh digunakan oleh semua Fakulti/Institut/Jabatan/Pusat di Universiti Kebangsaan Malaysia (UKM). Penggunaan secara peribadi atau kumpulan (Persatuan/Kelab) oleh warga UKM amat digalakkan.
