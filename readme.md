@@ -1,4 +1,6 @@
 UKM Theme Versi 6.1.37
+=====================================
+[Muat Turun ukmtheme-master.zip]https://github.com/jrajalu/ukmtheme/archive/master.zip
 
 Penerangan
 =====================================
@@ -6,7 +8,7 @@ Tema WordPress ini adalah percuma dan boleh digunakan oleh semua Fakulti/Institu
 
 Pemasangan
 =====================================
-Pemasangan boleh dilakukan melalui WordPress Dashboard atau melalui FTP. Tema ini akan memaklumkan sekiranya terdapat kemaskini. Pastikan anda sentiasa mengemaskini kepada versi terkini.
+Pemasangan boleh dilakukan melalui WordPress Dashboard > Apperance > Add New. Klik pautan upload dan pilih [Muat Turun ukmtheme-master.zip]https://github.com/jrajalu/ukmtheme/archive/master.zip yang telah dimuat turun dan aktifkan. Untuk menetapkan kedudukan kotak-katak di muka hadapan, pergi ke bahagian Theme Options. Tema ini akan memaklumkan sekiranya terdapat kemaskini. Pastikan anda sentiasa mengemaskini kepada versi terkini.
 
 Kolaborasi
 =====================================
