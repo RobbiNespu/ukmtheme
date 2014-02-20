@@ -74,6 +74,7 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
     require( 'inc/post-type-video.php');
     require( 'inc/theme-archive-links.php' );
     require( 'inc/metabox-setup.php' );
+    require( 'inc/widget-appreciation.php' );
     require( 'inc/widget-event.php' );
     require( 'inc/widget-news.php' );
     require( 'inc/widget-youtube.php' );
