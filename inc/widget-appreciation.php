@@ -57,7 +57,7 @@ class Appreciation_Widget extends WP_Widget {
       ?>
         <li class="news-item">
           <p style="font-style:italic;"><i class="uk-icon-quote-left"></i>&nbsp;<?php global $post; echo get_post_meta($post->ID, 'ut_appreciation_greeting', true); ?>&nbsp;<i class="uk-icon-quote-right"></i></p>
-          --&nbsp;<?php global $post; echo get_post_meta($post->ID, 'ut_appreciation_ptj', true); ?>
+          <span style="float:right;">--&nbsp;<?php global $post; echo get_post_meta($post->ID, 'ut_appreciation_ptj', true); ?></span>
         </li>
       <?php endwhile; ?>
       </ul>
