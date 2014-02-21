@@ -22,7 +22,6 @@
       <?php
         wp_nav_menu( array(
           'theme_location'    => 'primary',
-          'menu'              => 'Primary Navigation',
           'menu_class'        => 'primary-menu'
         ));
       ?>
@@ -45,7 +44,7 @@
   <div class="wrap secondary-menu">
     <?php 
       wp_nav_menu(array(
-        'menu'              => 'Secondary Navigation', 
+        'theme_location'    => 'secondary',
         'container_id'      => 'cssmenu', 
         'walker'            => new CSS_Menu_Maker_Walker()
       )); 
