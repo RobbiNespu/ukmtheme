@@ -18,12 +18,12 @@ $(document).ready(function(){
   });
   
   $( ".snd_btn" ).click(function() {
-    $( ".ut_color" ).addClass("snd_color");
+    $( ".ut_color" ).toggleClass("snd_color").removeClass("trd_color");
     return false;
   });
   
   $( ".trd_btn" ).click(function() {
-    $( ".ut_color" ).addClass("trd_color");
+    $( ".ut_color" ).toggleClass("trd_color").removeClass("snd_color");
     return false;
   });
 
