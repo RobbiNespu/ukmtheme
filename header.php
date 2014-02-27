@@ -23,6 +23,8 @@
       wp_nav_menu(array(
         'menu'              => 'Primary Navigation',
         'theme_location'    => 'primary',
+        'menu_class'        => 'primary-menu',
+        'fallback_cb'       => false,
       )); 
     ?>
     </div>
