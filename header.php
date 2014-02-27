@@ -21,8 +21,8 @@
     <div class="col-1-2">
     <?php 
       wp_nav_menu(array(
-        'theme_location'    => 'primary',
         'menu'              => 'Primary Navigation',
+        'theme_location'    => 'primary',
         'container'         => 'div',
         'fallback_cb'       => false,
       )); 
@@ -46,6 +46,7 @@
   <div class="wrap secondary-menu">
     <?php 
       wp_nav_menu(array(
+        'menu'              => 'Secondary Navigation',
         'theme_location'    => 'secondary',
         'container_id'      => 'cssmenu',
         'container'         => 'div',
