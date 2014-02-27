@@ -19,12 +19,14 @@
 <nav class="top ut_color">
   <div class="wrap">
     <div class="col-1-2">
-      <?php
-        wp_nav_menu( array(
-          'theme_location'    => 'primary',
-          'menu_class'        => 'primary-menu'
-        ));
-      ?>
+    <?php 
+      wp_nav_menu(array(
+        'theme_location'    => 'primary',
+        'menu'              => 'Primary Navigation',
+        'container'         => 'div',
+        'fallback_cb'       => false,
+      )); 
+    ?>
     </div>
     <div class="col-1-2">
       <?php get_template_part( 'templates/nav', 'searchBar' ); ?>
@@ -45,7 +47,9 @@
     <?php 
       wp_nav_menu(array(
         'theme_location'    => 'secondary',
-        'container_id'      => 'cssmenu', 
+        'container_id'      => 'cssmenu',
+        'container'         => 'div',
+        'fallback_cb'       => false,
         'walker'            => new CSS_Menu_Maker_Walker()
       )); 
     ?>
