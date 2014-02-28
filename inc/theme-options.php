@@ -52,85 +52,85 @@ function theme_options_do_page() { ?>
   <p>Masukkan perincian di bawah mengikut keperluan. Untuk templat grafik seperti logo, slideshow dah lain-lain boleh didapati <a href="<?php echo get_template_directory_uri(); ?>/assets/templates/templates.zip">di sini</a>.<br/>Gunakan perisian GIMP sebagai alternatif kepada perisian grafik dan boleh didapatkan di halaman berikut <a href="http://www.gimp.org/">www.gimp.org</a>.<br/>Sekiranya anda memerlukan khidmat bantuan pengendalian tema ini, anda boleh berhung terus dengan pembangun di alamat emel <em>jrajalu@ukm.edu.my</em>.<br/>Nota: Tema ini tidak semestinya memenuhi kehendak seperti yang anda mahukan.</p>
     <table class="form-table">
       <tbody>
-          <tr valign="top">
-          <th scope="row">
-          <?php _e('Footer: Copyright Link','ukmtheme'); ?><br/>
-          <small><?php _e('Select the copyright page to be linked','ukmtheme') ?></small>
-          </th>
-          <td>
-            <?php
-              $copyrightLink = get_option('ukmtheme_copyright_id');
-              wp_dropdown_pages( array(
-                 'name' => 'ukmtheme_copyright_id[copyright]',
-                 'echo' => 1,
-                 'show_option_none' => __( '&mdash; Select &mdash;' ),
-                 'option_none_value' => '0',
-                 'selected' => $copyrightLink['copyright']
-              ));
+        <tr valign="top">
+        <th scope="row">
+        <?php _e('Footer: Copyright Link','ukmtheme'); ?><br/>
+        <small><?php _e('Select the copyright page to be linked','ukmtheme') ?></small>
+        </th>
+        <td>
+          <?php
+            $copyrightLink = get_option('ukmtheme_copyright_id');
+            wp_dropdown_pages( array(
+              'name' => 'ukmtheme_copyright_id[copyright]',
+              'echo' => 1,
+              'show_option_none' => __( '&mdash; Select &mdash;' ),
+              'option_none_value' => '0',
+              'selected' => $copyrightLink['copyright']
+            ));
+          ?>
+        </td>
+        </tr>
+        <tr valign="top">
+        <th scope="row">
+        <?php _e('Footer: Contact Link','ukmtheme'); ?><br/>
+        <small><?php _e('Select the contact page to be linked','ukmtheme') ?></small>
+        </th>
+        <td>
+          <?php
+            $contactLink = get_option('ukmtheme_contact_id');
+            wp_dropdown_pages( array(
+              'name' => 'ukmtheme_contact_id[contact]',
+              'echo' => 1,
+              'show_option_none' => __( '&mdash; Select &mdash;' ),
+              'option_none_value' => '0',
+              'selected' => $contactLink['contact']
+            ));
+          ?>
+        </td>
+        </tr>
+        <tr valign="top">
+        <th scope="row"><?php _e('Visitor Counter ID','ukmtheme'); ?></th>
+        <td>
+        <input type="text" name="ukmtheme_visitor_id" value="<?php echo get_option('ukmtheme_visitor_id'); ?>" class="regular-text" placeholder="768059" />
+        <p class="description"><?php _e( 'Generate your id here', 'ukmtheme' ); ?>&nbsp;<a href="http://www.supercounters.com/hitcounter" target="_blank">Supercounter</a></p>
+        </td>
+        </tr>
+        <tr valign="top">
+        <th scope="row"><?php _e('Language Switcher','ukmtheme'); ?></th>
+        <td>
+          <select name ="ukmtheme_languages">
+            <?php 
+              $ut_lang_select = get_option('ukmtheme_languages'); 
             ?>
-          </td>
-          </tr>
-          <tr valign="top">
-          <th scope="row">
-          <?php _e('Footer: Contact Link','ukmtheme'); ?><br/>
-          <small><?php _e('Select the contact page to be linked','ukmtheme') ?></small>
-          </th>
-          <td>
-            <?php
-              $contactLink = get_option('ukmtheme_contact_id');
-              wp_dropdown_pages( array(
-                 'name' => 'ukmtheme_contact_id[contact]',
-                 'echo' => 1,
-                 'show_option_none' => __( '&mdash; Select &mdash;' ),
-                 'option_none_value' => '0',
-                 'selected' => $contactLink['contact']
-              ));
+            <option value="canvas-tools" <?php if ($ut_lang_select=='canvas-tools') { echo 'selected'; } ?>>Disable</option>
+            <option value="canvas-lang" <?php if ($ut_lang_select=='canvas-lang') { echo 'selected'; } ?>>Enable</option>
+          </select>
+          <p class="description"><?php _e( 'Enable language menu. Do not enable this feature if the "Polylang" plugin is not activated.', 'ukmtheme' ); ?></p>
+        </td>
+        </tr>
+        <tr valign="top">
+        <th scope="row">
+        <?php _e('Frontpage Layout','ukmtheme'); ?><br/>
+        <small><?php _e('Customize frontpage widget area','ukmtheme') ?></small>
+        </th>
+        <td>
+          <select name ="ukmtheme_layout">
+            <?php 
+              $ut_layout = get_option('ukmtheme_layout'); 
             ?>
-          </td>
-          </tr>
-          <tr valign="top">
-          <th scope="row"><?php _e('Visitor Counter ID','ukmtheme'); ?></th>
-          <td>
-          <input type="text" name="ukmtheme_visitor_id" value="<?php echo get_option('ukmtheme_visitor_id'); ?>" class="regular-text" placeholder="768059" />
-          <p class="description"><?php _e( 'Generate your id here', 'ukmtheme' ); ?>&nbsp;<a href="http://www.supercounters.com/hitcounter" target="_blank">Supercounter</a></p>
-          </td>
-          </tr>
-          <tr valign="top">
-          <th scope="row"><?php _e('Language Switcher','ukmtheme'); ?></th>
-          <td>
-            <select name ="ukmtheme_languages">
-              <?php 
-                $ut_lang_select = get_option('ukmtheme_languages'); 
-              ?>
-              <option value="canvas-tools" <?php if ($ut_lang_select=='canvas-tools') { echo 'selected'; } ?>>Disable</option>
-              <option value="canvas-lang" <?php if ($ut_lang_select=='canvas-lang') { echo 'selected'; } ?>>Enable</option>
-            </select>
-            <p class="description"><?php _e( 'Enable language menu', 'ukmtheme' ); ?></p>
-          </td>
-          </tr>
-          <tr valign="top">
-          <th scope="row">
-          <?php _e('Frontpage Layout','ukmtheme'); ?><br/>
-          <small><?php _e('Customize frontpage widget area','ukmtheme') ?></small>
-          </th>
-          <td>
-            <select name ="ukmtheme_layout">
-              <?php 
-                $ut_layout = get_option('ukmtheme_layout'); 
-              ?>
-              <option value="default" <?php if ($ut_layout=='default') { echo 'selected'; } ?>>Basic</option>
-              <option value="full-boxes" <?php if ($ut_layout=='full-boxes') { echo 'selected'; } ?>>Full Boxes</option>              
-              <option value="three-boxes" <?php if ($ut_layout=='three-boxes') { echo 'selected'; } ?>>Basic with Three Boxes</option>
-              <option value="four-boxes" <?php if ($ut_layout=='four-boxes') { echo 'selected'; } ?>>Basic with Four Boxes</option>
-              <option value="three-boxes-only" <?php if ($ut_layout=='three-boxes-only') { echo 'selected'; } ?>>Three Boxes</option>
-              <option value="four-boxes-only" <?php if ($ut_layout=='four-boxes-only') { echo 'selected'; } ?>>Four Boxes</option>
-              <option value="three-four-boxes" <?php if ($ut_layout=='three-four-boxes') { echo 'selected'; } ?>>Three and Four Boxes</option>                    
-              <option value="full-boxes-scroller" <?php if ($ut_layout=='full-boxes-scroller') { echo 'selected'; } ?>>Full Boxes with News Scroller</option>
-              <option value="three-boxes-scroller" <?php if ($ut_layout=='three-boxes-scroller') { echo 'selected'; } ?>>Three Boxes with News Scroller</option>
-              <option value="four-boxes-scroller" <?php if ($ut_layout=='four-boxes-scroller') { echo 'selected'; } ?>>Four Boxes with News Scroller</option>
-            </select>
-          </td>
-          </tr>
+            <option value="default" <?php if ($ut_layout=='default') { echo 'selected'; } ?>>Basic</option>
+            <option value="full-boxes" <?php if ($ut_layout=='full-boxes') { echo 'selected'; } ?>>Full Boxes</option>              
+            <option value="three-boxes" <?php if ($ut_layout=='three-boxes') { echo 'selected'; } ?>>Basic with Three Boxes</option>
+            <option value="four-boxes" <?php if ($ut_layout=='four-boxes') { echo 'selected'; } ?>>Basic with Four Boxes</option>
+            <option value="three-boxes-only" <?php if ($ut_layout=='three-boxes-only') { echo 'selected'; } ?>>Three Boxes</option>
+            <option value="four-boxes-only" <?php if ($ut_layout=='four-boxes-only') { echo 'selected'; } ?>>Four Boxes</option>
+            <option value="three-four-boxes" <?php if ($ut_layout=='three-four-boxes') { echo 'selected'; } ?>>Three and Four Boxes</option>                    
+            <option value="full-boxes-scroller" <?php if ($ut_layout=='full-boxes-scroller') { echo 'selected'; } ?>>Full Boxes with News Scroller</option>
+            <option value="three-boxes-scroller" <?php if ($ut_layout=='three-boxes-scroller') { echo 'selected'; } ?>>Three Boxes with News Scroller</option>
+            <option value="four-boxes-scroller" <?php if ($ut_layout=='four-boxes-scroller') { echo 'selected'; } ?>>Four Boxes with News Scroller</option>
+          </select>
+        </td>
+        </tr>
       </tbody>
     </table>
     <h3 class="title"><?php _e( 'Social Links', 'ukmtheme' ); ?></h3>
@@ -166,19 +166,19 @@ function theme_options_do_page() { ?>
       <?php $theme_three = get_option('ukmtheme_trd_color'); ?>
 
         <tr valign="top">
-        <th scope="row"><?php _e('Theme One','ukmtheme'); ?></th>
+        <th scope="row"><?php _e('Primary','ukmtheme'); ?></th>
         <td>
           <input type="text" name="ukmtheme_mn_color" value="<?php if ( isset( $theme_one ) ) echo $theme_one; ?>" class="theme-one" data-default-color="#d10000" />
         </td>
         </tr>
         <tr valign="top">
-        <th scope="row"><?php _e('Theme Two','ukmtheme'); ?></th>
+        <th scope="row"><?php _e('Secondary','ukmtheme'); ?></th>
         <td>
           <input type="text" name="ukmtheme_snd_color" value="<?php if ( isset( $theme_two ) ) echo $theme_two; ?>" class="theme-two" data-default-color="#0050a0" />
         </td>
         </tr>
         <tr valign="top">
-        <th scope="row"><?php _e('Theme Three','ukmtheme'); ?></th>
+        <th scope="row"><?php _e('Tertiary','ukmtheme'); ?></th>
         <td>
           <input type="text" name="ukmtheme_trd_color" value="<?php if ( isset( $theme_three ) ) echo $theme_three; ?>" class="theme-three" data-default-color="#494949" />
         </td>
@@ -186,7 +186,7 @@ function theme_options_do_page() { ?>
       </tbody>
     </table>
     
-    <?php submit_button(); ?>
+<?php submit_button(); ?>
 
 </form>
 </div>

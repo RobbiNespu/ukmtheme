@@ -19,6 +19,9 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php wp_head(); ?>
 <style>
+.uk-button-primary,
+.uk-button-primary:hover,
+.uk-button-primary:focus,
 nav.mn_color,
 .mn_color {
   background:<?php echo get_option('ukmtheme_mn_color'); ?>;
