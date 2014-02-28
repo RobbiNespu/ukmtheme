@@ -25,14 +25,13 @@ wp_footer(); ?>
   </div>
   <div class="wrap">
     <div class="copyright-detail-link-wrap">
-      <ul class="copyright-detail-link">
-        <li><a href="<?php echo get_permalink($copyrightID); ?>"><?php _e( 'Copyright', 'ukmtheme' ); ?></a></li>
-        <li><a href="<?php echo get_permalink($copyrightID); ?>"><?php _e( 'Disclaimer', 'ukmtheme' ); ?></a></li>
-        <li><a href="<?php echo get_permalink($copyrightID); ?>"><?php _e( 'Privacy Policy', 'ukmtheme' ); ?></a></li>
-        <li><a href="<?php echo get_permalink($copyrightID); ?>"><?php _e( 'Security Policy', 'ukmtheme' ); ?></a></li>
-        <li><a href="<?php echo get_permalink($contactID); ?>"><?php _e( 'Contact Us', 'ukmtheme' ); ?></a></li>
-        <li><?php _e( 'Last Update:&nbsp;', 'ukmtheme' ); ?><?php echo date( 'd/m/Y', strtotime("-3 days") ); ?></li>
-      </ul>
+    <?php 
+      wp_nav_menu(array(
+        'theme_location'    => 'footer',
+        'menu'              => 'Footer Navigation',
+        'menu_class'        => 'copyright-detail-link',
+      )); 
+    ?>
     </div>
   </div>
   <div class="wrap copyright best-view">

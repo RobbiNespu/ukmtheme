@@ -31,8 +31,6 @@ function register_mysettings() {
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_snd_color' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_trd_color' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_languages' );
-  register_setting( 'ukmtheme-settings-group', 'ukmtheme_copyright_id' );
-  register_setting( 'ukmtheme-settings-group', 'ukmtheme_contact_id' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_visitor_id' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_layout' );
 }
@@ -52,42 +50,6 @@ function theme_options_do_page() { ?>
   <p>Masukkan perincian di bawah mengikut keperluan. Untuk templat grafik seperti logo, slideshow dah lain-lain boleh didapati <a href="<?php echo get_template_directory_uri(); ?>/assets/templates/templates.zip">di sini</a>.<br/>Gunakan perisian GIMP sebagai alternatif kepada perisian grafik dan boleh didapatkan di halaman berikut <a href="http://www.gimp.org/">www.gimp.org</a>.<br/>Sekiranya anda memerlukan khidmat bantuan pengendalian tema ini, anda boleh berhung terus dengan pembangun di alamat emel <em>jrajalu@ukm.edu.my</em>.<br/>Nota: Tema ini tidak semestinya memenuhi kehendak seperti yang anda mahukan.</p>
     <table class="form-table">
       <tbody>
-        <tr valign="top">
-        <th scope="row">
-        <?php _e('Footer: Copyright Link','ukmtheme'); ?><br/>
-        <small><?php _e('Select the copyright page to be linked','ukmtheme') ?></small>
-        </th>
-        <td>
-          <?php
-            $copyrightLink = get_option('ukmtheme_copyright_id');
-            wp_dropdown_pages( array(
-              'name' => 'ukmtheme_copyright_id[copyright]',
-              'echo' => 1,
-              'show_option_none' => __( '&mdash; Select &mdash;' ),
-              'option_none_value' => '0',
-              'selected' => $copyrightLink['copyright']
-            ));
-          ?>
-        </td>
-        </tr>
-        <tr valign="top">
-        <th scope="row">
-        <?php _e('Footer: Contact Link','ukmtheme'); ?><br/>
-        <small><?php _e('Select the contact page to be linked','ukmtheme') ?></small>
-        </th>
-        <td>
-          <?php
-            $contactLink = get_option('ukmtheme_contact_id');
-            wp_dropdown_pages( array(
-              'name' => 'ukmtheme_contact_id[contact]',
-              'echo' => 1,
-              'show_option_none' => __( '&mdash; Select &mdash;' ),
-              'option_none_value' => '0',
-              'selected' => $contactLink['contact']
-            ));
-          ?>
-        </td>
-        </tr>
         <tr valign="top">
         <th scope="row"><?php _e('Visitor Counter ID','ukmtheme'); ?></th>
         <td>

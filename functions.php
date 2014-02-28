@@ -84,9 +84,9 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
     require( 'templates/page-sitemap.php' );
       
     register_nav_menus( array(
-      'primary' => __( 'Primary Navigation', 'ukmtheme' ),
-      'secondary' => __( 'Secondary Navigation', 'ukmtheme' ),
-      //'mobile' => __( 'Mobile Navigation', 'ukmtheme' )
+      'top' => __( 'Top Navigation', 'ukmtheme' ),
+      'main' => __( 'Main Navigation', 'ukmtheme' ),
+      'footer' => __( 'Footer Navigation', 'ukmtheme' )
     ) );
 
     add_theme_support( 'custom-header', array(

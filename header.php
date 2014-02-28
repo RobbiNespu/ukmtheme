@@ -21,10 +21,9 @@
     <div class="col-1-2">
     <?php 
       wp_nav_menu(array(
-        'menu'              => 'Primary Navigation',
-        'theme_location'    => 'primary',
-        'menu_class'        => 'primary-menu',
-        'fallback_cb'       => false,
+        'theme_location'    => 'top',
+        'menu'              => 'Top Navigation',
+        'menu_class'        => 'top-menu',
       )); 
     ?>
     </div>
@@ -46,10 +45,9 @@
   <div class="wrap secondary-menu">
     <?php 
       wp_nav_menu(array(
-        'menu'              => 'Secondary Navigation',
-        'theme_location'    => 'secondary',
+        'theme_location'    => 'main',
+        'menu'              => 'Main Navigation',
         'container_id'      => 'cssmenu',
-        'container'         => 'div',
         'fallback_cb'       => false,
         'walker'            => new CSS_Menu_Maker_Walker()
       )); 
