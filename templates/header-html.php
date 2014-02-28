@@ -19,6 +19,10 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php wp_head(); ?>
 <style>
+nav.mn_color,
+.mn_color {
+  background:<?php echo get_option('ukmtheme_mn_color'); ?>;
+}
 .snd_color {
   background:<?php echo get_option('ukmtheme_snd_color'); ?> !important;
 }

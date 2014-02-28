@@ -8,8 +8,10 @@
  *
  * @author Jamaludin Rajalu
  */
-$copyrightID = get_option('ukmtheme_copyright_id');
-$contactID = get_option('ukmtheme_contact_id');
+$copyrightOption = get_option('ukmtheme_copyright_id');
+$copyrightID = $copyrightOption['copyright'];
+$contactOption = get_option('ukmtheme_contact_id');
+$contactID = $contactOption['contact'];
 wp_footer(); ?>
 </div><!--.page-wrap-->
 <footer class="site-footer">

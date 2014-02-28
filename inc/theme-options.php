@@ -53,12 +53,40 @@ function theme_options_do_page() { ?>
     <table class="form-table">
       <tbody>
           <tr valign="top">
-          <th scope="row"><?php _e('Footer Copyright Link','ukmtheme'); ?></th>
-          <td><input type="text" name="ukmtheme_copyright_id" value="<?php echo get_option('ukmtheme_copyright_id'); ?>" class="regular-text" placeholder="100" /></td>
+          <th scope="row">
+          <?php _e('Footer: Copyright Link','ukmtheme'); ?><br/>
+          <small><?php _e('Select the copyright page to be linked','ukmtheme') ?></small>
+          </th>
+          <td>
+            <?php
+              $copyrightLink = get_option('ukmtheme_copyright_id');
+              wp_dropdown_pages( array(
+                 'name' => 'ukmtheme_copyright_id[copyright]',
+                 'echo' => 1,
+                 'show_option_none' => __( '&mdash; Select &mdash;' ),
+                 'option_none_value' => '0',
+                 'selected' => $copyrightLink['copyright']
+              ));
+            ?>
+          </td>
           </tr>
           <tr valign="top">
-          <th scope="row"><?php _e('Footer Contact Link','ukmtheme'); ?></th>
-          <td><input type="text" name="ukmtheme_contact_id" value="<?php echo get_option('ukmtheme_contact_id'); ?>" class="regular-text" placeholder="101" /></td>
+          <th scope="row">
+          <?php _e('Footer: Contact Link','ukmtheme'); ?><br/>
+          <small><?php _e('Select the contact page to be linked','ukmtheme') ?></small>
+          </th>
+          <td>
+            <?php
+              $contactLink = get_option('ukmtheme_contact_id');
+              wp_dropdown_pages( array(
+                 'name' => 'ukmtheme_contact_id[contact]',
+                 'echo' => 1,
+                 'show_option_none' => __( '&mdash; Select &mdash;' ),
+                 'option_none_value' => '0',
+                 'selected' => $contactLink['contact']
+              ));
+            ?>
+          </td>
           </tr>
           <tr valign="top">
           <th scope="row"><?php _e('Visitor Counter ID','ukmtheme'); ?></th>
