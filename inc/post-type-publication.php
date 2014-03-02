@@ -59,9 +59,9 @@ add_action( 'init', 'ut_publication', 0 );
 function ut_publication_category()  {
 
   $labels = array(
-    'name'                       => _x( 'Categories', 'Taxonomy General Name', 'ukmtheme' ),
-    'singular_name'              => _x( 'Category', 'Taxonomy Singular Name', 'ukmtheme' ),
-    'menu_name'                  => __( 'Category', 'ukmtheme' ),
+    'name'                       => _x( 'Pub. Categories', 'Taxonomy General Name', 'ukmtheme' ),
+    'singular_name'              => _x( 'Pub. Category', 'Taxonomy Singular Name', 'ukmtheme' ),
+    'menu_name'                  => __( 'Pub. Category', 'ukmtheme' ),
     'all_items'                  => __( 'All Categories', 'ukmtheme' ),
     'parent_item'                => __( 'Parent Category', 'ukmtheme' ),
     'parent_item_colon'          => __( 'Parent Category:', 'ukmtheme' ),

@@ -62,9 +62,9 @@ add_action( 'init', 'ut_video', 0 );
 function ut_video_category()  {
 
   $labels = array(
-    'name'                       => _x( 'Categories', 'Taxonomy General Name', 'ukmtheme' ),
-    'singular_name'              => _x( 'Category', 'Taxonomy Singular Name', 'ukmtheme' ),
-    'menu_name'                  => __( 'Category', 'ukmtheme' ),
+    'name'                       => _x( 'Video Categories', 'Taxonomy General Name', 'ukmtheme' ),
+    'singular_name'              => _x( 'Video Category', 'Taxonomy Singular Name', 'ukmtheme' ),
+    'menu_name'                  => __( 'Video Category', 'ukmtheme' ),
     'all_items'                  => __( 'All Categories', 'ukmtheme' ),
     'parent_item'                => __( 'Parent Category', 'ukmtheme' ),
     'parent_item_colon'          => __( 'Parent Category:', 'ukmtheme' ),

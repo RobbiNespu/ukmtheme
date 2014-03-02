@@ -1,576 +1,520 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: UKM Theme 6.1.30\n"
-"POT-Creation-Date: 2014-02-17 12:21+0800\n"
-"PO-Revision-Date: 2014-02-17 12:21+0800\n"
+"Project-Id-Version: UKM Theme 6.1\n"
+"POT-Creation-Date: 2014-03-02 11:45+0800\n"
+"PO-Revision-Date: 2014-03-02 11:56+0800\n"
 "Last-Translator: \n"
-"Language-Team: Multimedia UKM <multimedia@ptm.ukm.my>\n"
+"Language-Team: ukmtheme <jrajalu@ukm.edu.my>\n"
 "Language: ms_MY\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.3\n"
+"X-Generator: Poedit 1.6.4\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-"
+"X-Poedit-SearchPath-0: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-"
 "master\n"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/404.php:16
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/index.php:22
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/page-left-sidebar.php:27
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/page.php:22
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/search.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/404.php:16
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/index.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/page-left-sidebar.php:27
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/page.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/search.php:22
 msgid "Not Found"
 msgstr "Tidak Dijumpai"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/404.php:17
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-faq.php:34
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/index.php:23
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/page-left-sidebar.php:28
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/page-one-column.php:24
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/page-sitemap.php:25
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/page.php:23
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/search.php:23
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/404.php:17
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-faq.php:34
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/index.php:23
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/page-left-sidebar.php:28
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/page-one-column.php:24
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/page-sitemap.php:25
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/page.php:23
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/search.php:23
 msgid "Sorry, no page matched your criteria."
 msgstr "Maaf, tiada laman yang sepadan kriteria."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-event.php:16
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-event.php:16
 msgid "Events List"
 msgstr "Senarai Acara"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-event.php:29
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-publication.php:37
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:119
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:37
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/widget-news-scroller.php:25
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/widget-news-ticker.php:28
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-event.php:29
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-publication.php:37
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:123
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:37
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/widget-news-scroller.php:25
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/widget-news-ticker.php:28
 msgid "Read More"
 msgstr "Baca Selanjutnya"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-event.php:33
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-publication.php:43
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-appreciation.php:25
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-event.php:27
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:133
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-faq.php:22
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-gallery.php:25
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-news.php:22
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-publication.php:40
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single.php:22
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:43
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/single-gallery.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-event.php:33
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-publication.php:43
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/single-gallery.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-appreciation.php:25
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-event.php:27
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:133
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-faq.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-gallery.php:25
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-news.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-publication.php:40
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-video.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:43
 msgid "Sorry, no post matched your criteria."
 msgstr "Maaf, tiada kiriman yang sepadan kriteria."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-expertise.php:36
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:29
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:298
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-expertise.php:36
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:317
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:29
 msgid "Specialisation"
 msgstr "Pengkhususan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-expertise.php:43
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-staff.php:40
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-department.php:40
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-position.php:40
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-expertise.php:43
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-staff.php:40
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-department.php:40
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-position.php:40
 msgid "Sorry, no posts matched your criteria."
 msgstr "Maaf, tiada kiriman yang sepadan kriteria."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-faq.php:24
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-faq.php:24
 msgid "Frequently Asked Questions"
 msgstr "Soalan Lazim"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-gallery.php:18
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:19
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:32
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-gallery.php:18
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:17
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:18
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:19
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:32
 msgid "Gallery"
 msgstr "Galeri"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-gallery.php:34
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-gallery.php:19
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-gallery.php:34
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-gallery.php:19
 msgid "Date:&nbsp;"
 msgstr "Tarikh:&nbsp;"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-gallery.php:35
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-gallery.php:20
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-gallery.php:35
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-gallery.php:20
 msgid "Photo by:&nbsp;"
 msgstr "Foto oleh:&nbsp;"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-news.php:18
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/widget-news.php:20
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-news.php:18
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/widget-news.php:20
 msgid "Latest News"
 msgstr "Berita Terkini"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-publication.php:29
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-publication.php:26
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:29
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-publication.php:29
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-publication.php:26
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:29
 msgid "Detail"
 msgstr "Butiran"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-publication.php:31
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-publication.php:28
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:31
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:184
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:105
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-publication.php:31
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:203
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:105
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-publication.php:28
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:31
 msgid "Author"
 msgstr "Pengarang"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-publication.php:32
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-publication.php:29
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:32
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:190
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:106
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-publication.php:32
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:209
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:106
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-publication.php:29
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:32
 msgid "Publisher"
 msgstr "Penerbit"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-publication.php:33
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-publication.php:30
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:33
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:196
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:107
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-publication.php:33
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:215
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:107
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-publication.php:30
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:33
 msgid "Year"
 msgstr "Tahun"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-publication.php:34
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-publication.php:31
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:34
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:202
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-publication.php:34
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:221
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-publication.php:31
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:34
 msgid "Number of Pages"
 msgstr "Jumlah Halaman"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-publication.php:35
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-publication.php:32
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:35
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-publication.php:35
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-publication.php:32
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:35
 msgid "Reference/Download"
 msgstr "Rujukan/Muat Turun"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-publication.php:35
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-publication.php:32
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:35
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-publication.php:35
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-publication.php:32
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:35
 msgid "Get it"
 msgstr "Dapatkan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-staff.php:15
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-staff.php:15
 msgid "Directory"
 msgstr "Direktori"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/archive.php:18
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-archive-links.php:89
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive-video.php:18
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:17
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:18
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:19
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:32
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/taxonomy-vidcat.php:18
+msgid "Video"
+msgstr "Video"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/archive.php:18
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-archive-links.php:89
 msgid "Archives"
 msgstr "Arkib"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/footer.php:20
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/footer.php:22
 msgid "Copyright &copy;"
 msgstr "Hakcipta &copy;"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/footer.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/footer.php:24
 msgid "The National University of Malaysia"
 msgstr "Universiti Kebangsaan Malaysia"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/footer.php:27
-msgid "Copyright"
-msgstr "Hakcipta"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/footer.php:28
-msgid "Disclaimer"
-msgstr "Penafian"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/footer.php:29
-msgid "Privacy Policy"
-msgstr "Dasar Privasi"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/footer.php:30
-msgid "Security Policy"
-msgstr "Dasar Keselamatan"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/footer.php:31
-msgid "Contact Us"
-msgstr "Hubungi Kami"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/footer.php:32
-msgid "Last Update:&nbsp;"
-msgstr "Akhir Kemaskini:&nbsp;"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/footer.php:37
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/footer.php:38
 msgid "Best view: Viewable with any modern web browser (Desktop &amp; Mobile)"
 msgstr ""
 "Paparan terbaik: Kebolehpaparan oleh mana-mana pelayar web moden (Desktop "
 "&amp; Mobile)"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/footer.php:43
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/footer.php:44
 msgid "Powered by"
 msgstr "Dijana dengan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:83
-msgid "Primary Navigation"
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:87
+msgid "Top Navigation"
+msgstr "Navigasi Atas"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:88
+msgid "Main Navigation"
 msgstr "Navigasi Utama"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:84
-msgid "Secondary Navigation"
-msgstr "Navigasi Kedua"
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:89
+msgid "Footer Navigation"
+msgstr "Navigasi Pembawah"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:142
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:146
 msgid "Main Sidebar"
 msgstr "Barsisi Utama"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:144
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:148
 msgid "Appears on Front Page template, which has its own widgets"
 msgstr "Muncul pada Muka Hadapan templat, yang mempunyai widget sendiri"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:152
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:156
 msgid "Page Sidebar"
 msgstr "Barsisi Halaman"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:154
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:158
 msgid "Appears when using the optional page"
 msgstr "Muncul apabila menggunakan halaman pilihan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:162
-msgid "Post Sidebar"
-msgstr "Barsisi Kiriman"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:164
-msgid "Appears when using the optional post"
-msgstr "Muncul apabila mengunakan kiriman pilihan"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:172
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:166
 msgid "Frontpage Three Boxes"
 msgstr "Tiga Kotak Halaman Depan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:174
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:184
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:168
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:178
 msgid "Appears when using the optional Front Page"
 msgstr "Muncul apabila menggunakan Halaman Depan pilhan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:182
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/functions.php:176
 msgid "Frontpage Four Boxes"
 msgstr "Empat Kotak Halaman Depan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-appreciation.php:22
-msgid "By:&nbsp;"
-msgstr "Oleh:&nbsp;"
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:30
+msgid "Video Detail"
+msgstr "Butiran Video"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:26
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:247
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:286
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:69
-msgid "Email"
-msgstr "Emel"
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:37
+msgid "Video Link"
+msgstr "Pautan Video"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:26
-msgid "Phone"
-msgstr "Telefon"
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:38
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:245
+msgid ""
+"Enter a youtube, twitter, or instagram URL. Supports services listed at <a "
+"href=\"http://codex.wordpress.org/Embeds\">http://codex.wordpress.org/"
+"Embeds</a>."
+msgstr ""
+"Enter a youtube, twitter, or instagram URL. Supports services listed at <a "
+"href=\"http://codex.wordpress.org/Embeds\">http://codex.wordpress.org/"
+"Embeds</a>."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:27
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:292
-msgid "Current Position"
-msgstr "Jawatan Semasa"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:36
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:304
-msgid "Qualifications"
-msgstr "Kelayakan"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:44
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:311
-msgid "Areas of Research"
-msgstr "Bidang Penyelidikan"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:52
-msgid "Research/Consultation<br/>/Expansion"
-msgstr "Penyelidikan/Perundingan<br/>/Pengembangan"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:60
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:325
-msgid "Publications Journals"
-msgstr "Penerbitan Jurnal"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:68
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:332
-msgid "Proceedings"
-msgstr "Prosiding"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:76
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:339
-msgid "Articles in Antologi/Chapters in Book"
-msgstr "Artikel dalam Antologi/Bab dalam Buku"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:84
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:346
-msgid "Monograph, Working Papers and Non-Periodical Publications"
-msgstr "Monograf, Kertas Kerja dan Penerbitan Bukan berkala"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:92
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:353
-msgid "Award"
-msgstr "Anugerah"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:100
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:360
-msgid "Supervision"
-msgstr "Penyeliaan"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:108
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:367
-msgid "Administrative Services/Committee"
-msgstr "Khidmat Pentadbiran/Jawatankuasa"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:116
-msgid "Reports: Technical<br/>/Research/Consultation"
-msgstr "Laporan: Teknikal<br/>/Penyelidikan/Perundingan"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:124
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:381
-msgid "Teaching"
-msgstr "Mengajar"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/single-gallery.php:21
-msgid "Back to Main"
-msgstr "Kembali ke Utama"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:30
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:49
 msgid "Gallery Detail"
 msgstr "Butiran Galeri"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:37
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:56
 msgid "Gallery Cover Image"
 msgstr "Imej Kulit Galeri"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:38
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:57
 msgid ""
 "Upload an image or enter a URL. dimensions of the image should be 300x300 "
 "pixels."
 msgstr ""
 "Muat naik imej atau masukkan URL. dimensi imej yang perlu 300x300 piksel."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:44
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:107
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:133
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:69
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:67
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:67
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:63
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:126
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:152
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:69
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:67
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:67
 msgid "Date"
 msgstr "Tarikh"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:45
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:64
 msgid "Gallery Date"
 msgstr "Tarikh Galeri"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:50
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:69
 msgid "Phographer"
 msgstr "Jurufoto"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:51
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:70
 msgid "Photo by."
 msgstr "Foto oleh."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:62
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:81
 msgid "Slideshow Detail"
 msgstr "Butiran Tayangan Slaid"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:69
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:88
 msgid "Slideshow Image"
 msgstr "Imej Slideshow"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:70
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:89
 msgid ""
 "Upload an image or enter a URL. dimensions of the image should be 960x350 "
 "pixels."
 msgstr ""
 "Muat naik imej atau masukkan URL. dimensi imej yang perlu 960x350 piksel."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:76
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:95
 msgid "Slideshow Link"
 msgstr "Pautan Slideshow"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:77
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:96
 msgid "links to posts, pages or external web."
 msgstr "pautan ke catatan, laman atau web luar."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:88
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:107
 msgid "Appreciation Detail"
 msgstr "Perincian Penghargaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:95
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:67
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:114
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:67
 msgid "By"
 msgstr "Oleh"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:96
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:185
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:115
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:204
 msgid "e.g. Jamaludin Rajalu"
 msgstr "cth: Jamaludin Rajalu"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:101
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:68
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:120
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:68
 msgid "PTJ"
 msgstr "PTJ"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:102
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:191
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:121
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:210
 msgid "e.g. Pusat Teknologi Maklumat"
 msgstr "cth: Pusat Teknologi Maklumat"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:108
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:127
 msgid "Date of appreciation"
 msgstr "Tarikh Penghargaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:113
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:66
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:132
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:66
 msgid "Greeting"
 msgstr "Ucapan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:114
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:133
 msgid "e.g. Terima kasih atas sumbangan sebagai urusetia majlis"
 msgstr "cth. Terima kasih atas sumbangan sebagai urusetia majlis"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:126
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:145
 msgid "Event Detail"
 msgstr "Butiran Acara"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:134
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:153
 msgid "Date of event"
 msgstr "Tarikh Acara"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:139
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:158
 msgid "Time: Start"
 msgstr "Masa:Mula"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:140
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:159
 msgid "Start time of the event"
 msgstr "Masa mula acara"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:145
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:164
 msgid "Time: End"
 msgstr "Masa: Tamat"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:146
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:165
 msgid "End time of the event"
 msgstr "Masa tamat acara"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:151
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:70
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:170
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:70
 msgid "Venue"
 msgstr "Lokasi"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:152
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:171
 msgid "Venue of the event"
 msgstr "Lokasi acara"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:157
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:176
 msgid "Summary"
 msgstr "Ringkasan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:158
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:177
 msgid "Event Summary"
 msgstr "Ringkasan Acara"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:170
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:189
 msgid "Publication Detail"
 msgstr "Butiran Penerbitan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:177
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:196
 msgid "Cover Image"
 msgstr "Imej Kulit"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:178
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:235
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:267
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:197
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:254
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:286
 msgid ""
 "Upload an image or enter a URL. dimensions of the image should be 300x350 "
 "pixels."
 msgstr ""
 "Muat naik imej atau masukkan URL. dimensi imej yang perlu 300x350 piksel."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:197
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:216
 msgid "e.g. 2014"
 msgstr "cth: 2014"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:203
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:222
 msgid "e.g. 199"
 msgstr "cth: 199"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:208
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:227
 msgid "Reference"
 msgstr "Rujukan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:209
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:228
 msgid "e.g. http://www.ukm.my"
 msgstr "cth. http://www.ukm.my"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:214
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:499
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:542
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:233
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:499
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:542
 msgid "Download"
 msgstr "Muat Turun"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:215
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:233
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:234
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:233
 msgid "Upload an image or enter a URL."
 msgstr "Muat naik imej atau masukkan URL."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:227
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:246
 msgid "Staff Detail"
 msgstr "Butiran Staf"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:234
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:253
 msgid "Staff Photo"
 msgstr "Foto Staf"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:241
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:260
 msgid "Phone No."
 msgstr "No. Telefon"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:242
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:281
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:293
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:261
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:300
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:312
 msgid "e.g. 03-8921-7070"
 msgstr "cth: 03-8921-7070"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:248
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:287
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:266
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:305
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:69
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:26
+msgid "Email"
+msgstr "Emel"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:267
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:306
 msgid "e.g. user@ukm.edu.my"
 msgstr "cth: namapengguna@ukm.my"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:259
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:278
 msgid "Expertise Detail"
 msgstr "Butiran Kepakaran"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:266
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:285
 msgid "Expert Photo"
 msgstr "Foto Pakar"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:273
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:292
 msgid "Biography"
 msgstr "Biografi"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:274
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:293
 msgid "A brief biography"
 msgstr "Biografi ringkas"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:280
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:70
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:299
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:70
 msgid "Contact"
 msgstr "Hubungi"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:299
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:311
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:68
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:27
+msgid "Current Position"
+msgstr "Jawatan Semasa"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:318
 msgid "Tourism and Hospitality Marketing, &amp; Services Marketing"
 msgstr "Tourism and Hospitality Marketing, &amp; Services Marketing"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:305
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:323
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:36
+msgid "Qualifications"
+msgstr "Kelayakan"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:324
 msgid "e.g. Doctor of Philosophy (University of Malaya) [2002-2005]"
 msgstr "cth. Doctor of Philosophy (University of Malaya) [2002-2005]"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:312
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:330
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:44
+msgid "Areas of Research"
+msgstr "Bidang Penyelidikan"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:331
 msgid "e.g. Services Marketing and Consumer Behavior Analysis"
 msgstr "cth. Services Marketing and Consumer Behavior Analysis"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:318
-msgid "Research/Consultation/Expansion"
-msgstr "Penyelidikan/Perundingan/Pengembangan"
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:337
+msgid "Research/<br/>Consultation/<br/>Expansion"
+msgstr "Penyelidikan/<br/>Perundingan<br/>/Pengembangan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:319
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:338
 msgid ""
 "e.g. Developing A Higher Education Brand Index for Malaysia. Jan1, 2009-June "
 "30,2010. GSB-001-2009 (External Grant). Ongoing."
@@ -578,7 +522,12 @@ msgstr ""
 "cth. Developing A Higher Education Brand Index for Malaysia. Jan1, 2009-June "
 "30,2010. GSB-001-2009 (External Grant). Ongoing."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:326
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:344
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:60
+msgid "Publications Journals"
+msgstr "Penerbitan Jurnal"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:345
 msgid ""
 "e.g. Ahmad Azmi M. Ariffin & Mohd Safar Hashim. 2009. Marketing Malaysia to "
 "the Middle East Tourists: Towards a Prime Inter-Regional Destination. "
@@ -588,7 +537,12 @@ msgstr ""
 "the Middle East Tourists: Towards a Prime Inter-Regional Destination. "
 "International Journal of West Asian Studies. 1(1): 43-58. ISSN 1394-0902."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:333
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:351
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:68
+msgid "Proceedings"
+msgstr "Prosiding"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:352
 msgid ""
 "e.g. Ahmad Azmi M.Ariffin, Aliah Hanim M.Salleh, Norzalita A.Aziz & Astuti A."
 "Asbudin. 2009. Determining Passengers’ Expectation, Service Quality and "
@@ -602,7 +556,11 @@ msgstr ""
 "International Business Research Conference. Sydney Australia. Dec 2-4, 2009. "
 "ISBN: 978-0-980-4557-0-7 (Presenter)."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:340
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:358
+msgid "Articles in Antologi/<br/>Chapters in Book"
+msgstr "Artikel dalam Antologi/<br/>Bab dalam Buku"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:359
 msgid ""
 "e.g. Ahmad Azmi Mohd. Ariffin, Norzalita Abd. Aziz. 2009. Chapter 5: Service "
 "Quality and Zone of Tolerance in Malaysian Banking Services. In Services "
@@ -616,7 +574,12 @@ msgstr ""
 "Salleh, Ahmad Azmi Mohd. Ariffin, June M. L. Poon & Aini Aman. GSB-UKM. "
 "Bangi."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:347
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:365
+msgid ""
+"Monograph,<br/> Working Papers<br/> and Non-Periodical<br/> Publications"
+msgstr "Monograf,<br/> Kertas Kerja dan<br/> Penerbitan <br/>Bukan berkala"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:366
 msgid ""
 "e.g. Module ”Tourism Marketing” (Code: BBAS 3103).  Open University "
 "Malaysia. 2007/2008"
@@ -624,7 +587,12 @@ msgstr ""
 "cth. Module ”Tourism Marketing” (Code: BBAS 3103).  Open University "
 "Malaysia. 2007/2008"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:354
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:372
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:92
+msgid "Award"
+msgstr "Anugerah"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:373
 msgid ""
 "e.g. EXCELLENT SERVICE AWARD 2007. Faculty of Economics and "
 "BusinessUniversiti Kebangsaan Malaysia"
@@ -632,7 +600,12 @@ msgstr ""
 "cth. EXCELLENT SERVICE AWARD 2007. Faculty of Economics and "
 "BusinessUniversiti Kebangsaan Malaysia"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:361
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:379
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:100
+msgid "Supervision"
+msgstr "Penyeliaan"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:380
 msgid ""
 "e.g. Lim Chui Seong (DBA. Disertasi) The Influence of e-Hospitality on "
 "Websites Satisfaction and Loyalty (Ongoing)"
@@ -640,7 +613,11 @@ msgstr ""
 "cth. Lim Chui Seong (DBA. Disertasi) The Influence of e-Hospitality on "
 "Websites Satisfaction and Loyalty (Ongoing)"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:368
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:386
+msgid "Administrative<br/> Services/Committee"
+msgstr "Khidmat<br/> Pentadbiran/Jawatankuasa"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:387
 msgid ""
 "e.g. MANAGING EDITOR OF JURNAL PENGURUSAN 1 April 2007 – Present Graduate "
 "School of Business, Universiti Kebangsaan Malaysia"
@@ -648,11 +625,11 @@ msgstr ""
 "cth. MANAGING EDITOR OF JURNAL PENGURUSAN 1 April 2007 – Present Graduate "
 "School of Business, Universiti Kebangsaan Malaysia"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:374
-msgid "Reports: Technical/Research/Consultation"
-msgstr "Laporan: Teknikal/Penyelidikan/Perundingan"
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:393
+msgid "Reports: Technical/<br/>Research/<br/>Consultation"
+msgstr "Laporan: Teknikal<br/>/Penyelidikan/<br/>Perundingan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:375
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:394
 msgid ""
 "e.g. Mohd Fauzi Mohd Jani, Zaimah Derawi, Tih Sio Hong, Rozita Amirudin, "
 "Ahmad Azmi Ariffin, Zafir Makhbul, Aini Aman, Mohd Radzuan Rahid, Ahmad "
@@ -666,7 +643,12 @@ msgstr ""
 "Keusahawanan: Kerjasama Pelajar Universiti dan Entepris Kecil dan Sederhana "
 "(EKS)”. SMIDEC."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:382
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:400
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:124
+msgid "Teaching"
+msgstr "Mengajar"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:401
 msgid ""
 "e.g. Courses Taught at Ph.D./DBA Level Hospitality Marketing: Theory and "
 "Research"
@@ -674,789 +656,904 @@ msgstr ""
 "cth. Courses Taught at Ph.D./DBA Level Hospitality Marketing: Theory and "
 "Research"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:19
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:32
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:17
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:18
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:19
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:32
 msgid "Appreciation"
 msgstr "Penghargaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:20
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:20
 msgid "Parent Appreciation:"
 msgstr "Induk Penghargaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:21
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:21
 msgid "All Appreciation"
 msgstr "Semua Penghargaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:22
 msgid "View Appreciation"
 msgstr "Papar Penghargaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:23
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:23
 msgid "Add New Appreciation"
 msgstr "Tambah Penghargaan Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:24
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:24
 msgid "New Appreciation"
 msgstr "Penghargaan Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:25
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:25
 msgid "Edit Appreciation"
 msgstr "Sunting Penghargaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:26
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:26
 msgid "Update Appreciation"
 msgstr "Kemaskini Penghargaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:27
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:27
 msgid "Search Appreciation"
 msgstr "Cari Penghargaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:28
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:28
 msgid "No Appreciation found"
 msgstr "Tiada Penghargaan Dijumpai"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:29
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:29
 msgid "No Appreciation found in Trash"
 msgstr "Tiada Penghargaan dijumpai di Buangan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:33
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:33
 msgid "Appreciation manager for UKM"
 msgstr "Pengurus Penghargaan UKM"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:18
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:66
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:16
+msgid "Events"
+msgstr "Acara"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:17
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:18
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:66
 msgid "Event"
 msgstr "Acara"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:19
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:19
 msgid "Parent Event:"
 msgstr "Induk Acara:"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:20
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:20
 msgid "All Events"
 msgstr "Semua Acara"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:21
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:21
 msgid "View Event"
 msgstr "Papar Acara"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:22
 msgid "Add New Event"
 msgstr "Tambah Acara Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:23
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:23
 msgid "New Event"
 msgstr "Acara Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:24
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:24
 msgid "Edit Event"
 msgstr "Sunting Acara"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:25
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:25
 msgid "Update Event"
 msgstr "Kemaskini Acara"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:26
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:26
 msgid "Search Events"
 msgstr "Cari Acara"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:27
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:27
 msgid "No Events found"
 msgstr "Tiada Acara dijumpai."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:28
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:28
 msgid "No Events found in Trash"
 msgstr "Tiada Events ditemui di Buangan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:31
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:31
 msgid "event"
 msgstr "acara"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:32
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:32
 msgid "Event manager for UKM"
 msgstr "Pengurusan Acara untuk UKM"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:68
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:68
 msgid "Start"
 msgstr "Mula"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:69
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-event.php:69
 msgid "End"
 msgstr "Tamat"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:18
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:16
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:17
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:18
 msgid "Expertise"
 msgstr "Kepakaran"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:19
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:19
 msgid "Parent Expertise:"
 msgstr "Induk Kepakaran:"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:20
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:20
 msgid "All Expertise"
 msgstr "Semua Kepakaran"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:21
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:21
 msgid "View Expertise"
 msgstr "Papar Kepakaran"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:22
 msgid "Add New Expertise"
 msgstr "Tambah Kepakaran Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:23
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:23
 msgid "New Expertise"
 msgstr "Kepakaran Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:24
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:24
 msgid "Edit Expertise"
 msgstr "Sunting Kepakaran"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:25
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:25
 msgid "Update Expertise"
 msgstr "Kemaskini Kepakaran"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:26
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:26
 msgid "Search Expertise"
 msgstr "Cari Kepakaran"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:27
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:27
 msgid "No Expertise found"
 msgstr "Tiada Kepakaran dijumpai."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:28
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:28
 msgid "No Expertise found in Trash"
 msgstr "Tiada Kepakaran dijumpai di Buangan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:31
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:31
 msgid "expertise"
 msgstr "kepakaran"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:32
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:32
 msgid "Expertise manager for UKM"
 msgstr "Pengurus kepakaran untuk UKM"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:66
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:207
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:66
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:207
 msgid "Photo"
 msgstr "Foto"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:67
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:208
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:67
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:208
 msgid "Name"
 msgstr "Nama"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:68
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:103
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:66
-msgid "Title"
-msgstr "Tajuk"
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:17
+msgid "FAQs"
+msgstr "Soalan Lazim"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:19
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:18
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:19
 msgid "FAQ"
 msgstr "Soalan Lazim"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:20
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:20
 msgid "Parent FAQ:"
 msgstr "Induk Soalan Lazim:"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:21
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:21
 msgid "All FAQs"
 msgstr "Semua Soalan Lazim"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:22
 msgid "View FAQ"
 msgstr "Papar Soalan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:23
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:23
 msgid "Add New FAQ"
 msgstr "Tambah Soalan Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:24
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:24
 msgid "New FAQ"
 msgstr "Soalan Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:25
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:25
 msgid "Edit FAQ"
 msgstr "Sunting Soalan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:26
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:26
 msgid "Update FAQ"
 msgstr "Kemaskini Soalan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:27
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:27
 msgid "Search FAQs"
 msgstr "Cari Soalan Lazim"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:28
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:28
 msgid "No FAQs found"
 msgstr "Tiada Soalan Dijumpai"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:29
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:29
 msgid "No FAQs found in Trash"
 msgstr "Tiada Soalan dijumpai di Buangan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:32
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:32
 msgid "faq"
 msgstr "soalan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:33
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:33
 msgid "FAQ manager for UKM"
 msgstr "Pengurus Soalan Lazim untuk UKM"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:66
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:66
 msgid "Question"
 msgstr "Soalan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:20
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:20
 msgid "Parent Gallery:"
 msgstr "Induk Galeri:"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:21
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:21
 msgid "All Gallery"
 msgstr "Semua Galeri"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:22
 msgid "View Gallery"
 msgstr "Papar Galeri"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:23
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:23
 msgid "Add New Gallery"
 msgstr "Tambah Galeri Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:24
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:24
 msgid "New Gallery"
 msgstr "Galeri Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:25
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:25
 msgid "Edit Gallery"
 msgstr "Sunting Galeri"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:26
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:26
 msgid "Update Gallery"
 msgstr "Kemaskini Galeri"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:27
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:27
 msgid "Search Gallery"
 msgstr "Cari Galeri"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:28
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:28
 msgid "No Gallery found"
 msgstr "Tiada Galeri Dijumpai"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:29
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:29
 msgid "No Gallery found in Trash"
 msgstr "Tiada Galeri dijumpai di Buangan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:33
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:33
 msgid "Gallery manager for UKM"
 msgstr "Pengurus Galeri UKM"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:18
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:16
+msgid "News Scrollers"
+msgstr "Putaran Berita"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:17
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:18
 msgid "News Scroller"
 msgstr "Putaran Berita"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:19
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:19
 msgid "Parent News Scroller:"
 msgstr "Induk Putaran Berita:"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:20
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:20
 msgid "All News Scrollers"
 msgstr "Semua Putaran Berita"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:21
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:21
 msgid "View News Scroller"
 msgstr "Papar Putaran Berita"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:22
 msgid "Add New News Scroller"
 msgstr "Tambah Putaran Berita Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:23
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:23
 msgid "New News Scroller"
 msgstr "Putaran Berita Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:24
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:24
 msgid "Edit News Scroller"
 msgstr "Sunting Putaran Berita"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:25
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:25
 msgid "Update News Scroller"
 msgstr "Kemaskini Putaran Berita"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:26
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:26
 msgid "Search News Scrollers"
 msgstr "Cari Putaran Berita"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:27
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:27
 msgid "No News Scrollers found"
 msgstr "Tiada Pemutar Berita dijumpai."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:28
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:28
 msgid "No News Scrollers found in Trash"
 msgstr "Tiada Putaran Berita dijumpai di Buangan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:31
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:31
 msgid "news_scroller"
 msgstr "putaran_berita"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:32
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:32
 msgid "News Scroller manager for UKM"
 msgstr "Pengurus Putaran Berita untuk UKM"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:19
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:17
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:18
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:19
 msgid "News"
 msgstr "Berita"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:20
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:20
 msgid "Parent News:"
 msgstr "Induk Berita:"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:21
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:21
 msgid "All News"
 msgstr "Semua Berita"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:22
 msgid "View News"
 msgstr "Papar Berita"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:23
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:23
 msgid "Add New News"
 msgstr "Tambah Berita Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:24
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:24
 msgid "New News"
 msgstr "Berita Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:25
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:25
 msgid "Edit News"
 msgstr "Sunting Berita"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:26
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:26
 msgid "Update News"
 msgstr "Kemaskini Berita"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:27
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:27
 msgid "Search News"
 msgstr "Cari Berita"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:28
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:28
 msgid "No News found"
 msgstr "Tiada Berita dijumpai."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:29
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:29
 msgid "No News found in Trash"
 msgstr "Tiada Berita dijumpai di Buangan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:32
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:32
 msgid "news"
 msgstr "berita"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:33
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-news.php:33
 msgid "News manager for UKM"
 msgstr "Pengurus Berita untuk UKM"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:19
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:17
+msgid "Publications"
+msgstr "Penerbitan"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:18
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:19
 msgid "Publication"
 msgstr "Penerbitan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:20
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:20
 msgid "Parent Publication:"
 msgstr "Induk Penerbitan:"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:21
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:21
 msgid "All Publications"
 msgstr "Semua Penerbitan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:22
 msgid "View Publication"
 msgstr "Papar Penerbitan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:23
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:23
 msgid "Add New Publication"
 msgstr "Tambah Penerbitan Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:24
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:24
 msgid "New Publication"
 msgstr "Penerbitan Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:25
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:25
 msgid "Edit Publication"
 msgstr "Sunting Penerbitan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:26
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:26
 msgid "Update Publication"
 msgstr "Kemaskini Penerbitan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:27
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:27
 msgid "Search Publications"
 msgstr "Cari Penerbitan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:28
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:28
 msgid "No Publications found"
 msgstr "Tiada Penerbitan dijumpai."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:29
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:29
 msgid "No Publications found in Trash"
 msgstr "Tiada Penerbitan dijumpai di Buangan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:32
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:32
 msgid "publication"
 msgstr "penerbitan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:33
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:33
 msgid "Publication information pages"
 msgstr "Halaman informasi Penerbitan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:64
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:104
-msgid "Category"
-msgstr "Kategori"
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:62
+msgid "Pub. Categories"
+msgstr "Kategori Penerbitan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:65
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:63
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:64
+msgid "Pub. Category"
+msgstr "Kategori Penerbitan"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:65
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:68
 msgid "All Categories"
 msgstr "Semua Kategori"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:66
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:66
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:69
 msgid "Parent Category"
 msgstr "Induk Kategori"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:67
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:67
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:70
 msgid "Parent Category:"
 msgstr "Induk Kategori:"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:68
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:68
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:71
 msgid "New Category Name"
 msgstr "Nama Kategori Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:69
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:69
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:72
 msgid "Add New Category"
 msgstr "Tambah Kategori Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:70
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:70
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:73
 msgid "Edit Category"
 msgstr "Sunting Kategori"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:71
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:71
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:74
 msgid "Update Category"
 msgstr "Kemaskini Kategori"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:72
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:72
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:75
 msgid "Separate Categories with commas"
 msgstr "Asingkan Kategori dengan koma"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:73
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:73
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:76
 msgid "Search Categories"
 msgstr "Cari Kategori"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:74
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:74
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:77
 msgid "Add or remove Categories"
 msgstr "Tambah atau hapus kategori"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:75
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:75
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:78
 msgid "Choose from the most used Categories"
 msgstr "Pilih daripada Kategori yang paling digunakan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:102
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:102
 msgid "Cover"
 msgstr "Kulit"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:17
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:103
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:66
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:105
+msgid "Title"
+msgstr "Tajuk"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:104
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:106
+msgid "Category"
+msgstr "Kategori"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:15
+msgid "Slideshows"
+msgstr "Slideshow"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:16
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:17
 msgid "Slideshow"
 msgstr "Slideshow"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:18
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:18
 msgid "Parent Slideshow:"
 msgstr "Induk Slideshow"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:19
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:19
 msgid "All Slideshows"
 msgstr "Semua Slideshows"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:20
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:20
 msgid "View Slideshow"
 msgstr "Papar Slideshows"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:21
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:21
 msgid "Add New Slideshow"
 msgstr "Tambah Slideshow Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:22
 msgid "New Slideshow"
 msgstr "Slideshows Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:23
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:23
 msgid "Edit Slideshow"
 msgstr "Sunting Slideshows"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:24
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:24
 msgid "Update Slideshow"
 msgstr "Kemaskini Slideshow"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:25
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:25
 msgid "Search Slideshows"
 msgstr "Cari Slideshow"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:26
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:26
 msgid "No Slideshows found"
 msgstr "Tiada Slideshows dijumpai."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:27
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:27
 msgid "No Slideshows found in Trash"
 msgstr "Tiada Slideshow dijumpai di Buangan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:30
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:30
 msgid "slideshow"
 msgstr "slideshows"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:31
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:31
 msgid "Frontpage image slideshow"
 msgstr "Imej Slideshows Muka Hadapan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:65
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:65
 msgid "Image"
 msgstr "Imej"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:20
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:18
+msgid "Staffs"
+msgstr "Staf"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:19
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:20
 msgid "Staff"
 msgstr "Staf"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:21
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:21
 msgid "Parent Staff:"
 msgstr "Induk Staf:"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:22
 msgid "All Staffs"
 msgstr "Semua Staf"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:23
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:23
 msgid "View Staff"
 msgstr "Papar Staf"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:24
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:24
 msgid "Add New Staff"
 msgstr "Tambah Satf Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:25
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:25
 msgid "New Staff"
 msgstr "Staf Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:26
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:26
 msgid "Edit Staff"
 msgstr "Sunting Staf"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:27
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:27
 msgid "Update Staff"
 msgstr "Kemaskni Staf"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:28
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:28
 msgid "Search Staffs"
 msgstr "Cari Staf"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:29
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:29
 msgid "No Staffs found"
 msgstr "Tiada Staf dijumpai."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:30
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:30
 msgid "No Staffs found in Trash"
 msgstr "Tiada Staf dijumpai di Buangan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:33
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:33
 msgid "staff"
 msgstr "staf"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:34
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:34
 msgid "Staff information pages"
 msgstr "Halaman informasi staf"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:66
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:210
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:64
+msgid "Departments"
+msgstr "Jabatan"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:65
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:66
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:210
 msgid "Department"
 msgstr "Jabatan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:67
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:67
 msgid "All Departments"
 msgstr "Semua Jabatan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:68
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:68
 msgid "Parent Department"
 msgstr "Induk Jabatan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:69
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:69
 msgid "Parent Department:"
 msgstr "Induk Jabatan:"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:70
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:70
 msgid "New Department Name"
 msgstr "Nama Jabatan Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:71
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:71
 msgid "Add New Department"
 msgstr "Tambah Jabatan Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:72
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:72
 msgid "Edit Department"
 msgstr "Sunting Jabatan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:73
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:73
 msgid "Update Department"
 msgstr "Kemaskini Jabatan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:74
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:74
 msgid "Separate Departments with commas"
 msgstr "Asingkan Jabatan dengan koma"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:75
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:75
 msgid "Search Departments"
 msgstr "Cari Jabatan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:76
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:76
 msgid "Add or remove Departments"
 msgstr "Tambah atau hapus Jabatan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:77
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:77
 msgid "Choose from the most used Departments"
 msgstr "Pilih daripada Jabatanyang paling digunakan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:101
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:209
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:99
+msgid "Positions"
+msgstr "Jawatan"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:100
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:101
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:209
 msgid "Position"
 msgstr "Jawatan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:102
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:102
 msgid "All Positions"
 msgstr "Semua Jawatan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:103
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:103
 msgid "Parent Position"
 msgstr "Induk Jawatan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:104
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:104
 msgid "Parent Position:"
 msgstr "Induk Jawatan:"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:105
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:105
 msgid "New Position Name"
 msgstr "Nama Jawatan Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:106
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:106
 msgid "Add New Position"
 msgstr "Tambah Jawatan Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:107
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:107
 msgid "Edit Position"
 msgstr "Sunting Jawatan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:108
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:108
 msgid "Update Position"
 msgstr "Kemaskini Jawatan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:109
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:109
 msgid "Separate Positions with commas"
 msgstr "Asingkan Jawatan dengan koma"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:110
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:110
 msgid "Search Positions"
 msgstr "Cari Jawatan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:111
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:111
 msgid "Add or remove Positions"
 msgstr "Tambah atau hapus Jawatan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:112
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:112
 msgid "Choose from the most used Positions"
 msgstr "Pilih daripada Jawatan yang paling digunakan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:145
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:145
 msgid "All Department"
 msgstr "Semua Jabatan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:176
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:176
 msgid "All Position"
 msgstr "Semua Jawatan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-archive-links.php:40
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:20
+msgid "Parent Video:"
+msgstr "Induk Video:"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:21
+msgid "All Video"
+msgstr "Semua Video"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:22
+msgid "View Video"
+msgstr "Papar Video"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:23
+msgid "Add New Video"
+msgstr "Tambah Video Baru"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:24
+msgid "New Video"
+msgstr "Video Baru"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:25
+msgid "Edit Video"
+msgstr "Sunting Video"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:26
+msgid "Update Video"
+msgstr "Kemaskini Video"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:27
+msgid "Search Video"
+msgstr "Cari Video"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:28
+msgid "No Video found"
+msgstr "Tiada Video dijumpai"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:29
+msgid "No Video found in Trash"
+msgstr "Tiada Video dijumpai dalam Tong Sampah"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:33
+msgid "Video manager for UKM"
+msgstr "Pengurus Video untuk UKM"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:65
+msgid "Video Categories"
+msgstr "Kategori Video"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:66
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/post-type-video.php:67
+msgid "Video Category"
+msgstr "Kategori Video"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-archive-links.php:40
 msgid "View All"
 msgstr "Papar Semua"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-archive-links.php:65
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-archive-links.php:65
 msgid "No results found."
 msgstr "Tiada keputusan dijumpai."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-archive-links.php:72
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-archive-links.php:72
 msgid "Select All"
 msgstr "Pilih Semua"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-docs.php:17
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-docs.php:17
 msgid "UKM Theme Documentation"
 msgstr "Dokumentasi Tema UKM"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-docs.php:17
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-docs.php:17
 msgid "Theme Docs"
 msgstr "Dokumentasi Tema"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-docs.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-docs.php:22
 msgid "You do not have sufficient permissions to access this page."
 msgstr "Anda tidak mempunyai kebenaran untuk mencapai laman ini."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-docs.php:25
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-docs.php:25
 msgid "Documentations"
 msgstr "Dokumentasi"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-docs.php:28
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-docs.php:28
 msgid "Contents"
 msgstr "Hubungi Kami"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:19
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:45
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:19
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:40
 msgid "Theme Options"
 msgstr "Opsyen Tema"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:48
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:43
 msgid "Settings saved."
 msgstr "Tetapan disimpan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:54
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:49
 msgid "General"
 msgstr "Umum"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:59
-msgid "Footer Copyright Link"
-msgstr "Pautan Hakcipta Pembawah"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:63
-msgid "Footer Contact Link"
-msgstr "Pautan Hubungi Pembawah"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:67
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:54
 msgid "Visitor Counter ID"
 msgstr "ID Jumlah Pengunjung"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:70
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:57
 msgid "Generate your id here"
 msgstr "Jana id anda di sini"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:74
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:61
 msgid "Language Switcher"
 msgstr "Pengalih Bahasa"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:83
-msgid "Enable language menu"
-msgstr "Membolehkan menu bahasa"
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:70
+msgid ""
+"Enable language menu. Do not enable this feature if the \"Polylang\" plugin "
+"is not activated."
+msgstr ""
+"Dayakan menu bahasa. Jangan dayakan ciri ini sekiranya pemalam \"Polylang\" "
+"tidak diaktifkan."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:88
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:75
 msgid "Frontpage Layout"
 msgstr "Susun Atur Muka Hadapan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:89
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:76
 msgid "Customize frontpage widget area"
 msgstr "Sesuaikan muka hadapan kawasan widget"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:108
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:98
 msgid "Social Links"
 msgstr "Pautan Sosial"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:109
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:99
 msgid ""
 "Pautan capaian ke laman Facebook, Twitter dan Youtube rasmi UKM atau PTJ. "
 "Masukkan url lengkap seperti keterangan di bawah."
@@ -1464,505 +1561,483 @@ msgstr ""
 "Pautan capaian ke laman Facebook, Twitter dan Youtube rasmi UKM atau PTJ. "
 "Masukkan url lengkap seperti keterangan di bawah."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:126
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:116
 msgid "Enter full url e.g: https://www.twitter.com/ukmnewsportal"
 msgstr "Masukkan url lengkap cth: https://www.twitter.com/ukmnewsportal"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:131
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:121
 msgid "Colour Options"
 msgstr "Opsyen Warna"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:132
-msgid ""
-"Colour option for colour switcher. Enter the default value first e.g. "
-"#000000 or enter a value based on the values ​​provided"
-msgstr ""
-"Opsyen warna untuk Pengalih Warna. Masukkan nilai lalai pertama cth. # "
-"000000 atau memasukkan nilai berdasarkan kepada nilai yang disediakan"
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:122
+msgid "Colour option for style switcher."
+msgstr "Opsyen warna untuk pengalih warna."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:136
-msgid "Main Colour"
-msgstr "Warna Utama"
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:131
+msgid "Primary"
+msgstr "Utama"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:146
-msgid "Main Colour Combination"
-msgstr "Kombinasi Warna Utama"
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:137
+msgid "Secondary"
+msgstr "Kedua"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:147
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:168
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:189
-msgid "The color should be slightly darker"
-msgstr "Warna perlu lebih gelap"
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:143
+msgid "Tertiary"
+msgstr "Ketiga"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:157
-msgid "Second Colour"
-msgstr "Warna Kedua"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:167
-msgid "Second Colour Combination"
-msgstr "Kombinasi Warna Kedua"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:178
-msgid "Third Colour"
-msgstr "Warna Ketiga"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-options.php:188
-msgid "Third Colour Combination"
-msgstr "Kombinasi Warna Ketiga"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:81
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:155
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/example.php:86
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:87
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:155
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/example.php:86
 msgid "Install Required Plugins"
 msgstr "Pasang Pemalam yang Diperlukan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:82
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:156
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/example.php:87
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:88
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:156
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/example.php:87
 msgid "Install Plugins"
 msgstr "Pasang Pemalam"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:83
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:157
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/example.php:88
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:89
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:157
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/example.php:88
 #, php-format
 msgid "Installing Plugin: %s"
 msgstr "Memasang Pemalam: %s"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:84
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/example.php:89
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:90
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/example.php:89
 msgid "Something went wrong with the plugin API."
 msgstr "Sesuatu telah berlaku kepada pemalam API."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:95
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:169
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/example.php:100
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:101
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:169
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/example.php:100
 msgid "Return to Required Plugins Installer"
 msgstr "Kembali ke Pemasang Pemalam yang Diperlukan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:96
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:171
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1840
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/example.php:101
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:102
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:171
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1840
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/example.php:101
 msgid "Plugin activated successfully."
 msgstr "Pemalam berjaya diaktifkan."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:97
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/example.php:102
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:103
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/example.php:102
 #, php-format
 msgid "All plugins installed and activated successfully. %s"
 msgstr "Semua pemalam berjaya dipasang dan diaktifkan. %s"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-event.php:20
-msgid "#Events"
-msgstr "#Acara"
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-appreciation.php:23
+msgid "#Appreciation"
+msgstr "#Penghargaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-event.php:21
-msgid "Event Lists"
-msgstr "Senarai Acara"
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-appreciation.php:24
+msgid "Appreciation Widget"
+msgstr "Widget Penghargaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-event.php:62
-msgid "More Event"
-msgstr "Lagi Acara"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-event.php:76
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-news.php:60
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-youtube.php:64
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-appreciation.php:80
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-event.php:76
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-news.php:60
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-youtube.php:64
 msgid "New title"
 msgstr "Tajuk Baru"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-event.php:88
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-news.php:72
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-youtube.php:75
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/hc-text-widget/hc-text-widget.php:54
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-appreciation.php:84
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-event.php:88
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-news.php:72
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-youtube.php:75
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/hc-text-widget/hc-text-widget.php:54
 msgid "Title:"
 msgstr "Tajuk"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-event.php:92
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-event.php:20
+msgid "#Events"
+msgstr "#Acara"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-event.php:21
+msgid "Event Lists"
+msgstr "Senarai Acara"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-event.php:62
+msgid "More Event"
+msgstr "Lagi Acara"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-event.php:92
 msgid "Number Event to Show:"
 msgstr "Jumlah Acara untuk Dipaparkan:"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-news.php:20
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-news.php:20
 msgid "#Latest News"
 msgstr "#Berita Terkini"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-news.php:21
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-news.php:21
 msgid "Latest news widget for page sidebar"
 msgstr "Widget berita untuk barsisi halaman"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-news.php:76
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-news.php:76
 msgid "Number News to Show:"
 msgstr "Jumlah Berita untuk dipaparkan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-youtube.php:23
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-youtube.php:23
 msgid "#Youtube Video"
 msgstr "#Video Youtube"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-youtube.php:24
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-youtube.php:24
 msgid "Youtube video for sidebar"
 msgstr "Video Youtube untuk barsisi"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-youtube.php:79
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/inc/widget-youtube.php:79
 msgid "Youtube Video ID:"
 msgstr "ID Video Youtube:"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:25
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:25
 msgid "Test Metabox"
 msgstr "Metabox Cubaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:33
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:262
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:33
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:262
 msgid "Test Text"
 msgstr "Teks Cubaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:34
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:44
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:51
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:58
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:66
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:73
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:85
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:91
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:98
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:113
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:121
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:128
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:134
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:140
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:152
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:163
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:174
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:185
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:193
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:200
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:208
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:214
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:226
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:263
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:282
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:289
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:296
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:302
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:308
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:314
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:320
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:337
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:34
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:44
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:51
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:58
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:66
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:73
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:85
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:91
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:98
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:113
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:121
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:128
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:134
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:140
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:152
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:163
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:174
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:185
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:193
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:200
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:208
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:214
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:226
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:263
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:282
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:289
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:296
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:302
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:308
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:314
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:320
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:337
 msgid "field description (optional)"
 msgstr "ruangan keterangan (pilihan)"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:43
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:43
 msgid "Test Text Small"
 msgstr "Teks Cubaan Kecil"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:50
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:50
 msgid "Test Text Medium"
 msgstr "Teks Cubaan Sederhana"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:57
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:57
 msgid "Website URL"
 msgstr "URL Laman Web"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:65
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:65
 msgid "Test Text Email"
 msgstr "Teks Emel Cubaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:72
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:72
 msgid "Test Time"
 msgstr "Masa Cubaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:78
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:79
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:78
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:79
 msgid "Time zone"
 msgstr "Zon masa"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:84
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:84
 msgid "Test Date Picker"
 msgstr "Pemilih Tarikh Cubaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:90
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:90
 msgid "Test Date Picker (UNIX timestamp)"
 msgstr "Pemilih Tarikh Cubaan (UNIX timestamp)"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:97
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:97
 msgid "Test Date/Time Picker Combo (UNIX timestamp)"
 msgstr "Kombinasi Tarikh/Masa Cubaan (UNIX timestamp)"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:112
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:112
 msgid "Test Money"
 msgstr "Wang Cubaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:120
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:120
 msgid "Test Color Picker"
 msgstr "Pemilih Warna Cubaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:127
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:127
 msgid "Test Text Area"
 msgstr "Kawasan Teks Cubaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:133
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:133
 msgid "Test Text Area Small"
 msgstr "Kawasan Teks Cubaan Kecil"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:139
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:139
 msgid "Test Text Area for Code"
 msgstr "Kawasan Teks Cubaan untuk kod"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:145
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:145
 msgid "Test Title Weeeee"
 msgstr "Tajuk Cubaan Weeeee"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:146
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:146
 msgid "This is a title description"
 msgstr "Ini adalah penerangan tajuk"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:151
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:151
 msgid "Test Select"
 msgstr "Pilihan Cubaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:156
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:167
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:178
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:156
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:167
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:178
 msgid "Option One"
 msgstr "Opsyen Satu"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:157
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:168
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:179
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:157
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:168
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:179
 msgid "Option Two"
 msgstr "Opsyen Dua"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:158
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:169
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:180
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:158
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:169
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:180
 msgid "Option Three"
 msgstr "Opsyen Tiga"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:162
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:162
 msgid "Test Radio inline"
 msgstr "Radio Cubaan selari"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:173
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:173
 msgid "Test Radio"
 msgstr "Radio Cubaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:184
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:184
 msgid "Test Taxonomy Radio"
 msgstr "Taxonomy Radio Cubaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:192
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:192
 msgid "Test Taxonomy Select"
 msgstr "Taxonomy Select Cubaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:199
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:199
 msgid "Test Taxonomy Multi Checkbox"
 msgstr "Taxonomy Multi Checkbox Cubaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:207
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:207
 msgid "Test Checkbox"
 msgstr "Checkbox Cubaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:213
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:213
 msgid "Test Multi Checkbox"
 msgstr "Multi Checkbox Cubaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:218
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:218
 msgid "Check One"
 msgstr "Check One"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:219
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:219
 msgid "Check Two"
 msgstr "Check Two"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:220
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:220
 msgid "Check Three"
 msgstr "Check Three"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:225
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:225
 msgid "Test wysiwyg"
 msgstr "wysiwyg Cubaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:232
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:232
 msgid "Test Image"
 msgstr "Imej Cubaan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:238
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:238
 msgid "Multiple Files"
 msgstr "Multiple Files"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:239
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:239
 msgid "Upload or add multiple images/attachments."
 msgstr "Muat naik atau menambah berbilang imej/lampiran."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:244
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:244
 msgid "oEmbed"
 msgstr "oEmbed"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:245
-msgid ""
-"Enter a youtube, twitter, or instagram URL. Supports services listed at <a "
-"href=\"http://codex.wordpress.org/Embeds\">http://codex.wordpress.org/"
-"Embeds</a>."
-msgstr ""
-"Enter a youtube, twitter, or instagram URL. Supports services listed at <a "
-"href=\"http://codex.wordpress.org/Embeds\">http://codex.wordpress.org/"
-"Embeds</a>."
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:254
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:254
 msgid "About Page Metabox"
 msgstr "About Page Metabox"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:275
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:275
 msgid "User Profile Metabox"
 msgstr "User Profile Metabox"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:281
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:281
 msgid "Extra Info"
 msgstr "Extra Info"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:288
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:288
 msgid "Avatar"
 msgstr "Avatar"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:295
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:295
 msgid "Facebook URL"
 msgstr "Facebook URL"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:301
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:301
 msgid "Twitter URL"
 msgstr "Twitter URL"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:307
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:307
 msgid "Google+ URL"
 msgstr "Google+ URL"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:313
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:313
 msgid "Linkedin URL"
 msgstr "Linkedin URL"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:319
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:319
 msgid "User Field"
 msgstr "Ruangan Pengguna"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:332
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:332
 msgid "Theme Options Metabox"
 msgstr "Metabox Opsyen Tema"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:336
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:336
 msgid "Site Background Color"
 msgstr "Warna Latar Halaman"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/init.php:243
-msgid "Clear"
-msgstr "Bersihkan"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/init.php:244
-msgid "Default"
-msgstr "Lalai"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/init.php:245
-msgid "Select Color"
-msgstr "Pilih warna"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/init.php:246
-msgid "Current Color"
-msgstr "Warna Semasa"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/init.php:1226
-msgid "Save"
-msgstr "Simpan"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_ajax.php:47
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_ajax.php:47
 msgid "Please Try Again"
 msgstr "Sila Cuba Lagi"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_ajax.php:131
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_ajax.php:131
 msgid "Remove Embed"
 msgstr "Hapus Embed"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_ajax.php:134
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_ajax.php:134
 #, php-format
 msgid "No oEmbed Results Found for %s. View more info at"
 msgstr "No oEmbed Results Found for %s. View more info at"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:150
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:150
 msgid "Add Row"
 msgstr "Tambah Baris"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:178
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:499
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:542
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:178
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:499
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:542
 msgid "Remove"
 msgstr "Hapus"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:477
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:515
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:477
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:515
 msgid "Add or Upload File"
 msgstr "Tambah atau muatnaik fail"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:488
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:534
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:488
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:534
 msgid "Remove Image"
 msgstr "Hapus Imej"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:499
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:542
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:499
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:542
 msgid "File:"
 msgstr "Fail:"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:158
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/init.php:243
+msgid "Clear"
+msgstr "Bersihkan"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/init.php:244
+msgid "Default"
+msgstr "Lalai"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/init.php:245
+msgid "Select Color"
+msgstr "Pilih warna"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/init.php:246
+msgid "Current Color"
+msgstr "Warna Semasa"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/metabox/init.php:1226
+msgid "Save"
+msgstr "Simpan"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:158
 msgid "Something went wrong."
 msgstr "Sesuatu telah berlaku."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:170
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:170
 msgid "Return to the dashboard"
 msgstr "Kembali ke Papan Pemuka"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:172
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:172
 msgid "The following plugin was activated successfully:"
 msgstr "Pemalam berikut telah berjaya diaktifkan:"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:173
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:173
 #, php-format
 msgid "All plugins installed and activated successfully. %1$s"
 msgstr "Semua pemalam berjaya dipasang dan diaktifkan. %1$s"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:174
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:174
 msgid "Dismiss this notice"
 msgstr "Hapus notis ini"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1085
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1085
 msgid "External Link"
 msgstr "Pautan Luar"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1090
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1090
 msgid "Private Repository"
 msgstr "Repositori Persendirian"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1093
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1093
 msgid "Pre-Packaged"
 msgstr "Pra-Pakej"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1097
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1097
 msgid "WordPress Repository"
 msgstr "Repositori WordPress"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1100
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1100
 msgid "Required"
 msgstr "Diperlukan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1100
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1100
 msgid "Recommended"
 msgstr "Disarankan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1103
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1103
 msgid "Not Installed"
 msgstr "Tidak Dipasang"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1105
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1105
 msgid "Installed But Not Activated"
 msgstr "Dipasang Tetapi Tidak Aktif"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1275
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1275
 #, php-format
 msgid ""
 "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
@@ -1971,61 +2046,61 @@ msgstr ""
 "Tiada pemalam untu dipasang dan diaktifkan. <a href=\"%1$s\"title=\"Kembali "
 "ke Papan Pemuka\">Kembali ke Papan Pemuka</a>"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1291
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1291
 msgid "Plugin"
 msgstr "Pemalam"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1292
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1292
 msgid "Source"
 msgstr "Sumber"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1293
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1293
 msgid "Type"
 msgstr "Jenis"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1294
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1294
 msgid "Status"
 msgstr "Status"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1312
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1312
 msgid "Install"
 msgstr "Pasang"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1313
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1313
 msgid "Activate"
 msgstr "Aktifkan"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1823
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1823
 msgid "Install package not available."
 msgstr "Pakej pemasangan tidak ada"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1824
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1824
 #, php-format
 msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
 msgstr ""
 "Memuat turun pakej pemasangan dari <span class=\"code\">%s</span>&#8230;"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1825
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1825
 msgid "Unpacking the package&#8230;"
 msgstr "Memunggah pakej&#8230;"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1826
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1826
 msgid "Installing the plugin&#8230;"
 msgstr "Memasang pemalam&#8230;"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1827
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1827
 msgid "Plugin install failed."
 msgstr "Memasang pemalam gagal."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1828
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1828
 msgid "Plugin installed successfully."
 msgstr "Pemalam berjaya dipasang"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1839
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1839
 msgid "Plugin activation failed."
 msgstr "Pengaktifan pemalam gagal."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1949
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1949
 msgid ""
 "The installation and activation process is starting. This process may take a "
 "while on some hosts, so please be patient."
@@ -2033,31 +2108,31 @@ msgstr ""
 "Proses pemasangan dan pengaktifan sedang bermula. Proses ini mengambil masa "
 "pada sesetengah hos, harap bersabar."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1950
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1950
 #, php-format
 msgid "%1$s installed and activated successfully."
 msgstr "%1$s berjaya dipasang dan diaktifkan."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1950
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1959
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1950
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1959
 msgid "Show Details"
 msgstr "Papar Butiran"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1950
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1959
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1950
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1959
 msgid "Hide Details"
 msgstr "Sembunyi Butiran"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1951
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1951
 msgid "All installations and activations have been completed."
 msgstr "Semua pemesangan dan pengaktifan telah lengkap."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1952
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1952
 #, php-format
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
 msgstr "Memasang dan Mengaktifkan Pemalam %1$s (%2$d/%3$d)"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
 msgid ""
 "The installation process is starting. This process may take a while on some "
 "hosts, so please be patient."
@@ -2065,142 +2140,240 @@ msgstr ""
 "Proses pemasangan dan pengaktifan sedang bermula. Proses ini mengambil masa "
 "pada sesetengah hos, harap bersabar."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1957
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1957
 #, php-format
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr "Ralat berlaku semasa memasang %1$s: <strong>%2$s</strong>."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1958
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1958
 #, php-format
 msgid "The installation of %1$s failed."
 msgstr "Pemasangan %1$s gagal."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1959
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1959
 #, php-format
 msgid "%1$s installed successfully."
 msgstr "%1$s berjaya dipasang."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1960
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1960
 msgid "All installations have been completed."
 msgstr "Semua pemasangan telah lengkap."
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1961
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1961
 #, php-format
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr "Memasang Pemalam %1$s (%2$d/%3$d)"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2052
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2052
 msgid "Return to the Dashboard"
 msgstr "Kembali ke Papan Pemuka"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/content-edit.php:12
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/searchform.php:3
+msgid "Search..."
+msgstr "cari…"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/searchform.php:3
+msgid "Search for:"
+msgstr "Cari untuk:"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/searchform.php:5
+msgid "Search"
+msgstr "Cari"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-appreciation.php:22
+msgid "By:&nbsp;"
+msgstr "Oleh:&nbsp;"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:26
+msgid "Phone"
+msgstr "Telefon"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:52
+msgid "Research/Consultation<br/>/Expansion"
+msgstr "Penyelidikan/Perundingan<br/>/Pengembangan"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:76
+msgid "Articles in Antologi/Chapters in Book"
+msgstr "Artikel dalam Antologi/Bab dalam Buku"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:84
+msgid "Monograph, Working Papers and Non-Periodical Publications"
+msgstr "Monograf, Kertas Kerja dan Penerbitan Bukan berkala"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:108
+msgid "Administrative Services/Committee"
+msgstr "Khidmat Pentadbiran/Jawatankuasa"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-expertise.php:116
+msgid "Reports: Technical<br/>/Research/Consultation"
+msgstr "Laporan: Teknikal<br/>/Penyelidikan/Perundingan"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/single-gallery.php:21
+msgid "Back to Main"
+msgstr "Kembali ke Utama"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/content-edit.php:12
 msgid "Edit This"
 msgstr "Sunting"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/content-paginate.php:21
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/content-paginate.php:21
 msgid "&laquo; Previous"
 msgstr "&laquo; Terdahulu"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/content-paginate.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/content-paginate.php:22
 msgid "Next &raquo;"
 msgstr "Seterusnya &raquo;"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/nav-searchBar.php:14
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/nav-searchBar.php:14
 msgid "search..."
 msgstr "cari…"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/nav-tools-dropdown-extended.php:50
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/nav-tools-dropdown.php:26
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:5
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-tools.php:5
-msgid "Theme"
-msgstr "Tema:"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/nav-tools-dropdown-extended.php:55
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/nav-tools-dropdown.php:31
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:11
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-tools.php:11
-msgid "Font Size"
-msgstr "Saiz Font"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/nav-tools-dropdown-extended.php:67
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/nav-tools-dropdown.php:43
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:24
-msgid "Language"
-msgstr "Bahasa"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/nav-tools-dropdown.php:40
-msgid "&nbsp;LANG"
-msgstr "&nbsp;BHS"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/nav-tools.php:25
-msgid "Size:"
-msgstr "Saiz:"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/nav-tools.php:29
-msgid "Theme:"
-msgstr "Tema:"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:1
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-tools.php:1
-msgid "Language &amp; Tools"
-msgstr "Bahasa &amp; Alatan"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:4
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-tools.php:4
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:4
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-tools.php:4
 msgid "Press esc key to close"
 msgstr "Tekan kekunci esc untuk tutup"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:7
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-tools.php:7
-msgid "Theme One"
-msgstr "Tema Satu"
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:5
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-tools.php:5
+msgid "Theme"
+msgstr "Tema:"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:8
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-tools.php:8
-msgid "Theme Two"
-msgstr "Tema Dua"
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:11
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-tools.php:11
+msgid "Font Size"
+msgstr "Saiz Font"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:9
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-tools.php:9
-msgid "Theme Three"
-msgstr "Tema Tiga"
-
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:20
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-tools.php:20
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:20
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-tools.php:20
 msgid "&nbsp;Small"
 msgstr "&nbsp;Kecil"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:21
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-tools.php:21
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:21
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-tools.php:21
 msgid "&nbsp;Reset"
 msgstr "&nbsp;Reset"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:22
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-tools.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:22
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-tools.php:22
 msgid "&nbsp;Large"
 msgstr "&nbsp;Besar"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/visitor-counter.php:16
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/off-canvas-lang.php:24
+msgid "Language"
+msgstr "Bahasa"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/visitor-counter.php:16
 msgid "Visitors"
 msgstr "Pengunjung"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/visitor-counter.php:16
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/visitor-counter.php:16
 msgid "View Full Statistic"
 msgstr "Papar Statistik Penuh"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/widget-event-vertical.php:17
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/visitor-counter.php:17
+msgid "Last Update:&nbsp;"
+msgstr "Akhir Kemaskini:&nbsp;"
+
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/widget-event-vertical.php:17
 msgid "Upcoming Event"
 msgstr "Acara Akan Datang"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/widget-news-scroller.php:27
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/widget-news-ticker.php:30
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/widget-news-scroller.php:27
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/widget-news-ticker.php:30
 msgid "Hello, welcome to Universiti Kebangsaan Malaysia!"
 msgstr "Hello, semalat datang ke Universiti Kebangsaan Malaysia!"
 
-#: /Users/user/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/widget-news.php:42
+#: /Users/jrajalu/Sites/wppdo/wp-content/themes/ukmtheme-master/templates/widget-news.php:42
 msgid "News Archive"
 msgstr "Arkib Berita"
+
+#~ msgid "Copyright"
+#~ msgstr "Hakcipta"
+
+#~ msgid "Disclaimer"
+#~ msgstr "Penafian"
+
+#~ msgid "Privacy Policy"
+#~ msgstr "Dasar Privasi"
+
+#~ msgid "Security Policy"
+#~ msgstr "Dasar Keselamatan"
+
+#~ msgid "Contact Us"
+#~ msgstr "Hubungi Kami"
+
+#~ msgid "Primary Navigation"
+#~ msgstr "Navigasi Utama"
+
+#~ msgid "Secondary Navigation"
+#~ msgstr "Navigasi Kedua"
+
+#~ msgid "Post Sidebar"
+#~ msgstr "Barsisi Kiriman"
+
+#~ msgid "Appears when using the optional post"
+#~ msgstr "Muncul apabila mengunakan kiriman pilihan"
+
+#~ msgid "Research/Consultation/Expansion"
+#~ msgstr "Penyelidikan/Perundingan/Pengembangan"
+
+#~ msgid "Reports: Technical/Research/Consultation"
+#~ msgstr "Laporan: Teknikal/Penyelidikan/Perundingan"
+
+#~ msgid "Footer Copyright Link"
+#~ msgstr "Pautan Hakcipta Pembawah"
+
+#~ msgid "Footer Contact Link"
+#~ msgstr "Pautan Hubungi Pembawah"
+
+#~ msgid "Enable language menu"
+#~ msgstr "Membolehkan menu bahasa"
+
+#~ msgid ""
+#~ "Colour option for colour switcher. Enter the default value first e.g. "
+#~ "#000000 or enter a value based on the values ​​provided"
+#~ msgstr ""
+#~ "Opsyen warna untuk Pengalih Warna. Masukkan nilai lalai pertama cth. # "
+#~ "000000 atau memasukkan nilai berdasarkan kepada nilai yang disediakan"
+
+#~ msgid "Main Colour"
+#~ msgstr "Warna Utama"
+
+#~ msgid "Main Colour Combination"
+#~ msgstr "Kombinasi Warna Utama"
+
+#~ msgid "The color should be slightly darker"
+#~ msgstr "Warna perlu lebih gelap"
+
+#~ msgid "Second Colour Combination"
+#~ msgstr "Kombinasi Warna Kedua"
+
+#~ msgid "Third Colour"
+#~ msgstr "Warna Ketiga"
+
+#~ msgid "Third Colour Combination"
+#~ msgstr "Kombinasi Warna Ketiga"
+
+#~ msgid "&nbsp;LANG"
+#~ msgstr "&nbsp;BHS"
+
+#~ msgid "Size:"
+#~ msgstr "Saiz:"
+
+#~ msgid "Theme:"
+#~ msgstr "Tema:"
+
+#~ msgid "Language &amp; Tools"
+#~ msgstr "Bahasa &amp; Alatan"
+
+#~ msgid "Theme One"
+#~ msgstr "Tema Satu"
+
+#~ msgid "Theme Two"
+#~ msgstr "Tema Dua"
+
+#~ msgid "Theme Three"
+#~ msgstr "Tema Tiga"
 
 #~ msgid "Option #1"
 #~ msgstr "Opsyen #2"
@@ -2243,9 +2416,6 @@ msgstr "Arkib Berita"
 #~ "e.g: http://www.example.com or http://www.example.com/softcopy-example.pdf"
 #~ msgstr ""
 #~ "cth: http://www.contoh.com or http://www.contoh.com/salinan-contoh.pdf"
-
-#~ msgid "Colour option for colour switcher"
-#~ msgstr "Opsyen warna untuk pengalih warna"
 
 #~ msgid "Add"
 #~ msgstr "Tambah"
@@ -2453,9 +2623,6 @@ msgstr "Arkib Berita"
 
 #~ msgid "Tertiary Navigation"
 #~ msgstr "Navigasi Ketiga"
-
-#~ msgid "Mobile Navigation"
-#~ msgstr "Navigasi Utama"
 
 #~ msgid "Author:"
 #~ msgstr "Pengarang:"

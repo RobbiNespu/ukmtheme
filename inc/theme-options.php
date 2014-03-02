@@ -47,7 +47,7 @@ function theme_options_do_page() { ?>
   <?php settings_fields( 'ukmtheme-settings-group' ); ?>
   <?php do_settings_sections( 'ukmtheme-settings-group' ); ?>
   <h3 class="title"><?php _e( 'General', 'ukmtheme' ); ?></h3>
-  <p>Masukkan perincian di bawah mengikut keperluan. Untuk templat grafik seperti logo, slideshow dah lain-lain boleh didapati <a href="<?php echo get_template_directory_uri(); ?>/assets/templates/templates.zip">di sini</a>.<br/>Gunakan perisian GIMP sebagai alternatif kepada perisian grafik dan boleh didapatkan di halaman berikut <a href="http://www.gimp.org/">www.gimp.org</a>.<br/>Sekiranya anda memerlukan khidmat bantuan pengendalian tema ini, anda boleh berhung terus dengan pembangun di alamat emel <em>jrajalu@ukm.edu.my</em>.<br/>Nota: Tema ini tidak semestinya memenuhi kehendak seperti yang anda mahukan.</p>
+  <p>Masukkan perincian di bawah mengikut keperluan.</p>
     <table class="form-table">
       <tbody>
         <tr valign="top">
@@ -81,11 +81,11 @@ function theme_options_do_page() { ?>
               $ut_layout = get_option('ukmtheme_layout'); 
             ?>
             <option value="default" <?php if ($ut_layout=='default') { echo 'selected'; } ?>>Basic</option>
-            <option value="full-boxes" <?php if ($ut_layout=='full-boxes') { echo 'selected'; } ?>>Full Boxes</option>              
+            <option value="full-boxes" <?php if ($ut_layout=='full-boxes') { echo 'selected'; } ?>>Basic Full Boxes</option>              
             <option value="three-boxes" <?php if ($ut_layout=='three-boxes') { echo 'selected'; } ?>>Basic with Three Boxes</option>
             <option value="four-boxes" <?php if ($ut_layout=='four-boxes') { echo 'selected'; } ?>>Basic with Four Boxes</option>
-            <option value="three-boxes-only" <?php if ($ut_layout=='three-boxes-only') { echo 'selected'; } ?>>Three Boxes</option>
-            <option value="four-boxes-only" <?php if ($ut_layout=='four-boxes-only') { echo 'selected'; } ?>>Four Boxes</option>
+            <option value="three-boxes-only" <?php if ($ut_layout=='three-boxes-only') { echo 'selected'; } ?>>Three Boxes Only</option>
+            <option value="four-boxes-only" <?php if ($ut_layout=='four-boxes-only') { echo 'selected'; } ?>>Four Boxes Only</option>
             <option value="three-four-boxes" <?php if ($ut_layout=='three-four-boxes') { echo 'selected'; } ?>>Three and Four Boxes</option>                    
             <option value="full-boxes-scroller" <?php if ($ut_layout=='full-boxes-scroller') { echo 'selected'; } ?>>Full Boxes with News Scroller</option>
             <option value="three-boxes-scroller" <?php if ($ut_layout=='three-boxes-scroller') { echo 'selected'; } ?>>Three Boxes with News Scroller</option>
