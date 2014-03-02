@@ -40,11 +40,13 @@ function ukmtheme_login_logo() { ?>
     background: linear-gradient(to bottom,  #b00000 0%,#d10000 50%,#b00000 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b00000', endColorstr='#b00000',GradientType=0 ); /* IE6-9 */
   }
+  body.login {
+    background: <?php echo get_option('ukmtheme_mn_color'); ?>;
+  }
   .login form {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    background: #eaeaea;
   }
   </style>
 <?php }
