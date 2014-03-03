@@ -16,7 +16,8 @@
 </head>
 <body <?php body_class(); ?>>
 <div class="page-wrap">
-<nav class="top ut_color mn_color">
+<div class="banner mn_color ut_color">
+<nav class="top">
   <div class="wrap">
     <div class="col-1-2">
     <?php 
@@ -36,7 +37,7 @@
     </div>
   </div><!--.wrap-->
 </nav>
-<header class="ut_color mn_color">
+<header>
   <div class="wrap logo">
     <a href="<?php bloginfo('url'); ?>">
         <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
@@ -55,3 +56,4 @@
   </div>
     <?php if ( is_home() ) { get_template_part( 'templates/slideshow', 'flexslider' ); } else {/* Frontpage Slideshow */} ?>
 </header>
+</div>

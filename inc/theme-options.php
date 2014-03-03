@@ -30,6 +30,7 @@ function register_mysettings() {
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_mn_color' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_snd_color' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_trd_color' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_bg' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_languages' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_visitor_id' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_layout' );
@@ -143,6 +144,13 @@ function theme_options_do_page() { ?>
         <th scope="row"><?php _e('Tertiary','ukmtheme'); ?></th>
         <td>
           <input type="text" name="ukmtheme_trd_color" value="<?php if ( isset( $theme_three ) ) echo $theme_three; ?>" class="theme-three" data-default-color="#494949" />
+        </td>
+        </tr>
+        <tr valign="top">
+        <th scope="row"><?php _e('Background Image','ukmtheme'); ?></th>
+        <td>
+        <input type="text" name="ukmtheme_bg" value="<?php echo get_option('ukmtheme_bg'); ?>" class="regular-text" placeholder="http://www.example.com/image.png" />
+        <p class="description"><?php _e( 'Image size should be 1920x530 pixels and in PNG format. To optimize the image, use TinyPNG <a href="https://tinypng.com/" target="_blank">here</a>.', 'ukmtheme' ); ?></p>
         </td>
         </tr>
       </tbody>

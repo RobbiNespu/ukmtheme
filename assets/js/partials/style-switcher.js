@@ -13,7 +13,7 @@
 
 $(document).ready(function(){
   $( ".reset_btn" ).click(function() {
-    $( ".ut_color, .ut_nav" ).removeClass( "snd_color trd_color");
+    $( ".ut_color" ).removeClass( "snd_color trd_color");
     return false;
   });
   
