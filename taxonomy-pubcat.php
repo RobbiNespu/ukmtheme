@@ -23,9 +23,9 @@ get_header(); ?>
             echo '<img src="'.$saved_data.'">';
           ?>
           </div>
-          <div class="col-7-10">
+          <div class="col-7-10 ut-publication-detail-wrap">
             <div class="ut-publication-detail">
-              <h2><?php the_title(); ?></h2>
+              <h3><?php the_title(); ?></h3>
               <h4><?php _e('Detail','ukmtheme') ?></h4>
               <table class="ut-publication-detail-table">
                 <tr><td><?php _e('Author','ukmtheme'); ?></td><td>:&nbsp;<?php echo get_post_meta($post->ID, 'ut_publication_author', true); ?></td></tr>
@@ -36,7 +36,6 @@ get_header(); ?>
               </table>
               <a href="<?php echo get_permalink(); ?>"><button class="uk-button uk-button-small uk-button-primary"><?php _e('Read More','ukmtheme'); ?></button></a>
               </div><!--.ut-publication-detail-->
-            <section>
           </div>
         </div>
       <?php endwhile; else: ?>
