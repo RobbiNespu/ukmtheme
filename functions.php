@@ -98,10 +98,6 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
       )
     );
     
-    add_theme_support( 'custom-background', array(
-    'default-color' => 'ffffff',
-    ) );
-    
     add_filter('show_admin_bar', '__return_false');
     
   }
