@@ -249,7 +249,7 @@ function ut_staff_order_page() {
       <thead>
         <tr>
           <th class="column-order">Order</th>
-          <th class="column-title">Title</th>
+          <th class="column-title">Name</th>
         </tr>
       </thead>
       <tbody data-post-type="staff">
@@ -263,7 +263,7 @@ function ut_staff_order_page() {
       <tfoot>
         <tr>
           <th class="column-order">Order</th>
-          <th class="column-title">Title</th>
+          <th class="column-title">Name</th>
         </tr>
       </tfoot>
 
