@@ -325,6 +325,5 @@ function ut_update_post_order() {
   die( '1' );
 }
 
-
 ?>
 
