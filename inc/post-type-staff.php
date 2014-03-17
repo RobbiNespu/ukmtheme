@@ -280,7 +280,7 @@ function ut_staff_order_page() {
     /* Dodgy CSS ^_^ */
     #sortable-table td { background: white; }
     #sortable-table .column-order { padding: 3px 10px; width: 50px; }
-      #sortable-table .column-order img { cursor: move; }
+    #sortable-table .column-order img { cursor: move; }
     #sortable-table td.column-order { vertical-align: middle; text-align: center; }
     #sortable-table .column-thumbnail { width: 160px; }
   </style>
@@ -307,7 +307,7 @@ add_action( 'wp_ajax_ut_update_post_order', 'ut_update_post_order' );
 function ut_update_post_order() {
   global $wpdb;
 
-  $post_type     = $_POST['postType'];
+  $post_type    = $_POST['postType'];
   $order        = $_POST['order'];
 
   /**
@@ -317,7 +317,7 @@ function ut_update_post_order() {
   */
   foreach( $order as $menu_order => $post_id )
   {
-    $post_id         = intval( str_ireplace( 'post-', '', $post_id ) );
+    $post_id        = intval( str_ireplace( 'post-', '', $post_id ) );
     $menu_order     = intval($menu_order);
     wp_update_post( array( 'ID' => $post_id, 'menu_order' => $menu_order ) );
   }
