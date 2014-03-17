@@ -25,21 +25,12 @@
   background: <?php echo get_option('ukmtheme_mn_color'); ?>;
 }
 .mn_color {
-  background: <?php echo get_option('ukmtheme_mn_color'); ?>;
-  background-image: url("<?php echo get_option('ukmtheme_bg'); ?>");
-  background-repeat: no-repeat;
-  background-position: top center;
+  background: <?php echo get_option('ukmtheme_mn_color'); ?> url("<?php echo get_option('ukmtheme_bg'); ?>") no-repeat top center;
 }
 .snd_color {
-  background:<?php echo get_option('ukmtheme_snd_color'); ?> !important;
-  background-image: url("<?php echo get_option('ukmtheme_bg'); ?>");
-  background-repeat: no-repeat;
-  background-position: top center;
+  background: <?php echo get_option('ukmtheme_snd_color'); ?> url("<?php echo get_option('ukmtheme_bg'); ?>") no-repeat top center;
 }
 .trd_color {
-  background:<?php echo get_option('ukmtheme_trd_color'); ?> !important;
-  background-image: url("<?php echo get_option('ukmtheme_bg'); ?>");
-  background-repeat: no-repeat;
-  background-position: top center;
+  background: <?php echo get_option('ukmtheme_trd_color'); ?> url("<?php echo get_option('ukmtheme_bg'); ?>") no-repeat top center;
 }
 </style>
