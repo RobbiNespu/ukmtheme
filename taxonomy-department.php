@@ -15,7 +15,8 @@ get_header(); ?>
 <h2 class="content-title"><?php single_cat_title(); ?></h2>
 <?php
   $staff = new WP_Query( array( 
-    'post_type'       => 'staff', 
+    'post_type'       => 'staff',
+    'department'      => get_the_term_list( $post->ID, 'department' ),
     'posts_per_page'  => -1, 
     'orderby'         => 'menu_order', 
     'order'           => 'ASC' 
@@ -47,7 +48,6 @@ get_header(); ?>
 <p><?php _e( 'Sorry, no posts matched your criteria.', 'ukmtheme' ); ?></p>
     
 <?php endif; ?>
-<?php wp_reset_postdata(); ?>
 <p><?php get_template_part( 'templates/content', 'paginate' ); ?></p>
 </section>
 <aside class="col-1-4">

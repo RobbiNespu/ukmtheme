@@ -62,6 +62,12 @@ function my_theme_register_required_plugins() {
       'required'  => false,
     ),
 
+    array(
+      'name'      => 'Simple Page Ordering',
+      'slug'      => 'simple-page-ordering',
+      'required'  => false,
+    ),
+
   );
 
   // Change this to your theme text domain, used for internationalising strings

@@ -98,6 +98,8 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
     );
     
     add_filter('show_admin_bar', '__return_false');
+
+    add_post_type_support( 'staff', 'page-attributes' );
     
   }
 
