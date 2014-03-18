@@ -28,7 +28,7 @@ function ukmtheme_documentation_options() {
     <h3 class="title"><?php _e('Contents','ukmtheme') ?></h3>
     <ol>
       <li><a href="#Layout">Layout</a></li>
-      <li><a href="#Annc. or News">Annc. or News</a></li>
+      <li><a href="#News">News</a></li>
       <li><a href="#Events">Events</a></li>  
       <li><a href="#FAQs">FAQs</a></li>
       <li><a href="#News Scroller">News Scroller</a></li>
