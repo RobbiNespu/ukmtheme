@@ -9,6 +9,7 @@
  * @author Jamaludin Rajalu
  */
 $slideshow = new WP_Query('post_type=slideshow');
+global $post;
 ?> 
 <script type="text/javascript">
 // Can also be used with $(document).ready()
