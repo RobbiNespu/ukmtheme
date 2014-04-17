@@ -14,12 +14,15 @@ get_header(); ?>
 <div class="home-content-wrap">
   <div class="wrap home-content">
   <?php
-    if ( is_home() ) {
-      $ut_layout = get_option('ukmtheme_layout');
-      get_template_part( 'templates/layout', $ut_layout );
-    } else {
-      get_template_part( 'templates/layout', 'default' );
-    }
+    $widget_news_scroller = get_option('ukmtheme_widget_news');
+    $widget_three_box = get_option('ukmtheme_widget_three');
+    $widget_four_box = get_option('ukmtheme_widget_four');
+    $widget_basic = get_option('ukmtheme_widget_basic');
+    
+    get_template_part( 'templates/widget', $widget_news_scroller );
+    get_template_part( 'templates/widget', $widget_basic );
+    get_template_part( 'templates/widget', $widget_three_box );
+    get_template_part( 'templates/widget', $widget_four_box );
   ?>
   </div>
 </div>

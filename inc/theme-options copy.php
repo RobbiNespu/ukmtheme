@@ -34,10 +34,6 @@ function register_mysettings() {
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_languages' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_visitor_id' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_layout' );
-  register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_news' );
-  register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_three' );
-  register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_four' );
-  register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_basic' );
 }
 
 function theme_options_do_page() { ?>
@@ -55,29 +51,6 @@ function theme_options_do_page() { ?>
   <p>Masukkan perincian di bawah mengikut keperluan.</p>
     <table class="form-table">
       <tbody>
-          <tr valign="top">
-          <th scope="row">
-          <?php _e( 'Frontpage Layout', 'ukmtheme' ); ?><br/>
-          <small><?php _e('Customize frontpage widget area','ukmtheme') ?></small>
-          </th>
-
-          <td>
-            <?php
-              $widget_news_scroller = get_option('ukmtheme_widget_news');
-              $widget_three_box = get_option('ukmtheme_widget_three');
-              $widget_four_box = get_option('ukmtheme_widget_four');
-              $widget_basic = get_option('ukmtheme_widget_basic');
-            ?>
-            <input id='checkbox' name='ukmtheme_widget_news' type='checkbox' value="news-scroller" <?php echo ( 'news-scroller' == $widget_news_scroller ) ? 'checked="checked"' : ''; ?> />
-            <label class="description" for="ukmtheme_widget_news"><?php _e( 'News Scroller', 'ukmtheme' ); ?></label><br/>
-            <input id='checkbox' name='ukmtheme_widget_three' type='checkbox' value="three-column" <?php echo ( 'three-column' == $widget_three_box ) ? 'checked="checked"' : ''; ?> />
-            <label class="description" for="ukmtheme_widget_three"><?php _e( 'Three Column', 'ukmtheme' ); ?></label><br/>
-            <input id='checkbox' name='ukmtheme_widget_four' type='checkbox' value="four-column" <?php echo ( 'four-column' == $widget_four_box ) ? 'checked="checked"' : ''; ?> />
-            <label class="description" for="ukmtheme_widget_four"><?php _e( 'Four Column', 'ukmtheme' ); ?></label><br/>
-            <input id='checkbox' name='ukmtheme_widget_basic' type='checkbox' value="news" <?php echo ( 'news' == $widget_basic ) ? 'checked="checked"' : ''; ?> />
-            <label class="description" for="ukmtheme_widget_basic"><?php _e( 'Basic', 'ukmtheme' ); ?></label><br/>
-          </td>
-        </tr>
         <tr valign="top">
         <th scope="row"><?php _e('Visitor Counter ID','ukmtheme'); ?></th>
         <td>
@@ -96,6 +69,29 @@ function theme_options_do_page() { ?>
             <option value="canvas-lang" <?php if ($ut_lang_select=='canvas-lang') { echo 'selected'; } ?>>Enable</option>
           </select>
           <p class="description"><?php _e( 'Enable language menu. Do not enable this feature if the "Polylang" plugin is not activated.', 'ukmtheme' ); ?></p>
+        </td>
+        </tr>
+        <tr valign="top">
+        <th scope="row">
+        <?php _e('Frontpage Layout','ukmtheme'); ?><br/>
+        <small><?php _e('Customize frontpage widget area','ukmtheme') ?></small>
+        </th>
+        <td>
+          <select name ="ukmtheme_layout">
+            <?php 
+              $ut_layout = get_option('ukmtheme_layout'); 
+            ?>
+            <option value="default" <?php if ($ut_layout=='default') { echo 'selected'; } ?>>Basic</option>
+            <option value="full-boxes" <?php if ($ut_layout=='full-boxes') { echo 'selected'; } ?>>Basic Full Boxes</option>              
+            <option value="three-boxes" <?php if ($ut_layout=='three-boxes') { echo 'selected'; } ?>>Basic with Three Boxes</option>
+            <option value="four-boxes" <?php if ($ut_layout=='four-boxes') { echo 'selected'; } ?>>Basic with Four Boxes</option>
+            <option value="three-boxes-only" <?php if ($ut_layout=='three-boxes-only') { echo 'selected'; } ?>>Three Boxes Only</option>
+            <option value="four-boxes-only" <?php if ($ut_layout=='four-boxes-only') { echo 'selected'; } ?>>Four Boxes Only</option>
+            <option value="three-four-boxes" <?php if ($ut_layout=='three-four-boxes') { echo 'selected'; } ?>>Three and Four Boxes</option>                    
+            <option value="full-boxes-scroller" <?php if ($ut_layout=='full-boxes-scroller') { echo 'selected'; } ?>>Full Boxes with News Scroller</option>
+            <option value="three-boxes-scroller" <?php if ($ut_layout=='three-boxes-scroller') { echo 'selected'; } ?>>Three Boxes with News Scroller</option>
+            <option value="four-boxes-scroller" <?php if ($ut_layout=='four-boxes-scroller') { echo 'selected'; } ?>>Four Boxes with News Scroller</option>
+          </select>
         </td>
         </tr>
       </tbody>
