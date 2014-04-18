@@ -17,7 +17,7 @@ function ut_staff_directory() {
   $labels = array(
     'name'                => _x( 'Staffs', 'Post Type General Name', 'ukmtheme' ),
     'singular_name'       => _x( 'Staff', 'Post Type Singular Name', 'ukmtheme' ),
-    'menu_name'           => __( 'Staff', 'ukmtheme' ),
+    'menu_name'           => __( 'Staff Directory', 'ukmtheme' ),
     'parent_item_colon'   => __( 'Parent Staff:', 'ukmtheme' ),
     'all_items'           => __( 'All Staffs', 'ukmtheme' ),
     'view_item'           => __( 'View Staff', 'ukmtheme' ),
@@ -30,7 +30,7 @@ function ut_staff_directory() {
     'not_found_in_trash'  => __( 'No Staffs found in Trash', 'ukmtheme' ),
   );
   $args = array(
-    'label'               => __( 'staff', 'ukmtheme' ),
+    'label'               => __( 'Staff', 'ukmtheme' ),
     'description'         => __( 'Staff information pages', 'ukmtheme' ),
     'labels'              => $labels,
     'supports'            => array( 'title', ),
