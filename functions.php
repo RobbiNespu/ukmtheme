@@ -14,6 +14,8 @@
 add_action( 'admin_enqueue_scripts', 'ut_wp_admin_scripts' );
 function ut_wp_admin_scripts() {
 
+  wp_enqueue_script( 'thickbox' );
+  wp_enqueue_style( 'thickbox' );
   wp_enqueue_script( 'wp-color-picker' );
   wp_enqueue_script( 'wp-color-picker-option', get_template_directory_uri() . '/assets/js/options.js', array('wp-color-picker'), '6.1', true );
   wp_enqueue_style( 'wp-color-picker' );
@@ -27,12 +29,12 @@ if (!is_admin()) add_action('wp_enqueue_scripts', 'ukmtheme_scripts', 11);
 function ukmtheme_scripts() {
   // Javascript
   wp_deregister_script('jquery' );
-  wp_enqueue_script('jquery', '//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js', array(), '1.11.0', false );
-  wp_enqueue_script('fancybox', '//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js', array(), '2.1.5', true );
+  wp_enqueue_script( 'jquery', get_template_directory_uri() . '/assets/js/jquery-1.11.0.min.js', array(), '1.11.0', false );
+  wp_enqueue_script( 'fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.pack.js', array(), '2.1.5', true );
   wp_enqueue_script( 'default', get_template_directory_uri() . '/assets/js/script.min.js', array(), '6.1', true );
   // Stylesheet
   wp_enqueue_style('opensans', 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,300,600', false, '6.1' );
-  wp_enqueue_style('fancybox', '//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css', false, '2.1.5' );
+  wp_enqueue_style('fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.css', false, '2.1.5' );
   wp_enqueue_style( 'default', get_template_directory_uri() . '/assets/css/style.min.css', false, '6.1' );
 }
 
@@ -83,9 +85,9 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
     require( 'templates/page-sitemap.php' );
       
     register_nav_menus( array(
-      'top' => __( 'Top Navigation', 'ukmtheme' ),
-      'main' => __( 'Main Navigation', 'ukmtheme' ),
-      'footer' => __( 'Footer Navigation', 'ukmtheme' )
+      'top'       => __( 'Top Navigation', 'ukmtheme' ),
+      'main'      => __( 'Main Navigation', 'ukmtheme' ),
+      'footer'    => __( 'Footer Navigation', 'ukmtheme' ),
     ) );
 
     add_theme_support( 'custom-header', array(
@@ -107,8 +109,8 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
 
 add_filter( 'wp_page_menu_args', 'home_page_menu_args' );
   function home_page_menu_args( $args ) {
-      $args['show_home'] = true;
-      return $args;
+    $args['show_home'] = true;
+    return $args;
   }
 
 // Replaces the excerpt "more" text by a link
@@ -116,8 +118,8 @@ add_filter( 'wp_page_menu_args', 'home_page_menu_args' );
 
 add_filter( 'excerpt_more', 'ukmtheme_excerpt_more' );
   function ukmtheme_excerpt_more($more) {
-      global $post;
-        return '<a class="moretag clearfix" href="'. get_permalink($post->ID) . '"><button class="uk-button uk-button-mini uk-button-primary uk-navbar-flip">'. __( 'Read More','ukmtheme' ) .'</button></a>';
+    global $post;
+      return '<a class="moretag clearfix" href="'. get_permalink($post->ID) . '"><button class="uk-button uk-button-mini uk-button-primary uk-navbar-flip">'. __( 'Read More','ukmtheme' ) .'</button></a>';
   }
 
 add_filter( 'excerpt_length', 'ukmtheme_excerpt_length', 999 );
@@ -140,42 +142,52 @@ add_filter('upload_mimes','add_custom_mime_types');
 add_action( 'widgets_init', 'ukmtheme_widgets_init' );
 function ukmtheme_widgets_init() {
   register_sidebar( array(
-    'name' => __( 'Main Sidebar', 'ukmtheme' ),
-    'id' => 'sidebar-1',
-    'description' => __( 'Appears on Front Page template, which has its own widgets', 'ukmtheme' ),
-    'before_widget' => '<aside class="uk-panel widgets widgets-1">',
-    'after_widget' => '</aside>',
-    'before_title' => '<h3 class="widget-title">',
-    'after_title' => '</h3>',
+    'name'            => __( 'Main Sidebar', 'ukmtheme' ),
+    'id'              => 'sidebar-1',
+    'description'     => __( 'Appears on Front Page template, which has its own widgets', 'ukmtheme' ),
+    'before_widget'   => '<aside class="uk-panel widgets widgets-1">',
+    'after_widget'    => '</aside>',
+    'before_title'    => '<h3 class="widget-title">',
+    'after_title'     => '</h3>',
   ) );
 
   register_sidebar( array(
-    'name' => __( 'Page Sidebar', 'ukmtheme' ),
-    'id' => 'sidebar-2',
-    'description' => __( 'Appears when using the optional page', 'ukmtheme' ),
-    'before_widget' => '<aside class="widgets">',
-    'after_widget' => '</aside>',
-    'before_title' => '<h3 class="widget-title">',
-    'after_title' => '</h3>',
+    'name'            => __( 'Page Sidebar', 'ukmtheme' ),
+    'id'              => 'sidebar-2',
+    'description'     => __( 'Appears when using the optional page', 'ukmtheme' ),
+    'before_widget'   => '<aside class="widgets">',
+    'after_widget'    => '</aside>',
+    'before_title'    => '<h3 class="widget-title">',
+    'after_title'     => '</h3>',
   ) );
   
   register_sidebar( array(
-    'name' => __( 'Frontpage Three Boxes', 'ukmtheme' ),
-    'id' => 'sidebar-3',
-    'description' => __( 'Appears when using the optional Front Page', 'ukmtheme' ),
-    'before_widget' => '<aside class="col-1-3"><div class="uk-panel widgets-wrap">',
-    'after_widget' => '</div></aside>',
-    'before_title' => '<h3 class="widget-title">',
-    'after_title' => '</h3>',
+    'name'            => __( 'Frontpage Three Boxes', 'ukmtheme' ),
+    'id'              => 'sidebar-3',
+    'description'     => __( 'Appears when using the optional Front Page', 'ukmtheme' ),
+    'before_widget'   => '<aside class="col-1-3"><div class="uk-panel widgets-wrap">',
+    'after_widget'    => '</div></aside>',
+    'before_title'    => '<h3 class="widget-title">',
+    'after_title'     => '</h3>',
   ) );
 
   register_sidebar( array(
-    'name' => __( 'Frontpage Four Boxes', 'ukmtheme' ),
-    'id' => 'sidebar-4',
-    'description' => __( 'Appears when using the optional Front Page', 'ukmtheme' ),
-    'before_widget' => '<aside class="col-1-4"><div class="uk-panel widgets-wrap">',
-    'after_widget' => '</div></aside>',
-    'before_title' => '<h3 class="widget-title">',
-    'after_title' => '</h3>',
+    'name'            => __( 'Frontpage Four Boxes', 'ukmtheme' ),
+    'id'              => 'sidebar-4',
+    'description'     => __( 'Appears when using the optional Front Page', 'ukmtheme' ),
+    'before_widget'   => '<aside class="col-1-4"><div class="uk-panel widgets-wrap">',
+    'after_widget'    => '</div></aside>',
+    'before_title'    => '<h3 class="widget-title">',
+    'after_title'     => '</h3>',
+  ) );
+
+  register_sidebar( array(
+    'name'            => __( 'Frontpage Custom Box', 'ukmtheme' ),
+    'id'              => 'sidebar-5',
+    'description'     => __( 'Appears when using the optional Front Page', 'ukmtheme' ),
+    'before_widget'   => '<aside class="col-1-1">',
+    'after_widget'    => '</aside>',
+    'before_title'    => '<h3 class="widget-title">',
+    'after_title'     => '</h3>',
   ) );
 }

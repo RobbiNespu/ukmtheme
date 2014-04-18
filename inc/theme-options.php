@@ -33,11 +33,11 @@ function register_mysettings() {
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_bg' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_languages' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_visitor_id' );
-  register_setting( 'ukmtheme-settings-group', 'ukmtheme_layout' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_news' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_three' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_four' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_basic' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_custom' );
 }
 
 function theme_options_do_page() { ?>
@@ -67,22 +67,27 @@ function theme_options_do_page() { ?>
               $widget_three_box = get_option('ukmtheme_widget_three');
               $widget_four_box = get_option('ukmtheme_widget_four');
               $widget_basic = get_option('ukmtheme_widget_basic');
+              $widget_custom = get_option('ukmtheme_widget_custom');
             ?>
+            <input id='checkbox' name='ukmtheme_widget_basic' type='checkbox' value="news" <?php echo ( 'news' == $widget_basic ) ? 'checked="checked"' : ''; ?> />
+            <label class="description" for="ukmtheme_widget_basic"><?php _e( 'Basic', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_news' type='checkbox' value="news-scroller" <?php echo ( 'news-scroller' == $widget_news_scroller ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_news"><?php _e( 'News Scroller', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_three' type='checkbox' value="three-column" <?php echo ( 'three-column' == $widget_three_box ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_three"><?php _e( 'Three Column', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_four' type='checkbox' value="four-column" <?php echo ( 'four-column' == $widget_four_box ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_four"><?php _e( 'Four Column', 'ukmtheme' ); ?></label><br/>
-            <input id='checkbox' name='ukmtheme_widget_basic' type='checkbox' value="news" <?php echo ( 'news' == $widget_basic ) ? 'checked="checked"' : ''; ?> />
-            <label class="description" for="ukmtheme_widget_basic"><?php _e( 'Basic', 'ukmtheme' ); ?></label><br/>
+            <input id='checkbox' name='ukmtheme_widget_custom' type='checkbox' value="custom" <?php echo ( 'custom' == $widget_custom ) ? 'checked="checked"' : ''; ?> />
+            <label class="description" for="ukmtheme_widget_custom"><?php _e( 'Custom', 'ukmtheme' ); ?></label><br/>
+            <p class="description">Choose which needed only</p>
           </td>
         </tr>
         <tr valign="top">
         <th scope="row"><?php _e('Visitor Counter ID','ukmtheme'); ?></th>
         <td>
         <input type="text" name="ukmtheme_visitor_id" value="<?php echo get_option('ukmtheme_visitor_id'); ?>" class="regular-text" placeholder="768059" />
-        <p class="description"><?php _e( 'Generate your id here', 'ukmtheme' ); ?>&nbsp;<a href="http://www.supercounters.com/hitcounter" target="_blank">Supercounter</a></p>
+        <p class="description"><a class="thickbox" href="<?php echo get_template_directory_uri(); ?>/assets/images/admin/site_counter_sample.png"><?php _e( 'View sample', 'ukmtheme' ); ?></a>
+        &nbsp;|&nbsp;<?php _e( 'Generate your id', 'ukmtheme' ); ?>&nbsp;<a href="http://www.supercounters.com/hitcounter?tab=plugin-information&amp;plugin=simple-comment-editing&amp;TB_iframe=true&amp;width=830&amp;height=565" class="thickbox" title="www.supercounter.com">here</a></p>
         </td>
         </tr>
         <tr valign="top">
