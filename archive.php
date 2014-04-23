@@ -12,6 +12,7 @@
  */
  get_header();
 ?>
+
 <article class="wrap">
   <div class="content clearfix">
     <section class="col-3-4 article">

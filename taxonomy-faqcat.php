@@ -30,6 +30,7 @@ $(document).ready(function(){
   <div class="content clearfix">
     <section class="col-3-4 article">
     <h2><?php echo __( 'Frequently Asked Questions', 'ukmtheme' ) ?></h2>
+    <h3 class="content-title"><?php single_cat_title(); ?></h3>
     <ol class="ut-faq">
       <?php if ( $faq->have_posts() ) : while ( $faq->have_posts() ) : $faq->the_post(); ?>
         <li class="ut-faq-list">
