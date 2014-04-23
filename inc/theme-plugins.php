@@ -22,7 +22,7 @@
 //require_once dirname( __FILE__ ) . '/class-tgm-plugin-activation.php';
 require_once get_template_directory() . '/lib/tgm-plugin-activation/class-tgm-plugin-activation.php';
 
-add_action( 'tgmpa_register', 'my_theme_register_required_plugins' );
+add_action( 'tgmpa_register', 'ukmtheme_register_required_plugins' );
 /**
  * Register the required plugins for this theme.
  *
@@ -35,7 +35,7 @@ add_action( 'tgmpa_register', 'my_theme_register_required_plugins' );
  * This function is hooked into tgmpa_init, which is fired within the
  * TGM_Plugin_Activation class constructor.
  */
-function my_theme_register_required_plugins() {
+function ukmtheme_register_required_plugins() {
 
   /**
    * Array of plugin arrays. Required keys are name and slug.
@@ -67,6 +67,11 @@ function my_theme_register_required_plugins() {
       'slug'      => 'simple-page-ordering',
       'required'  => false,
     ),
+    array(
+      'name'      => 'Contact Form 7',
+      'slug'      => 'contact-form-7',
+      'required'  => false,
+    ),
 
   );
 
@@ -81,15 +86,15 @@ function my_theme_register_required_plugins() {
    * end of each line for what each argument will be.
    */
   $config = array(
-    'domain'              => $theme_text_domain,          // Text domain - likely want to be the same as your theme.
-    'default_path'        => '',                          // Default absolute path to pre-packaged plugins
-    'parent_menu_slug'    => 'themes.php',        // Default parent menu slug
-    'parent_url_slug'     => 'themes.php',        // Default parent URL slug
-    'menu'                => 'install-required-plugins',  // Menu slug
-    'has_notices'         => true,                        // Show admin notices or not
-    'is_automatic'        => false,             // Automatically activate plugins after installation or not
-    'message'             => '',              // Message to output right before the plugins table
-    'strings'             => array(
+    'domain'                              => $theme_text_domain,          // Text domain - likely want to be the same as your theme.
+    'default_path'                        => '',                          // Default absolute path to pre-packaged plugins
+    'parent_menu_slug'                    => 'themes.php',        // Default parent menu slug
+    'parent_url_slug'                     => 'themes.php',        // Default parent URL slug
+    'menu'                                => 'install-required-plugins',  // Menu slug
+    'has_notices'                         => true,                        // Show admin notices or not
+    'is_automatic'                        => false,             // Automatically activate plugins after installation or not
+    'message'                             => '',              // Message to output right before the plugins table
+    'strings'                             => array(
       'page_title'                        => __( 'Install Required Plugins', $theme_text_domain ),
       'menu_title'                        => __( 'Install Plugins', $theme_text_domain ),
       'installing'                        => __( 'Installing Plugin: %s', $theme_text_domain ), // %1$s = plugin name
