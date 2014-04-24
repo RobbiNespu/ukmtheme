@@ -8,7 +8,7 @@
  *
  * @author Jamaludin Rajalu
  *
- * Tetapan muka hadapan laman
+ * Custom field and metaboxes
  */
 
 add_filter( 'cmb_meta_boxes', 'ukmtheme_metaboxes' );
@@ -26,18 +26,18 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
   // Video
 
   $meta_boxes['video_metabox'] = array(
-    'id'         => 'video_metabox',
-    'title'      => __( 'Video Detail', 'ukmtheme' ),
-    'pages'      => array( 'video', ),
-    'context'    => 'normal',
-    'priority'   => 'high',
-    'show_names' => true,
-    'fields'     => array(
+    'id'          => 'video_metabox',
+    'title'       => __( 'Video Detail', 'ukmtheme' ),
+    'pages'       => array( 'video', ),
+    'context'     => 'normal',
+    'priority'    => 'high',
+    'show_names'  => true,
+    'fields'      => array(
       array(
-        'name' => __( 'Video Link', 'cmb' ),
-        'desc' => __( 'Enter a youtube, twitter, or instagram URL. Supports services listed at <a href="http://codex.wordpress.org/Embeds">http://codex.wordpress.org/Embeds</a>.', 'ukmtheme' ),
-        'id'   => $prefix . 'video_url',
-        'type' => 'oembed',
+        'name'    => __( 'Video Link', 'cmb' ),
+        'desc'    => __( 'Enter a youtube, twitter, or instagram URL. Supports services listed at <a href="http://codex.wordpress.org/Embeds">http://codex.wordpress.org/Embeds</a>.', 'ukmtheme' ),
+        'id'      => $prefix . 'video_url',
+        'type'    => 'oembed',
       ),
     ),
   );
@@ -45,31 +45,31 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
   // GALLERY
 
   $meta_boxes['gallery_metabox'] = array(
-    'id'         => 'gallery_metabox',
-    'title'      => __( 'Gallery Detail', 'ukmtheme' ),
-    'pages'      => array( 'gallery', ),
-    'context'    => 'normal',
-    'priority'   => 'high',
-    'show_names' => true,
-    'fields'     => array(
+    'id'          => 'gallery_metabox',
+    'title'       => __( 'Gallery Detail', 'ukmtheme' ),
+    'pages'       => array( 'gallery', ),
+    'context'     => 'normal',
+    'priority'    => 'high',
+    'show_names'  => true,
+    'fields'      => array(
       array(
-        'name' => __( 'Gallery Cover Image', 'ukmtheme' ),
-        'desc' => __( 'Upload an image or enter a URL. dimensions of the image should be 300x300 pixels.', 'ukmtheme' ),
-        'id'   => $prefix . 'gallery_cover',
-        'type' => 'file',
-        'allow' => array('url'),
+        'name'    => __( 'Gallery Cover Image', 'ukmtheme' ),
+        'desc'    => __( 'Upload an image or enter a URL. dimensions of the image should be 300x300 pixels.', 'ukmtheme' ),
+        'id'      => $prefix . 'gallery_cover',
+        'type'    => 'file',
+        'allow'   => array('url'),
       ),
       array(
-        'name' => __( 'Date', 'ukmtheme' ),
-        'desc' => __( 'Gallery Date', 'ukmtheme' ),
-        'id'   => $prefix . 'gallery_date',
-        'type' => 'text_date',
+        'name'    => __( 'Date', 'ukmtheme' ),
+        'desc'    => __( 'Gallery Date', 'ukmtheme' ),
+        'id'      => $prefix . 'gallery_date',
+        'type'    => 'text_date',
       ),
       array(
-        'name' => __( 'Phographer', 'ukmtheme' ),
-        'desc' => __( 'Photo by.', 'ukmtheme' ),
-        'id'   => $prefix . 'gallery_photographer',
-        'type' => 'text',
+        'name'    => __( 'Phographer', 'ukmtheme' ),
+        'desc'    => __( 'Photo by.', 'ukmtheme' ),
+        'id'      => $prefix . 'gallery_photographer',
+        'type'    => 'text',
       ),
     ),
   );
@@ -77,25 +77,25 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
   // SLIDESHOW
 
   $meta_boxes['slideshow_metabox'] = array(
-    'id'         => 'slideshow_metabox',
-    'title'      => __( 'Slideshow Detail', 'ukmtheme' ),
-    'pages'      => array( 'slideshow', ),
-    'context'    => 'normal',
-    'priority'   => 'high',
-    'show_names' => true,
-    'fields'     => array(
+    'id'          => 'slideshow_metabox',
+    'title'       => __( 'Slideshow Detail', 'ukmtheme' ),
+    'pages'       => array( 'slideshow', ),
+    'context'     => 'normal',
+    'priority'    => 'high',
+    'show_names'  => true,
+    'fields'      => array(
       array(
-        'name' => __( 'Slideshow Image', 'ukmtheme' ),
-        'desc' => __( 'Upload an image or enter a URL. dimensions of the image should be 960x350 pixels.', 'ukmtheme' ),
-        'id'   => $prefix . 'slideshow_image',
-        'type' => 'file',
-        'allow' => array('url'),
+        'name'    => __( 'Slideshow Image', 'ukmtheme' ),
+        'desc'    => __( 'Upload an image or enter a URL. dimensions of the image should be 960x350 pixels.', 'ukmtheme' ),
+        'id'      => $prefix . 'slideshow_image',
+        'type'    => 'file',
+        'allow'   => array('url'),
       ),
       array(
-        'name' => __( 'Slideshow Link', 'ukmtheme' ),
-        'desc' => __( 'links to posts, pages or external web.', 'ukmtheme' ),
-        'id'   => $prefix . 'slideshow_link',
-        'type' => 'text',
+        'name'    => __( 'Slideshow Link', 'ukmtheme' ),
+        'desc'    => __( 'links to posts, pages or external web.', 'ukmtheme' ),
+        'id'      => $prefix . 'slideshow_link',
+        'type'    => 'text',
       ),
     ),
   );
@@ -103,30 +103,30 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
   // APPRECIATION
 
   $meta_boxes['appreciation_metabox'] = array(
-    'id'         => 'appreciation_metabox',
-    'title'      => __( 'Appreciation Detail', 'ukmtheme' ),
-    'pages'      => array( 'appreciation', ),
-    'context'    => 'normal',
-    'priority'   => 'high',
-    'show_names' => true,
-    'fields'     => array(
+    'id'          => 'appreciation_metabox',
+    'title'       => __( 'Appreciation Detail', 'ukmtheme' ),
+    'pages'       => array( 'appreciation', ),
+    'context'     => 'normal',
+    'priority'    => 'high',
+    'show_names'  => true,
+    'fields'      => array(
       array(
-        'name' => __( 'By', 'ukmtheme' ),
-        'desc' => __( 'e.g. Jamaludin Rajalu', 'ukmtheme' ),
-        'id'   => $prefix . 'appreciation_by',
-        'type' => 'text',
+        'name'    => __( 'By', 'ukmtheme' ),
+        'desc'    => __( 'e.g. Jamaludin Rajalu', 'ukmtheme' ),
+        'id'      => $prefix . 'appreciation_by',
+        'type'    => 'text',
       ),
       array(
-        'name' => __( 'PTJ', 'ukmtheme' ),
-        'desc' => __( 'e.g. Pusat Teknologi Maklumat', 'ukmtheme' ),
-        'id'   => $prefix . 'appreciation_ptj',
-        'type' => 'text',
+        'name'    => __( 'PTJ', 'ukmtheme' ),
+        'desc'    => __( 'e.g. Pusat Teknologi Maklumat', 'ukmtheme' ),
+        'id'      => $prefix . 'appreciation_ptj',
+        'type'    => 'text',
       ),
       array(
-        'name' => __( 'Date', 'ukmtheme' ),
-        'desc' => __( 'Date of appreciation', 'ukmtheme' ),
-        'id'   => $prefix . 'appreciation_date',
-        'type' => 'text_date',
+        'name'    => __( 'Date', 'ukmtheme' ),
+        'desc'    => __( 'Date of appreciation', 'ukmtheme' ),
+        'id'      => $prefix . 'appreciation_date',
+        'type'    => 'text_date',
       ),
       array(
         'name'    => __( 'Greeting', 'ukmtheme' ),
@@ -141,36 +141,36 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
   // EVENT MANAGER
 
   $meta_boxes['event_metabox'] = array(
-    'id'         => 'event_metabox',
-    'title'      => __( 'Event Detail', 'ukmtheme' ),
-    'pages'      => array( 'event', ),
-    'context'    => 'normal',
-    'priority'   => 'high',
-    'show_names' => true,
-    'fields'     => array(
+    'id'          => 'event_metabox',
+    'title'       => __( 'Event Detail', 'ukmtheme' ),
+    'pages'       => array( 'event', ),
+    'context'     => 'normal',
+    'priority'    => 'high',
+    'show_names'  => true,
+    'fields'      => array(
       array(
-        'name' => __( 'Date', 'ukmtheme' ),
-        'desc' => __( 'Date of event', 'ukmtheme' ),
-        'id'   => $prefix . 'event_date',
-        'type' => 'text_date',
+        'name'    => __( 'Date', 'ukmtheme' ),
+        'desc'    => __( 'Date of event', 'ukmtheme' ),
+        'id'      => $prefix . 'event_date',
+        'type'    => 'text_date',
       ),
       array(
-        'name' => __( 'Time: Start', 'ukmtheme' ),
-        'desc' => __( 'Start time of the event', 'ukmtheme' ),
-        'id'   => $prefix . 'event_time_start',
-        'type' => 'text_time',
+        'name'    => __( 'Time: Start', 'ukmtheme' ),
+        'desc'    => __( 'Start time of the event', 'ukmtheme' ),
+        'id'      => $prefix . 'event_time_start',
+        'type'    => 'text_time',
       ),
       array(
-        'name' => __( 'Time: End', 'ukmtheme' ),
-        'desc' => __( 'End time of the event', 'ukmtheme' ),
-        'id'   => $prefix . 'event_time_end',
-        'type' => 'text_time',
+        'name'    => __( 'Time: End', 'ukmtheme' ),
+        'desc'    => __( 'End time of the event', 'ukmtheme' ),
+        'id'      => $prefix . 'event_time_end',
+        'type'    => 'text_time',
       ),
       array(
-        'name' => __( 'Venue', 'ukmtheme' ),
-        'desc' => __( 'Venue of the event', 'ukmtheme' ),
-        'id'   => $prefix . 'event_venue',
-        'type' => 'text',
+        'name'    => __( 'Venue', 'ukmtheme' ),
+        'desc'    => __( 'Venue of the event', 'ukmtheme' ),
+        'id'      => $prefix . 'event_venue',
+        'type'    => 'text',
       ),
       array(
         'name'    => __( 'Summary', 'ukmtheme' ),
@@ -185,56 +185,56 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
   // PUBLICATION
 
   $meta_boxes['publication_metabox'] = array(
-    'id'         => 'publication_metabox',
-    'title'      => __( 'Publication Detail', 'ukmtheme' ),
-    'pages'      => array( 'publication', ),
-    'context'    => 'normal',
-    'priority'   => 'high',
-    'show_names' => true,
-    'fields'     => array(
+    'id'          => 'publication_metabox',
+    'title'       => __( 'Publication Detail', 'ukmtheme' ),
+    'pages'       => array( 'publication', ),
+    'context'     => 'normal',
+    'priority'    => 'high',
+    'show_names'  => true,
+    'fields'      => array(
       array(
-        'name' => __( 'Cover Image', 'ukmtheme' ),
-        'desc' => __( 'Upload an image or enter a URL. dimensions of the image should be 300x350 pixels.', 'ukmtheme' ),
-        'id'   => $prefix . 'publication_cover',
-        'type' => 'file',
-        'allow' => array('url'),
+        'name'    => __( 'Cover Image', 'ukmtheme' ),
+        'desc'    => __( 'Upload an image or enter a URL. dimensions of the image should be 300x350 pixels.', 'ukmtheme' ),
+        'id'      => $prefix . 'publication_cover',
+        'type'    => 'file',
+        'allow'   => array('url'),
       ),
       array(
-        'name' => __( 'Author', 'ukmtheme' ),
-        'desc' => __( 'e.g. Jamaludin Rajalu', 'ukmtheme' ),
-        'id'   => $prefix . 'publication_author',
-        'type' => 'text',
+        'name'    => __( 'Author', 'ukmtheme' ),
+        'desc'    => __( 'e.g. Jamaludin Rajalu', 'ukmtheme' ),
+        'id'      => $prefix . 'publication_author',
+        'type'    => 'text',
       ),
       array(
-        'name' => __( 'Publisher', 'ukmtheme' ),
-        'desc' => __( 'e.g. Pusat Teknologi Maklumat', 'ukmtheme' ),
-        'id'   => $prefix . 'publication_publisher',
-        'type' => 'text',
+        'name'    => __( 'Publisher', 'ukmtheme' ),
+        'desc'    => __( 'e.g. Pusat Teknologi Maklumat', 'ukmtheme' ),
+        'id'      => $prefix . 'publication_publisher',
+        'type'    => 'text',
       ),
       array(
-        'name' => __( 'Year', 'ukmtheme' ),
-        'desc' => __( 'e.g. 2014', 'ukmtheme' ),
-        'id'   => $prefix . 'publication_year',
-        'type' => 'text',
+        'name'    => __( 'Year', 'ukmtheme' ),
+        'desc'    => __( 'e.g. 2014', 'ukmtheme' ),
+        'id'      => $prefix . 'publication_year',
+        'type'    => 'text',
       ),
       array(
-        'name' => __( 'Number of Pages', 'ukmtheme' ),
-        'desc' => __( 'e.g. 199', 'ukmtheme' ),
-        'id'   => $prefix . 'publication_pages',
-        'type' => 'text',
+        'name'    => __( 'Number of Pages', 'ukmtheme' ),
+        'desc'    => __( 'e.g. 199', 'ukmtheme' ),
+        'id'      => $prefix . 'publication_pages',
+        'type'    => 'text',
       ),
       array(
-        'name' => __( 'Reference', 'ukmtheme' ),
-        'desc' => __( 'e.g. http://www.ukm.my', 'ukmtheme' ),
-        'id'   => $prefix . 'publication_reference',
-        'type' => 'text_url',
+        'name'    => __( 'Reference', 'ukmtheme' ),
+        'desc'    => __( 'e.g. http://www.ukm.my', 'ukmtheme' ),
+        'id'      => $prefix . 'publication_reference',
+        'type'    => 'text_url',
       ),
       array(
-        'name' => __( 'Download', 'ukmtheme' ),
-        'desc' => __( 'Upload an image or enter a URL.', 'ukmtheme' ),
-        'id'   => $prefix . 'publication_download',
-        'type' => 'file',
-        'allow' => array('url'),
+        'name'    => __( 'Download', 'ukmtheme' ),
+        'desc'    => __( 'Upload an image or enter a URL.', 'ukmtheme' ),
+        'id'      => $prefix . 'publication_download',
+        'type'    => 'file',
+        'allow'   => array('url'),
       ),
     ),
   );
@@ -242,31 +242,31 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
   // STAFF DIRECTORY
 
   $meta_boxes['staff_metabox'] = array(
-    'id'         => 'staff_metabox',
-    'title'      => __( 'Staff Detail', 'ukmtheme' ),
-    'pages'      => array( 'staff', ),
-    'context'    => 'normal',
-    'priority'   => 'high',
-    'show_names' => true,
-    'fields'     => array(
+    'id'          => 'staff_metabox',
+    'title'       => __( 'Staff Detail', 'ukmtheme' ),
+    'pages'       => array( 'staff', ),
+    'context'     => 'normal',
+    'priority'    => 'high',
+    'show_names'  => true,
+    'fields'      => array(
       array(
-        'name' => __( 'Staff Photo', 'ukmtheme' ),
-        'desc' => __( 'Upload an image or enter a URL. dimensions of the image should be 300x350 pixels.', 'ukmtheme' ),
-        'id'   => $prefix . 'staff_photo',
-        'type' => 'file',
-        'allow' => array('url'),
+        'name'    => __( 'Staff Photo', 'ukmtheme' ),
+        'desc'    => __( 'Upload an image or enter a URL. dimensions of the image should be 300x350 pixels.', 'ukmtheme' ),
+        'id'      => $prefix . 'staff_photo',
+        'type'    => 'file',
+        'allow'   => array('url'),
       ),
       array(
-        'name' => __( 'Phone No.', 'ukmtheme' ),
-        'desc' => __( 'e.g. 03-8921-7070', 'ukmtheme' ),
-        'id'   => $prefix . 'staff_phone',
-        'type' => 'text',
+        'name'    => __( 'Phone No.', 'ukmtheme' ),
+        'desc'    => __( 'e.g. 03-8921-7070', 'ukmtheme' ),
+        'id'      => $prefix . 'staff_phone',
+        'type'    => 'text',
       ),
       array(
-        'name' => __( 'Email', 'ukmtheme' ),
-        'desc' => __( 'e.g. user@ukm.edu.my', 'ukmtheme' ),
-        'id'   => $prefix . 'staff_email',
-        'type' => 'text_email',
+        'name'    => __( 'Email', 'ukmtheme' ),
+        'desc'    => __( 'e.g. user@ukm.edu.my', 'ukmtheme' ),
+        'id'      => $prefix . 'staff_email',
+        'type'    => 'text_email',
       ),
     ),
   );
@@ -274,19 +274,19 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
   // EXPERTISE
 
   $meta_boxes['expertise_metabox'] = array(
-    'id'         => 'expertise_metabox',
-    'title'      => __( 'Expertise Detail', 'ukmtheme' ),
-    'pages'      => array( 'expertise', ),
-    'context'    => 'normal',
-    'priority'   => 'high',
-    'show_names' => true,
-    'fields'     => array(
+    'id'          => 'expertise_metabox',
+    'title'       => __( 'Expertise Detail', 'ukmtheme' ),
+    'pages'       => array( 'expertise', ),
+    'context'     => 'normal',
+    'priority'    => 'high',
+    'show_names'  => true,
+    'fields'      => array(
       array(
-        'name' => __( 'Expert Photo', 'ukmtheme' ),
-        'desc' => __( 'Upload an image or enter a URL. dimensions of the image should be 300x350 pixels.', 'ukmtheme' ),
-        'id'   => $prefix . 'expertise_photo',
-        'type' => 'file',
-        'allow' => array('url'),
+        'name'    => __( 'Expert Photo', 'ukmtheme' ),
+        'desc'    => __( 'Upload an image or enter a URL. dimensions of the image should be 300x350 pixels.', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_photo',
+        'type'    => 'file',
+        'allow'   => array('url'),
       ),
       array(
         'name'    => __( 'Biography', 'ukmtheme' ),
@@ -296,28 +296,28 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
         'options' => array( 'textarea_rows' => 5, ),
       ),
       array(
-        'name' => __( 'Contact', 'ukmtheme' ),
-        'desc' => __( 'e.g. 03-8921-7070', 'ukmtheme' ),
-        'id'   => $prefix . 'expertise_contact',
-        'type' => 'text',
+        'name'    => __( 'Contact', 'ukmtheme' ),
+        'desc'    => __( 'e.g. 03-8921-7070', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_contact',
+        'type'    => 'text',
       ),
       array(
-        'name' => __( 'Email', 'ukmtheme' ),
-        'desc' => __( 'e.g. user@ukm.edu.my', 'ukmtheme' ),
-        'id'   => $prefix . 'expertise_email',
-        'type' => 'text_email',
+        'name'    => __( 'Email', 'ukmtheme' ),
+        'desc'    => __( 'e.g. user@ukm.edu.my', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_email',
+        'type'    => 'text_email',
       ),
       array(
-        'name' => __( 'Current Position', 'ukmtheme' ),
-        'desc' => __( 'e.g. 03-8921-7070', 'ukmtheme' ),
-        'id'   => $prefix . 'expertise_position',
-        'type' => 'text',
+        'name'    => __( 'Current Position', 'ukmtheme' ),
+        'desc'    => __( 'e.g. Professor', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_position',
+        'type'    => 'text',
       ),
       array(
-        'name' => __( 'Specialisation', 'ukmtheme' ),
-        'desc' => __( 'Tourism and Hospitality Marketing, &amp; Services Marketing', 'ukmtheme' ),
-        'id'   => $prefix . 'expertise_specialisation',
-        'type' => 'text',
+        'name'    => __( 'Specialisation', 'ukmtheme' ),
+        'desc'    => __( 'Tourism and Hospitality Marketing, &amp; Services Marketing', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_specialisation',
+        'type'    => 'text',
       ),
       array(
         'name'    => __( 'Qualifications', 'ukmtheme' ),

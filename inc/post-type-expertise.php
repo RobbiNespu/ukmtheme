@@ -63,11 +63,11 @@ add_filter('manage_edit-expertise_columns', 'ut_add_new_expertise_columns');
 function ut_add_new_expertise_columns( $columns ){
   $columns = array(
     'cb'                          => '<input type="checkbox">',
-    'ut_expertise_photo'        => __( 'Photo', 'ukmtheme' ),
+    'ut_expertise_photo'          => __( 'Photo', 'ukmtheme' ),
     'title'                       => __( 'Name', 'ukmtheme' ),
     'ut_expertise_position'       => __( 'Current Position', 'ukmtheme' ),
-    'ut_expertise_email'    => __( 'Email', 'ukmtheme' ),
-    'ut_expertise_contact'         => __( 'Contact', 'ukmtheme' )
+    'ut_expertise_email'          => __( 'Email', 'ukmtheme' ),
+    'ut_expertise_contact'        => __( 'Contact', 'ukmtheme' )
   );
   return $columns;
 }
