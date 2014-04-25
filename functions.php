@@ -188,7 +188,7 @@ add_action( 'widgets_init', 'ukmtheme_widgets_init' );
       'name'            => __( 'Frontpage Custom Box', 'ukmtheme' ),
       'id'              => 'sidebar-5',
       'description'     => __( 'Appears when using the optional Front Page', 'ukmtheme' ),
-      'before_widget'   => '<aside class="col-1-1">',
+      'before_widget'   => '<aside class="col-1-1 widgets-wrap">',
       'after_widget'    => '</aside>',
       'before_title'    => '<h3 class="widget-title">',
       'after_title'     => '</h3>',
