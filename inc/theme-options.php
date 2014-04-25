@@ -38,6 +38,7 @@ function register_mysettings() {
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_four' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_basic' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_custom' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_facebook' );
 }
 
 function theme_options_do_page() { ?>
@@ -68,7 +69,9 @@ function theme_options_do_page() { ?>
               $widget_four_box = get_option('ukmtheme_widget_four');
               $widget_basic = get_option('ukmtheme_widget_basic');
               $widget_custom = get_option('ukmtheme_widget_custom');
+              $widget_facebook = get_option('ukmtheme_widget_facebook');
             ?>
+            <p class="description"><?php _e( 'Tandakan yang perlu sahaja. Sekiranya memilih "Custom", pastikan "Basic tidak dipilih". Untuk Facebook Like Box, masukkan url Facebook di ruangan Social Link.'); ?></p>
             <input id='checkbox' name='ukmtheme_widget_basic' type='checkbox' value="news" <?php echo ( 'news' == $widget_basic ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_basic"><?php _e( 'Basic', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_news' type='checkbox' value="news-scroller" <?php echo ( 'news-scroller' == $widget_news_scroller ) ? 'checked="checked"' : ''; ?> />
@@ -79,7 +82,8 @@ function theme_options_do_page() { ?>
             <label class="description" for="ukmtheme_widget_four"><?php _e( 'Four Column', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_custom' type='checkbox' value="custom" <?php echo ( 'custom' == $widget_custom ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_custom"><?php _e( 'Custom', 'ukmtheme' ); ?></label><br/>
-            <p class="description">Choose which needed only</p>
+            <input id='checkbox' name='ukmtheme_widget_facebook' type='checkbox' value="facebook" <?php echo ( 'facebook' == $widget_facebook ) ? 'checked="checked"' : ''; ?> />
+            <label class="description" for="ukmtheme_widget_facebook"><?php _e( 'Facebook Like Box', 'ukmtheme' ); ?></label><br/>
           </td>
         </tr>
         <tr valign="top">

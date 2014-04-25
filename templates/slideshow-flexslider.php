@@ -14,7 +14,7 @@ global $post;
 <script type="text/javascript">
 // Can also be used with $(document).ready()
 $(window).load(function() {
-  $('.flexslider').flexslider({
+  $('#slideshow').flexslider({
     animation: "slide",
     nextText: "",
     prevText: ""
@@ -22,7 +22,7 @@ $(window).load(function() {
 });
 </script>
 <div class="wrap">
-  <div class="flexslider">
+  <div id="slideshow" class="flexslider">
     <ul class="slides">
       <?php if( $slideshow->have_posts() ) : while( $slideshow->have_posts() ) : $slideshow->the_post(); ?>
         <li>

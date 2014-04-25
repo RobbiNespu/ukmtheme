@@ -14,17 +14,19 @@ get_header(); ?>
 <div class="home-content-wrap">
   <div class="wrap home-content">
   <?php
-    $widget_news_scroller = get_option('ukmtheme_widget_news');
-    $widget_three_box = get_option('ukmtheme_widget_three');
-    $widget_four_box = get_option('ukmtheme_widget_four');
-    $widget_basic = get_option('ukmtheme_widget_basic');
-    $widget_custom = get_option('ukmtheme_widget_custom');
+    $widget_news_scroller   = get_option('ukmtheme_widget_news');
+    $widget_three_box       = get_option('ukmtheme_widget_three');
+    $widget_four_box        = get_option('ukmtheme_widget_four');
+    $widget_basic           = get_option('ukmtheme_widget_basic');
+    $widget_custom          = get_option('ukmtheme_widget_custom');
+    $widget_facebook        = get_option('ukmtheme_widget_facebook');
     
     get_template_part( 'templates/widget', $widget_news_scroller );
     get_template_part( 'templates/widget', $widget_basic );
     get_template_part( 'templates/widget', $widget_custom );
     get_template_part( 'templates/widget', $widget_three_box );
     get_template_part( 'templates/widget', $widget_four_box );
+    get_template_part( 'templates/widget', $widget_facebook );
   ?>
   </div>
 </div>

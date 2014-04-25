@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     uglify: {
       options: {
-        banner: '/*! UKMTheme 6 <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+        banner: '/*! UKMTheme 6.1 by Jamaludin Rajalu <%= grunt.template.today("yyyy-mm-dd") %> */\n'
       },
       build: {
         src: [
