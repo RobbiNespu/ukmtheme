@@ -8,7 +8,7 @@
  *
  * @author Jamaludin Rajalu
  *
- * Post Type: Frequently Asked Questions
+ * Post Type: Press Release
  */
 
 function ut_press() {
@@ -54,5 +54,25 @@ function ut_press() {
 
 // Hook into the 'init' action
 add_action( 'init', 'ut_press', 0 );
+
+add_action('manage_press_posts_custom_column', 'ut_press_custom_columns');
+add_filter('manage_edit-press_columns', 'ut_add_new_press_columns');
+
+function ut_add_new_press_columns( $columns ){
+  $columns = array(
+    'cb'                  => '<input type="checkbox">',
+    'ut_press_date'       => __( 'Date', 'ukmtheme' ),
+    'title'               => __( 'Title', 'ukmtheme' ),
+  );
+  return $columns;
+}
+
+function ut_press_custom_columns( $column ){
+  global $post;
+  
+  switch ($column) {
+    case 'ut_press_date' : echo get_post_meta($post->ID,'ut_press_date',true); break;
+  }
+}
 
 ?>

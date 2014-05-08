@@ -42,6 +42,32 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
     ),
   );
 
+  // Press Release
+
+  $meta_boxes['press_metabox'] = array(
+    'id'          => 'press_metabox',
+    'title'       => __( 'Press Release Detail', 'ukmtheme' ),
+    'pages'       => array( 'press', ),
+    'context'     => 'normal',
+    'priority'    => 'high',
+    'show_names'  => true,
+    'fields'      => array(
+      array(
+        'name'    => __( 'Date', 'ukmtheme' ),
+        'desc'    => __( 'Press Release Date', 'ukmtheme' ),
+        'id'      => $prefix . 'press_date',
+        'type'    => 'text_date',
+      ),
+      array(
+        'name'    => __( 'Document File', 'ukmtheme' ),
+        'desc'    => __( 'Upload document file.', 'ukmtheme' ),
+        'id'      => $prefix . 'press_file',
+        'type'    => 'file',
+        'allow'   => array('url'),
+      ),
+    ),
+  );
+
   // GALLERY
 
   $meta_boxes['gallery_metabox'] = array(
