@@ -72,6 +72,7 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
     require( $ut_dir . 'inc/post-type-gallery.php');
     require( $ut_dir . 'inc/post-type-news.php');
     require( $ut_dir . 'inc/post-type-news-scroller.php');
+    require( $ut_dir . 'inc/post-type-press.php' );
     require( $ut_dir . 'inc/post-type-publication.php' );
     require( $ut_dir . 'inc/post-type-staff.php');
     require( $ut_dir . 'inc/post-type-slideshow.php');
