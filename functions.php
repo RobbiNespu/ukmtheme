@@ -83,7 +83,6 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
     require( $ut_dir . 'inc/widget-news.php' );
     require( $ut_dir . 'inc/widget-youtube.php' );
     require( $ut_dir . 'inc/widget-excellent-staff.php' );
-    require( $ut_dir . 'lib/hc-text-widget/hc-text-widget.php' );
     require( $ut_dir . 'lib/hc-custom-wp-admin-url/hc-custom-wp-admin-url.php' );
     require( $ut_dir . 'templates/page-sitemap.php' );
       
