@@ -72,7 +72,11 @@ function ukmtheme_register_required_plugins() {
       'slug'      => 'contact-form-7',
       'required'  => false,
     ),
-
+    array(
+      'name'      => 'Black Studio TinyMCE Widget',
+      'slug'      => 'black-studio-tinymce-widget',
+      'required'  => false,
+    ),
   );
 
   // Change this to your theme text domain, used for internationalising strings
