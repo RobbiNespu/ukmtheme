@@ -12,12 +12,11 @@ $slideshow = new WP_Query('post_type=slideshow');
 global $post;
 ?> 
 <script type="text/javascript">
-// Can also be used with $(document).ready()
-$(window).load(function() {
+$(document).ready(function() {
   $('#slideshow').flexslider({
     animation: "slide",
     nextText: "",
-    prevText: ""
+    prevText: "",
   });
 });
 </script>
