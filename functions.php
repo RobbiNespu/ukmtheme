@@ -15,11 +15,12 @@ $ut_dir = get_template_directory();
 
 add_action( 'admin_enqueue_scripts', 'ut_wp_admin_scripts' );
   function ut_wp_admin_scripts() {
-
+    // Javascript
     wp_enqueue_script( 'thickbox' );
-    wp_enqueue_style( 'thickbox' );
     wp_enqueue_script( 'wp-color-picker' );
     wp_enqueue_script( 'wp-color-picker-option', get_template_directory_uri() . '/assets/js/options.js', array('wp-color-picker'), '6.1', true );
+    // Stylesheet
+    wp_enqueue_style( 'thickbox' );
     wp_enqueue_style( 'wp-color-picker' );
     wp_enqueue_style( 'admin', get_template_directory_uri() . '/assets/css/admin.min.css', false, '6.1' );
     
@@ -60,32 +61,31 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
 
     load_theme_textdomain( 'ukmtheme', get_template_directory() . '/lang' );
 
-    require( $ut_dir . 'inc/nav-secondary-menu.php' );
-    require( $ut_dir . 'inc/theme-docs.php' );
-    require( $ut_dir . 'inc/theme-options.php' );
-    require( $ut_dir . 'inc/theme-login.php' );
-    require( $ut_dir . 'inc/theme-plugins.php' );
-    require( $ut_dir . 'inc/post-type-appreciation.php' );
-    require( $ut_dir . 'inc/post-type-event.php' );
-    require( $ut_dir . 'inc/post-type-expertise.php' );
-    require( $ut_dir . 'inc/post-type-faq.php');
-    require( $ut_dir . 'inc/post-type-gallery.php');
-    require( $ut_dir . 'inc/post-type-news.php');
-    require( $ut_dir . 'inc/post-type-news-scroller.php');
-    require( $ut_dir . 'inc/post-type-press.php' );
-    require( $ut_dir . 'inc/post-type-publication.php' );
-    require( $ut_dir . 'inc/post-type-staff.php');
-    require( $ut_dir . 'inc/post-type-slideshow.php');
-    require( $ut_dir . 'inc/post-type-video.php');
-    require( $ut_dir . 'inc/theme-archive-links.php' );
-    require( $ut_dir . 'inc/metabox-setup.php' );
-    require( $ut_dir . 'inc/widget-appreciation.php' );
-    require( $ut_dir . 'inc/widget-event.php' );
-    require( $ut_dir . 'inc/widget-news.php' );
-    require( $ut_dir . 'inc/widget-youtube.php' );
-    require( $ut_dir . 'inc/widget-excellent-staff.php' );
-    require( $ut_dir . 'lib/hc-custom-wp-admin-url/hc-custom-wp-admin-url.php' );
-    require( $ut_dir . 'templates/page-sitemap.php' );
+    require( 'inc/nav-secondary-menu.php' );
+    require( 'inc/theme-options.php' );
+    require( 'inc/theme-login.php' );
+    require( 'inc/theme-plugins.php' );
+    require( 'inc/post-type-appreciation.php' );
+    require( 'inc/post-type-event.php' );
+    require( 'inc/post-type-expertise.php' );
+    require( 'inc/post-type-faq.php');
+    require( 'inc/post-type-gallery.php');
+    require( 'inc/post-type-news.php');
+    require( 'inc/post-type-news-scroller.php');
+    require( 'inc/post-type-press.php' );
+    require( 'inc/post-type-publication.php' );
+    require( 'inc/post-type-staff.php');
+    require( 'inc/post-type-slideshow.php');
+    require( 'inc/post-type-video.php');
+    require( 'inc/theme-archive-links.php' );
+    require( 'inc/metabox-setup.php' );
+    require( 'inc/widget-appreciation.php' );
+    require( 'inc/widget-event.php' );
+    require( 'inc/widget-news.php' );
+    require( 'inc/widget-youtube.php' );
+    require( 'inc/widget-excellent-staff.php' );
+    require( 'lib/hc-custom-wp-admin-url/hc-custom-wp-admin-url.php' );
+    require( 'templates/page-sitemap.php' );
       
     register_nav_menus( array(
       'top'       => __( 'Top Navigation', 'ukmtheme' ),
