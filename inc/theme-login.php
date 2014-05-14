@@ -12,7 +12,7 @@
 function ukmtheme_login_logo() { ?>
   <style type="text/css">
   body.login div#login h1 a {
-    background-image: none, url("<?php echo get_stylesheet_directory_uri(); ?>/assets/images/public/logo-login.svg?ver=6.1");
+    background-image: none, url("<?php echo get_stylesheet_directory_uri(); ?>/assets/images/public/logo-login.png?ver=6.1");
     background-size: 320px 80px;
     background-position: center top;
     background-repeat: no-repeat;
