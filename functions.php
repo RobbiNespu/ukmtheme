@@ -9,8 +9,6 @@
  * @author Jamaludin Rajalu
  */
 
-$ut_dir = get_template_directory();
-
 // Admin Scripts and Style Enqueue
 
 add_action( 'admin_enqueue_scripts', 'ut_wp_admin_scripts' );

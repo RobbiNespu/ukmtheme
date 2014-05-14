@@ -14,7 +14,15 @@ get_header(); ?>
 <section class="col-3-4 article">
 <h2 class="content-title"><?php single_cat_title(); ?></h2>
 
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<?php
+  $expert = new WP_Query( array( 
+    'post_type'       => 'expertise', 
+    'posts_per_page'  => -1, 
+    'orderby'         => 'menu_order', 
+    'order'           => 'ASC' 
+  ));
+?>
+<?php if ( $expert->have_posts() ) : while ( $expert->have_posts() ) : $expert->the_post(); ?>
 <div class="uk-panel uk-panel-box uk-panel-box-secondary staff-wrap">
   <div class="col-1-7">
       <div class="staff-photo">

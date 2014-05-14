@@ -80,7 +80,7 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
     'fields'      => array(
       array(
         'name'    => __( 'Gallery Cover Image', 'ukmtheme' ),
-        'desc'    => __( 'Upload an image or enter a URL. dimensions of the image should be 300x300 pixels.', 'ukmtheme' ),
+        'desc'    => __( 'Upload an image or enter a URL. dimensions of the image should be 300x300 pixels. <a href="'. get_template_directory_uri() .'/assets/templates/gimp_300_300.xcf">GIMP Template</a>', 'ukmtheme' ),
         'id'      => $prefix . 'gallery_cover',
         'type'    => 'file',
         'allow'   => array('url'),
@@ -112,7 +112,7 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
     'fields'      => array(
       array(
         'name'    => __( 'Slideshow Image', 'ukmtheme' ),
-        'desc'    => __( 'Upload an image or enter a URL. dimensions of the image should be 960x350 pixels.', 'ukmtheme' ),
+        'desc'    => __( 'Upload an image or enter a URL. dimensions of the image should be 960x350 pixels. <a href="'. get_template_directory_uri() .'/assets/templates/gimp_960_350.xcf">GIMP Template</a>', 'ukmtheme' ),
         'id'      => $prefix . 'slideshow_image',
         'type'    => 'file',
         'allow'   => array('url'),
@@ -220,7 +220,7 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
     'fields'      => array(
       array(
         'name'    => __( 'Cover Image', 'ukmtheme' ),
-        'desc'    => __( 'Upload an image or enter a URL. dimensions of the image should be 300x350 pixels.', 'ukmtheme' ),
+        'desc'    => __( 'Upload an image or enter a URL. dimensions of the image should be 300x380 pixels. <a href="'. get_template_directory_uri() .'/assets/templates/gimp_300_380.xcf">GIMP Template</a>', 'ukmtheme' ),
         'id'      => $prefix . 'publication_cover',
         'type'    => 'file',
         'allow'   => array('url'),
@@ -277,7 +277,7 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
     'fields'      => array(
       array(
         'name'    => __( 'Staff Photo', 'ukmtheme' ),
-        'desc'    => __( 'Upload an image or enter a URL. dimensions of the image should be 300x350 pixels.', 'ukmtheme' ),
+        'desc'    => __( 'Upload an image or enter a URL. dimensions of the image should be 300x380 pixels. <a href="'. get_template_directory_uri() .'/assets/templates/gimp_300_380.xcf">GIMP Template</a>', 'ukmtheme' ),
         'id'      => $prefix . 'staff_photo',
         'type'    => 'file',
         'allow'   => array('url'),
@@ -309,7 +309,7 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
     'fields'      => array(
       array(
         'name'    => __( 'Expert Photo', 'ukmtheme' ),
-        'desc'    => __( 'Upload an image or enter a URL. dimensions of the image should be 300x350 pixels.', 'ukmtheme' ),
+        'desc'    => __( 'Upload an image or enter a URL. dimensions of the image should be 300x380 pixels. <a href="'. get_template_directory_uri() .'/assets/templates/gimp_300_380.xcf">GIMP Template</a>', 'ukmtheme' ),
         'id'      => $prefix . 'expertise_photo',
         'type'    => 'file',
         'allow'   => array('url'),

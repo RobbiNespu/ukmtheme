@@ -55,7 +55,7 @@ class ExcellentStaff_Widget extends WP_Widget {
       $excellentStaff = array( 
                           'post_type'       => 'staff',
                           'posts_per_page'  => -1,
-                          'staffcat'        => 'excellent',
+                          'position'        => 'excellent',
                         );
       $excellentStaff_loop = new WP_Query( $excellentStaff );
       while ( $excellentStaff_loop->have_posts() ) : $excellentStaff_loop->the_post();
@@ -93,7 +93,7 @@ class ExcellentStaff_Widget extends WP_Widget {
     <label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?></label> 
     <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>">
     </p>
-    <p><?php _e( 'Create one category named "excellent" and assign staff to that category.', 'ukmtheme' ); ?></p>
+    <p><?php _e( 'Create one position named "excellent" and assign staff to that category.', 'ukmtheme' ); ?></p>
     <?php 
   }
 
