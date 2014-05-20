@@ -9,7 +9,7 @@ $pages_args = array(
     'post_status' => 'publish'
 ); 
  
-$ukmtheme_sitemap .= '<h3>Pages</h3>';
+$ukmtheme_sitemap .= _e( '<h3>Pages</h3>','ukmtheme' );
 $ukmtheme_sitemap .= '<ul>';
 $pages = get_pages($pages_args); 
 foreach ( $pages as $page ) :
