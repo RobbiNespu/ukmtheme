@@ -67,14 +67,22 @@ function ukmtheme_register_required_plugins() {
       'slug'      => 'simple-page-ordering',
       'required'  => false,
     ),
+
     array(
       'name'      => 'Contact Form 7',
       'slug'      => 'contact-form-7',
       'required'  => false,
     ),
+
     array(
       'name'      => 'Black Studio TinyMCE Widget',
       'slug'      => 'black-studio-tinymce-widget',
+      'required'  => false,
+    ),
+    
+    array(
+      'name'      => 'TablePress',
+      'slug'      => 'tablepress',
       'required'  => false,
     ),
   );
