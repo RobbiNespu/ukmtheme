@@ -38,11 +38,11 @@
   </div><!--.wrap-->
 </nav>
 <header>
-  <div class="wrap logo">
+  <h1 class="wrap logo">
     <a href="<?php bloginfo('url'); ?>">
         <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
     </a>
-  </div>
+  </h1>
   <div class="wrap secondary-menu">
     <?php 
       wp_nav_menu(array(
