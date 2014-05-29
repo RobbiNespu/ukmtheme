@@ -80,6 +80,7 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
     require( 'inc/widget-appreciation.php' );
     require( 'inc/widget-event.php' );
     require( 'inc/widget-news.php' );
+    require( 'inc/widget-news-thumbnail.php' );
     require( 'inc/widget-youtube.php' );
     require( 'inc/widget-excellent-staff.php' );
     require( 'lib/hc-custom-wp-admin-url/hc-custom-wp-admin-url.php' );
@@ -186,7 +187,7 @@ add_action( 'widgets_init', 'ukmtheme_widgets_init' );
       'name'            => __( 'Frontpage Custom Box', 'ukmtheme' ),
       'id'              => 'sidebar-5',
       'description'     => __( 'Appears when using the optional Front Page', 'ukmtheme' ),
-      'before_widget'   => '<aside class="col-1-1 widgets-wrap">',
+      'before_widget'   => '<aside class="col-1-1">',
       'after_widget'    => '</aside>',
       'before_title'    => '<h3 class="widget-title">',
       'after_title'     => '</h3>',
