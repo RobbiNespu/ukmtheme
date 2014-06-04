@@ -142,6 +142,7 @@ add_filter('upload_mimes','add_custom_mime_types');
 // Widget Init
 
 add_action( 'widgets_init', 'ukmtheme_widgets_init' );
+if (!function_exists('ukmtheme_widgets_init')) {
   function ukmtheme_widgets_init() {
     register_sidebar( array(
       'name'            => __( 'Main Sidebar', 'ukmtheme' ),
@@ -193,3 +194,4 @@ add_action( 'widgets_init', 'ukmtheme_widgets_init' );
       'after_title'     => '</h3>',
     ) );
   }
+}
