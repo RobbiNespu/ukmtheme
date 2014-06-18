@@ -57,33 +57,6 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
     add_theme_support( 'automatic-feed-links' );
 
     load_theme_textdomain( 'ukmtheme', get_template_directory() . '/lang' );
-
-    require( 'inc/nav-secondary-menu.php' );
-    require( 'inc/theme-options.php' );
-    require( 'inc/theme-login.php' );
-    require( 'inc/theme-plugins.php' );
-    require( 'inc/post-type-appreciation.php' );
-    require( 'inc/post-type-event.php' );
-    require( 'inc/post-type-expertise.php' );
-    require( 'inc/post-type-faq.php');
-    require( 'inc/post-type-gallery.php');
-    require( 'inc/post-type-news.php');
-    require( 'inc/post-type-news-scroller.php');
-    require( 'inc/post-type-press.php' );
-    require( 'inc/post-type-publication.php' );
-    require( 'inc/post-type-staff.php');
-    require( 'inc/post-type-slideshow.php');
-    require( 'inc/post-type-video.php');
-    require( 'inc/theme-archive-links.php' );
-    require( 'inc/metabox-setup.php' );
-    require( 'inc/widget-appreciation.php' );
-    require( 'inc/widget-event.php' );
-    require( 'inc/widget-news.php' );
-    require( 'inc/widget-news-thumbnail.php' );
-    require( 'inc/widget-youtube.php' );
-    require( 'inc/widget-excellent-staff.php' );
-    require( 'lib/hc-custom-wp-admin-url/hc-custom-wp-admin-url.php' );
-    require( 'templates/page-sitemap.php' );
       
     register_nav_menus( array(
       'top'       => __( 'Top Navigation', 'ukmtheme' ),
@@ -104,6 +77,40 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
 
     add_post_type_support( 'staff', 'page-attributes' );
     
+  }
+
+// Load Post Type
+
+add_action( 'after_setup_theme', 'ukmtheme_module' );
+  if (!function_exists('ukmtheme_ukmtheme_module')) {
+    function ukmtheme_module() {
+      require( 'inc/nav-secondary-menu.php' ); // Menu Utama
+      require( 'inc/theme-options.php' ); // Theme Options
+      require( 'inc/theme-login.php' ); // Custon Login Page
+      require( 'inc/theme-plugins.php' ); // Require Plugin
+      require( 'inc/post-type-appreciation.php' );
+      require( 'inc/post-type-event.php' );
+      require( 'inc/post-type-expertise.php' );
+      require( 'inc/post-type-faq.php');
+      require( 'inc/post-type-gallery.php');
+      require( 'inc/post-type-news.php');
+      require( 'inc/post-type-news-scroller.php');
+      require( 'inc/post-type-press.php' );
+      require( 'inc/post-type-publication.php' );
+      require( 'inc/post-type-staff.php');
+      require( 'inc/post-type-slideshow.php');
+      require( 'inc/post-type-video.php');
+      require( 'inc/theme-archive-links.php' );
+      require( 'inc/metabox-setup.php' );
+      require( 'inc/widget-appreciation.php' );
+      require( 'inc/widget-event.php' );
+      require( 'inc/widget-news.php' );
+      require( 'inc/widget-news-thumbnail.php' );
+      require( 'inc/widget-youtube.php' );
+      require( 'inc/widget-excellent-staff.php' );
+      require( 'lib/hc-custom-wp-admin-url/hc-custom-wp-admin-url.php' );
+      require( 'templates/page-sitemap.php' );
+    }
   }
 
 // Add Home Item in Apperance > Menus
