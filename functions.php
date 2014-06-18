@@ -34,7 +34,6 @@ if (!is_admin()) add_action('wp_enqueue_scripts', 'ukmtheme_scripts', 11);
     wp_enqueue_script( 'fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.pack.js', array(), '2.1.5', true );
     wp_enqueue_script( 'default', get_template_directory_uri() . '/assets/js/script.min.js', array(), '6.1', true );
     // Stylesheet
-    wp_enqueue_style('opensans', get_template_directory_uri() . '/assets/fonts/css?family=Open+Sans:300italic,600italic,300,600', false, '6.1' );
     wp_enqueue_style('fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.css', false, '2.1.5' );
     wp_enqueue_style( 'default', get_template_directory_uri() . '/assets/css/style.min.css', false, '6.1' );
   }

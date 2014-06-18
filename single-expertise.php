@@ -73,6 +73,14 @@ get_header(); ?>
             </div>
             <div class="column">
               <div class="col-3-10 article">
+                <strong><?php _e( 'Book', 'ukmtheme' ) ?></strong>
+              </div>
+              <div class="col-7-10">
+                <p><?php echo get_post_meta($post->ID, 'ut_expertise_book', true); ?></p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="col-3-10 article">
                 <strong><?php _e( 'Articles in Antologi/Chapters in Book', 'ukmtheme' ) ?></strong>
               </div>
               <div class="col-7-10">
@@ -85,6 +93,14 @@ get_header(); ?>
               </div>
               <div class="col-7-10">
                 <p><?php echo get_post_meta($post->ID, 'ut_expertise_monograph', true); ?></p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="col-3-10 article">
+                <strong><?php _e( 'Seminar', 'ukmtheme' ) ?></strong>
+              </div>
+              <div class="col-7-10">
+                <p><?php echo get_post_meta($post->ID, 'ut_expertise_seminar', true); ?></p>
               </div>
             </div>
             <div class="column">
@@ -117,6 +133,14 @@ get_header(); ?>
               </div>
               <div class="col-7-10">
                 <p><?php echo get_post_meta($post->ID, 'ut_expertise_reports', true); ?></p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="col-3-10 article">
+                <strong><?php _e( 'Research Grant', 'ukmtheme' ) ?></strong>
+              </div>
+              <div class="col-7-10">
+                <p><?php echo get_post_meta($post->ID, 'ut_expertise_research_grant', true); ?></p>
               </div>
             </div>
             <div class="column">
