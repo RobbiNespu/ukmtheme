@@ -48,7 +48,6 @@ get_header(); ?>
     
 <?php endif; ?>
 <?php wp_reset_postdata(); ?>
-<p><?php get_template_part( 'templates/content', 'paginate' ); ?></p>
 </section>
 <aside class="col-1-4">
     <?php get_template_part( 'sidebar', 'page'); ?>
