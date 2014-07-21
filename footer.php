@@ -40,19 +40,5 @@ wp_footer(); ?>
     <p style="text-align:center;"><?php _e('Powered by','ukmtheme'); ?>&nbsp;<a href="http://www.ukm.my/template/" target="_blank">UKMTheme</a></p>
   </div>
 </footer>
-  <script type="text/javascript">
-    WebFontConfig = {
-      google: { families: [ 'Open+Sans:300italic,600italic,300,600:latin' ] }
-    };
-    (function() {
-      var wf = document.createElement('script');
-      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-      wf.type = 'text/javascript';
-      wf.async = 'true';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(wf, s);
-    })();
-  </script>
 </body>
 </html>
