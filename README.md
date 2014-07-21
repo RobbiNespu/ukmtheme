@@ -10,3 +10,6 @@ Pemasangan boleh dilakukan melalui WordPress Dashboard > Appearance > Add New. K
 
 ###Kolaborasi
 Kami mengalu-alukan penglibatan dan sumbangan pengguna untuk memberi pendapat, menguji cuba serta melaporkan ralat untuk penamabahbaikan. Sekiranya terdapat kegagalan atau ralat semasa penggunaan, kami mengharapkan pengguna dapat melaporkan segera ralat tersebut kepada pembangun di alamat emel <jrajalu@ukm.edu.my>
+
+###Lesen
+Karya ini adalah di bawah lesen Creative Commons Atribusi 4.0 Antarabangsa. Untuk melihat salinan lesen ini, kunjungi [http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/).
