@@ -151,7 +151,7 @@ function theme_options_do_page() { ?>
         <tr valign="top">
         <th scope="row"><?php _e('Primary','ukmtheme'); ?></th>
         <td>
-          <input type="text" name="ukmtheme_mn_color" value="<?php if ( isset( $theme_one ) ) echo $theme_one; ?>" class="theme-one" data-default-color="#0095d9" />
+          <input type="text" name="ukmtheme_mn_color" value="<?php if ( isset( $theme_one ) ) echo $theme_one; ?>" class="theme-one" data-default-color="#ed1c24" />
         </td>
         </tr>
         <tr valign="top">
