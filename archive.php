@@ -29,12 +29,12 @@
                   the_post_thumbnail();
                 }
                 else {
-                  echo '<img src="' . get_template_directory_uri() . '/assets/images/public/thumbnail.svg?ver:6.1.1" />';
+                  echo '<img src="' . get_template_directory_uri() . '/assets/images/public/thumbnail.jpg?ver=6.2" />';
                 }
             ?>
             </div>
             <div class="col-4-5 ut-news-content">
-                <h4 class="ut-news-title"><?php the_title(); ?></h4>
+                <a href="<?php echo get_permalink(); ?>"><h3 class="ut-news-title"><?php the_title(); ?></h3></a>
                 <div class="ut-news-detail">
                     <?php the_excerpt(); ?>
                 </div><!--.ut-news-detail-->

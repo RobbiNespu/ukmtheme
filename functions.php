@@ -16,27 +16,29 @@ add_action( 'admin_enqueue_scripts', 'ut_wp_admin_scripts' );
     // Javascript
     wp_enqueue_script( 'thickbox' );
     wp_enqueue_script( 'wp-color-picker' );
-    wp_enqueue_script( 'wp-color-picker-option', get_template_directory_uri() . '/assets/js/options.js', array('wp-color-picker'), '6.1', true );
+    wp_enqueue_script( 'wp-color-picker-option', get_template_directory_uri() . '/assets/js/options.js', array('wp-color-picker'), '6.2', true );
     // Stylesheet
     wp_enqueue_style( 'thickbox' );
     wp_enqueue_style( 'wp-color-picker' );
-    wp_enqueue_style( 'admin', get_template_directory_uri() . '/assets/css/admin.min.css', false, '6.1' );
+    wp_enqueue_style( 'admin', get_template_directory_uri() . '/assets/css/admin.min.css', false, '6.2' );
     
   }
 
 // Public Scripts and Style Enqueue
 
 if (!is_admin()) add_action('wp_enqueue_scripts', 'ukmtheme_scripts', 11);
+if (!function_exists('ukmtheme_scripts')) {
   function ukmtheme_scripts() {
     // Javascript
     wp_deregister_script('jquery' );
     wp_enqueue_script( 'jquery', get_template_directory_uri() . '/assets/js/jquery-1.11.0.min.js', array(), '1.11.0', false );
     wp_enqueue_script( 'fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.pack.js', array(), '2.1.5', true );
-    wp_enqueue_script( 'default', get_template_directory_uri() . '/assets/js/script.min.js', array(), '6.1', true );
+    wp_enqueue_script( 'default', get_template_directory_uri() . '/assets/js/script.min.js', array(), '6.2', true );
     // Stylesheet
     wp_enqueue_style('fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.css', false, '2.1.5' );
-    wp_enqueue_style( 'default', get_template_directory_uri() . '/assets/css/style.min.css', false, '6.1' );
+    wp_enqueue_style( 'default', get_template_directory_uri() . '/assets/css/style.min.css', false, '6.2' );
   }
+}
 
 // Theme Update Checker
 
@@ -67,7 +69,7 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
     add_theme_support( 'custom-header', array(
       'width'         => 960,
       'height'        => 100,
-      'default-image' => get_template_directory_uri() . '/assets/images/public/logo.svg?ver=6.1',
+      'default-image' => get_template_directory_uri() . '/assets/images/public/logo.png?ver=6.2',
       'uploads'       => true,
       'header-text'   => false,
       )
@@ -82,7 +84,7 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
 // Load Post Type
 
 add_action( 'after_setup_theme', 'ukmtheme_module' );
-  if (!function_exists('ukmtheme_ukmtheme_module')) {
+  if (!function_exists('ukmtheme_module')) {
     function ukmtheme_module() {
       require( 'inc/nav-secondary-menu.php' ); // Menu Utama
       require( 'inc/theme-options.php' ); // Theme Options
