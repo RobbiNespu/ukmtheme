@@ -762,6 +762,76 @@ p.flex-caption a:visited {
   border-bottom: 1px solid #ccc;
 }
 
+/* =Events Widgets Slider
+-------------------------------------------------------------- */
+
+#event_slider {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 960px;
+  height: 100px;
+  padding: 10px 25px;
+  position: relative;
+}
+.caroufredsel_wrapper {
+  border-radius: 0;
+}
+#carousel img,
+#carousel div {
+  width: 250px;
+  height: 100px;
+  margin: 0 5px;
+  float: left;
+}
+#prev, #next {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  width: 80px;
+  height: 100px;
+  top: 0;
+  bottom: 5px;
+  background: #1b2027;
+}
+#prev {
+  left: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#next {
+  right: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#prev:before,
+#next:before {
+  font-family: FontAwesome;
+  font-weight: 400;
+  color: #000;
+  font-size: 50px;
+  margin-top: 40px;
+  display: block;
+  position: absolute;
+  color: #ccc;
+}
+#prev:before {
+  content: "\f137";
+  left: 20px;
+}
+#next:before {
+  content: "\f138";
+  right: 20px;
+}
+
+.new_event_heading {
+  margin-bottom: 0;
+  background: #1b2027;
+  color: #fff;
+  padding: 3px 5px;
+}
+
+
 /* =FAQs
 -------------------------------------------------------------- */
 

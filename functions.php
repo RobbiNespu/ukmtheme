@@ -33,6 +33,7 @@ if (!function_exists('ukmtheme_scripts')) {
     wp_deregister_script('jquery' );
     wp_enqueue_script( 'jquery', get_template_directory_uri() . '/assets/js/jquery-1.11.0.min.js', array(), '1.11.0', false );
     wp_enqueue_script( 'fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.pack.js', array(), '2.1.5', true );
+    wp_enqueue_script( 'caroufredsel', '//cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.2.1/jquery.carouFredSel.packed.js', array(), '6.2.1', true );
     wp_enqueue_script( 'default', get_template_directory_uri() . '/assets/js/script.min.js', array(), '6.2', true );
     // Stylesheet
     wp_enqueue_style('fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.css', false, '2.1.5' );
@@ -101,6 +102,7 @@ add_action( 'after_setup_theme', 'ukmtheme_module' );
       require( 'inc/post-type-publication.php' );
       require( 'inc/post-type-staff.php');
       require( 'inc/post-type-slideshow.php');
+      require( 'inc/post-type-tab.php');
       require( 'inc/post-type-video.php');
       require( 'inc/theme-archive-links.php' );
       require( 'inc/metabox-setup.php' );

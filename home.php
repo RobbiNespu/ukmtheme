@@ -21,7 +21,7 @@ get_header(); ?>
     $widget_custom          = get_option('ukmtheme_widget_custom');
     $widget_facebook        = get_option('ukmtheme_widget_facebook');
    
-   // SUSUNAN WIDGET MUKA HADAPAN
+    // SUSUNAN WIDGET MUKA HADAPAN
 
     /** 1. */ get_template_part( 'templates/widget', $widget_news_scroller );
     /** 2. */ get_template_part( 'templates/widget', $widget_basic );
