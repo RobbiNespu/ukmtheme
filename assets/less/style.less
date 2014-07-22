@@ -769,20 +769,23 @@ p.flex-caption a:visited {
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 5px;
-  width: 960px;
-  height: 100px;
-  padding: 10px 25px;
+  width: 950px;
+  height: 102px;
+  padding: 3px 25px;
   position: relative;
+  margin: 5px auto;
 }
 .caroufredsel_wrapper {
   border-radius: 0;
 }
-#carousel img,
+//#carousel img,
 #carousel div {
-  width: 250px;
-  height: 100px;
-  margin: 0 5px;
+  width: 260px;
+  height: 94px;
+  margin: 0 1px;
   float: left;
+  padding: 0;
+  border: 1px solid #ccc;
 }
 #prev, #next {
   display: block;
@@ -792,28 +795,30 @@ p.flex-caption a:visited {
   height: 100px;
   top: 0;
   bottom: 5px;
-  background: #1b2027;
+  background: #fff;
+  border: 1px solid #fff;
 }
 #prev {
   left: 0;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+  border-right: 1px solid #ccc;
 }
 #next {
   right: 0;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  border-left: 1px solid #ccc;
 }
 #prev:before,
 #next:before {
   font-family: FontAwesome;
   font-weight: 400;
-  color: #000;
+  color: #1b2027;
   font-size: 50px;
   margin-top: 40px;
   display: block;
   position: absolute;
-  color: #ccc;
 }
 #prev:before {
   content: "\f137";
@@ -829,6 +834,10 @@ p.flex-caption a:visited {
   background: #1b2027;
   color: #fff;
   padding: 3px 5px;
+}
+
+.new_event_content {
+  padding: 0 3px;
 }
 
 

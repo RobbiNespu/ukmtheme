@@ -39,6 +39,8 @@ function register_mysettings() {
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_basic' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_custom' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_facebook' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_event' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_tabber' );
 }
 
 function theme_options_do_page() { ?>
@@ -87,6 +89,10 @@ function theme_options_do_page() { ?>
             <label class="description" for="ukmtheme_widget_three"><?php _e( 'Three Column', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_four' type='checkbox' value="four-column" <?php echo ( 'four-column' == $widget_four_box ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_four"><?php _e( 'Four Column', 'ukmtheme' ); ?></label><br/>
+            <input id='checkbox' name='ukmtheme_widget_event' type='checkbox' value="event-slider" <?php echo ( 'event-slider' == $widget_event ) ? 'checked="checked"' : ''; ?> />
+            <label class="description" for="ukmtheme_widget_event"><?php _e( 'Event Slider', 'ukmtheme' ); ?></label><br/>
+            <input id='checkbox' name='ukmtheme_widget_tabber' type='checkbox' value="tabber" <?php echo ( 'tabber' == $widget_tabber ) ? 'checked="checked"' : ''; ?> />
+            <label class="description" for="ukmtheme_widget_tabber"><?php _e( 'Frontpage Tabber', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_custom' type='checkbox' value="custom" <?php echo ( 'custom' == $widget_custom ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_custom"><?php _e( 'Custom', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_facebook' type='checkbox' value="facebook" <?php echo ( 'facebook' == $widget_facebook ) ? 'checked="checked"' : ''; ?> />

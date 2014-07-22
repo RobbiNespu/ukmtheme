@@ -15,12 +15,13 @@
   $(function() {
 
   $('#carousel').carouFredSel({
-    width: 900,
+    width: 897,
     items: 3,
     scroll: 1,
     auto: {
-      duration: 1250,
-      timeoutDuration: 2500
+      play: false
+      //duration: 1250,
+      //timeoutDuration: 2500
     },
     prev: '#prev',
     next: '#next',
@@ -37,7 +38,7 @@
   <?php while ( $eveSlider->have_posts() ) : $eveSlider->the_post(); ?>
     <div>
       <h3 class="new_event_heading"><?php echo get_post_meta($post->ID, 'ut_event_date', true); ?></h3>
-      <?php the_title(); ?>
+      <span class="new_event_content"><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></span>
     </div>
     <?php endwhile; ?>
   </div>
