@@ -41,6 +41,7 @@ function register_mysettings() {
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_facebook' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_event' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_tabber' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_newsPortal' );
 }
 
 function theme_options_do_page() { ?>
@@ -81,10 +82,13 @@ function theme_options_do_page() { ?>
               $widget_facebook = get_option('ukmtheme_widget_facebook');
               $widget_event = get_option('ukmtheme_widget_event');
               $widget_tabber = get_option('ukmtheme_widget_tabber');
+              $widget_news_portal = get_option('ukmtheme_widget_newsPortal');
             ?>
             <p class="description"><?php _e( 'Tandakan yang perlu sahaja. Sekiranya memilih "Custom", pastikan "Basic tidak dipilih". Untuk Facebook Like Box, masukkan url Facebook di ruangan Social Link.'); ?></p>
             <input id='checkbox' name='ukmtheme_widget_basic' type='checkbox' value="news" <?php echo ( 'news' == $widget_basic ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_basic"><?php _e( 'Basic', 'ukmtheme' ); ?></label><br/>
+            <input id='checkbox' name='ukmtheme_widget_newsPortal' type='checkbox' value="news-portal" <?php echo ( 'news-portal' == $widget_news_portal ) ? 'checked="checked"' : ''; ?> />
+            <label class="description" for="ukmtheme_widget_newsPortal"><?php _e( 'News Portal Widget', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_news' type='checkbox' value="news-scroller" <?php echo ( 'news-scroller' == $widget_news_scroller ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_news"><?php _e( 'News Scroller', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_three' type='checkbox' value="three-column" <?php echo ( 'three-column' == $widget_three_box ) ? 'checked="checked"' : ''; ?> />

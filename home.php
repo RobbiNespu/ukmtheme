@@ -22,6 +22,7 @@ get_header(); ?>
     $widget_facebook        = get_option('ukmtheme_widget_facebook');
     $widget_event           = get_option('ukmtheme_widget_event');
     $widget_tabber          = get_option('ukmtheme_widget_tabber');
+    $widget_news_portal     = get_option('ukmtheme_widget_newsPortal');
    
     /**
      * Susunan Widget di muka hadapan web
@@ -32,12 +33,13 @@ get_header(); ?>
 
     /** 1. */ get_template_part( 'templates/widget', $widget_event );
     /** 2. */ get_template_part( 'templates/widget', $widget_tabber );
-    /** 3. */ get_template_part( 'templates/widget', $widget_news_scroller );
-    /** 4. */ get_template_part( 'templates/widget', $widget_basic );
-    /** 5. */ get_template_part( 'templates/widget', $widget_custom );
-    /** 6. */ get_template_part( 'templates/widget', $widget_three_box );
-    /** 7. */ get_template_part( 'templates/widget', $widget_four_box );
-    /** 8. */ get_template_part( 'templates/widget', $widget_facebook );
+    /** 3. */ get_template_part( 'templates/widget', $widget_news_portal );
+    /** 4. */ get_template_part( 'templates/widget', $widget_news_scroller );
+    /** 5. */ get_template_part( 'templates/widget', $widget_basic );
+    /** 6. */ get_template_part( 'templates/widget', $widget_custom );
+    /** 7. */ get_template_part( 'templates/widget', $widget_three_box );
+    /** 8. */ get_template_part( 'templates/widget', $widget_four_box );
+    /** 9. */ get_template_part( 'templates/widget', $widget_facebook );
 
     /**
      * Sekiranya anda telah menambah widget area di functions.php
