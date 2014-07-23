@@ -47,9 +47,9 @@ function theme_options_do_page() { ?>
 <div class="wrap">
 <h2><?php _e( 'Theme Options', 'ukmtheme' ); ?></h2>
 <?php if( isset($_GET['settings-updated']) ) { ?>
-    <div id="message" class="updated">
-        <p><strong><?php _e('Settings saved.') ?></strong></p>
-    </div>
+  <div id="message" class="updated">
+    <p><strong><?php _e('Settings saved.') ?></strong></p>
+  </div>
 <?php } ?>
 <div class="postbox">
   <div class="inside">
@@ -65,7 +65,7 @@ function theme_options_do_page() { ?>
   <p>Masukkan perincian di bawah mengikut keperluan.</p>
     <table class="form-table">
       <tbody>
-          <tr valign="top">
+        <tr valign="top">
           <th scope="row">
           <?php _e( 'Frontpage Layout', 'ukmtheme' ); ?><br/>
           <small><?php _e('Customize frontpage widget area','ukmtheme') ?></small>
@@ -79,6 +79,8 @@ function theme_options_do_page() { ?>
               $widget_basic = get_option('ukmtheme_widget_basic');
               $widget_custom = get_option('ukmtheme_widget_custom');
               $widget_facebook = get_option('ukmtheme_widget_facebook');
+              $widget_event = get_option('ukmtheme_widget_event');
+              $widget_tabber = get_option('ukmtheme_widget_tabber');
             ?>
             <p class="description"><?php _e( 'Tandakan yang perlu sahaja. Sekiranya memilih "Custom", pastikan "Basic tidak dipilih". Untuk Facebook Like Box, masukkan url Facebook di ruangan Social Link.'); ?></p>
             <input id='checkbox' name='ukmtheme_widget_basic' type='checkbox' value="news" <?php echo ( 'news' == $widget_basic ) ? 'checked="checked"' : ''; ?> />
