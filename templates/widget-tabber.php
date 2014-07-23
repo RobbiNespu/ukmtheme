@@ -17,10 +17,9 @@ $args = array(
   'order'           => 'ASC' 
 );
 $tabber = new WP_Query( $args );
-
 ?>
-<script>
-$(function() {
+<script type="text/javascript">
+$(document).ready(function() {
   $('#utTabs').carouFredSel({
     circular: false,
     items: 1,
@@ -35,6 +34,7 @@ $(function() {
   });
 });
 </script>
+
 <div id="utTab_wrapper">
 <div id="utTabsPager"></div>
   <div id="utTabs">
