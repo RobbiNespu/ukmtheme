@@ -34,10 +34,30 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
     'show_names'  => true,
     'fields'      => array(
       array(
-        'name'    => __( 'Video Link', 'cmb' ),
+        'name'    => __( 'Video Link', 'ukmtheme' ),
         'desc'    => __( 'Enter a youtube, twitter, or instagram URL. Supports services listed at <a href="http://codex.wordpress.org/Embeds">http://codex.wordpress.org/Embeds</a>.', 'ukmtheme' ),
         'id'      => $prefix . 'video_url',
         'type'    => 'oembed',
+      ),
+    ),
+  );
+
+
+  // News Portal Link
+
+  $meta_boxes['news_portal_metabox'] = array(
+    'id'          => 'news_portal_metabox',
+    'title'       => __( 'News Detail', 'ukmtheme' ),
+    'pages'       => array( 'news_portal', ),
+    'context'     => 'normal',
+    'priority'    => 'high',
+    'show_names'  => true,
+    'fields'      => array(
+      array(
+        'name'    => __( 'News URL', 'ukmtheme' ),
+        'desc'    => __( 'field description (optional)', 'ukmtheme' ),
+        'id'      => $prefix . 'news_portal_url',
+        'type'    => 'text_url',
       ),
     ),
   );

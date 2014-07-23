@@ -24,6 +24,7 @@ $(document).ready(function() {
     circular: false,
     items: 1,
     width: '100%',
+    height: 'auto',
     auto: false,
     pagination: {
       container: '#utTabsPager',
