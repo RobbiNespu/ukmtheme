@@ -699,16 +699,28 @@ p.flex-caption a:visited {
 }
 
 .news-portal-logo {
+  background: #4ecaf5;
+}
+.news-portal-logo img {
 
 }
 
 .news-portal-block-wrapper {
   margin: 0;
-  height: 79px;
+  padding-left: 1px;
+  min-height: 79px;
 }
 
 .news-portal-block {
   padding: 7px;
+}
+
+.news-portal-block:nth-child(odd) {
+  border-left: 1px solid #ccc;
+}
+
+.news-portal-block:nth-child(even) {
+  border-left: 1px solid #ccc;
 }
 
 .news-portal-block:nth-child(odd) a {
