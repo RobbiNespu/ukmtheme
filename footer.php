@@ -12,7 +12,7 @@ wp_footer(); ?>
 </div><!--.page-wrap-->
 <footer class="site-footer">
 
-<div class="wrap pure-g">
+<div class="wrap pure-g pure-g-r">
   <div class="pure-u-1-2 footer-left-content">   
     <p><?php _e( 'Best view: Viewable with any modern web browser (Desktop &amp; Mobile)', 'ukmtheme' ); ?></p>
     <?php if (dynamic_sidebar( 'sidebar-6' )) : else : endif; ?>

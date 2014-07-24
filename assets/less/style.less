@@ -116,7 +116,7 @@ html, body {
 
 .site-footer, .page-wrap:after {
   /* .push must be the same height as footer */
-  height: 180px;
+  min-height: 180px;
 }
 
 .site-footer {
@@ -1037,5 +1037,24 @@ section.article {
 .visitor-counter {
   display: none;
 }
+
+.site-footer {
+  min-height: 180px;
+  padding: 10px;
+}
+
+.footer-left-content p,
+.footer-right-content p {
+  margin: 0;
+  clear: both;
+  text-align: left;
+}
+
+.footer-social-icon li {
+  display: inline;
+  padding: 0 2px;
+  float: left;
+}
+
 
 } // @media end
