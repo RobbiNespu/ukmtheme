@@ -44,7 +44,7 @@ $(function() {
     <div id="carousel">
     <?php while ( $eveSlider->have_posts() ) : $eveSlider->the_post(); ?>
       <div id="carousel_content">
-        <h3 class="new_event_heading"><?php echo get_post_meta($post->ID, 'ut_event_date', true); ?>&nbsp;:&nbsp;<?php echo get_post_meta($post->ID, 'ut_event_time_start', true); ?></h3>
+        <span class="new_event_heading"><?php echo get_post_meta($post->ID, 'ut_event_date', true); ?>&nbsp;:&nbsp;<?php echo get_post_meta($post->ID, 'ut_event_time_start', true); ?></span>
         <span class="new_event_content"><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></span>
       </div>
       <?php endwhile; ?>
