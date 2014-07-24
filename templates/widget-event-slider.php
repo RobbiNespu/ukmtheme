@@ -21,35 +21,69 @@
   $eveSlider = new WP_Query( $eveData );
 ?>
 <script type="text/javascript">
-$(function() {
+  (function($) {
+    $(function() {
+      var jcarousel = $('.jcarousel');
 
-  $('#carousel').carouFredSel({
-    width: 897,
-    items: 3,
-    scroll: 1,
-    auto: {
-      play: false
-      //duration: 1250,
-      //timeoutDuration: 2500
-    },
-    prev: '#prev',
-    next: '#next',
-  });
+      jcarousel
+      .on('jcarousel:reload jcarousel:create', function () {
+        var width = jcarousel.innerWidth();
 
-});
+        if (width >= 600) {
+          width = width / 3;
+        } else if (width >= 350) {
+          width = width / 2;
+        }
+
+        jcarousel.jcarousel('items').css('width', width + 'px');
+      })
+      .jcarousel({
+        wrap: 'circular'
+      });
+
+      $('.jcarousel-control-prev')
+      .jcarouselControl({
+        target: '-=1'
+      });
+
+      $('.jcarousel-control-next')
+      .jcarouselControl({
+        target: '+=1'
+      });
+
+      $('.jcarousel-pagination')
+      .on('jcarouselpagination:active', 'a', function() {
+        $(this).addClass('active');
+      })
+      .on('jcarouselpagination:inactive', 'a', function() {
+        $(this).removeClass('active');
+      })
+      .on('click', function(e) {
+        e.preventDefault();
+      })
+      .jcarouselPagination({
+        perPage: 1,
+        item: function(page) {
+          return '<a href="#' + page + '">' + page + '</a>';
+        }
+      });
+    });
+  })(jQuery);
 </script>
 
-<div class="wrap">
-  <div id="event_slider">
-    <div id="carousel">
+<div class="wrap event_jcarousel-outer">
+  <div class="jcarousel-wrapper">
+  <div class="jcarousel">
+    <ul>
     <?php while ( $eveSlider->have_posts() ) : $eveSlider->the_post(); ?>
-      <div id="carousel_content">
+      <li>
         <span class="new_event_heading"><?php echo get_post_meta($post->ID, 'ut_event_date', true); ?>&nbsp;:&nbsp;<?php echo get_post_meta($post->ID, 'ut_event_time_start', true); ?></span>
         <span class="new_event_content"><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></span>
-      </div>
+      </li>
       <?php endwhile; ?>
-    </div>
-    <a id="prev" href="#"></a>
-    <a id="next" href="#"></a>
+    </ul>
+  </div>
+  <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+  <a href="#" class="jcarousel-control-next">&rsaquo;</a>
   </div>
 </div>

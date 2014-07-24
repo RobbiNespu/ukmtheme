@@ -822,71 +822,6 @@ p.flex-caption a:visited {
 /* =Events Widgets Slider
 -------------------------------------------------------------- */
 
-#event_slider {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  width: 950px;
-  height: 102px;
-  padding: 3px 25px;
-  position: relative;
-  margin: 5px auto;
-}
-.caroufredsel_wrapper {
-  border-radius: 0;
-}
-//#carousel img,
-#carousel_content {
-  width: 260px;
-  height: 94px;
-  margin: 0 1px;
-  float: left;
-  padding: 0;
-  background: #f4f0ee;
-  border: 1px solid #ccc;
-}
-#prev, #next {
-  display: block;
-  overflow: hidden;
-  position: absolute;
-  width: 80px;
-  height: 100px;
-  top: 0;
-  bottom: 5px;
-  background: #fff;
-  border: 1px solid #fff;
-}
-#prev {
-  left: 0;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-right: 1px solid #ccc;
-}
-#next {
-  right: 0;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-left: 1px solid #ccc;
-}
-#prev:before,
-#next:before {
-  font-family: FontAwesome;
-  font-weight: 400;
-  color: #444;
-  font-size: 50px;
-  margin-top: 40px;
-  display: block;
-  position: absolute;
-}
-#prev:before {
-  content: "\f053";
-  left: 20px;
-}
-#next:before {
-  content: "\f054";
-  right: 20px;
-}
-
 .new_event_heading {
   margin-bottom: 0;
   background: #444;
@@ -986,6 +921,142 @@ p.flex-caption a:visited {
 -------------------------------------------------------------- */
 .visitor-counter {
   font-size: 14px;
+}
+
+/* =Responsive Tab
+-------------------------------------------------------------- */
+.r-tabs {
+  position: relative;
+}
+
+.r-tabs .r-tabs-nav {
+  border-bottom: 1px solid #ccc;
+}
+
+.r-tabs .r-tabs-nav .r-tabs-tab {
+  position: relative;
+  top: 1px;
+}
+
+.r-tabs .r-tabs-nav .r-tabs-anchor {
+  background: #00aadd;
+  margin-bottom: 3px;
+  padding: 10px 12px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.r-tabs .r-tabs-nav .r-tabs-state-active {
+  background-color: #fff;
+  margin-bottom: -1px;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+.r-tabs .r-tabs-nav .r-tabs-state-disabled {
+  opacity: 0.5;
+}
+
+.r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor {
+  color: #00aadd;
+  background-color: #fff;
+}
+
+.r-tabs .r-tabs-panel {
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  margin-bottom: 3px;
+}
+
+.r-tabs .r-tabs-accordion-title .r-tabs-anchor {
+  display: block;
+  padding: 10px;
+  background-color: #00aadd;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 3px;
+}
+
+.r-tabs .r-tabs-accordion-title.r-tabs-state-disabled {
+  opacity: 0.5;
+}
+
+.r-tabs .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor {
+  background-color: #fff;
+  color: #00aadd;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  margin-bottom: 0;
+}
+
+// TWEAK
+
+.r-tabs {
+  padding: 10px;
+}
+
+.r-tabs .r-tabs-nav {
+  padding-left: 20px;
+}
+
+.r-tabs .r-tabs-panel {
+  padding: 30px 60px;
+}
+
+.r-tabs-state-default {
+  background-color: #fff;
+  margin-bottom: 0;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.r-tabs .r-tabs-nav .r-tabs-anchor {
+  background: #fff;
+  margin-bottom: 3px;
+  padding: 10px 12px;
+  display: inline-block;
+  text-decoration: none;
+  color: #444;
+  font-weight: 400;
+}
+
+.r-tabs-panel {
+  background: #f4f0ee;
+}
+.r-tabs-tab {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.r-tabs .r-tabs-nav .r-tabs-state-active {
+  background-color: #f4f0ee;
+  margin-bottom: -1px;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #f4f0ee;
+}
+
+.r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor {
+  background: #f4f0ee;
+}
+
+.r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor {
+  color: #444;
+}
+
+.jcarousel-control-prev:hover,
+.jcarousel-control-next:hover {
+  color: #ccc;
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------
