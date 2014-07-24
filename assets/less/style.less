@@ -1,7 +1,7 @@
 /* =Colors
 -------------------------------------------------------------- */
 
-@dark: #1b2027;
+@dark: #444;
 @white: #ffffff;
 @blue: #00B4F5;
 
@@ -228,14 +228,7 @@ div.secondary-menu {
 -------------------------------------------------------------- */
 .home-content-wrap {
   padding-bottom: 10px;
-  background: #d1d1d1; /* Old browsers */
-  background: -moz-linear-gradient(top,  #d1d1d1 0%, #ffffff 50%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d1d1d1), color-stop(50%,#ffffff)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #d1d1d1 0%,#ffffff 50%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #d1d1d1 0%,#ffffff 50%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #d1d1d1 0%,#ffffff 50%); /* IE10+ */
-  background: linear-gradient(to bottom,  #d1d1d1 0%,#ffffff 50%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  background: #fff;
 }
 
 .home-content {
@@ -362,7 +355,7 @@ section.article {
 }
 
 .off-canvas-icon {
-  font-size: 16px;
+  font-size: 14px;
   text-decoration: none;
 }
 .off-canvas-icon:hover {
@@ -459,7 +452,7 @@ footer {
 /* =Footer: Social Links
 -------------------------------------------------------------- */
 .footer-social-link-wrap {
-  display: table;
+  // display: table;
   margin: 0 auto;
 }
 .footer-social-icon {
@@ -471,8 +464,9 @@ footer {
 }
 
 .footer-social-icon li {
-  display: inline-block;
-  padding: 0 1px;
+  display: inline;
+  padding: 0 2px;
+  float: right;
 }
 
 .footer-social-icon li a {
@@ -493,34 +487,42 @@ footer {
 
 /* =Footer: Copyright
 -------------------------------------------------------------- */
-.copyright {
-  text-align: center;
+.footer-left-content p,
+.footer-right-content p {
+  margin: 0;
+  clear: both;
 }
 
-.copyright-detail-link-wrap {
+.footer-right-content p {
+  text-align: right;
+}
+
+/* =Footer: Menu
+-------------------------------------------------------------- */
+.footer-menu-wrap {
   display: table;
   margin: 0 auto;
 }
 
-.copyright-detail-link {
+.footer-menu {
   min-width: 100px;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.copyright-detail-link li {
+.footer-menu li {
   display: inline-block;
   padding-right: 10px;
   font-size: 14px;
 }
 
-.copyright-detail-link li a,
-.copyright-detail-link li a:visited {
+.footer-menu li a,
+.footer-menu li a:visited {
   color: @white;
 }
 
-.copyright-detail-link li a:hover {
+.footer-menu li a:hover {
   color: @blue;
 }
 
@@ -700,7 +702,7 @@ p.flex-caption a:visited {
 
 .news-portal-logo {
   text-align: center;
-  padding: 10px;
+  padding: 10px 10px 0;
 }
 
 .news-globe {
@@ -944,7 +946,7 @@ p.flex-caption a:visited {
   display:none;
   background: #ececec;
   padding: 10px;
-  color: #1b2027;
+  color: #444;
   margin: 0 5px 5px;
 }
 

@@ -205,5 +205,14 @@ if (!function_exists('ukmtheme_widgets_init')) {
       'before_title'    => '<h3 class="widget-title">',
       'after_title'     => '</h3>',
     ) );
+    register_sidebar( array(
+      'name'            => __( 'Footer Content', 'ukmtheme' ),
+      'id'              => 'sidebar-6',
+      'description'     => __( 'Appears in footer', 'ukmtheme' ),
+      'before_widget'   => '<span>',
+      'after_widget'    => '</span>',
+      'before_title'    => '<h3 class="widget-title uk-hidden">',
+      'after_title'     => '</h3>',
+    ) );
   }
 }
