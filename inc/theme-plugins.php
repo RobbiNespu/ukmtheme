@@ -85,6 +85,12 @@ function ukmtheme_register_required_plugins() {
       'slug'      => 'tablepress',
       'required'  => false,
     ),
+    
+    array(
+      'name'      => 'Google Language Translator',
+      'slug'      => 'google-language-translator',
+      'required'  => false,
+    ),
   );
 
   // Change this to your theme text domain, used for internationalising strings
