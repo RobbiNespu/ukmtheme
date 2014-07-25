@@ -20,7 +20,7 @@ wp_footer(); ?>
     <?php get_template_part( 'templates/footer', 'social-link' ); ?>
     <p class="visitor-counter"><?php get_template_part( 'templates/visitor', 'counter' ); ?></p>
     <p><?php _e( 'Copyright &copy;', 'ukmtheme' ); ?><?php echo date( 'Y' ); ?><?php _e( 'The National University of Malaysia', 'ukmtheme' ); ?></p>
-    <p><?php _e( 'Best view: Viewable with any modern web browser (Desktop &amp; Mobile)', 'ukmtheme' ); ?></p>
+    <p><?php _e( 'Best view with any modern web browser (Desktop &amp; Mobile)', 'ukmtheme' ); ?></p>
     <p><?php _e('Powered by','ukmtheme'); ?>&nbsp;<a href="http://www.ukm.my/template/" target="_blank">UKMTheme</a></p>
   </div>
 </div>
