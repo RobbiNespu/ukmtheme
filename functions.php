@@ -37,8 +37,8 @@ if (!function_exists('ukmtheme_scripts')) {
     wp_enqueue_script( 'responsiveTab', get_template_directory_uri() . '/lib/responsive-tab/js/jquery.responsiveTabs.min.js', array(), '1.3.6', true );
     wp_enqueue_script( 'default', get_template_directory_uri() . '/assets/js/script.min.js', array(), '6.2', true );
     // Stylesheet
-    wp_enqueue_style('fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.css', false, '2.1.5' );
-    wp_enqueue_style('responsiveTab', get_template_directory_uri() . '/lib/responsive-tab/css/responsive-tabs.css', false, '1.3.6' );
+    wp_enqueue_style( 'fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.css', false, '2.1.5' );
+    wp_enqueue_style( 'responsiveTab', get_template_directory_uri() . '/lib/responsive-tab/css/responsive-tabs.css', false, '1.3.6' );
     wp_enqueue_style( 'default', get_template_directory_uri() . '/assets/css/style.min.css', false, '6.2' );
   }
 }
@@ -79,8 +79,6 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
     );
     
     add_filter('show_admin_bar', '__return_false');
-
-    add_post_type_support( 'staff', 'page-attributes' );
     
   }
 
@@ -89,10 +87,10 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
 add_action( 'after_setup_theme', 'ukmtheme_module' );
   if (!function_exists('ukmtheme_module')) {
     function ukmtheme_module() {
-      require( 'inc/nav-secondary-menu.php' ); // Menu Utama
-      require( 'inc/theme-options.php' ); // Theme Options
-      require( 'inc/theme-login.php' ); // Custon Login Page
-      require( 'inc/theme-plugins.php' ); // Require Plugin
+      require( 'inc/nav-secondary-menu.php' );
+      require( 'inc/theme-options.php' ); 
+      require( 'inc/theme-login.php' );
+      require( 'inc/theme-plugins.php' );
       require( 'inc/post-type-appreciation.php' );
       require( 'inc/post-type-event.php' );
       require( 'inc/post-type-expertise.php' );
@@ -112,11 +110,9 @@ add_action( 'after_setup_theme', 'ukmtheme_module' );
       require( 'inc/widget-appreciation.php' );
       require( 'inc/widget-event.php' );
       require( 'inc/widget-news.php' );
-      require( 'inc/widget-news-portal.php' );
       require( 'inc/widget-news-thumbnail.php' );
       require( 'inc/widget-youtube.php' );
-      require( 'inc/widget-excellent-staff.php' );
-      require( 'lib/hc-custom-wp-admin-url/hc-custom-wp-admin-url.php' );
+      require( 'lib/custom-admin/custom-admin.php' );
       require( 'templates/page-sitemap.php' );
     }
   }

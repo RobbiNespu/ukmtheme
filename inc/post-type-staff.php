@@ -33,7 +33,7 @@ function ut_staff_directory() {
     'label'               => __( 'Staff', 'ukmtheme' ),
     'description'         => __( 'Staff information pages', 'ukmtheme' ),
     'labels'              => $labels,
-    'supports'            => array( 'title', ),
+    'supports'            => array( 'title', 'page-attributes' ),
     'taxonomies'          => array( 'department', 'position' ),
     'hierarchical'        => true,
     'public'              => true,

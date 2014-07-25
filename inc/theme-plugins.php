@@ -20,7 +20,7 @@
  * Include the TGM_Plugin_Activation class.
  */
 //require_once dirname( __FILE__ ) . '/class-tgm-plugin-activation.php';
-require_once get_template_directory() . '/lib/tgm-plugin-activation/class-tgm-plugin-activation.php';
+require_once get_template_directory() . '/lib/plugins/plugins.php';
 
 add_action( 'tgmpa_register', 'ukmtheme_register_required_plugins' );
 /**
