@@ -32,7 +32,7 @@ function ut_tab() {
     'label'               => __( 'Tab', 'ukmtheme' ),
     'description'         => __( 'Tab manager for UKM', 'ukmtheme' ),
     'labels'              => $labels,
-    'supports'            => array( 'title', 'editor', 'thumbnail', 'revisions', ),
+    'supports'            => array( 'title', 'editor', 'revisions', ),
     //'taxonomies'          => array( 'category', 'post_tag' ),
     'hierarchical'        => true,
     'public'              => true,
