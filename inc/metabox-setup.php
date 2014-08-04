@@ -270,17 +270,10 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
         'type'    => 'text',
       ),
       array(
-        'name'    => __( 'Reference', 'ukmtheme' ),
+        'name'    => __( 'Reference/Download', 'ukmtheme' ),
         'desc'    => __( 'e.g. http://www.ukm.my', 'ukmtheme' ),
         'id'      => $prefix . 'publication_reference',
         'type'    => 'text_url',
-      ),
-      array(
-        'name'    => __( 'Download', 'ukmtheme' ),
-        'desc'    => __( 'Upload an image or enter a URL.', 'ukmtheme' ),
-        'id'      => $prefix . 'publication_download',
-        'type'    => 'file',
-        'allow'   => array('url'),
       ),
     ),
   );

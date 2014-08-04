@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: UKM Theme 6.1\n"
-"POT-Creation-Date: 2014-08-04 13:57+0800\n"
-"PO-Revision-Date: 2014-08-04 13:57+0800\n"
+"POT-Creation-Date: 2014-08-04 14:33+0800\n"
+"PO-Revision-Date: 2014-08-04 14:33+0800\n"
 "Last-Translator: \n"
 "Language-Team: ukmtheme <jrajalu@ukm.edu.my>\n"
 "Language: ms_MY\n"
@@ -44,16 +44,16 @@ msgid "Events List"
 msgstr "Senarai Acara"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/archive-event.php:29
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/archive-publication.php:38
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/archive-publication.php:37
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/functions.php:134
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:38
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:37
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/templates/widget-news-scroller.php:25
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/templates/widget-news-ticker.php:28
 msgid "Read More"
 msgstr "Baca Selanjutnya"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/archive-event.php:33
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/archive-publication.php:43
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/archive-publication.php:42
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/single-gallery.php:22
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-appreciation.php:25
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-event.php:27
@@ -61,15 +61,15 @@ msgstr "Baca Selanjutnya"
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-faq.php:22
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-gallery.php:25
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-news.php:22
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-publication.php:42
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-publication.php:41
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-video.php:22
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single.php:22
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:43
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:42
 msgid "Sorry, no post matched your criteria."
 msgstr "Maaf, tiada kiriman yang sepadan kriteria."
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/archive-expertise.php:44
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:363
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:356
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-expertise.php:29
 msgid "Specialisation"
 msgstr "Pengkhususan"
@@ -158,26 +158,14 @@ msgstr "Jumlah Halaman"
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:273
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-publication.php:32
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:35
-msgid "Reference"
-msgstr "Rujukan"
+msgid "Reference/Download"
+msgstr "Rujukan/Muat Turun"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/archive-publication.php:35
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/archive-publication.php:36
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-publication.php:32
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-publication.php:33
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:35
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:36
 msgid "Click here"
 msgstr "Klik di sini"
-
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/archive-publication.php:36
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:279
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:706
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:768
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-publication.php:33
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:36
-msgid "Download"
-msgstr "Muat Turun"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/archive-staff.php:15
 msgid "Directory"
@@ -485,7 +473,7 @@ msgid "Venue of the event"
 msgstr "Lokasi acara"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:222
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-publication.php:36
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-publication.php:35
 msgid "Summary"
 msgstr "Ringkasan"
 
@@ -502,8 +490,8 @@ msgid "Cover Image"
 msgstr "Imej Kulit"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:243
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:300
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:332
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:293
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:325
 msgid ""
 "Upload an image or enter a URL. dimensions of the image should be 300x380 "
 "pixels. <a href=\""
@@ -523,98 +511,93 @@ msgstr "cth: 199"
 msgid "e.g. http://www.ukm.my"
 msgstr "cth. http://www.ukm.my"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:280
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:237
-msgid "Upload an image or enter a URL."
-msgstr "Muat naik imej atau masukkan URL."
-
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:292
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:285
 msgid "Staff Detail"
 msgstr "Butiran Staf"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:299
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:292
 msgid "Staff Photo"
 msgstr "Foto Staf"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:306
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:299
 msgid "Phone No."
 msgstr "No. Telefon"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:307
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:346
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:300
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:339
 msgid "e.g. 03-8921-7070"
 msgstr "cth: 03-8921-7070"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:312
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:351
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:305
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:344
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:69
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-expertise.php:26
 msgid "Email"
 msgstr "Emel"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:313
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:352
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:306
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:345
 msgid "e.g. user@ukm.edu.my"
 msgstr "cth: namapengguna@ukm.my"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:324
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:317
 msgid "Expertise Detail"
 msgstr "Butiran Kepakaran"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:331
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:324
 msgid "Expert Photo"
 msgstr "Foto Pakar"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:338
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:331
 msgid "Biography"
 msgstr "Biografi"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:339
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:332
 msgid "A brief biography"
 msgstr "Biografi ringkas"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:345
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:338
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:70
 msgid "Contact"
 msgstr "Hubungi"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:357
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:350
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:68
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-expertise.php:27
 msgid "Current Position"
 msgstr "Jawatan Semasa"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:358
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:351
 msgid "e.g. Professor"
 msgstr "cth: Profesor"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:364
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:357
 msgid "Tourism and Hospitality Marketing, &amp; Services Marketing"
 msgstr "Tourism and Hospitality Marketing, &amp; Services Marketing"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:369
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:362
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-expertise.php:36
 msgid "Qualifications"
 msgstr "Kelayakan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:370
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:363
 msgid "e.g. Doctor of Philosophy (University of Malaya) [2002-2005]"
 msgstr "cth. Doctor of Philosophy (University of Malaya) [2002-2005]"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:376
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:369
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-expertise.php:44
 msgid "Areas of Research"
 msgstr "Bidang Penyelidikan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:377
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:370
 msgid "e.g. Services Marketing and Consumer Behavior Analysis"
 msgstr "cth. Services Marketing and Consumer Behavior Analysis"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:383
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:376
 msgid "Research/<br/>Consultation/<br/>Expansion"
 msgstr "Penyelidikan/<br/>Perundingan<br/>/Pengembangan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:384
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:377
 msgid ""
 "e.g. Developing A Higher Education Brand Index for Malaysia. Jan1, 2009-June "
 "30,2010. GSB-001-2009 (External Grant). Ongoing."
@@ -622,12 +605,12 @@ msgstr ""
 "cth. Developing A Higher Education Brand Index for Malaysia. Jan1, 2009-June "
 "30,2010. GSB-001-2009 (External Grant). Ongoing."
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:390
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:383
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-expertise.php:60
 msgid "Publications Journals"
 msgstr "Penerbitan Jurnal"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:391
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:384
 msgid ""
 "e.g. Ahmad Azmi M. Ariffin & Mohd Safar Hashim. 2009. Marketing Malaysia to "
 "the Middle East Tourists: Towards a Prime Inter-Regional Destination. "
@@ -637,12 +620,12 @@ msgstr ""
 "the Middle East Tourists: Towards a Prime Inter-Regional Destination. "
 "International Journal of West Asian Studies. 1(1): 43-58. ISSN 1394-0902."
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:397
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:390
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-expertise.php:68
 msgid "Proceedings"
 msgstr "Prosiding"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:398
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:391
 msgid ""
 "e.g. Ahmad Azmi M.Ariffin, Aliah Hanim M.Salleh, Norzalita A.Aziz & Astuti A."
 "Asbudin. 2009. Determining Passengers’ Expectation, Service Quality and "
@@ -656,15 +639,15 @@ msgstr ""
 "International Business Research Conference. Sydney Australia. Dec 2-4, 2009. "
 "ISBN: 978-0-980-4557-0-7 (Presenter)."
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:404
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:397
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-expertise.php:76
 msgid "Book"
 msgstr "Buku"
 
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:398
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:405
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:412
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:426
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:461
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:419
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:454
 msgid ""
 "e.g. Ahmad Azmi Mohd. Ariffin, Norzalita Abd. Aziz. 2009. Chapter 5: Service "
 "Quality and Zone of Tolerance in Malaysian Banking Services. In Services "
@@ -678,16 +661,16 @@ msgstr ""
 "Salleh, Ahmad Azmi Mohd. Ariffin, June M. L. Poon & Aini Aman. GSB-UKM. "
 "Bangi."
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:411
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:404
 msgid "Articles in Antologi/<br/>Chapters in Book"
 msgstr "Artikel dalam Antologi/<br/>Bab dalam Buku"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:418
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:411
 msgid ""
 "Monograph,<br/> Working Papers<br/> and Non-Periodical<br/> Publications"
 msgstr "Monograf,<br/> Kertas Kerja dan<br/> Penerbitan <br/>Bukan berkala"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:419
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:412
 msgid ""
 "e.g. Module ”Tourism Marketing” (Code: BBAS 3103).  Open University "
 "Malaysia. 2007/2008"
@@ -695,17 +678,17 @@ msgstr ""
 "cth. Module ”Tourism Marketing” (Code: BBAS 3103).  Open University "
 "Malaysia. 2007/2008"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:425
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:418
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-expertise.php:100
 msgid "Seminar"
 msgstr "Seminar"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:432
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:425
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-expertise.php:108
 msgid "Award"
 msgstr "Anugerah"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:433
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:426
 msgid ""
 "e.g. EXCELLENT SERVICE AWARD 2007. Faculty of Economics and "
 "BusinessUniversiti Kebangsaan Malaysia"
@@ -713,12 +696,12 @@ msgstr ""
 "cth. EXCELLENT SERVICE AWARD 2007. Faculty of Economics and "
 "BusinessUniversiti Kebangsaan Malaysia"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:439
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:432
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-expertise.php:116
 msgid "Supervision"
 msgstr "Penyeliaan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:440
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:433
 msgid ""
 "e.g. Lim Chui Seong (DBA. Disertasi) The Influence of e-Hospitality on "
 "Websites Satisfaction and Loyalty (Ongoing)"
@@ -726,11 +709,11 @@ msgstr ""
 "cth. Lim Chui Seong (DBA. Disertasi) The Influence of e-Hospitality on "
 "Websites Satisfaction and Loyalty (Ongoing)"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:446
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:439
 msgid "Administrative<br/> Services/Committee"
 msgstr "Khidmat<br/> Pentadbiran/Jawatankuasa"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:447
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:440
 msgid ""
 "e.g. MANAGING EDITOR OF JURNAL PENGURUSAN 1 April 2007 – Present Graduate "
 "School of Business, Universiti Kebangsaan Malaysia"
@@ -738,11 +721,11 @@ msgstr ""
 "cth. MANAGING EDITOR OF JURNAL PENGURUSAN 1 April 2007 – Present Graduate "
 "School of Business, Universiti Kebangsaan Malaysia"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:453
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:446
 msgid "Reports: Technical/<br/>Research/<br/>Consultation"
 msgstr "Laporan: Teknikal<br/>/Penyelidikan/<br/>Perundingan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:454
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:447
 msgid ""
 "e.g. Mohd Fauzi Mohd Jani, Zaimah Derawi, Tih Sio Hong, Rozita Amirudin, "
 "Ahmad Azmi Ariffin, Zafir Makhbul, Aini Aman, Mohd Radzuan Rahid, Ahmad "
@@ -756,17 +739,17 @@ msgstr ""
 "Keusahawanan: Kerjasama Pelajar Universiti dan Entepris Kecil dan Sederhana "
 "(EKS)”. SMIDEC."
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:460
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:453
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-expertise.php:140
 msgid "Research Grant"
 msgstr "Geran Penyelidikan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:467
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:460
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/single-expertise.php:148
 msgid "Teaching"
 msgstr "Mengajar"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:468
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:461
 msgid ""
 "e.g. Courses Taught at Ph.D./DBA Level Hospitality Marketing: Theory and "
 "Research"
@@ -2144,6 +2127,10 @@ msgstr "wysiwyg Cubaan"
 msgid "Test Image"
 msgstr "Imej Cubaan"
 
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:237
+msgid "Upload an image or enter a URL."
+msgstr "Muat naik imej atau masukkan URL."
+
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:242
 msgid "Multiple Files"
 msgstr "Multiple Files"
@@ -2270,6 +2257,11 @@ msgstr "Hapus Imej"
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:768
 msgid "File:"
 msgstr "Fail:"
+
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:706
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/metabox/helpers/cmb_Meta_Box_types.php:768
+msgid "Download"
+msgstr "Muat Turun"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/metabox/init.php:258
 msgid "Clear"
@@ -2615,6 +2607,9 @@ msgstr "Berita UKM"
 msgid "Hello, welcome to Universiti Kebangsaan Malaysia!"
 msgstr "Hello, semalat datang ke Universiti Kebangsaan Malaysia!"
 
+#~ msgid "Reference"
+#~ msgstr "Rujukan"
+
 #~ msgid "#Excellent Staff"
 #~ msgstr "#Staf Cemerlang"
 
@@ -2659,9 +2654,6 @@ msgstr "Hello, semalat datang ke Universiti Kebangsaan Malaysia!"
 
 #~ msgid "Generate your id here"
 #~ msgstr "Jana id anda di sini"
-
-#~ msgid "Reference/Download"
-#~ msgstr "Rujukan/Muat Turun"
 
 #~ msgid "Get it"
 #~ msgstr "Dapatkan"
