@@ -18,7 +18,7 @@ $newsPortalLoop = new WP_Query( $newsPortalData );
 <div class="pure-g pure-g-r news-portal">
   <div class="pure-u-1-8 news-portal-logo">
     <i class="uk-icon-globe news-globe"></i>
-    <span>UKM News</span>
+    <span><?php _e( 'UKM News', 'ukmtheme' ); ?></span>
   </div>
   <div class="pure-u-7-8">
     <ul class="pure-g pure-g-r news-portal-block-wrapper">

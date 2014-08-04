@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: UKM Theme 6.1\n"
-"POT-Creation-Date: 2014-07-26 00:09+0800\n"
-"PO-Revision-Date: 2014-07-26 00:10+0800\n"
+"POT-Creation-Date: 2014-08-04 13:57+0800\n"
+"PO-Revision-Date: 2014-08-04 13:57+0800\n"
 "Last-Translator: \n"
 "Language-Team: ukmtheme <jrajalu@ukm.edu.my>\n"
 "Language: ms_MY\n"
@@ -210,7 +210,11 @@ msgid "Best view with any modern web browser (Desktop &amp; Mobile)"
 msgstr ""
 "Paparan terbaik dengan sebarang pelayar web moden (Desktop &amp; Mobile)"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/footer.php:25
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/footer.php:27
+msgid "This website can be access using mobile phone"
+msgstr "Web ini boleh diakses dengan telefon bimbit"
+
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/footer.php:29
 msgid "Powered by"
 msgstr "Dijana dengan"
 
@@ -1878,44 +1882,44 @@ msgstr ""
 "mengoptimumkan imej, guna TinyPNG <a href=\"https://tinypng.com/\" target="
 "\"_blank\">di sini</a>."
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:110
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:116
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/plugins/example.php:86
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/plugins/plugins.php:155
 msgid "Install Required Plugins"
 msgstr "Pasang Pemalam yang Diperlukan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:111
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:117
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/plugins/example.php:87
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/plugins/plugins.php:156
 msgid "Install Plugins"
 msgstr "Pasang Pemalam"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:112
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:118
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/plugins/example.php:88
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/plugins/plugins.php:157
 #, php-format
 msgid "Installing Plugin: %s"
 msgstr "Memasang Pemalam: %s"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:113
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:119
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/plugins/example.php:89
 msgid "Something went wrong with the plugin API."
 msgstr "Sesuatu telah berlaku kepada pemalam API."
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:124
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:130
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/plugins/example.php:100
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/plugins/plugins.php:169
 msgid "Return to Required Plugins Installer"
 msgstr "Kembali ke Pemasang Pemalam yang Diperlukan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:125
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:131
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/plugins/example.php:101
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/plugins/plugins.php:171
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/plugins/plugins.php:1840
 msgid "Plugin activated successfully."
 msgstr "Pemalam berjaya diaktifkan."
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:126
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/inc/theme-plugins.php:132
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/lib/plugins/example.php:102
 #, php-format
 msgid "All plugins installed and activated successfully. %s"
@@ -2601,6 +2605,10 @@ msgstr "Akhir Kemaskini:&nbsp;"
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/templates/widget-event-vertical.php:17
 msgid "Upcoming Event"
 msgstr "Acara Akan Datang"
+
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/templates/widget-news-portal.php:21
+msgid "UKM News"
+msgstr "Berita UKM"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/templates/widget-news-scroller.php:27
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6.1/wp-content/themes/ukmtheme-master/templates/widget-news-ticker.php:30
