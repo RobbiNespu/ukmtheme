@@ -27,6 +27,36 @@ function ukmtheme_register_required_plugins() {
     ),
 
     array(
+      'name'      => 'Black Studio TinyMCE Widget',
+      'slug'      => 'black-studio-tinymce-widget',
+      'required'  => false,
+    ),
+
+    array(
+      'name'      => 'CMS Tree Page View',
+      'slug'      => 'cms-tree-page-view',
+      'required'  => false,
+    ),
+
+    array(
+      'name'      => 'Contact Form 7',
+      'slug'      => 'contact-form-7',
+      'required'  => false,
+    ),
+
+    array(
+      'name'      => 'Easy WP SMTP',
+      'slug'      => 'easy-wp-smtp',
+      'required'  => false,
+    ),
+
+    array(
+      'name'      => 'Google Language Translator',
+      'slug'      => 'google-language-translator',
+      'required'  => false,
+    ),
+
+    array(
       'name'      => 'Polylang',
       'slug'      => 'polylang',
       'required'  => false,
@@ -39,38 +69,14 @@ function ukmtheme_register_required_plugins() {
     ),
 
     array(
-      'name'      => 'CMS Tree Page View',
-      'slug'      => 'cms-tree-page-view',
-      'required'  => false,
-    ),
-
-    array(
       'name'      => 'Simple Page Ordering',
       'slug'      => 'simple-page-ordering',
-      'required'  => false,
-    ),
-
-    array(
-      'name'      => 'Contact Form 7',
-      'slug'      => 'contact-form-7',
-      'required'  => false,
-    ),
-
-    array(
-      'name'      => 'Black Studio TinyMCE Widget',
-      'slug'      => 'black-studio-tinymce-widget',
       'required'  => false,
     ),
     
     array(
       'name'      => 'TablePress',
       'slug'      => 'tablepress',
-      'required'  => false,
-    ),
-    
-    array(
-      'name'      => 'Google Language Translator',
-      'slug'      => 'google-language-translator',
       'required'  => false,
     ),
   );
