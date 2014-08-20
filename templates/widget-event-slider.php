@@ -12,7 +12,7 @@
   $current_month = date('m');
   $eveData = array(
     'post_type'       => 'event',
-    'posts_per_page'  => 6,
+    'posts_per_page'  => 10,
     'year'            => $current_year,
     'monthnum'        => $current_month,
     'post_status'     => array( 'publish', 'future' ),
