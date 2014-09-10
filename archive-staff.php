@@ -43,9 +43,11 @@ get_header(); ?>
        $scope_desc = get_post_meta($post->ID, 'ut_staff_work_scope_desc', true);
 
         if($scope == on) { ?>
-        <strong><?php _e( 'Scope of Work','ukmtheme' ); ?></strong><br/>
-        <?php echo '<span class="staff-scope">'; echo get_post_meta($post->ID, 'ut_staff_work_scope_desc', true); echo '</span>'; ?>
+          <strong><?php _e( 'Scope of Work','ukmtheme' ); ?></strong><br/>
+          <?php echo '<span class="staff-scope">'; echo get_post_meta($post->ID, 'ut_staff_work_scope_desc', true); echo '</span>'; ?>
+        
         <?php }
+        
         else {
           echo '';
         }
