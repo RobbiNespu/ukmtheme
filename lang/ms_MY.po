@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: UKM Theme 6.1\n"
-"POT-Creation-Date: 2014-09-10 16:31+0800\n"
-"PO-Revision-Date: 2014-09-10 16:32+0800\n"
+"POT-Creation-Date: 2014-09-10 16:54+0800\n"
+"PO-Revision-Date: 2014-09-10 16:54+0800\n"
 "Last-Translator: \n"
 "Language-Team: ukmtheme <jrajalu@ukm.edu.my>\n"
 "Language: ms_MY\n"
@@ -76,8 +76,8 @@ msgstr "Pengkhususan"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/archive-expertise.php:51
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/archive-staff.php:61
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/taxonomy-department.php:60
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/taxonomy-position.php:60
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/taxonomy-department.php:62
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/taxonomy-position.php:62
 msgid "Sorry, no posts matched your criteria."
 msgstr "Maaf, tiada kiriman yang sepadan kriteria."
 
@@ -171,8 +171,9 @@ msgstr "Klik di sini"
 msgid "Directory"
 msgstr "Direktori"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/archive-staff.php:47
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/archive-staff.php:46
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:317
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/single-staff.php:32
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/taxonomy-department.php:47
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/taxonomy-position.php:47
 msgid "Scope of Work"
