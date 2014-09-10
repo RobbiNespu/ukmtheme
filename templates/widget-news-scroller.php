@@ -9,7 +9,10 @@
  * @author Jamaludin Rajalu
  * 
  */
-  $args = array( 'post_type' => 'news_scroller', 'posts_per_page' => 5 );
+  $args = array(
+    'post_type'       => 'news_scroller',
+    'posts_per_page'  => 5
+    );
   $loop = new WP_Query( $args );
 ?>
 <script>

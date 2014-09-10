@@ -307,6 +307,19 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
         'id'      => $prefix . 'staff_email',
         'type'    => 'text_email',
       ),
+      array(
+        'name'    => __( 'Hide Scope of Work', 'ukmtheme' ),
+        'desc'    => __( 'Please check if do not want to display Scope of Work', 'ukmtheme' ),
+        'id'      => $prefix . 'staff_work_scope',
+        'type'    => 'checkbox',
+      ),
+      array(
+        'name'    => __( 'Scope of Work', 'ukmtheme' ),
+        'desc'    => __( 'e.g. Do Multimedia Work', 'ukmtheme' ),
+        'id'      => $prefix . 'staff_work_scope_desc',
+        'type'    => 'wysiwyg',
+        'options' => array( 'textarea_rows' => 5, ),
+      ),
     ),
   );
 

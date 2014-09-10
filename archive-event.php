@@ -10,11 +10,19 @@
  * @author Jamaludin Rajalu
  */
 get_header(); ?>
+<?php
+  $event = new WP_Query( array( 
+    'post_type'       => 'event', 
+    'posts_per_page'  => 10, 
+    'orderby'         => 'menu_order', 
+    'order'           => 'ASC',
+  ));
+?>
 <article class="wrap">
 <div class="content clearfix">
 <section class="col-3-4 article">
 <h2><?php echo __( 'Events List', 'ukmtheme' ); ?></h2>
-  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+  <?php if ( $event->have_posts() ) : while ( $event->have_posts() ) : $event->the_post(); ?>
     <div class="content-article ut-event-page-archive clearfix">
       <div class="col-1-4">
         <ul class="ut-event-list">

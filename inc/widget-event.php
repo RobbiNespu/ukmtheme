@@ -40,7 +40,12 @@ class Event_Widget extends WP_Widget {
        * Events Widget Output
        * @link http://codex.wordpress.org/Widgets_API
        */
-        $ut_event = array( 'post_type' => 'event', 'posts_per_page' => $total, );
+        $ut_event = array(
+          'post_type'       => 'event',
+          'posts_per_page'  => $total,
+          'orderby'         => 'menu_order',
+          'order'           => 'ASC'
+        );
         $loop = new WP_Query( $ut_event );
       ?>
 
