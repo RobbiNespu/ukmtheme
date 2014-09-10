@@ -46,8 +46,8 @@ get_header(); ?>
         <strong><?php _e( 'Scope of Work','ukmtheme' ); ?></strong><br/>
         <?php echo '<span class="staff-scope">'; echo get_post_meta($post->ID, 'ut_staff_work_scope_desc', true); echo '</span>'; ?>
         <?php }
-        else{
-            echo '';
+        else {
+          echo '';
         }
       ?>
     </div>
