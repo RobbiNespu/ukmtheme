@@ -39,10 +39,18 @@ get_header(); ?>
       <?php echo '<span class="staff-position">'; echo get_the_term_list( $post->ID, 'position', '', ', ', '' ); echo '</span>'; ?>
       <?php echo '<span class="staff-phone">'; echo get_post_meta($post->ID, 'ut_staff_phone', true); echo '</span>'; ?>
       <?php echo '<span class="staff-email">'; echo get_post_meta($post->ID, 'ut_staff_email', true); echo '</span>'; ?><br/>
-      <?php if ( get_post_meta ($post->ID, 'ut_staff_work_scope', true) <> 'on') { ?>
-      <strong><?php _e( 'Scope of Work','ukmtheme' ); ?></strong><br/>
+      <?php
+       $scope = get_post_meta($post->ID, 'ut_staff_work_scope', true);
+       $scope_desc = get_post_meta($post->ID, 'ut_staff_work_scope_desc', true);
+
+        if($scope == on) { ?>
+        <strong><?php _e( 'Scope of Work','ukmtheme' ); ?></strong><br/>
         <?php echo '<span class="staff-scope">'; echo get_post_meta($post->ID, 'ut_staff_work_scope_desc', true); echo '</span>'; ?>
-      <?php } ?>
+        <?php }
+        else{
+            echo '';
+        }
+      ?>
     </div>
   </div>
 </div><!--staff-wrap-->

@@ -308,8 +308,8 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
         'type'    => 'text_email',
       ),
       array(
-        'name'    => __( 'Hide Scope of Work', 'ukmtheme' ),
-        'desc'    => __( 'Please check if do not want to display Scope of Work', 'ukmtheme' ),
+        'name'    => __( 'Display Scope of Work', 'ukmtheme' ),
+        'desc'    => __( 'Please check if want to display Scope of Work', 'ukmtheme' ),
         'id'      => $prefix . 'staff_work_scope',
         'type'    => 'checkbox',
       ),
