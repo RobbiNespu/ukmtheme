@@ -12,10 +12,10 @@
 get_header(); ?>
 <?php
   $event = new WP_Query( array( 
-    'post_type'       => 'event', 
-    'posts_per_page'  => 10, 
-    'orderby'         => 'menu_order', 
-    'order'           => 'ASC',
+    'post_type'       => 'event',
+    'posts_per_page'  => 10,
+    'orderby'         => 'menu_order',
+    'order'           => 'DESC',
   ));
 ?>
 <article class="wrap">

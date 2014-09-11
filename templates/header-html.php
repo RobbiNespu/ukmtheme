@@ -25,20 +25,13 @@
   background: <?php echo get_option('ukmtheme_mn_color'); ?>;
 }
 .mn_color {
-  background: #b00000; /* Old browsers */
-  background: -moz-linear-gradient(top,  #b00000 0%, #d10000 50%, #b00000 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b00000), color-stop(50%,#d10000), color-stop(100%,#b00000)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #b00000 0%,#d10000 50%,#b00000 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #b00000 0%,#d10000 50%,#b00000 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #b00000 0%,#d10000 50%,#b00000 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  #b00000 0%,#d10000 50%,#b00000 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b00000', endColorstr='#b00000',GradientType=0 ); /* IE6-9 */
-  background: <?php echo get_option('ukmtheme_mn_color'); ?> url("<?php echo get_option('ukmtheme_bg'); ?>") no-repeat top center;
+  background: #ed1c24;
+  background: <?php echo get_option('ukmtheme_mn_color'); ?>;
 }
 .snd_color {
-  background: <?php echo get_option('ukmtheme_snd_color'); ?> url("<?php echo get_option('ukmtheme_bg'); ?>") no-repeat top center;
+  background: <?php echo get_option('ukmtheme_snd_color'); ?>;
 }
 .trd_color {
-  background: <?php echo get_option('ukmtheme_trd_color'); ?> url("<?php echo get_option('ukmtheme_bg'); ?>") no-repeat top center;
+  background: <?php echo get_option('ukmtheme_trd_color'); ?>;
 }
 </style>
