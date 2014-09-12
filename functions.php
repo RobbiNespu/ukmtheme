@@ -88,7 +88,8 @@ add_action( 'after_setup_theme', 'ukmtheme_module' );
   if (!function_exists('ukmtheme_module')) {
     function ukmtheme_module() {
       require( 'inc/nav-secondary-menu.php' );
-      require( 'inc/theme-options.php' ); 
+      require( 'inc/theme-options.php' );
+      require( 'inc/theme-docs.php' );
       require( 'inc/theme-login.php' );
       require( 'inc/theme-plugins.php' );
       require( 'inc/post-type-appreciation.php' );

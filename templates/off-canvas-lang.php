@@ -25,8 +25,8 @@
     <ul>
     <li><ul><?php pll_the_languages();?></ul></li>
     </ul>
-    <h4><?php _e( 'Translate with Google Translator', 'ukmtheme' ); ?></h4>
-    <span><?php _e( 'Translation will not give a precise meaning', 'ukmtheme' ); ?></span>
+    <h4><?php _e( 'Google Translator', 'ukmtheme' ); ?></h4>
     <?php echo do_shortcode('[google-translator]'); ?>
+    <em><?php _e( 'Some translation will not give a precise meaning', 'ukmtheme' ); ?></em>
   </div>
 </div>
