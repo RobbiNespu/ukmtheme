@@ -15,7 +15,7 @@
 add_action( 'admin_menu', 'ut_theme_docs_menu' );
 
 function ut_theme_docs_menu() {
-  add_theme_page( 'My Plugin Options', 'Theme Docs', 'manage_options', 'ut_theme_docs_page', 'ut_theme_docs' );
+  add_theme_page( 'Theme Docs', 'Theme Docs', 'manage_options', 'ut_theme_docs_page', 'ut_theme_docs' );
 }
 
 function ut_theme_docs() {
