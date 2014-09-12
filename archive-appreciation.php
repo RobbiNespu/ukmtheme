@@ -1,0 +1,43 @@
+<?php
+/**
+ * @link http://www.ukm.my/template
+ * @link http://codex.wordpress.org/The_Loop
+ *
+ * @package WordPress
+ * @subpackage ukmtheme
+ * @since 4.0
+ *
+ * @author Jamaludin Rajalu
+ */
+get_header(); ?>
+<?php
+  $appreciation = new WP_Query( array( 
+    'post_type'       => 'appreciation', 
+    'posts_per_page'  => 10,
+  ));
+?>
+<article class="wrap">
+  <div class="content clearfix">
+    <section class="col-3-4 article">
+    <h2><?php echo __( 'Appreciation', 'ukmtheme' ) ?></h2>
+    <div class="content-article">
+      <?php if ( $appreciation->have_posts() ) : while ( $appreciation->have_posts() ) : $appreciation->the_post(); ?>
+        <div class="col-1-1 appreciation-block">
+          <blockquote><?php global $post; echo get_post_meta($post->ID, 'ut_appreciation_greeting', true); ?></blockquote>
+          <span style="float:right;text-align:right;">
+            <i class="uk-icon-gift"></i>&nbsp;<?php global $post; echo get_post_meta($post->ID, 'ut_appreciation_ptj', true); ?><br/>
+            <?php global $post; echo get_post_meta($post->ID, 'ut_appreciation_date', true); ?>
+          </span>
+        </div>
+        <?php endwhile; else: ?>
+            <p><?php _e( 'Sorry, no page matched your criteria.', 'ukmtheme' ); ?></p>
+      <?php endif; ?>
+      <p><?php get_template_part( 'templates/content', 'paginate' ); ?></p>
+      </div>
+    </section>
+    <aside class="col-1-4">
+      <?php get_template_part( 'sidebar', 'page' ); ?>
+    </aside>
+  </div><!-- content-wrap -->
+</article>
+<?php get_footer(); ?>
