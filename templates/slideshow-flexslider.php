@@ -30,9 +30,9 @@ $(document).ready(function() {
         </a>
         </li>            
       <?php endwhile; else: ?>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/slide-sample-1.jpg?ver=6.1" alt=""></li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/slide-sample-2.jpg?ver=6.1" alt=""></li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/slide-sample-3.jpg?ver=6.1" alt=""></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/slide-sample-1.png?ver=6.3" alt=""></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/slide-sample-2.png?ver=6.3" alt=""></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/slide-sample-3.png?ver=6.3" alt=""></li>
       <?php endif; ?>
     </ul>
   </div>

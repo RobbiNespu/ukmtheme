@@ -51,7 +51,7 @@ class Latest_News_Widget_Thumbnail extends WP_Widget {
                 the_post_thumbnail();
               }
               else {
-                echo '<img src="' . get_template_directory_uri() . '/assets/images/public/thumbnail.jpg?ver=6.1" height="auto" width="auto"/>';
+                echo '<img src="' . get_template_directory_uri() . '/assets/images/public/thumbnail.png?ver=6.3" height="auto" width="auto"/>';
               }
               ?>
             </div><!--post-thumbnail-->

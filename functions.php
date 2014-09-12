@@ -39,7 +39,6 @@ if (!function_exists('ukmtheme_scripts')) {
     // Stylesheet
     wp_enqueue_style( 'fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.css', false, '2.1.5' );
     wp_enqueue_style( 'responsiveTab', get_template_directory_uri() . '/lib/responsive-tab/css/responsive-tabs.css', false, '1.3.6' );
-    wp_enqueue_style( 'lato', 'http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic', false, '6.2' );
     wp_enqueue_style( 'default', get_template_directory_uri() . '/assets/css/style.min.css', false, '6.2' );
   }
 }
@@ -73,7 +72,7 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
     add_theme_support( 'custom-header', array(
       'width'         => 960,
       'height'        => 100,
-      'default-image' => get_template_directory_uri() . '/assets/images/public/logo.png?ver=6.2',
+      'default-image' => get_template_directory_uri() . '/assets/images/public/logo.png?ver=6.3',
       'uploads'       => true,
       'header-text'   => false,
       )

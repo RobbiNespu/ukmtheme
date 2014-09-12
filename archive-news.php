@@ -28,7 +28,7 @@
                   the_post_thumbnail();
                 }
                 else {
-                  echo '<img src="' . get_template_directory_uri() . '/assets/images/public/thumbnail.jpg?ver=6.1" />';
+                  echo '<img src="' . get_template_directory_uri() . '/assets/images/public/thumbnail.png?ver=6.3" />';
                 }
             ?>
             </div>
