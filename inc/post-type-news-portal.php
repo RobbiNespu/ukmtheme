@@ -14,7 +14,7 @@
 function ut_news_portal() {
 
   $labels = array(
-    'name'                => _x( 'News', 'Post Type General Name', 'ukmtheme' ),
+    'name'                => _x( 'News Portal', 'Post Type General Name', 'ukmtheme' ),
     'singular_name'       => _x( 'News', 'Post Type Singular Name', 'ukmtheme' ),
     'menu_name'           => __( 'News Portal', 'ukmtheme' ),
     'parent_item_colon'   => __( 'Parent News:', 'ukmtheme' ),
