@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     uglify: {
       options: {
-        banner: '/*! UKMTheme 6.2 by Jamaludin Rajalu <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+        banner: '/*! UKMTheme 6.3 by Jamaludin Rajalu <%= grunt.template.today("yyyy-mm-dd") %> */\n'
       },
       build: {
         src: [
@@ -24,6 +24,7 @@ module.exports = function(grunt) {
         },
         files: {
           'assets/css/style.min.css': [
+            'assets/fonts/webfont.less',
             'lib/flexslider/flexslider.less',
             'assets/less/partials/*.less',
             'assets/less/*.less'
