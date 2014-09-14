@@ -21,5 +21,11 @@
       <li><a href="#"><i class="uk-icon-font"></i><?php _e('&nbsp;Reset','ukmtheme'); ?></a></li>
       <li><a href="#"><i class="uk-icon-plus-square"></i><?php _e('&nbsp;Large','ukmtheme'); ?></a></li>
     </ul>
+    <?php
+      $widget_google_translate = get_option( 'ukmtheme_google_trans' );
+      $widget_polylang = get_option( 'ukmtheme_languages' );
+      get_template_part( 'templates/widget', $widget_polylang );
+      get_template_part( 'templates/widget', $widget_google_translate );
+    ?>
   </div>
 </div>

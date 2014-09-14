@@ -19,10 +19,10 @@ function ukmtheme_create_menu() {
   add_theme_page( __( 'Theme Options', 'ukmtheme' ), __( 'Theme Options', 'ukmtheme' ), 'edit_theme_options', 'theme_options', 'theme_options_do_page' );
   
   // call register settings function
-  add_action( 'admin_init', 'register_mysettings' );
+  add_action( 'admin_init', 'register_ukmtheme_settings' );
 }
 
-function register_mysettings() {
+function register_ukmtheme_settings() {
   //register our settings
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_facebook' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_twitter' );
@@ -76,14 +76,14 @@ function theme_options_do_page() { ?>
           <td>
             <?php
               $widget_news_scroller = get_option('ukmtheme_widget_news');
-              $widget_three_box = get_option('ukmtheme_widget_three');
-              $widget_four_box = get_option('ukmtheme_widget_four');
-              $widget_basic = get_option('ukmtheme_widget_basic');
-              $widget_custom = get_option('ukmtheme_widget_custom');
-              $widget_facebook = get_option('ukmtheme_widget_facebook');
-              $widget_event = get_option('ukmtheme_widget_event');
-              $widget_tabber = get_option('ukmtheme_widget_tabber');
-              $widget_news_portal = get_option('ukmtheme_widget_newsPortal');
+              $widget_three_box     = get_option('ukmtheme_widget_three');
+              $widget_four_box      = get_option('ukmtheme_widget_four');
+              $widget_basic         = get_option('ukmtheme_widget_basic');
+              $widget_custom        = get_option('ukmtheme_widget_custom');
+              $widget_facebook      = get_option('ukmtheme_widget_facebook');
+              $widget_event         = get_option('ukmtheme_widget_event');
+              $widget_tabber        = get_option('ukmtheme_widget_tabber');
+              $widget_news_portal   = get_option('ukmtheme_widget_newsPortal');
             ?>
             <p class="description"><?php _e( 'Tandakan yang perlu sahaja. Sekiranya memilih "Custom", pastikan "Basic tidak dipilih". Untuk Facebook Like Box, masukkan url Facebook di ruangan Social Link.'); ?></p>
             <input id='checkbox' name='ukmtheme_widget_basic' type='checkbox' value="news" <?php echo ( 'news' == $widget_basic ) ? 'checked="checked"' : ''; ?> />
@@ -106,26 +106,28 @@ function theme_options_do_page() { ?>
             <label class="description" for="ukmtheme_widget_facebook"><?php _e( 'Facebook Like Box', 'ukmtheme' ); ?></label><br/>
           </td>
         </tr>
+        <!-- Language Switcher -->
+        <tr valign="top">
+        <th scope="row"><?php _e('Language Switcher','ukmtheme'); ?></th>
+        <td>
+          <?php
+            $widget_polylang          = get_option('ukmtheme_languages');
+            $widget_google_translate  = get_option('ukmtheme_google_trans');
+          ?>
+          <input id='checkbox' name='ukmtheme_google_trans' type='checkbox' value="google-translate" <?php echo ( 'google-translate' == $widget_google_translate ) ? 'checked="checked"' : ''; ?> />
+          <label class="description" for="ukmtheme_google_trans"><?php _e( 'Google Translate', 'ukmtheme' ); ?></label><br/>
+          <input id='checkbox' name='ukmtheme_languages' type='checkbox' value="polylang" <?php echo ( 'polylang' == $widget_polylang ) ? 'checked="checked"' : ''; ?> />
+          <label class="description" for="ukmtheme_languages"><?php _e( 'Polylang Language Switcher', 'ukmtheme' ); ?></label><br/>
+          <p class="description"><?php _e( 'Enable language menu. Do not enable this feature if the "Polylang" and "Google Translator" plugin is not activated.', 'ukmtheme' ); ?></p>
+        </td>
+        </tr>
+        <!-- Visitor Counter -->
         <tr valign="top">
         <th scope="row"><?php _e('Visitor Counter ID','ukmtheme'); ?></th>
         <td>
         <input type="text" name="ukmtheme_visitor_id" value="<?php echo get_option('ukmtheme_visitor_id'); ?>" class="regular-text" placeholder="768059" />
         <p class="description"><a class="thickbox" href="<?php echo get_template_directory_uri(); ?>/assets/images/admin/site_counter_sample.png"><?php _e( 'View sample', 'ukmtheme' ); ?></a>
         &nbsp;|&nbsp;<?php _e( 'Generate your id', 'ukmtheme' ); ?>&nbsp;<a href="http://www.supercounters.com/hitcounter?tab=plugin-information&amp;plugin=simple-comment-editing&amp;TB_iframe=true&amp;width=830&amp;height=565" class="thickbox" title="www.supercounter.com">here</a></p>
-        </td>
-        </tr>
-        <tr valign="top">
-        <th scope="row"><?php _e('Language Switcher','ukmtheme'); ?></th>
-        <td>
-          <select name ="ukmtheme_languages">
-            <?php 
-              $ut_lang_select = get_option('ukmtheme_languages');
-              $ut_lang_google = get_option('ukmtheme_google_trans');
-            ?>
-            <option value="canvas-tools" <?php if ($ut_lang_select=='canvas-tools') { echo 'selected'; } ?>>Disable</option>
-            <option value="canvas-lang" <?php if ($ut_lang_select=='canvas-lang') { echo 'selected'; } ?>>Enable</option>
-          </select>
-          <p class="description"><?php _e( 'Enable language menu. Do not enable this feature if the "Polylang" plugin is not activated.', 'ukmtheme' ); ?></p>
         </td>
         </tr>
       </tbody>

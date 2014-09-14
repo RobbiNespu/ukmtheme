@@ -30,10 +30,7 @@
     </div>
     <div class="col-1-2">
       <?php get_template_part( 'templates/nav', 'searchBar' ); ?>
-      <?php // Language Switcher Enabler
-        $ut_lang_select = get_option('ukmtheme_languages');
-        get_template_part( 'templates/off', $ut_lang_select );
-      ?>
+      <?php get_template_part( 'templates/off', 'canvas-tools' );?>
     </div>
   </div><!--.wrap-->
 </nav>
