@@ -115,7 +115,7 @@ function theme_options_do_page() { ?>
             $widget_google_translate  = get_option('ukmtheme_google_trans');
           ?>
           <input id='checkbox' name='ukmtheme_google_trans' type='checkbox' value="google-translate" <?php echo ( 'google-translate' == $widget_google_translate ) ? 'checked="checked"' : ''; ?> />
-          <label class="description" for="ukmtheme_google_trans"><?php _e( 'Google Translate', 'ukmtheme' ); ?></label><br/>
+          <label class="description" for="ukmtheme_google_trans"><?php _e( 'Google Translator', 'ukmtheme' ); ?></label><br/>
           <input id='checkbox' name='ukmtheme_languages' type='checkbox' value="polylang" <?php echo ( 'polylang' == $widget_polylang ) ? 'checked="checked"' : ''; ?> />
           <label class="description" for="ukmtheme_languages"><?php _e( 'Polylang Language Switcher', 'ukmtheme' ); ?></label><br/>
           <p class="description"><?php _e( 'Enable language menu. Do not enable this feature if the "Polylang" and "Google Translator" plugin is not activated.', 'ukmtheme' ); ?></p>

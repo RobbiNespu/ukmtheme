@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: UKM Theme 6.1\n"
-"POT-Creation-Date: 2014-09-15 00:21+0800\n"
-"PO-Revision-Date: 2014-09-15 00:23+0800\n"
+"POT-Creation-Date: 2014-09-15 00:25+0800\n"
+"PO-Revision-Date: 2014-09-15 00:25+0800\n"
 "Last-Translator: \n"
 "Language-Team: ukmtheme <jrajalu@ukm.edu.my>\n"
 "Language: ms_MY\n"
@@ -1829,8 +1829,9 @@ msgid "Language Switcher"
 msgstr "Pengalih Bahasa"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:118
-msgid "Google Translate"
-msgstr "Terjemahan Google"
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/widget-google-translate.php:1
+msgid "Google Translator"
+msgstr "Penterjemah Google"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:120
 msgid "Polylang Language Switcher"
@@ -2606,10 +2607,6 @@ msgstr "Akhir Kemaskini:&nbsp;"
 msgid "Upcoming Event"
 msgstr "Acara Akan Datang"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/widget-google-translate.php:1
-msgid "Google Translator"
-msgstr "Penterjemah Google"
-
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/widget-news-portal.php:21
 msgid "UKM News"
 msgstr "Berita UKM"
@@ -2622,6 +2619,9 @@ msgstr "Hello, semalat datang ke Universiti Kebangsaan Malaysia!"
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/widget-polylang.php:1
 msgid "Language"
 msgstr "Bahasa"
+
+#~ msgid "Google Translate"
+#~ msgstr "Terjemahan Google"
 
 #~ msgid "Background Image"
 #~ msgstr "Gambar Latar Belakang"
