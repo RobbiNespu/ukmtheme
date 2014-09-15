@@ -13,10 +13,16 @@ get_header(); ?>
   <div class="col-1-1 staff-wrap">
     <h2 class="content-title"><?php the_title(); ?></h2>
       <div class="col-1-10">
-      <?php 
-        $saved_data = get_post_meta($post->ID,'ut_staff_photo',true);
-        echo '<img src="'.$saved_data.'">';
-	    ?>
+        <?php
+          $staff_photo = get_post_meta($post->ID,'ut_staff_photo',true);
+          if ( $staff_photo ) { ?>
+          <img src="<?php echo get_post_meta($post->ID,'ut_staff_photo',true); ?>" alt="">
+          <?php }
+
+          else { ?>
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/staff-photo.png">
+          <?php }
+        ?>
 		  </div>
   		<div class="col-9-10">
         <div class="staff-detail">
