@@ -1,3 +1,15 @@
+<?php
+/**
+ * @link http://www.ukm.my/template
+ * @link http://codex.wordpress.org/The_Loop
+ *
+ * @package WordPress
+ * @subpackage ukmtheme
+ * @since 4.0
+ *
+ * @author Jamaludin Rajalu
+ */
+?>
 <form role="search" method="get" class="uk-form" action="<?php echo home_url( '/' ); ?>">
   <label>
     <input type="search" class="search-field" placeholder="<?php _e('Search...','ukmtheme'); ?>" value="" name="s" title="<?php _e('Search for:','ukmtheme'); ?>" />

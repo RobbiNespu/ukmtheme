@@ -43,6 +43,8 @@ function register_ukmtheme_settings() {
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_event' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_tabber' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_newsPortal' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_google_analytics' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_google_analytics_code' );
 }
 
 function theme_options_do_page() { ?>
@@ -64,6 +66,7 @@ function theme_options_do_page() { ?>
   <?php settings_fields( 'ukmtheme-settings-group' ); ?>
   <?php do_settings_sections( 'ukmtheme-settings-group' ); ?>
   <h3 class="title"><?php _e( 'General', 'ukmtheme' ); ?></h3>
+  <hr>
   <p>Masukkan perincian di bawah mengikut keperluan.</p>
     <table class="form-table">
       <tbody>
@@ -130,9 +133,23 @@ function theme_options_do_page() { ?>
         &nbsp;|&nbsp;<?php _e( 'Generate your id', 'ukmtheme' ); ?>&nbsp;<a href="http://www.supercounters.com/hitcounter?tab=plugin-information&amp;plugin=simple-comment-editing&amp;TB_iframe=true&amp;width=830&amp;height=565" class="thickbox" title="www.supercounter.com">here</a></p>
         </td>
         </tr>
+        <!-- Google Analytics -->
+        <tr valign="top">
+        <th scope="row"><?php _e('Google Analytics','ukmtheme'); ?></th>
+        <td>
+          <?php
+            $google_analytics        = get_option('ukmtheme_google_analytics');
+            $google_analytics_code   = get_option('ukmtheme_google_analytics_code');
+          ?>
+          <input id='checkbox' name='ukmtheme_google_analytics' type='checkbox' value="analytics" <?php echo ( 'analytics' == $google_analytics ) ? 'checked="checked"' : ''; ?> />
+          <label class="description" for="ukmtheme_google_analytics"><?php _e( 'Enable Google Analytics', 'ukmtheme' ); ?></label><br/><br/>
+          <textarea id="ukmtheme_google_analytics_code" name="ukmtheme_google_analytics_code" rows="5" cols="40" placeholder="Paste Google Analytics code here"><?php echo $google_analytics_code; ?></textarea>
+        </td>
+        </tr>
       </tbody>
     </table>
     <h3 class="title"><?php _e( 'Social Links', 'ukmtheme' ); ?></h3>
+    <hr>
     <p><?php _e( 'Pautan capaian ke laman Facebook, Twitter dan Youtube rasmi UKM atau PTJ. Masukkan url lengkap seperti keterangan di bawah.', 'ukmtheme' ); ?></p>
     <table class="form-table">
       <tbody>
@@ -156,6 +173,7 @@ function theme_options_do_page() { ?>
       </tbody>
     </table>
     <h3 class="title"><?php _e( 'Colour Options', 'ukmtheme' ); ?></h3>
+    <hr>
     <p><?php _e( 'Colour option for style switcher.', 'ukmtheme' ); ?></p>
     <table class="form-table">
       <tbody>

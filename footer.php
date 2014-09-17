@@ -40,5 +40,10 @@ wp_footer(); ?>
   ?>
 </div>
 </footer>
+<?php
+  $google_analytics   = get_option('ukmtheme_google_analytics');
+  get_template_part( 'templates/google', $google_analytics );
+?>
+
 </body>
 </html>
