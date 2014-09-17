@@ -83,7 +83,7 @@
       <?php endwhile; ?>
     </ul>
   </div>
-  <a href="#" class="jcarousel-control-prev"><span class="uticon-prev"></span></a>
-  <a href="#" class="jcarousel-control-next"><span class="uticon-next"></span></a>
+  <a href="#" class="jcarousel-control-prev"><span class="entypo-prev"></span></a>
+  <a href="#" class="jcarousel-control-next"><span class="entypo-next"></span></a>
   </div>
 </div>
