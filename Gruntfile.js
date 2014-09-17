@@ -23,11 +23,12 @@ module.exports = function(grunt) {
           cleancss: true
         },
         files: {
-          'assets/css/style.min.css': [
+          'style.css': [
+            'assets/less/version.less',
             'assets/fonts/webfont.less',
             'lib/flexslider/flexslider.less',
             'assets/less/partials/*.less',
-            'assets/less/*.less'
+            'assets/less/style.less'
           ]
         }
       }
@@ -35,7 +36,11 @@ module.exports = function(grunt) {
 
     watch: {
       css: {
-        files: ['assets/less/*.less', 'assets/less/partials/*.less'],
+        files: [
+          'assets/less/style.less',
+          'assets/less/version.less',
+          'assets/less/partials/*.less'
+        ],
         tasks: ['less'],
           options: {
             livereload: false

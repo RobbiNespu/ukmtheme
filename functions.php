@@ -16,11 +16,11 @@ add_action( 'admin_enqueue_scripts', 'ut_wp_admin_scripts' );
     // Javascript
     wp_enqueue_script( 'thickbox' );
     wp_enqueue_script( 'wp-color-picker' );
-    wp_enqueue_script( 'wp-color-picker-option', get_template_directory_uri() . '/assets/js/options.js', array('wp-color-picker'), '6.2', true );
+    wp_enqueue_script( 'wp-color-picker-option', get_template_directory_uri() . '/assets/js/options.js', array('wp-color-picker'), '6.3', true );
     // Stylesheet
     wp_enqueue_style( 'thickbox' );
     wp_enqueue_style( 'wp-color-picker' );
-    wp_enqueue_style( 'admin', get_template_directory_uri() . '/assets/css/admin.min.css', false, '6.2' );
+    wp_enqueue_style( 'admin', get_template_directory_uri() . '/assets/css/admin.css', false, '6.3' );
     
   }
 
@@ -33,13 +33,13 @@ if (!function_exists('ukmtheme_scripts')) {
     wp_deregister_script('jquery' );
     wp_enqueue_script( 'jquery', get_template_directory_uri() . '/assets/js/jquery-1.11.0.min.js', array(), '1.11.0', false );
     wp_enqueue_script( 'fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.pack.js', array(), '2.1.5', true );
-    wp_enqueue_script( 'jcarousel', '//cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.1/jquery.jcarousel.min.js', array(), '0.3.1', true );
+    wp_enqueue_script( 'jcarousel', get_template_directory_uri() . '/lib/jcarousel/jquery.jcarousel.min.js', array(), '0.3.1', true );
     wp_enqueue_script( 'responsiveTab', get_template_directory_uri() . '/lib/responsive-tab/js/jquery.responsiveTabs.min.js', array(), '1.3.6', true );
-    wp_enqueue_script( 'default', get_template_directory_uri() . '/assets/js/script.min.js', array(), '6.2', true );
+    wp_enqueue_script( 'default', get_template_directory_uri() . '/assets/js/script.min.js', array(), '6.3', true );
     // Stylesheet
     wp_enqueue_style( 'fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.css', false, '2.1.5' );
     wp_enqueue_style( 'responsiveTab', get_template_directory_uri() . '/lib/responsive-tab/css/responsive-tabs.css', false, '1.3.6' );
-    wp_enqueue_style( 'default', get_template_directory_uri() . '/assets/css/style.min.css', false, '6.2' );
+    wp_enqueue_style( 'default', get_stylesheet_uri(), false, '6.3' );
   }
 }
 

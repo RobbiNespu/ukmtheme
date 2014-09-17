@@ -1,4 +1,15 @@
 <?php
+/**
+ * @link http://www.ukm.my/template
+ * @link http://codex.wordpress.org/Post_Types
+ *
+ * @package WordPress
+ * @subpackage ukmtheme
+ * @since 4.0
+ *
+ * @author Jamaludin Rajalu
+ */
+
 function ukmtheme_html_sitemap() {
 $ukmtheme_sitemap = '';
 $published_posts = wp_count_posts('post');

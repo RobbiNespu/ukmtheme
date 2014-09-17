@@ -35,7 +35,7 @@ function ut_theme_docs() {
     <h3 class="title"><?php _e( 'Header Logo', 'ukmtheme' ); ?></h3>
     <div class="postbox">
       <div class="inside">
-        <p>Untuk menukar logo di bahagian Header, muat turun template <a href="<?php echo get_template_directory_uri(); ?>/assets/templates/templates.zip">di sini</a></p>
+        <p>Untuk menukar logo di bahagian Header, muat turun template <a href="<?php echo get_template_directory_uri(); ?>/assets/psd/logo_ukm.psd">di sini</a></p>
       </div>
     </div>
   </div><!-- .wrap -->

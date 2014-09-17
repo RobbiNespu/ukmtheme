@@ -1,3 +1,15 @@
+<?php
+/**
+ * @link http://www.ukm.my/template
+ * @link http://codex.wordpress.org/Post_Types
+ *
+ * @package WordPress
+ * @subpackage ukmtheme
+ * @since 4.0
+ *
+ * @author Jamaludin Rajalu
+ */
+ ?>
 <div class="off-canvas-tools-wrap"><a href="#ut-tools" data-uk-offcanvas class="off-canvas-icon"><?php _e( 'Tools &amp; Languages', 'ukmtheme' ); ?></a></div>
 <div id="ut-tools" class="uk-offcanvas">
   <div class="uk-offcanvas-bar uk-offcanvas-bar-flip ut-off-canvas">
