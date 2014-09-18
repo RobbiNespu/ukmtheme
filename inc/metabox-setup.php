@@ -328,7 +328,7 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
       ),
       array(
         'name'    => __( 'Optional Title', 'ukmtheme' ),
-        'desc'    => __( 'e.g. Another Matter', 'ukmtheme' ),
+        'desc'    => __( 'e.g. Another Matter. Please leave it blank if do not want to display', 'ukmtheme' ),
         'id'      => $prefix . 'staff_work_scope_title_custom',
         'type'    => 'text',
       ),

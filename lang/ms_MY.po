@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: UKM Theme 6.1\n"
-"POT-Creation-Date: 2014-09-18 12:15+0800\n"
-"PO-Revision-Date: 2014-09-18 12:17+0800\n"
+"POT-Creation-Date: 2014-09-18 12:21+0800\n"
+"PO-Revision-Date: 2014-09-18 12:22+0800\n"
 "Last-Translator: \n"
 "Language-Team: ukmtheme <jrajalu@ukm.edu.my>\n"
 "Language: ms_MY\n"
@@ -594,8 +594,8 @@ msgid "Optional Title"
 msgstr "Tajuk Pilihan"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:331
-msgid "e.g. Another Matter"
-msgstr "cth. Hal-hal Lain"
+msgid "e.g. Another Matter. Please leave it blank if do not want to display"
+msgstr "cth. Hal-hal Lain. Kosongkan sekiranya tidak mahu dipaparkan"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:342
 msgid "Expertise Detail"
@@ -2651,6 +2651,9 @@ msgstr "Hello, semalat datang ke Universiti Kebangsaan Malaysia!"
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/widget-polylang.php:13
 msgid "Language"
 msgstr "Bahasa"
+
+#~ msgid "e.g. Another Matter"
+#~ msgstr "cth. Hal-hal Lain"
 
 #~ msgid "Background Image"
 #~ msgstr "Gambar Latar Belakang"
