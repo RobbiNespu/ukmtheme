@@ -46,19 +46,23 @@ get_header(); ?>
       <?php echo '<span class="staff-phone">'; echo get_post_meta($post->ID, 'ut_staff_phone', true); echo '</span>'; ?>
       <?php echo '<span class="staff-email">'; echo get_post_meta($post->ID, 'ut_staff_email', true); echo '</span>'; ?><br/>
       <?php
-       $scope = get_post_meta($post->ID, 'ut_staff_work_scope', true);
-       $scope_desc = get_post_meta($post->ID, 'ut_staff_work_scope_desc', true);
+       $scope               = get_post_meta($post->ID, 'ut_staff_work_scope', true);
+       $scope_desc          = get_post_meta($post->ID, 'ut_staff_work_scope_desc', true);
+       $scope_title         = get_post_meta($post->ID, 'ut_staff_work_scope_title', true);
+       $scope_title_custom  = get_post_meta($post->ID, 'ut_staff_work_scope_title_custom', true);
 
-        if($scope == on) { ?>
-          <h4><?php _e( 'Scope of Work','ukmtheme' ); ?></h4>
-          <?php echo '<span class="staff-scope">'; echo get_post_meta($post->ID, 'ut_staff_work_scope_desc', true); echo '</span>'; ?>
-        
-        <?php }
-        
+        if($scope == on) { 
+          if($scope_title == on) { ?>
+            <h4><?php echo $scope_title_custom; ?></h4>            
+          <?php }          
+          else { ?>
+            <h4><?php _e( 'Scope of Work','ukmtheme' ); ?></h4>
+          <?php } ?>
+        <?php echo '<span class="staff-scope">'; echo get_post_meta($post->ID, 'ut_staff_work_scope_desc', true); echo '</span>'; ?>        
+        <?php }  
         else {
           echo '';
-        }
-      ?>
+        } ?>
     </div>
   </div>
 </div><!--staff-wrap-->

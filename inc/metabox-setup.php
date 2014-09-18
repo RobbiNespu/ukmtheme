@@ -320,6 +320,18 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
         'type'    => 'wysiwyg',
         'options' => array( 'textarea_rows' => 5, ),
       ),
+      array(
+        'name'    => __( 'Hide Scope of Work Title', 'ukmtheme' ),
+        'desc'    => __( 'Please check if want to hide Scope of Work title "Scope of Work"', 'ukmtheme' ),
+        'id'      => $prefix . 'staff_work_scope_title',
+        'type'    => 'checkbox',
+      ),
+      array(
+        'name'    => __( 'Optional Title', 'ukmtheme' ),
+        'desc'    => __( 'e.g. Another Matter', 'ukmtheme' ),
+        'id'      => $prefix . 'staff_work_scope_title_custom',
+        'type'    => 'text',
+      ),
     ),
   );
 

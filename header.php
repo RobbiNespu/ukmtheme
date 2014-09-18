@@ -12,7 +12,32 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-<?php get_template_part( 'templates/header', 'html' ); ?>
+<meta charset="<?php bloginfo( 'charset' ); ?>" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width">
+<title><?php wp_title( '|', true, 'right' ); ?></title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<meta name="description" content="<?php bloginfo( 'description' ); ?>">
+<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
+<?php wp_head(); ?>
+<style type="text/css">
+  .uk-button-primary,
+  .uk-button-primary:hover,
+  .uk-button-primary:focus {
+    background: <?php echo get_option('ukmtheme_mn_color'); ?>;
+  }
+  .mn_color {
+    background: #ed1c24;
+    background: <?php echo get_option('ukmtheme_mn_color'); ?>;
+  }
+  .snd_color {
+    background: <?php echo get_option('ukmtheme_snd_color'); ?>;
+  }
+  .trd_color {
+    background: <?php echo get_option('ukmtheme_trd_color'); ?>;
+  }
+</style>
 </head>
 <body <?php body_class(); ?>>
 <div class="page-wrap">
