@@ -79,6 +79,12 @@ function ukmtheme_register_required_plugins() {
       'slug'      => 'tablepress',
       'required'  => false,
     ),
+
+    array(
+      'name'      => 'WordPress SEO by Yoast',
+      'slug'      => 'wordpress-seo',
+      'required'  => false,
+    ),
   );
 
   $theme_text_domain = 'ukmtheme';
