@@ -9,6 +9,17 @@
  * @author Jamaludin Rajalu
  */
 
+// Flush Theme
+
+add_action( 'after_switch_theme', 'ukmtheme_rewrite_flush' );
+  
+  function ukmtheme_rewrite_flush() {
+
+    flush_rewrite_rules();
+
+  }
+
+
 // Admin Scripts and Style Enqueue
 
 add_action( 'admin_enqueue_scripts', 'ut_wp_admin_scripts' );
