@@ -9,7 +9,7 @@
  * @author Jamaludin Rajalu
  */
   $ukmtheme = wp_get_theme();
-wp_footer(); ?>
+?>
 </div><!--.page-wrap-->
 <footer class="site-footer">
 
@@ -43,6 +43,7 @@ wp_footer(); ?>
 <?php
   $google_analytics   = get_option('ukmtheme_google_analytics');
   get_template_part( 'templates/google', $google_analytics );
+  wp_footer();
 ?>
 </body>
 </html>
