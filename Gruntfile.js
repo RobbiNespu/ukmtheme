@@ -35,6 +35,9 @@ module.exports = function(grunt) {
     },
 
     watch: {
+      configFiles: {
+        files: ['Gruntfile.js','version.json']
+      },
       css: {
         files: [
           'assets/less/style.less',
@@ -43,7 +46,7 @@ module.exports = function(grunt) {
         ],
         tasks: ['less'],
           options: {
-            livereload: false
+            livereload: true
           }
       },
       js: {
@@ -53,22 +56,6 @@ module.exports = function(grunt) {
             spawn: false
           }
       }
-    },
-
-    compress: {
-      js: {
-        options: {
-          mode: 'gzip'
-        },
-        files: [ { expand: true, src: ['assets/js/*.js'], dest: '', ext: '.gz.js' } ]
-      },
-      
-      css: {
-        options: {
-          mode: 'gzip'
-        },
-        files: [ { expand: true, src: ['assets/css/*.css'], dest: '', ext: '.gz.css' } ]
-      }
     }
 
   }); // closingTask
@@ -76,8 +63,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-compress');
 
-  grunt.registerTask('default', ['uglify', 'less']);
+  grunt.registerTask('default', ['uglify', 'less', 'watch']);
 
 };

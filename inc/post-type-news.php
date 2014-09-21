@@ -11,6 +11,7 @@
  * Post Type: News
  */
 
+// Register Custom Post Type
 function ut_news() {
 
   $labels = array(
@@ -21,31 +22,38 @@ function ut_news() {
     'all_items'           => __( 'All News', 'ukmtheme' ),
     'view_item'           => __( 'View News', 'ukmtheme' ),
     'add_new_item'        => __( 'Add New News', 'ukmtheme' ),
-    'add_new'             => __( 'New News', 'ukmtheme' ),
+    'add_new'             => __( 'Add New', 'ukmtheme' ),
     'edit_item'           => __( 'Edit News', 'ukmtheme' ),
     'update_item'         => __( 'Update News', 'ukmtheme' ),
     'search_items'        => __( 'Search News', 'ukmtheme' ),
-    'not_found'           => __( 'No News found', 'ukmtheme' ),
-    'not_found_in_trash'  => __( 'No News found in Trash', 'ukmtheme' ),
+    'not_found'           => __( 'Not found', 'ukmtheme' ),
+    'not_found_in_trash'  => __( 'Not found in Trash', 'ukmtheme' ),
+  );
+  $rewrite = array(
+    'slug'                => 'Latest_News',
+    'with_front'          => true,
+    'pages'               => true,
+    'feeds'               => true,
   );
   $args = array(
-    'label'               => __( 'news', 'ukmtheme' ),
-    'description'         => __( 'News manager for UKM', 'ukmtheme' ),
+    'label'               => __( 'ukmnews', 'ukmtheme' ),
+    'description'         => __( 'Latest News', 'ukmtheme' ),
     'labels'              => $labels,
     'supports'            => array( 'title', 'editor', 'thumbnail', 'revisions', ),
-    //'taxonomies'          => array( 'category', 'post_tag' ),
-    'hierarchical'        => false,
+    'hierarchical'        => true,
     'public'              => true,
     'show_ui'             => true,
     'show_in_menu'        => true,
-    'show_in_nav_menus'   => true,
-    'show_in_admin_bar'   => true,
+    'show_in_nav_menus'   => false,
+    'show_in_admin_bar'   => false,
     //'menu_position'       => 20,
     'menu_icon'           => get_template_directory_uri() . '/assets/images/admin/icon-news.svg?ver=6.3',
     'can_export'          => true,
     'has_archive'         => true,
     'exclude_from_search' => false,
     'publicly_queryable'  => true,
+    'query_var'           => 'news',
+    'rewrite'             => $rewrite,
     'capability_type'     => 'post',
   );
   register_post_type( 'news', $args );
@@ -54,4 +62,3 @@ function ut_news() {
 
 // Hook into the 'init' action
 add_action( 'init', 'ut_news', 0 );
-?>
