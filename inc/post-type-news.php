@@ -12,7 +12,7 @@
  */
 
 // Register Custom Post Type
-function ut_news() {
+function ukmtheme_latest_news() {
 
   $labels = array(
     'name'                => _x( 'News', 'Post Type General Name', 'ukmtheme' ),
@@ -61,4 +61,4 @@ function ut_news() {
 }
 
 // Hook into the 'init' action
-add_action( 'init', 'ut_news', 0 );
+add_action( 'init', 'ukmtheme_latest_news', 0 );

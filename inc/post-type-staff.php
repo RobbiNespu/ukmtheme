@@ -12,7 +12,8 @@
  * 20140121
  */
 
-function ut_staff_directory() {
+// Register Custom Post Type
+function ukmtheme_staff_directory() {
 
   $labels = array(
     'name'                => _x( 'Staffs', 'Post Type General Name', 'ukmtheme' ),
@@ -22,31 +23,39 @@ function ut_staff_directory() {
     'all_items'           => __( 'All Staffs', 'ukmtheme' ),
     'view_item'           => __( 'View Staff', 'ukmtheme' ),
     'add_new_item'        => __( 'Add New Staff', 'ukmtheme' ),
-    'add_new'             => __( 'New Staff', 'ukmtheme' ),
+    'add_new'             => __( 'Add New', 'ukmtheme' ),
     'edit_item'           => __( 'Edit Staff', 'ukmtheme' ),
     'update_item'         => __( 'Update Staff', 'ukmtheme' ),
     'search_items'        => __( 'Search Staffs', 'ukmtheme' ),
-    'not_found'           => __( 'No Staffs found', 'ukmtheme' ),
-    'not_found_in_trash'  => __( 'No Staffs found in Trash', 'ukmtheme' ),
+    'not_found'           => __( 'Not found', 'ukmtheme' ),
+    'not_found_in_trash'  => __( 'Not found in Trash', 'ukmtheme' ),
+  );
+  $rewrite = array(
+    'slug'                => 'Staff_Directory',
+    'with_front'          => true,
+    'pages'               => true,
+    'feeds'               => true,
   );
   $args = array(
-    'label'               => __( 'Staff', 'ukmtheme' ),
-    'description'         => __( 'Staff information pages', 'ukmtheme' ),
+    'label'               => __( 'staff', 'ukmtheme' ),
+    'description'         => __( 'Latest Staffs', 'ukmtheme' ),
     'labels'              => $labels,
-    'supports'            => array( 'title', 'page-attributes' ),
+    'supports'            => array( 'title', 'revisions', ),
     'taxonomies'          => array( 'department', 'position' ),
     'hierarchical'        => true,
     'public'              => true,
     'show_ui'             => true,
     'show_in_menu'        => true,
-    'show_in_nav_menus'   => true,
-    'show_in_admin_bar'   => true,
+    'show_in_nav_menus'   => false,
+    'show_in_admin_bar'   => false,
     //'menu_position'       => 20,
     'menu_icon'           => get_template_directory_uri() . '/assets/images/admin/icon-staff.svg?ver=6.3',
     'can_export'          => true,
     'has_archive'         => true,
     'exclude_from_search' => false,
     'publicly_queryable'  => true,
+    'query_var'           => 'staff',
+    'rewrite'             => $rewrite,
     'capability_type'     => 'post',
   );
   register_post_type( 'staff', $args );
@@ -54,7 +63,7 @@ function ut_staff_directory() {
 }
 
 // Hook into the 'init' action
-add_action( 'init', 'ut_staff_directory', 0 );
+add_action( 'init', 'ukmtheme_staff_directory', 0 );
 
 // Register Custom Taxonomy
 function ut_staff_directory_department()  {
@@ -190,8 +199,13 @@ function convert_position_id_to_taxonomy_term_in_query($query) {
     }
 }
 
-// Custom Column Adjustment
-// @link http://codex.wordpress.org/Plugin_API/Action_Reference/manage_posts_custom_column
+/**
+ * Custom Column Adjustment
+ * @link http://codex.wordpress.org/Plugin_API/Action_Reference/manage_posts_custom_column
+ * @link http://codex.wordpress.org/Plugin_API/Filter_Reference/manage_edit-post_type_columns
+ * @link http://codex.wordpress.org/Plugin_API/Action_Reference/manage_$post_type_posts_custom_column
+ */
+
 
 add_action('manage_staff_posts_custom_column', 'ut_staff_custom_columns');
 add_filter('manage_edit-staff_columns', 'ut_add_new_staff_columns');
