@@ -11,6 +11,14 @@
  * Custom Post Type: Publication
  */
 
+function title_publication_input ( $title ) {
+  if ( get_post_type() == 'publication' ) {
+    $title = __( 'Enter publication name here', 'ukmtheme' );
+  }
+  return $title;
+} // End title_text_input()
+add_filter( 'enter_title_here', 'title_publication_input' );
+
 function ut_publication() {
 
   $labels = array(

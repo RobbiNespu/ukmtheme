@@ -9,6 +9,14 @@
  * @author Jamaludin Rajalu
  */
 
+function title_slideshow_input ( $title ) {
+  if ( get_post_type() == 'slideshow' ) {
+    $title = __( 'Enter slide name here as reference', 'ukmtheme' );
+  }
+  return $title;
+} // End title_text_input()
+add_filter( 'enter_title_here', 'title_slideshow_input' );
+
 function ut_slideshow() {
 
   $labels = array(

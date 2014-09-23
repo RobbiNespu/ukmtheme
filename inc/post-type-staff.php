@@ -12,6 +12,14 @@
  * 20140121
  */
 
+function title_staff_input ( $title ) {
+  if ( get_post_type() == 'staff' ) {
+    $title = __( 'Enter staff name here', 'ukmtheme' );
+  }
+  return $title;
+} // End title_text_input()
+add_filter( 'enter_title_here', 'title_staff_input' );
+
 // Register Custom Post Type
 function ukmtheme_staff_directory() {
 
