@@ -66,23 +66,29 @@ function ukmtheme_staff_directory() {
 add_action( 'init', 'ukmtheme_staff_directory', 0 );
 
 // Register Custom Taxonomy
-function ut_staff_directory_department()  {
+function ukmtheme_staff_department_taxonomy() {
 
   $labels = array(
     'name'                       => _x( 'Departments', 'Taxonomy General Name', 'ukmtheme' ),
     'singular_name'              => _x( 'Department', 'Taxonomy Singular Name', 'ukmtheme' ),
     'menu_name'                  => __( 'Department', 'ukmtheme' ),
-    'all_items'                  => __( 'All Departments', 'ukmtheme' ),
+    'all_items'                  => __( 'All Items', 'ukmtheme' ),
     'parent_item'                => __( 'Parent Department', 'ukmtheme' ),
     'parent_item_colon'          => __( 'Parent Department:', 'ukmtheme' ),
     'new_item_name'              => __( 'New Department Name', 'ukmtheme' ),
     'add_new_item'               => __( 'Add New Department', 'ukmtheme' ),
     'edit_item'                  => __( 'Edit Department', 'ukmtheme' ),
     'update_item'                => __( 'Update Department', 'ukmtheme' ),
-    'separate_items_with_commas' => __( 'Separate Departments with commas', 'ukmtheme' ),
+    'separate_items_with_commas' => __( 'Separate departments with commas', 'ukmtheme' ),
     'search_items'               => __( 'Search Departments', 'ukmtheme' ),
-    'add_or_remove_items'        => __( 'Add or remove Departments', 'ukmtheme' ),
-    'choose_from_most_used'      => __( 'Choose from the most used Departments', 'ukmtheme' ),
+    'add_or_remove_items'        => __( 'Add or remove departments', 'ukmtheme' ),
+    'choose_from_most_used'      => __( 'Choose from the most used departments', 'ukmtheme' ),
+    'not_found'                  => __( 'Not Found', 'ukmtheme' ),
+  );
+  $rewrite = array(
+    'slug'                       => 'Staff_Department',
+    'with_front'                 => true,
+    'hierarchical'               => false,
   );
   $args = array(
     'labels'                     => $labels,
@@ -91,23 +97,25 @@ function ut_staff_directory_department()  {
     'show_ui'                    => true,
     'show_admin_column'          => true,
     'show_in_nav_menus'          => true,
-    'show_tagcloud'              => true,
+    'show_tagcloud'              => false,
+    'query_var'                  => 'department',
+    'rewrite'                    => $rewrite,
   );
-  register_taxonomy( 'department', 'staff', $args );
+  register_taxonomy( 'department', array( 'staff' ), $args );
 
 }
 
 // Hook into the 'init' action
-add_action( 'init', 'ut_staff_directory_department', 0 );
+add_action( 'init', 'ukmtheme_staff_department_taxonomy', 0 );
 
 // Register Custom Taxonomy
-function ut_staff_directory_position()  {
+function ukmtheme_staff_position_taxonomy() {
 
   $labels = array(
     'name'                       => _x( 'Positions', 'Taxonomy General Name', 'ukmtheme' ),
     'singular_name'              => _x( 'Position', 'Taxonomy Singular Name', 'ukmtheme' ),
     'menu_name'                  => __( 'Position', 'ukmtheme' ),
-    'all_items'                  => __( 'All Positions', 'ukmtheme' ),
+    'all_items'                  => __( 'All Items', 'ukmtheme' ),
     'parent_item'                => __( 'Parent Position', 'ukmtheme' ),
     'parent_item_colon'          => __( 'Parent Position:', 'ukmtheme' ),
     'new_item_name'              => __( 'New Position Name', 'ukmtheme' ),
@@ -118,6 +126,12 @@ function ut_staff_directory_position()  {
     'search_items'               => __( 'Search Positions', 'ukmtheme' ),
     'add_or_remove_items'        => __( 'Add or remove Positions', 'ukmtheme' ),
     'choose_from_most_used'      => __( 'Choose from the most used Positions', 'ukmtheme' ),
+    'not_found'                  => __( 'Not Found', 'ukmtheme' ),
+  );
+  $rewrite = array(
+    'slug'                       => 'Staff_Position',
+    'with_front'                 => true,
+    'hierarchical'               => false,
   );
   $args = array(
     'labels'                     => $labels,
@@ -126,11 +140,16 @@ function ut_staff_directory_position()  {
     'show_ui'                    => true,
     'show_admin_column'          => true,
     'show_in_nav_menus'          => true,
-    'show_tagcloud'              => true,
+    'show_tagcloud'              => false,
+    'query_var'                  => 'Position',
+    'rewrite'                    => $rewrite,
   );
-  register_taxonomy( 'position', 'staff', $args );
+  register_taxonomy( 'position', array( 'staff' ), $args );
 
 }
+
+// Hook into the 'init' action
+add_action( 'init', 'ukmtheme_staff_Position_taxonomy', 0 );
 
 // Hook into the 'init' action
 add_action( 'init', 'ut_staff_directory_position', 0 );
