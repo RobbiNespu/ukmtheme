@@ -74,13 +74,13 @@ function ukmtheme_staff_directory() {
 add_action( 'init', 'ukmtheme_staff_directory', 0 );
 
 // Register Custom Taxonomy
-function ukmtheme_staff_department_taxonomy() {
+function ukmtheme_staff_department() {
 
   $labels = array(
     'name'                       => _x( 'Departments', 'Taxonomy General Name', 'ukmtheme' ),
     'singular_name'              => _x( 'Department', 'Taxonomy Singular Name', 'ukmtheme' ),
     'menu_name'                  => __( 'Department', 'ukmtheme' ),
-    'all_items'                  => __( 'All Items', 'ukmtheme' ),
+    'all_items'                  => __( 'All Departments', 'ukmtheme' ),
     'parent_item'                => __( 'Parent Department', 'ukmtheme' ),
     'parent_item_colon'          => __( 'Parent Department:', 'ukmtheme' ),
     'new_item_name'              => __( 'New Department Name', 'ukmtheme' ),
@@ -94,8 +94,8 @@ function ukmtheme_staff_department_taxonomy() {
     'not_found'                  => __( 'Not Found', 'ukmtheme' ),
   );
   $rewrite = array(
-    'slug'                       => 'Staff_Department',
-    'with_front'                 => true,
+    'slug'                       => 'staff_department',
+    'with_front'                 => false,
     'hierarchical'               => false,
   );
   $args = array(
@@ -112,6 +112,9 @@ function ukmtheme_staff_department_taxonomy() {
   register_taxonomy( 'department', array( 'staff' ), $args );
 
 }
+
+// Hook into the 'init' action
+add_action( 'init', 'ukmtheme_staff_department', 0 );
 
 // Hook into the 'init' action
 add_action( 'init', 'ukmtheme_staff_department_taxonomy', 0 );

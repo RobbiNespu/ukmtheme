@@ -22,7 +22,7 @@ get_header(); ?>
             ?>
             </div>
             <div class="col-7-10">
-              <h2><?php the_title(); ?></h2>
+              <h2 class="content-title"><?php the_title(); ?></h2>
               <h4><?php _e('Detail','ukmtheme') ?></h4>
               <table>
                 <tr><td><?php _e('Author','ukmtheme'); ?></td><td>:&nbsp;<?php echo get_post_meta($post->ID, 'ut_publication_author', true); ?></td></tr>
