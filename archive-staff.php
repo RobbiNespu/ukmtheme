@@ -18,7 +18,7 @@ get_header(); ?>
     'post_type'       => 'staff', 
     'posts_per_page'  => -1, 
     'orderby'         => 'menu_order', 
-    'order'           => 'ASC' 
+    'order'           => 'DESC'
   ));
 ?>
 <?php if ( $staff->have_posts() ) : while ( $staff->have_posts() ) : $staff->the_post(); ?>

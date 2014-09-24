@@ -26,7 +26,7 @@ get_header(); ?>
 <div class="uk-panel uk-panel-box uk-panel-box-secondary staff-wrap">
   <div class="col-1-7">
       <div class="staff-photo">
-        <?php global $post;
+        <?php
           $staff_photo = get_post_meta($post->ID,'ut_staff_photo',true);
           if ( $staff_photo ) { ?>
           <img src="<?php echo get_post_meta($post->ID,'ut_staff_photo',true); ?>" alt="">
