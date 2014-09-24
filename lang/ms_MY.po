@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: UKM Theme 6.1\n"
-"POT-Creation-Date: 2014-09-18 12:21+0800\n"
-"PO-Revision-Date: 2014-09-18 12:22+0800\n"
+"POT-Creation-Date: 2014-09-24 14:36+0800\n"
+"PO-Revision-Date: 2014-09-24 14:37+0800\n"
 "Last-Translator: \n"
 "Language-Team: ukmtheme <jrajalu@ukm.edu.my>\n"
 "Language: ms_MY\n"
@@ -19,6 +19,8 @@ msgstr ""
 "ukmtheme-master\n"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/404.php:16
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:99
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:143
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/index.php:22
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/page-left-sidebar.php:27
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/page.php:22
@@ -54,7 +56,7 @@ msgstr "Senarai Acara"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/archive-event.php:37
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/archive-publication.php:38
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:135
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:148
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:38
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/widget-news-scroller.php:28
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/widget-news-ticker.php:28
@@ -113,6 +115,7 @@ msgid "Photo by:&nbsp;"
 msgstr "Foto oleh:&nbsp;"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/archive-news.php:18
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:40
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/widget-news.php:20
 msgid "Latest News"
 msgstr "Berita Terkini"
@@ -126,8 +129,8 @@ msgid "Press Release"
 msgstr "Kenyataan Akhbar"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/archive-publication.php:18
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:18
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:19
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:26
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:27
 msgid "Publication"
 msgstr "Penerbitan"
 
@@ -139,7 +142,7 @@ msgstr "Butiran"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/archive-publication.php:32
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:249
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:105
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:113
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/single-publication.php:28
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:32
 msgid "Author"
@@ -147,7 +150,7 @@ msgstr "Pengarang"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/archive-publication.php:33
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:255
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:106
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:114
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/single-publication.php:29
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:33
 msgid "Publisher"
@@ -155,7 +158,7 @@ msgstr "Penerbit"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/archive-publication.php:34
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/metabox-setup.php:261
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:107
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:115
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/single-publication.php:30
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/taxonomy-pubcat.php:34
 msgid "Year"
@@ -228,61 +231,61 @@ msgstr "Web ini boleh diakses dengan telefon bimbit"
 msgid "Powered by"
 msgstr "Dijana dengan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:67
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:87
 msgid "Top Navigation"
 msgstr "Navigasi Atas"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:68
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:88
 msgid "Main Navigation"
 msgstr "Navigasi Utama"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:69
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:89
 msgid "Footer Navigation"
 msgstr "Navigasi Pembawah"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:159
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:176
 msgid "Main Sidebar"
 msgstr "Barsisi Utama"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:161
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:178
 msgid "Appears on Front Page template, which has its own widgets"
 msgstr "Muncul pada Muka Hadapan templat, yang mempunyai widget sendiri"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:169
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:186
 msgid "Page Sidebar"
 msgstr "Barsisi Halaman"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:171
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:188
 msgid "Appears when using the optional page"
 msgstr "Muncul apabila menggunakan halaman pilihan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:179
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:196
 msgid "Frontpage Three Boxes"
 msgstr "Tiga Kotak Halaman Depan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:181
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:191
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:201
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:198
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:208
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:218
 msgid "Appears when using the optional Front Page"
 msgstr "Muncul apabila menggunakan Halaman Depan pilhan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:189
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:206
 msgid "Frontpage Four Boxes"
 msgstr "Empat Kotak Halaman Depan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:199
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:216
 msgid "Frontpage Custom Box"
 msgstr "Kotak Khas Muka Hadapan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:208
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:225
 msgid "Footer Content"
 msgstr "Isian Pembawah"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:210
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:227
 msgid "Appears in footer"
 msgstr "Muncul di dalam Pembawah"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:239
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:256
 #, php-format
 msgid "Page %s"
 msgstr "Halaman %s"
@@ -361,7 +364,7 @@ msgstr "Perincian Kenyataan Akhbar"
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:69
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-event.php:67
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-press.php:64
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:67
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:75
 msgid "Date"
 msgstr "Tarikh"
 
@@ -979,12 +982,12 @@ msgid "Expertise manager for UKM"
 msgstr "Pengurus kepakaran untuk UKM"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:66
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:202
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:246
 msgid "Photo"
 msgstr "Foto"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:67
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:203
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:247
 msgid "Name"
 msgstr "Nama"
 
@@ -1055,67 +1058,67 @@ msgid "FAQ Category"
 msgstr "Kategori Soalan Lazim"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:65
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:65
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:73
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-video.php:68
 msgid "All Categories"
 msgstr "Semua Kategori"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:66
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:66
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:74
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-video.php:69
 msgid "Parent Category"
 msgstr "Induk Kategori"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:67
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:67
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:75
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-video.php:70
 msgid "Parent Category:"
 msgstr "Induk Kategori:"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:68
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:68
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:76
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-video.php:71
 msgid "New Category Name"
 msgstr "Nama Kategori Baru"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:69
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:69
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:77
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-video.php:72
 msgid "Add New Category"
 msgstr "Tambah Kategori Baru"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:70
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:70
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:78
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-video.php:73
 msgid "Edit Category"
 msgstr "Sunting Kategori"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:71
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:71
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:79
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-video.php:74
 msgid "Update Category"
 msgstr "Kemaskini Kategori"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:72
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:72
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:80
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-video.php:75
 msgid "Separate Categories with commas"
 msgstr "Asingkan Kategori dengan koma"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:73
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:73
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:81
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-video.php:76
 msgid "Search Categories"
 msgstr "Cari Kategori"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:74
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:74
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:82
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-video.php:77
 msgid "Add or remove Categories"
 msgstr "Tambah atau hapus kategori"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:75
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:75
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:83
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-video.php:78
 msgid "Choose from the most used Categories"
 msgstr "Pilih daripada Kategori yang paling digunakan"
@@ -1125,7 +1128,7 @@ msgid "Question"
 msgstr "Soalan"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-faq.php:103
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:104
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:112
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-video.php:106
 msgid "Category"
 msgstr "Kategori"
@@ -1181,64 +1184,60 @@ msgstr "Portal Berita"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news-portal.php:18
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news-portal.php:32
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:17
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:18
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:19
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:20
 msgid "News"
 msgstr "Berita"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news-portal.php:20
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:20
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:21
 msgid "Parent News:"
 msgstr "Induk Berita:"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news-portal.php:21
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:21
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:22
 msgid "All News"
 msgstr "Semua Berita"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news-portal.php:22
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:22
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:23
 msgid "View News"
 msgstr "Papar Berita"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news-portal.php:23
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:23
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:24
 msgid "Add New News"
 msgstr "Tambah Berita Baru"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news-portal.php:24
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:24
 msgid "New News"
 msgstr "Berita Baru"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news-portal.php:25
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:25
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:26
 msgid "Edit News"
 msgstr "Sunting Berita"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news-portal.php:26
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:26
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:27
 msgid "Update News"
 msgstr "Kemaskini Berita"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news-portal.php:27
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:27
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:28
 msgid "Search News"
 msgstr "Cari Berita"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news-portal.php:28
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:28
 msgid "No News found"
 msgstr "Tiada Berita dijumpai."
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news-portal.php:29
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:29
 msgid "No News found in Trash"
 msgstr "Tiada Berita dijumpai di Buangan"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news-portal.php:33
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:33
 msgid "News manager for UKM"
 msgstr "Pengurus Berita untuk UKM"
 
@@ -1300,9 +1299,24 @@ msgstr "putaran_berita"
 msgid "News Scroller manager for UKM"
 msgstr "Pengurus Putaran Berita untuk UKM"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:32
-msgid "news"
-msgstr "berita"
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:25
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:38
+msgid "Add New"
+msgstr "Tambah Baru"
+
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:29
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:42
+msgid "Not found"
+msgstr "Tidak dijumpai"
+
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:30
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:43
+msgid "Not found in Trash"
+msgstr "Tiada dijumpai dalam Buangan"
+
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:39
+msgid "ukmnews"
+msgstr "ukmnews"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-press.php:20
 msgid "Parent Press Release:"
@@ -1349,308 +1363,311 @@ msgid "Press Release manager for UKM"
 msgstr "Pengurus Kenyataan Akhbar untuk UKM"
 
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-press.php:65
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:103
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:66
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:111
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:74
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-video.php:105
 msgid "Title"
 msgstr "Tajuk"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:17
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:16
+msgid "Enter publication name here"
+msgstr "Masukkan nama penerbitan di sini"
+
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:25
 msgid "Publications"
 msgstr "Penerbitan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:20
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:28
 msgid "Parent Publication:"
 msgstr "Induk Penerbitan:"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:21
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:29
 msgid "All Publications"
 msgstr "Semua Penerbitan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:22
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:30
 msgid "View Publication"
 msgstr "Papar Penerbitan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:23
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:31
 msgid "Add New Publication"
 msgstr "Tambah Penerbitan Baru"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:24
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:32
 msgid "New Publication"
 msgstr "Penerbitan Baru"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:25
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:33
 msgid "Edit Publication"
 msgstr "Sunting Penerbitan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:26
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:34
 msgid "Update Publication"
 msgstr "Kemaskini Penerbitan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:27
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:35
 msgid "Search Publications"
 msgstr "Cari Penerbitan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:28
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:36
 msgid "No Publications found"
 msgstr "Tiada Penerbitan dijumpai."
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:29
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:37
 msgid "No Publications found in Trash"
 msgstr "Tiada Penerbitan dijumpai di Buangan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:32
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:40
 msgid "publication"
 msgstr "penerbitan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:33
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:41
 msgid "Publication information pages"
 msgstr "Halaman informasi Penerbitan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:62
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:70
 msgid "Pub. Categories"
 msgstr "Kategori Penerbitan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:63
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:64
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:71
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:72
 msgid "Pub. Category"
 msgstr "Kategori Penerbitan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:102
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-publication.php:110
 msgid "Cover"
 msgstr "Kulit"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:15
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:14
+msgid "Enter slide name here as reference"
+msgstr "Masukkan nama slide sebagai rujukan"
+
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:23
 msgid "Slideshows"
 msgstr "Slideshow"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:16
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:17
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:24
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:25
 msgid "Slideshow"
 msgstr "Slideshow"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:18
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:26
 msgid "Parent Slideshow:"
 msgstr "Induk Slideshow"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:19
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:27
 msgid "All Slideshows"
 msgstr "Semua Slideshows"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:20
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:28
 msgid "View Slideshow"
 msgstr "Papar Slideshow"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:21
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:29
 msgid "Add New Slideshow"
 msgstr "Tambah Slideshow Baru"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:22
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:30
 msgid "New Slideshow"
 msgstr "Slideshows Baru"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:23
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:31
 msgid "Edit Slideshow"
 msgstr "Sunting Slideshows"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:24
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:32
 msgid "Update Slideshow"
 msgstr "Kemaskini Slideshow"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:25
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:33
 msgid "Search Slideshows"
 msgstr "Cari Slideshow"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:26
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:34
 msgid "No Slideshows found"
 msgstr "Tiada Slideshows dijumpai."
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:27
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:35
 msgid "No Slideshows found in Trash"
 msgstr "Tiada Slideshow dijumpai di Buangan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:30
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:38
 msgid "slideshow"
 msgstr "slideshows"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:31
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:39
 msgid "Frontpage image slideshow"
 msgstr "Imej Slideshows Muka Hadapan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:65
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-slideshow.php:73
 msgid "Image"
 msgstr "Imej"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:18
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:19
+msgid "Enter staff name here"
+msgstr "Masuukan nama staf di sini"
+
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:31
 msgid "Staffs"
 msgstr "Staf"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:19
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:33
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:32
 msgid "Staff"
 msgstr "Staf"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:20
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:33
 msgid "Staff Directory"
 msgstr "Direktori Staf"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:21
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:34
 msgid "Parent Staff:"
 msgstr "Induk Staf:"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:22
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:35
 msgid "All Staffs"
 msgstr "Semua Staf"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:23
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:36
 msgid "View Staff"
 msgstr "Papar Staf"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:24
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:37
 msgid "Add New Staff"
 msgstr "Tambah Satf Baru"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:25
-msgid "New Staff"
-msgstr "Staf Baru"
-
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:26
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:39
 msgid "Edit Staff"
 msgstr "Sunting Staf"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:27
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:40
 msgid "Update Staff"
 msgstr "Kemaskni Staf"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:28
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:41
 msgid "Search Staffs"
 msgstr "Cari Staf"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:29
-msgid "No Staffs found"
-msgstr "Tiada Staf dijumpai."
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:52
+msgid "staff"
+msgstr "staf"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:30
-msgid "No Staffs found in Trash"
-msgstr "Tiada Staf dijumpai di Buangan"
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:53
+msgid "Latest Staffs"
+msgstr "Staf Terkini"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:34
-msgid "Staff information pages"
-msgstr "Halaman informasi staf"
-
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:63
-msgid "Departments"
-msgstr "Jabatan"
-
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:64
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:65
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:205
-msgid "Department"
-msgstr "Jabatan"
-
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:66
-msgid "All Departments"
-msgstr "Semua Jabatan"
-
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:67
-msgid "Parent Department"
-msgstr "Induk Jabatan"
-
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:68
-msgid "Parent Department:"
-msgstr "Induk Jabatan:"
-
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:69
-msgid "New Department Name"
-msgstr "Nama Jabatan Baru"
-
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:70
-msgid "Add New Department"
-msgstr "Tambah Jabatan Baru"
-
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:71
-msgid "Edit Department"
-msgstr "Sunting Jabatan"
-
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:72
-msgid "Update Department"
-msgstr "Kemaskini Jabatan"
-
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:73
-msgid "Separate Departments with commas"
-msgstr "Asingkan Jabatan dengan koma"
-
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:74
-msgid "Search Departments"
-msgstr "Cari Jabatan"
-
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:75
-msgid "Add or remove Departments"
-msgstr "Tambah atau hapus Jabatan"
-
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:76
-msgid "Choose from the most used Departments"
-msgstr "Pilih daripada Jabatanyang paling digunakan"
-
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:98
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:85
 msgid "Positions"
 msgstr "Jawatan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:99
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:100
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:204
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:86
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:87
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:248
 msgid "Position"
 msgstr "Jawatan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:101
-msgid "All Positions"
-msgstr "Semua Jawatan"
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:88
+msgid "All Items"
+msgstr "Semua Item"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:102
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:89
 msgid "Parent Position"
 msgstr "Induk Jawatan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:103
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:90
 msgid "Parent Position:"
 msgstr "Induk Jawatan:"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:104
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:91
 msgid "New Position Name"
 msgstr "Nama Jawatan Baru"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:105
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:92
 msgid "Add New Position"
 msgstr "Tambah Jawatan Baru"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:106
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:93
 msgid "Edit Position"
 msgstr "Sunting Jawatan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:107
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:94
 msgid "Update Position"
 msgstr "Kemaskini Jawatan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:108
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:95
 msgid "Separate Positions with commas"
 msgstr "Asingkan Jawatan dengan koma"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:109
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:96
 msgid "Search Positions"
 msgstr "Cari Jawatan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:110
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:97
 msgid "Add or remove Positions"
 msgstr "Tambah atau hapus Jawatan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:111
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:98
 msgid "Choose from the most used Positions"
 msgstr "Pilih daripada Jawatan yang paling digunakan"
 
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:129
+msgid "Departments"
+msgstr "Jabatan"
+
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:130
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:131
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:249
+msgid "Department"
+msgstr "Jabatan"
+
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:132
+msgid "All Departments"
+msgstr "Semua Jabatan"
+
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:133
+msgid "Parent Department"
+msgstr "Induk Jabatan"
+
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:134
+msgid "Parent Department:"
+msgstr "Induk Jabatan:"
+
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:135
+msgid "New Department Name"
+msgstr "Nama Jabatan Baru"
+
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:136
+msgid "Add New Department"
+msgstr "Tambah Jabatan Baru"
+
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:137
+msgid "Edit Department"
+msgstr "Sunting Jabatan"
+
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:138
+msgid "Update Department"
+msgstr "Kemaskini Jabatan"
+
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:139
+msgid "Separate departments with commas"
+msgstr "Asingkan jabatan dengan koma"
+
 #: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:140
+msgid "Search Departments"
+msgstr "Cari Jabatan"
+
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:141
+msgid "Add or remove departments"
+msgstr "Tambah atau hapus jabatan"
+
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:142
+msgid "Choose from the most used departments"
+msgstr "Pilih daripada jabatan yang paling digunakan"
+
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:179
 msgid "All Department"
 msgstr "Semua Jabatan"
 
-#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:171
+#: /Users/user/Library/Containers/com.bitnami.wordpress/Data/app-3_8_1/apache2/htdocs/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:210
 msgid "All Position"
 msgstr "Semua Jawatan"
 
@@ -2652,6 +2669,21 @@ msgstr "Hello, semalat datang ke Universiti Kebangsaan Malaysia!"
 msgid "Language"
 msgstr "Bahasa"
 
+#~ msgid "New Staff"
+#~ msgstr "Staf Baru"
+
+#~ msgid "No Staffs found"
+#~ msgstr "Tiada Staf dijumpai."
+
+#~ msgid "No Staffs found in Trash"
+#~ msgstr "Tiada Staf dijumpai di Buangan"
+
+#~ msgid "Staff information pages"
+#~ msgstr "Halaman informasi staf"
+
+#~ msgid "All Positions"
+#~ msgstr "Semua Jawatan"
+
 #~ msgid "e.g. Another Matter"
 #~ msgstr "cth. Hal-hal Lain"
 
@@ -2714,9 +2746,6 @@ msgstr "Bahasa"
 
 #~ msgid "Get it"
 #~ msgstr "Dapatkan"
-
-#~ msgid "staff"
-#~ msgstr "staf"
 
 #~ msgid "Copyright"
 #~ msgstr "Hakcipta"

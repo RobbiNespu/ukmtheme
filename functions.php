@@ -11,13 +11,13 @@
 
 // FLUSH THEME
 
-add_action( 'after_switch_theme', 'ukmtheme_rewrite_flush' );
-  
-  function ukmtheme_rewrite_flush() {
+add_action( 'wp_loaded','ukmtheme_flush_rules' );
 
-    flush_rewrite_rules();
-
-  }
+function ukmtheme_flush_rules() {
+  $rules = get_option( 'rewrite_rules' );
+  global $wp_rewrite;
+    $wp_rewrite->flush_rules();
+}
 
 // FAVICON FOR ADMIN PAGE
 
@@ -133,7 +133,7 @@ add_action( 'after_setup_theme', 'ukmtheme_module' );
       require( 'inc/widget-news.php' );
       require( 'inc/widget-news-thumbnail.php' );
       require( 'inc/widget-youtube.php' );
-      require( 'lib/custom-admin/custom-admin.php' );
+      //require( 'lib/custom-admin/custom-admin.php' );
       require( 'templates/page-sitemap.php' );
     }
   }

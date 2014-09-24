@@ -33,8 +33,8 @@ function ukmtheme_register_required_plugins() {
     ),
 
     array(
-      'name'      => 'CMS Tree Page View',
-      'slug'      => 'cms-tree-page-view',
+      'name'      => 'CMS Page Order',
+      'slug'      => 'cms-page-order',
       'required'  => false,
     ),
 
