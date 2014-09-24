@@ -15,10 +15,10 @@ get_header(); ?>
 <h2 class="content-title"><?php _e('Directory', 'ukmtheme'); ?></h2>
 <?php
   $staff = new WP_Query( array( 
-    'post_type'       => 'staff', 
-    'posts_per_page'  => -1, 
-    'orderby'         => 'menu_order', 
-    'order'           => 'DESC'
+    'post_type'       => 'staff',
+    'posts_per_page'  => -1,
+    'orderby'         => 'menu_order',
+    'order'           => 'ASC'
   ));
 ?>
 <?php if ( $staff->have_posts() ) : while ( $staff->have_posts() ) : $staff->the_post(); ?>

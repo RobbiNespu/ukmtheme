@@ -9,7 +9,7 @@
  * @author Jamaludin Rajalu
  */
 
-// Flush Theme
+// FLUSH THEME
 
 add_action( 'after_switch_theme', 'ukmtheme_rewrite_flush' );
   
@@ -19,8 +19,17 @@ add_action( 'after_switch_theme', 'ukmtheme_rewrite_flush' );
 
   }
 
+// FAVICON FOR ADMIN PAGE
 
-// Admin Scripts and Style Enqueue
+function add_favicon() {
+  $favicon_url = get_stylesheet_directory_uri() . '/favicon.ico';
+  echo '<link rel="shortcut icon" href="' . $favicon_url . '" />';
+}
+
+add_action('login_head', 'add_favicon');
+add_action('admin_head', 'add_favicon');
+
+// ADMIN STYLESHEET AND JAVASCRIPTS
 
 add_action( 'admin_enqueue_scripts', 'ut_wp_admin_scripts' );
   function ut_wp_admin_scripts() {
@@ -35,7 +44,7 @@ add_action( 'admin_enqueue_scripts', 'ut_wp_admin_scripts' );
     
   }
 
-// Public Scripts and Style Enqueue
+// FRONTEND STYLESHEET AND JAVASCRIPT
 
 if (!is_admin()) add_action('wp_enqueue_scripts', 'ukmtheme_scripts', 11);
 if (!function_exists('ukmtheme_scripts')) {
@@ -54,7 +63,7 @@ if (!function_exists('ukmtheme_scripts')) {
   }
 }
 
-// Theme Update Checker
+// THEME UPDATE CHECKER
 
 require( 'inc/theme-update-checker.php' );
 $ukmtheme_update_checker = new ThemeUpdateChecker(
@@ -62,7 +71,7 @@ $ukmtheme_update_checker = new ThemeUpdateChecker(
   'http://raw.github.com/jrajalu/ukmtheme/master/version.json'
 );
 
-// Theme Setup
+// THEME SETUP FEATURES
 
 add_action( 'after_setup_theme', 'ukmtheme_setup' );
   function ukmtheme_setup() {
@@ -93,7 +102,7 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
     
   }
 
-// Load Post Type
+// LOAD EXTRA PLUGINS AND POST TYPE
 
 add_action( 'after_setup_theme', 'ukmtheme_module' );
   if (!function_exists('ukmtheme_module')) {
@@ -129,14 +138,7 @@ add_action( 'after_setup_theme', 'ukmtheme_module' );
     }
   }
 
-// Add Home Item in Apperance > Menus
-
-add_filter( 'wp_page_menu_args', 'home_page_menu_args' );
-  function home_page_menu_args( $args ) {
-    $args['show_home'] = true;
-    return $args;
-  }
-
+// READMORE LINK TWEAK
 // Replaces the excerpt "more" text by a link
 // @link http://codex.wordpress.org/Function_Reference/the_excerpt
 
@@ -146,10 +148,14 @@ add_filter( 'excerpt_more', 'ukmtheme_excerpt_more' );
       return '<a class="moretag clearfix" href="'. get_permalink($post->ID) . '"><button class="uk-button uk-button-mini uk-button-primary uk-navbar-flip">'. __( 'Read More','ukmtheme' ) .'</button></a>';
   }
 
+// ADJUST EXCERPT LENGHT
+
 add_filter( 'excerpt_length', 'ukmtheme_excerpt_length', 999 );
   function ukmtheme_excerpt_length( $length ) {
     return 20;
   }
+
+// ADD EXTRA MIMETYPE
 
 add_filter('upload_mimes','add_custom_mime_types');
   function add_custom_mime_types($mimes){
@@ -161,7 +167,7 @@ add_filter('upload_mimes','add_custom_mime_types');
     ));
   }
 
-// Widget Init
+// SIDEBAR WIDGET
 
 add_action( 'widgets_init', 'ukmtheme_widgets_init' );
 if (!function_exists('ukmtheme_widgets_init')) {
@@ -227,7 +233,7 @@ if (!function_exists('ukmtheme_widgets_init')) {
   }
 }
 
-// Title
+// BROWSER TITLE
 
 function ukmtheme_wp_title( $title, $sep ) {
   global $paged, $page;
