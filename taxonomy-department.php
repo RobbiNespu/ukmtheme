@@ -16,7 +16,7 @@ get_header(); ?>
 <?php
   $staff = new WP_Query( array( 
     'post_type'       => 'staff',
-    'department'      => get_the_term_list( $post->ID, 'department' ),
+    'department'        => get_the_term_list( $post->ID, 'department' ),
     'posts_per_page'  => -1, 
     'orderby'         => 'menu_order', 
     'order'           => 'ASC' 
