@@ -22,7 +22,7 @@ get_header(); ?>
     'order'           => 'ASC' 
   ));
 ?>
-<?php if ( $staff->have_posts() ) : while ( $staff->have_posts() ) : $staff->the_post(); ?>
+<?php global $post; if ( $staff->have_posts() ) : while ( $staff->have_posts() ) : $staff->the_post(); ?>
 <div class="uk-panel uk-panel-box uk-panel-box-secondary staff-wrap">
   <div class="col-1-7">
       <div class="staff-photo">
