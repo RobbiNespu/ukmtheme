@@ -22,11 +22,11 @@ get_header(); ?>
     'order'           => 'ASC' 
   ));
 ?>
-<?php global $post; if ( $staff->have_posts() ) : while ( $staff->have_posts() ) : $staff->the_post(); ?>
+<?php if ( $staff->have_posts() ) : while ( $staff->have_posts() ) : $staff->the_post(); ?>
 <div class="uk-panel uk-panel-box uk-panel-box-secondary staff-wrap">
   <div class="col-1-7">
       <div class="staff-photo">
-        <?php
+        <?php global $post;
           $staff_photo = get_post_meta($post->ID,'ut_staff_photo',true);
           if ( $staff_photo ) { ?>
           <img src="<?php echo get_post_meta($post->ID,'ut_staff_photo',true); ?>" alt="">
