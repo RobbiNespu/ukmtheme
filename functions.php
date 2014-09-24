@@ -11,13 +11,11 @@
 
 // FLUSH THEME
 
-add_action( 'wp_loaded','ukmtheme_flush_rules' );
+add_action( 'after_switch_theme', 'ukmtheme_flush_rewrite_rules' );
 
-function ukmtheme_flush_rules() {
-  $rules = get_option( 'rewrite_rules' );
-  global $wp_rewrite;
-    $wp_rewrite->flush_rules();
-}
+  function ukmtheme_flush_rewrite_rules() {
+    flush_rewrite_rules();
+  }
 
 // FAVICON FOR ADMIN PAGE
 
