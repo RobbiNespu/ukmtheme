@@ -326,7 +326,7 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
         'type'    => 'text',
       ),
       array(
-        'name'    => __( 'Scope of Work Detail', 'ukmtheme' ),
+        'name'    => __( 'Job Scope Detail', 'ukmtheme' ),
         'desc'    => __( 'e.g. Do Multimedia Work', 'ukmtheme' ),
         'id'      => $prefix . 'staff_work_scope_desc',
         'type'    => 'wysiwyg',
