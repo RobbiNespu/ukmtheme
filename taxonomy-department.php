@@ -65,6 +65,7 @@ get_header(); ?>
         } ?>
     </div>
   </div>
+  <?php get_template_part('templates/content','edit' ); ?>
 </div><!--staff-wrap-->
 
 <?php endwhile; else: ?>
@@ -74,7 +75,7 @@ get_header(); ?>
 <?php endif; ?>
 </section>
 <aside class="col-1-4">
-    <?php get_template_part( 'sidebar', 'page'); ?>
+  <?php get_template_part( 'sidebar', 'page'); ?>
 </aside>
 </div><!--.content-->
 </article>

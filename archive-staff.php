@@ -64,6 +64,7 @@ get_header(); ?>
         } ?>
     </div>
   </div>
+  <?php get_template_part('templates/content','edit' ); ?>
 </div><!--staff-wrap-->
 
 <?php endwhile; else: ?>

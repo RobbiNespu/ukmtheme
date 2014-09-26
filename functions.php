@@ -141,10 +141,19 @@ add_action( 'after_setup_theme', 'ukmtheme_module' );
 // @link http://codex.wordpress.org/Function_Reference/the_excerpt
 
 add_filter( 'excerpt_more', 'ukmtheme_excerpt_more' );
-  function ukmtheme_excerpt_more($more) {
-    global $post;
-      return '<a class="moretag clearfix" href="'. get_permalink($post->ID) . '"><button class="uk-button uk-button-mini uk-button-primary uk-navbar-flip">'. __( 'Read More','ukmtheme' ) .'</button></a>';
-  }
+function ukmtheme_excerpt_more($more) {
+  global $post;
+    return '<a class="moretag clearfix" href="'. get_permalink($post->ID) . '"><button class="uk-button uk-button-mini uk-button-primary uk-navbar-flip">'. __( 'Read More','ukmtheme' ) .'</button></a>';
+}
+
+// EDIT THIS link Tweak
+//Add class to edit button
+
+function ukmtheme_custom_edit_post_link($output) {
+  $output = str_replace('class="post-edit-link"', 'class="post-edit-link uk-button uk-button-mini uk-button-primary"', $output);
+    return $output;
+}
+add_filter('edit_post_link', 'ukmtheme_custom_edit_post_link');
 
 // ADJUST EXCERPT LENGHT
 
