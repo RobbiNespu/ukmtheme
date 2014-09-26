@@ -9,12 +9,13 @@
  *
  * @author Jamaludin Rajalu
  */
-get_header(); ?>
-<?php
+get_header();
+
   $press = new WP_Query( array( 
     'post_type'       => 'press', 
     'posts_per_page'  => 10,
   ));
+  
 ?>
 <article class="wrap">
   <div class="content clearfix">

@@ -10,7 +10,13 @@
  *
  * @author Jamaludin Rajalu
  */
- get_header();
+get_header();
+
+  $news = new WP_Query( array( 
+    'post_type'       => 'news',
+    'posts_per_page'  => 10,
+  ));
+  
 ?>
 <article class="wrap">
   <div class="content clearfix">
@@ -19,7 +25,7 @@
 
       <div class="uk-panel widgets-annc">
 
-      <?php while ( have_posts() ) : the_post(); ?>
+      <?php while ( $news->have_posts() ) : $news->the_post(); ?>
 
         <div class="ut-news-list clearfix">
             <div class="col-1-5 ut-news-thumb">

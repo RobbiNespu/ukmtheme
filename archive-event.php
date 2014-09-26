@@ -9,14 +9,15 @@
  *
  * @author Jamaludin Rajalu
  */
-get_header(); ?>
-<?php
+get_header();
+
   $event = new WP_Query( array( 
     'post_type'       => 'event',
     'posts_per_page'  => 10,
     'orderby'         => 'menu_order',
     'order'           => 'DESC',
   ));
+
 ?>
 <article class="wrap">
 <div class="content clearfix">

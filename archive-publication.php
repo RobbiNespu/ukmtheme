@@ -11,12 +11,19 @@
  *
  * Taxonomy: Publication Category
  */
-get_header(); ?>
+get_header();
+
+  $publication = new WP_Query( array( 
+    'post_type'       => 'publication',
+    'posts_per_page'  => 10,
+  ));
+
+?>
 <article class="wrap">
   <div class="content clearfix">
     <section class="col-3-4 article">
     <h2><?php _e( 'Publication', 'ukmtheme' ); ?></h2>
-      <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+      <?php if ( $publication->have_posts() ) : while ( $publication->have_posts() ) : $publication->the_post(); ?>
         <div class="col-1-1 ut-publication-archive-wrap">
           <div class="col-3-10 article ut-publication">
           <?php 
