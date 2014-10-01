@@ -117,6 +117,13 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
         'id'      => $prefix . 'gallery_photographer',
         'type'    => 'text',
       ),
+      array(
+        'name'         => __( 'Image', 'ukmtheme' ),
+        'desc'         => __( 'Upload or add multiple images/attachments.', 'cmb' ),
+        'id'           => $prefix . 'gallery_image',
+        'type'         => 'file_list',
+        'preview_size' => array( 100, 100 ), // Default: array( 50, 50 )
+      ),
     ),
   );
 

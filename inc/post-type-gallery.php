@@ -32,7 +32,7 @@ function ut_gallery() {
     'label'               => __( 'Gallery', 'ukmtheme' ),
     'description'         => __( 'Gallery manager for UKM', 'ukmtheme' ),
     'labels'              => $labels,
-    'supports'            => array( 'title', 'editor', ),
+    'supports'            => array( 'title' ),
     //'taxonomies'          => array( 'category', 'post_tag' ),
     'hierarchical'        => false,
     'public'              => true,
