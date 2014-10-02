@@ -105,36 +105,36 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
 add_action( 'after_setup_theme', 'ukmtheme_module' );
   if (!function_exists('ukmtheme_module')) {
     function ukmtheme_module() {
-      require( 'inc/nav-secondary-menu.php' );
-      require( 'inc/theme-options.php' );
-      require( 'inc/theme-docs.php' );
-      require( 'inc/theme-login.php' );
-      require( 'inc/theme-plugins.php' );
-      require( 'inc/post-type-appreciation.php' );
-      require( 'inc/post-type-event.php' );
-      require( 'inc/post-type-expertise.php' );
-      require( 'inc/post-type-faq.php');
-      require( 'inc/post-type-gallery.php');
-      require( 'inc/post-type-news.php');
-      require( 'inc/post-type-news-portal.php');
-      require( 'inc/post-type-news-scroller.php');
-      require( 'inc/post-type-press.php' );
-      require( 'inc/post-type-publication.php' );
-      require( 'inc/post-type-staff.php');
-      require( 'inc/post-type-slideshow.php');
-      require( 'inc/post-type-tab.php');
-      require( 'inc/post-type-video.php');
-      require( 'inc/theme-archive-links.php' );
-      require( 'inc/metabox-setup.php' );
-      require( 'inc/widget-appreciation.php' );
-      require( 'inc/widget-event.php' );
-      require( 'inc/widget-news.php' );
-      require( 'inc/widget-news-thumbnail.php' );
-      require( 'inc/widget-youtube.php' );
-      //require( 'lib/custom-admin/custom-admin.php' );
-      require( 'templates/page-sitemap.php' );
+      require( get_template_directory() . '/inc/nav-secondary-menu.php' );
+      require( get_template_directory() . '/inc/theme-options.php' );
+      require( get_template_directory() . '/inc/theme-docs.php' );
+      require( get_template_directory() . '/inc/theme-login.php' );
+      require( get_template_directory() . '/inc/theme-plugins.php' );
+      require( get_template_directory() . '/inc/post-type-appreciation.php' );
+      require( get_template_directory() . '/inc/post-type-event.php' );
+      require( get_template_directory() . '/inc/post-type-expertise.php' );
+      require( get_template_directory() . '/inc/post-type-faq.php');
+      require( get_template_directory() . '/inc/post-type-gallery.php');
+      require( get_template_directory() . '/inc/post-type-news.php');
+      require( get_template_directory() . '/inc/post-type-news-portal.php');
+      require( get_template_directory() . '/inc/post-type-news-scroller.php');
+      require( get_template_directory() . '/inc/post-type-press.php' );
+      require( get_template_directory() . '/inc/post-type-publication.php' );
+      require( get_template_directory() . '/inc/post-type-staff.php');
+      require( get_template_directory() . '/inc/post-type-slideshow.php');
+      require( get_template_directory() . '/inc/post-type-tab.php');
+      require( get_template_directory() . '/inc/post-type-video.php');
+      require( get_template_directory() . '/inc/theme-archive-links.php' );
+      require( get_template_directory() . '/inc/metabox-setup.php' );
+      require( get_template_directory() . '/inc/widget-appreciation.php' );
+      require( get_template_directory() . '/inc/widget-event.php' );
+      require( get_template_directory() . '/inc/widget-news.php' );
+      require( get_template_directory() . '/inc/widget-news-thumbnail.php' );
+      require( get_template_directory() . '/inc/widget-youtube.php' );
+      require( get_template_directory() . '/templates/page-sitemap.php' );
     }
   }
+
 
 // READMORE LINK TWEAK
 // Replaces the excerpt "more" text by a link

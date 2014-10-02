@@ -104,7 +104,7 @@ function theme_options_do_page() { ?>
             <input id='checkbox' name='ukmtheme_widget_tabber' type='checkbox' value="tabber" <?php echo ( 'tabber' == $widget_tabber ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_tabber"><?php _e( 'Frontpage Tabber', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_custom' type='checkbox' value="custom" <?php echo ( 'custom' == $widget_custom ) ? 'checked="checked"' : ''; ?> />
-            <label class="description" for="ukmtheme_widget_custom"><?php _e( 'Custom', 'ukmtheme' ); ?></label><br/>
+            <label class="description" for="ukmtheme_widget_custom"><?php _e( 'Custom (uncheck Basic first)', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_facebook' type='checkbox' value="facebook" <?php echo ( 'facebook' == $widget_facebook ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_facebook"><?php _e( 'Facebook Like Box', 'ukmtheme' ); ?></label><br/>
           </td>

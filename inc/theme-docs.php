@@ -25,19 +25,26 @@ function ut_theme_docs() {
 
   <div class="wrap">
   <h2><?php _e( 'Theme Docs', 'ukmtheme' ); ?></h2>
+  <div class="metabox-holder">
     <div class="postbox">
+      <h3 class="hndle"><span>Pengenalan</span></h3>
       <div class="inside">
-      <p>Untuk menukar layout muka hadapan, anda boleh memilih jenis layout yang hendak digunakan di menu Appearance > Theme Options. Untuk templat grafik seperti logo, slideshow dan lain-lain boleh didapati <a href="<?php echo get_template_directory_uri(); ?>/assets/templates/templates.zip">di sini</a>.
-      Gunakan perisian GIMP sebagai alternatif kepada perisian grafik dan boleh didapatkan di halaman berikut <a href="http://www.gimp.org/">www.gimp.org</a>.
-      Sekiranya anda memerlukan khidmat bantuan pengendalian tema ini, anda boleh berhung terus dengan pembangun di alamat emel <em>jrajalu@ukm.edu.my</em>.<br/>Nota: Tema ini tidak semestinya memenuhi kehendak seperti yang anda mahukan.</p>
+      <p>Tema WordPress ini adalah percuma dan boleh digunakan oleh semua Fakulti/Institut/Jabatan/Pusat di Universiti Kebangsaan Malaysia (UKM). Penggunaan secara peribadi atau kumpulan (Persatuan/Kelab) oleh warga UKM amat digalakkan. Penggunaan oleh pihak luar hendaklah merujuk terma-terma yang dinyatakan pada lesen <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
       </div>
     </div>
-    <h3 class="title"><?php _e( 'Header Logo', 'ukmtheme' ); ?></h3>
     <div class="postbox">
+      <h3 class="hndle"><span>Mengubah Logo</span></h3>
       <div class="inside">
-        <p>Untuk menukar logo di bahagian Header, muat turun template <a href="<?php echo get_template_directory_uri(); ?>/assets/psd/logo_ukm.psd">di sini</a></p>
+        <p>Untuk menukar logo di bahagian Header, muat turun template <a href="<?php echo get_template_directory_uri(); ?>/assets/psd/logo_ukm.psd">di sini</a>. Gunakan perisian Photoshop untuk mengubah nama pada header. Untuk akses percuma untuk mengubah grafik tersebut anda boleh menggunakan perisian Pixlr di capaian berikut <a href="http://apps.pixlr.com/editor/" target="_blank">apps.pixlr.com/editor/</a>.</p>
+        <img style="display:block;width:100%;max-width:641px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/public/pixlr-sample.png" alt="Pixlr">
+        <ol>
+          <li>Simpan imej ke format PNG</li>
+          <li>Pergi ke bahagian Appearance > Header, kemudian pilih fail yang ingin dimuat naik</li>
+          <li>Klik pada butang "Save Changes"</li>
+        </ol>
       </div>
     </div>
+  </div><!-- .metabox-holder -->
   </div><!-- .wrap -->
 
 <?php } ?>
