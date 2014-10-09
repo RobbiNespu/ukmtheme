@@ -54,4 +54,46 @@ function ut_gallery() {
 
 // Hook into the 'init' action
 add_action( 'init', 'ut_gallery', 0 );
-?>
+
+
+function ukmtheme_staff_gallery_category_taxonomy() {
+
+  $labels = array(
+    'name'                       => _x( 'Gallery Categories', 'Taxonomy General Name', 'ukmtheme' ),
+    'singular_name'              => _x( 'Gallery Category', 'Taxonomy Singular Name', 'ukmtheme' ),
+    'menu_name'                  => __( 'Gallery Category', 'ukmtheme' ),
+    'all_items'                  => __( 'All Items', 'ukmtheme' ),
+    'parent_item'                => __( 'Parent Gallery Category', 'ukmtheme' ),
+    'parent_item_colon'          => __( 'Parent Gallery Category:', 'ukmtheme' ),
+    'new_item_name'              => __( 'New Gallery Category Name', 'ukmtheme' ),
+    'add_new_item'               => __( 'Add New Gallery Category', 'ukmtheme' ),
+    'edit_item'                  => __( 'Edit Gallery Category', 'ukmtheme' ),
+    'update_item'                => __( 'Update Gallery Category', 'ukmtheme' ),
+    'separate_items_with_commas' => __( 'Separate Gallery Categories with commas', 'ukmtheme' ),
+    'search_items'               => __( 'Search Gallery Categories', 'ukmtheme' ),
+    'add_or_remove_items'        => __( 'Add or remove Gallery Categories', 'ukmtheme' ),
+    'choose_from_most_used'      => __( 'Choose from the most used Gallery Categories', 'ukmtheme' ),
+    'not_found'                  => __( 'Not Found', 'ukmtheme' ),
+  );
+  $rewrite = array(
+    'slug'                       => 'Gallery_Category',
+    'with_front'                 => true,
+    'hierarchical'               => false,
+  );
+  $args = array(
+    'labels'                     => $labels,
+    'hierarchical'               => true,
+    'public'                     => true,
+    'show_ui'                    => true,
+    'show_admin_column'          => true,
+    'show_in_nav_menus'          => false,
+    'show_tagcloud'              => false,
+    'query_var'                  => 'galcat',
+    'rewrite'                    => $rewrite,
+  );
+  register_taxonomy( 'galcat', array( 'gallery' ), $args );
+
+}
+
+// Hook into the 'init' action
+add_action( 'init', 'ukmtheme_staff_gallery_category_taxonomy', 0 );
