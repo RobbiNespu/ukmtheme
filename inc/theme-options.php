@@ -55,13 +55,6 @@ function theme_options_do_page() { ?>
     <p><strong><?php _e('Settings saved.') ?></strong></p>
   </div>
 <?php } ?>
-<div class="postbox">
-  <div class="inside">
-  <p>Untuk menukar layout muka hadapan, anda boleh memilih jenis layout yang hendak digunakan di menu Appearance > Theme Options. Untuk templat grafik seperti logo, slideshow dan lain-lain boleh didapati <a href="<?php echo get_template_directory_uri(); ?>/assets/templates/templates.zip">di sini</a>.
-  Gunakan perisian GIMP sebagai alternatif kepada perisian grafik dan boleh didapatkan di halaman berikut <a href="http://www.gimp.org/">www.gimp.org</a>.
-  Sekiranya anda memerlukan khidmat bantuan pengendalian tema ini, anda boleh berhung terus dengan pembangun di alamat emel <em>jrajalu@ukm.edu.my</em>.<br/>Nota: Tema ini tidak semestinya memenuhi kehendak seperti yang anda mahukan.</p>
-  </div>
-</div>
 <form method="post" action="options.php">
   <?php settings_fields( 'ukmtheme-settings-group' ); ?>
   <?php do_settings_sections( 'ukmtheme-settings-group' ); ?>
@@ -73,7 +66,6 @@ function theme_options_do_page() { ?>
         <tr valign="top">
           <th scope="row">
           <?php _e( 'Frontpage Layout', 'ukmtheme' ); ?><br/>
-          <small><?php _e('Customize frontpage widget area','ukmtheme') ?></small>
           </th>
 
           <td>
@@ -96,9 +88,9 @@ function theme_options_do_page() { ?>
             <input id='checkbox' name='ukmtheme_widget_news' type='checkbox' value="news-scroller" <?php echo ( 'news-scroller' == $widget_news_scroller ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_news"><?php _e( 'News Scroller', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_three' type='checkbox' value="three-column" <?php echo ( 'three-column' == $widget_three_box ) ? 'checked="checked"' : ''; ?> />
-            <label class="description" for="ukmtheme_widget_three"><?php _e( 'Three Column', 'ukmtheme' ); ?></label><br/>
+            <label class="description" for="ukmtheme_widget_three"><?php _e( 'Three Column Box', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_four' type='checkbox' value="four-column" <?php echo ( 'four-column' == $widget_four_box ) ? 'checked="checked"' : ''; ?> />
-            <label class="description" for="ukmtheme_widget_four"><?php _e( 'Four Column', 'ukmtheme' ); ?></label><br/>
+            <label class="description" for="ukmtheme_widget_four"><?php _e( 'Four Column Box', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_event' type='checkbox' value="event-slider" <?php echo ( 'event-slider' == $widget_event ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_event"><?php _e( 'Event Slider', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_tabber' type='checkbox' value="tabber" <?php echo ( 'tabber' == $widget_tabber ) ? 'checked="checked"' : ''; ?> />
