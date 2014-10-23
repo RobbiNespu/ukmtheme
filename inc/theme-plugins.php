@@ -45,14 +45,14 @@ function ukmtheme_register_required_plugins() {
     ),
 
     array(
-      'name'      => 'Google Language Translator',
-      'slug'      => 'google-language-translator',
+      'name'      => 'Polylang',
+      'slug'      => 'polylang',
       'required'  => false,
     ),
 
     array(
-      'name'      => 'Polylang',
-      'slug'      => 'polylang',
+      'name'      => 'Google Language Translator',
+      'slug'      => 'google-language-translator',
       'required'  => false,
     ),
 
@@ -75,8 +75,8 @@ function ukmtheme_register_required_plugins() {
     ),
 
     array(
-      'name'      => 'WordPress SEO by Yoast',
-      'slug'      => 'wordpress-seo',
+      'name'      => 'All in One SEO Pack',
+      'slug'      => 'all-in-one-seo-pack',
       'required'  => false,
     ),
   );
