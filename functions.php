@@ -140,8 +140,9 @@ add_action( 'after_setup_theme', 'ukmtheme_module' );
 
 
 /**
- * READMORE LINK TWEAK
+ * Excerpt
  * Replaces the excerpt "more" text by a link
+ * Adjust excerpt lenght
  * @link http://codex.wordpress.org/Function_Reference/the_excerpt
  */
 
@@ -151,8 +152,15 @@ add_filter( 'excerpt_more', 'ukmtheme_excerpt_more' );
       return '<a class="tukm-readmore" href="'. get_permalink($post->ID) . '">'. __( 'Read More','ukmtheme' ) . '</a>';
   }
 
-// EDIT THIS link Tweak
-//Add class to edit button
+add_filter( 'excerpt_length', 'ukmtheme_excerpt_length', 999 );
+  function ukmtheme_excerpt_length( $length ) {
+    return 20;
+  }
+
+/**
+ * Add class to edit post link
+ * @link http://codex.wordpress.org/Function_Reference/edit_post_link
+ */
 
 function ukmtheme_custom_edit_post_link($output) {
   $output = str_replace('class="post-edit-link"', 'class="post-edit-link uk-button uk-button-mini uk-button-primary"', $output);
@@ -160,14 +168,10 @@ function ukmtheme_custom_edit_post_link($output) {
 }
 add_filter('edit_post_link', 'ukmtheme_custom_edit_post_link');
 
-// ADJUST EXCERPT LENGHT
-
-add_filter( 'excerpt_length', 'ukmtheme_excerpt_length', 999 );
-  function ukmtheme_excerpt_length( $length ) {
-    return 20;
-  }
-
-// ADD EXTRA MIMETYPE
+/**
+ * Add extra mimetype
+ * @link http://codex.wordpress.org/Plugin_API/Filter_Reference/upload_mimes
+ */
 
 add_filter('upload_mimes','add_custom_mime_types');
   function add_custom_mime_types($mimes){
@@ -179,7 +183,10 @@ add_filter('upload_mimes','add_custom_mime_types');
     ));
   }
 
-// SIDEBAR WIDGET
+/**
+ * Register Sidebar
+ * @link http://codex.wordpress.org/Function_Reference/register_sidebar
+ */
 
 add_action( 'widgets_init', 'ukmtheme_widgets_init' );
 if (!function_exists('ukmtheme_widgets_init')) {
@@ -253,15 +260,12 @@ function ukmtheme_wp_title( $title, $sep ) {
   if ( is_feed() )
     return $title;
 
-  // Add the site name.
   $title .= get_bloginfo( 'name', 'display' );
 
-  // Add the site description for the home/front page.
   $site_description = get_bloginfo( 'description', 'display' );
   if ( $site_description && ( is_home() || is_front_page() ) )
     $title = "$title $sep $site_description";
 
-  // Add a page number if necessary.
   if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() )
     $title = "$title $sep " . sprintf( __( 'Page %s', 'ukmtheme' ), max( $paged, $page ) );
 
