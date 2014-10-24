@@ -100,11 +100,17 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
     
   }
 
-// LOAD EXTRA PLUGINS AND POST TYPE
+/**
+ * Configuration files:
+ * Post type, metabox, widgets etc.
+ * Comment post-type if do not necessary
+ */
 
 add_action( 'after_setup_theme', 'ukmtheme_module' );
   if (!function_exists('ukmtheme_module')) {
     function ukmtheme_module() {
+
+      /** Post Type */
       require( get_template_directory() . '/inc/post-type-appreciation.php' );
       require( get_template_directory() . '/inc/post-type-event.php' );
       require( get_template_directory() . '/inc/post-type-expertise.php' );
@@ -119,6 +125,8 @@ add_action( 'after_setup_theme', 'ukmtheme_module' );
       require( get_template_directory() . '/inc/post-type-slideshow.php');
       require( get_template_directory() . '/inc/post-type-tab.php');
       require( get_template_directory() . '/inc/post-type-video.php');
+
+      /** Theme configuration */
       require( get_template_directory() . '/inc/theme-archive-links.php' );
       require( get_template_directory() . '/inc/theme-include-archive.php' );
       require( get_template_directory() . '/inc/theme-include-single.php' );
@@ -130,6 +138,11 @@ add_action( 'after_setup_theme', 'ukmtheme_module' );
       require( get_template_directory() . '/inc/theme-login.php' );
       require( get_template_directory() . '/inc/theme-plugins.php' );
       require( get_template_directory() . '/inc/theme-sitemap.php' );
+
+      /**
+       * Widget items
+       * Appearance > Widgets
+       */
       require( get_template_directory() . '/inc/widget-appreciation.php' );
       require( get_template_directory() . '/inc/widget-event.php' );
       require( get_template_directory() . '/inc/widget-news.php' );
@@ -137,7 +150,6 @@ add_action( 'after_setup_theme', 'ukmtheme_module' );
       require( get_template_directory() . '/inc/widget-youtube.php' );
     }
   }
-
 
 /**
  * Excerpt
@@ -163,7 +175,7 @@ add_filter( 'excerpt_length', 'ukmtheme_excerpt_length', 999 );
  */
 
 function ukmtheme_custom_edit_post_link($output) {
-  $output = str_replace('class="post-edit-link"', 'class="post-edit-link uk-button uk-button-mini uk-button-primary"', $output);
+  $output = str_replace('class="post-edit-link"', 'class="post-edit-link"', $output);
     return $output;
 }
 add_filter('edit_post_link', 'ukmtheme_custom_edit_post_link');

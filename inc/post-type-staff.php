@@ -255,7 +255,15 @@ function ut_staff_custom_columns( $column ){
   global $post;
   
   switch ($column) {
-    case 'ut_staff_photo' : $staffPhoto = get_post_meta($post->ID,'ut_staff_photo',true); echo '<img src="'.$staffPhoto.'" width="60">';break;
+    case 'ut_staff_photo' :
+      $staff_photo = get_post_meta($post->ID,'ut_staff_photo',true);
+      if ( $staff_photo ) { ?>
+        <img src="<?php echo get_post_meta($post->ID,'ut_staff_photo',true); ?>" width="50" alt="">
+      <?php }
+
+      else { ?>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/staff-photo.png" width="50">
+      <?php } break;
     case 'ut_staff_position' : echo get_the_term_list( $post->ID, 'position', '', ', ',''); break;
     case 'ut_staff_department' : echo get_the_term_list( $post->ID, 'department', '', ', ',''); break;
   }
