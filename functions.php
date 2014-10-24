@@ -125,6 +125,7 @@ add_action( 'after_setup_theme', 'ukmtheme_module' );
       require( get_template_directory() . '/inc/post-type-tab.php');
       require( get_template_directory() . '/inc/post-type-video.php');
       require( get_template_directory() . '/inc/theme-archive-links.php' );
+      require( get_template_directory() . '/inc/theme-control.php' );
       require( get_template_directory() . '/inc/metabox-setup.php' );
       require( get_template_directory() . '/inc/widget-appreciation.php' );
       require( get_template_directory() . '/inc/widget-event.php' );
