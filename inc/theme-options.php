@@ -43,8 +43,6 @@ function register_ukmtheme_settings() {
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_event' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_tabber' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_newsPortal' );
-  register_setting( 'ukmtheme-settings-group', 'ukmtheme_google_analytics' );
-  register_setting( 'ukmtheme-settings-group', 'ukmtheme_google_analytics_code' );
 }
 
 function theme_options_do_page() { ?>
@@ -87,9 +85,9 @@ function theme_options_do_page() { ?>
             <label class="description" for="ukmtheme_widget_newsPortal"><?php _e( 'News Portal Widget', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_news' type='checkbox' value="news-scroller" <?php echo ( 'news-scroller' == $widget_news_scroller ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_news"><?php _e( 'News Scroller', 'ukmtheme' ); ?></label><br/>
-            <input id='checkbox' name='ukmtheme_widget_three' type='checkbox' value="three-column" <?php echo ( 'three-column' == $widget_three_box ) ? 'checked="checked"' : ''; ?> />
+            <input id='checkbox' name='ukmtheme_widget_three' type='checkbox' value="box-three-column" <?php echo ( 'box-three-column' == $widget_three_box ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_three"><?php _e( 'Three Column Box', 'ukmtheme' ); ?></label><br/>
-            <input id='checkbox' name='ukmtheme_widget_four' type='checkbox' value="four-column" <?php echo ( 'four-column' == $widget_four_box ) ? 'checked="checked"' : ''; ?> />
+            <input id='checkbox' name='ukmtheme_widget_four' type='checkbox' value="box-four-column" <?php echo ( 'box-four-column' == $widget_four_box ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_four"><?php _e( 'Four Column Box', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_event' type='checkbox' value="event-slider" <?php echo ( 'event-slider' == $widget_event ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_event"><?php _e( 'Event Slider', 'ukmtheme' ); ?></label><br/>
@@ -123,19 +121,6 @@ function theme_options_do_page() { ?>
         <input type="text" name="ukmtheme_visitor_id" value="<?php echo get_option('ukmtheme_visitor_id'); ?>" class="regular-text" placeholder="768059" />
         <p class="description"><a class="thickbox" href="<?php echo get_template_directory_uri(); ?>/assets/images/admin/site_counter_sample.png"><?php _e( 'View sample', 'ukmtheme' ); ?></a>
         &nbsp;|&nbsp;<?php _e( 'Generate your id', 'ukmtheme' ); ?>&nbsp;<a href="http://www.supercounters.com/hitcounter?tab=plugin-information&amp;plugin=simple-comment-editing&amp;TB_iframe=true&amp;width=830&amp;height=565" class="thickbox" title="www.supercounter.com">here</a></p>
-        </td>
-        </tr>
-        <!-- Google Analytics -->
-        <tr valign="top">
-        <th scope="row"><?php _e('Google Analytics','ukmtheme'); ?></th>
-        <td>
-          <?php
-            $google_analytics        = get_option('ukmtheme_google_analytics');
-            $google_analytics_code   = get_option('ukmtheme_google_analytics_code');
-          ?>
-          <input id='checkbox' name='ukmtheme_google_analytics' type='checkbox' value="analytics" <?php echo ( 'analytics' == $google_analytics ) ? 'checked="checked"' : ''; ?> />
-          <label class="description" for="ukmtheme_google_analytics"><?php _e( 'Enable Google Analytics', 'ukmtheme' ); ?></label><br/><br/>
-          <textarea id="ukmtheme_google_analytics_code" name="ukmtheme_google_analytics_code" rows="5" cols="40" placeholder="Paste Google Analytics code here"><?php echo $google_analytics_code; ?></textarea>
         </td>
         </tr>
       </tbody>

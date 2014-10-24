@@ -53,7 +53,7 @@
     ?>
     </div>
     <div class="col-1-2">
-      <?php get_template_part( 'templates/nav', 'searchBar' ); ?>
+      <?php get_template_part( 'templates/nav', 'search' ); ?>
       <?php get_template_part( 'templates/off', 'canvas-tools' );?>
     </div>
   </div><!--.wrap-->

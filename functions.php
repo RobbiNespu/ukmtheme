@@ -105,11 +105,6 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
 add_action( 'after_setup_theme', 'ukmtheme_module' );
   if (!function_exists('ukmtheme_module')) {
     function ukmtheme_module() {
-      require( get_template_directory() . '/inc/nav-secondary-menu.php' );
-      require( get_template_directory() . '/inc/theme-options.php' );
-      require( get_template_directory() . '/inc/theme-docs.php' );
-      require( get_template_directory() . '/inc/theme-login.php' );
-      require( get_template_directory() . '/inc/theme-plugins.php' );
       require( get_template_directory() . '/inc/post-type-appreciation.php' );
       require( get_template_directory() . '/inc/post-type-event.php' );
       require( get_template_directory() . '/inc/post-type-expertise.php' );
@@ -128,13 +123,18 @@ add_action( 'after_setup_theme', 'ukmtheme_module' );
       require( get_template_directory() . '/inc/theme-include-archive.php' );
       require( get_template_directory() . '/inc/theme-include-single.php' );
       require( get_template_directory() . '/inc/theme-include-taxonomy.php' );
-      require( get_template_directory() . '/inc/metabox-setup.php' );
+      require( get_template_directory() . '/inc/theme-metabox.php' );
+      require( get_template_directory() . '/inc/theme-walker-menu.php' );
+      require( get_template_directory() . '/inc/theme-options.php' );
+      require( get_template_directory() . '/inc/theme-docs.php' );
+      require( get_template_directory() . '/inc/theme-login.php' );
+      require( get_template_directory() . '/inc/theme-plugins.php' );
+      require( get_template_directory() . '/inc/theme-sitemap.php' );
       require( get_template_directory() . '/inc/widget-appreciation.php' );
       require( get_template_directory() . '/inc/widget-event.php' );
       require( get_template_directory() . '/inc/widget-news.php' );
       require( get_template_directory() . '/inc/widget-news-thumbnail.php' );
       require( get_template_directory() . '/inc/widget-youtube.php' );
-      require( get_template_directory() . '/templates/page-sitemap.php' );
     }
   }
 
