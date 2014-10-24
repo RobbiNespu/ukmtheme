@@ -43,7 +43,7 @@
       <p><?php get_template_part( 'templates/content', 'paginate' ); ?></p>
     </section><!--.col-1-1-->
     <aside class="col-1-4">
-        <?php get_template_part( 'sidebar', 'page' ); ?>
+       <?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
     </aside>
   </div>
 </article>

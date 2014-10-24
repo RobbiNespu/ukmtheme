@@ -29,8 +29,8 @@ get_header(); ?>
     <?php get_template_part('templates/content','edit' ); ?>
   </section>
   <aside class="col-1-4">
-    <?php get_template_part( 'sidebar', 'single' ); ?>
-  </aside>
+    <?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
+</div>
 </div><!-- content-wrap -->
 </article>
 <?php get_footer(); ?>

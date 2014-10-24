@@ -43,7 +43,7 @@ get_header(); ?>
       <?php get_template_part('templates/content','edit' ); ?>
     </section>
     <aside class="col-1-4">
-      <?php get_template_part( 'sidebar', 'single' ); ?>
+      <?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
     </aside>
   </div><!-- content-wrap -->
 </article>

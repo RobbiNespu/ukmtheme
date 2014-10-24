@@ -15,7 +15,7 @@ get_header(); ?>
 <article class="wrap">
   <div class="content clearfix">
     <aside class="col-1-4">
-      <?php get_template_part( 'sidebar', 'page' ); ?>
+     <?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
     </aside>
     <section class="col-3-4 article">
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
