@@ -1,4 +1,18 @@
 <?php
+/**
+ * @link http://www.ukm.my/template
+ *
+ * @package WordPress
+ * @subpackage ukmtheme
+ * @since 4.0
+ *
+ * @author Jamaludin Rajalu
+ *
+ * @link http://codex.wordpress.org/Plugin_API/Filter_Reference/template_include
+ * @link http://codex.wordpress.org/Plugin_API/Filter_Reference/single_template
+ *
+ */
+
 
 // Appreciation
 
@@ -160,3 +174,5 @@ add_filter( 'single_template', 'get_video_post_type_template' );
       return $single_video_template;
 
   }
+
+?>
