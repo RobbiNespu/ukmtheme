@@ -139,15 +139,17 @@ add_action( 'after_setup_theme', 'ukmtheme_module' );
   }
 
 
-// READMORE LINK TWEAK
-// Replaces the excerpt "more" text by a link
-// @link http://codex.wordpress.org/Function_Reference/the_excerpt
+/**
+ * READMORE LINK TWEAK
+ * Replaces the excerpt "more" text by a link
+ * @link http://codex.wordpress.org/Function_Reference/the_excerpt
+ */
 
 add_filter( 'excerpt_more', 'ukmtheme_excerpt_more' );
-function ukmtheme_excerpt_more($more) {
-  global $post;
-    return '<a class="moretag clearfix" href="'. get_permalink($post->ID) . '"><button class="uk-button uk-button-mini uk-button-primary uk-navbar-flip">'. __( 'Read More','ukmtheme' ) .'</button></a>';
-}
+  function ukmtheme_excerpt_more($more) {
+    global $post;
+      return '<a class="tukm-readmore" href="'. get_permalink($post->ID) . '">'. __( 'Read More','ukmtheme' ) . '</a>';
+  }
 
 // EDIT THIS link Tweak
 //Add class to edit button

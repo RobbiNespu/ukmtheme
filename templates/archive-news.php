@@ -39,7 +39,7 @@ get_header();
             ?>
             </div>
             <div class="col-4-5 ut-news-content">
-                <h4 class="ut-news-title"><?php the_title(); ?></h4>
+                <a href="<?php echo get_permalink(); ?>"><h4 class="ut-news-title"><?php the_title(); ?></h4></a>
                 <div class="ut-news-detail">
                     <?php the_excerpt(); ?>
                 </div><!--.ut-news-detail-->

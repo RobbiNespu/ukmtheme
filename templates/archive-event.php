@@ -33,9 +33,8 @@ get_header();
         </ul>
       </div>
       <div class="col-3-4">
-        <h3 class="content-title"><?php the_title(); ?></h3>
+        <a href="<?php echo get_permalink(); ?>"><h3 class="content-title"><?php the_title(); ?></h3></a>
         <p><?php echo get_post_meta($post->ID, 'ut_event_summary', true); ?></p>
-        <a href="<?php echo get_permalink(); ?>"><button class="uk-button uk-button-mini uk-button-primary"><?php _e('Read More','ukmtheme'); ?></button></a>
       </div>
     </div>   
     <?php endwhile; else: ?>
