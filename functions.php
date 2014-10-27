@@ -9,14 +9,6 @@
  * @author Jamaludin Rajalu
  */
 
-// FLUSH THEME
-
-add_action( 'after_switch_theme', 'ukmtheme_flush_rewrite_rules' );
-
-  function ukmtheme_flush_rewrite_rules() {
-    flush_rewrite_rules();
-  }
-
 // FAVICON FOR ADMIN PAGE
 
 function add_favicon() {
