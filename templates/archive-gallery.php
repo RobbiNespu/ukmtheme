@@ -24,8 +24,8 @@
         <div class="ut-news-list clearfix">
             <div class="col-1-5 ut-news-thumb">
             <?php
-                  $saved_data = get_post_meta($post->ID,'ut_gallery_cover',true);
-                  echo '<img src="'.$saved_data.'">'
+              $saved_data = get_post_meta($post->ID,'ut_gallery_cover',true);
+              echo '<img src="'.$saved_data.'">'
             ?>
             </div>
             <div class="col-4-5 ut-news-content">
@@ -43,7 +43,7 @@
       <p><?php get_template_part( 'templates/content', 'paginate' ); ?></p>
     </section><!--.col-1-1-->
     <aside class="col-1-4">
-        <?php get_template_part( 'sidebar', 'page' ); ?>
+      <?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
     </aside>
   </div>
 </article>

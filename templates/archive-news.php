@@ -30,19 +30,19 @@ get_header();
         <div class="ut-news-list clearfix">
             <div class="col-1-5 ut-news-thumb">
             <?php
-                if ( has_post_thumbnail() ) {
-                  the_post_thumbnail();
-                }
-                else {
-                  echo '<img src="' . get_template_directory_uri() . '/assets/images/public/thumbnail.png?ver=6.3" />';
-                }
+              if ( has_post_thumbnail() ) {
+                the_post_thumbnail();
+              }
+              else {
+                echo '<img src="' . get_template_directory_uri() . '/assets/images/public/thumbnail.png?ver=6.3" />';
+              }
             ?>
             </div>
             <div class="col-4-5 ut-news-content">
-                <a href="<?php echo get_permalink(); ?>"><h4 class="ut-news-title"><?php the_title(); ?></h4></a>
-                <div class="ut-news-detail">
-                    <?php the_excerpt(); ?>
-                </div><!--.ut-news-detail-->
+              <a href="<?php echo get_permalink(); ?>"><h4 class="ut-news-title"><?php the_title(); ?></h4></a>
+              <div class="ut-news-detail">
+                <?php the_excerpt(); ?>
+              </div><!--.ut-news-detail-->
             </div><!--col-4-5-->
         </div><!--.ut-news .clearfix-->
 
@@ -52,7 +52,7 @@ get_header();
     <p><?php get_template_part( 'templates/content', 'paginate' ); ?></p>
     </section><!--.col-1-1-->
     <aside class="col-1-4">
-        <?php get_template_part( 'sidebar', 'page' ); ?>
+      <?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
     </aside>
   </div>
 </article>
