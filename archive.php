@@ -10,8 +10,7 @@
  *
  * @author Jamaludin Rajalu
  */
- get_header();
-?>
+get_header(); ?>
 
 <article class="wrap">
   <div class="content clearfix">
