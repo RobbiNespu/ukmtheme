@@ -19,7 +19,12 @@ function add_favicon() {
 add_action('login_head', 'add_favicon');
 add_action('admin_head', 'add_favicon');
 
-// ADMIN STYLESHEET AND JAVASCRIPTS
+/**
+ * skrip untuk dashboard
+ * menjalankan javascript dan stylesheet
+ * gunakan cdn untuk capaian pantas
+ * @link cdnjs.com
+ */
 
 add_action( 'admin_enqueue_scripts', 'ut_wp_admin_scripts' );
   function ut_wp_admin_scripts() {
@@ -34,7 +39,12 @@ add_action( 'admin_enqueue_scripts', 'ut_wp_admin_scripts' );
     
   }
 
-// FRONTEND STYLESHEET AND JAVASCRIPT
+/**
+ * skrip untuk antaramuka web
+ * menjalankan javascript dan stylesheet
+ * gunakan cdn untuk capaian pantas
+ * @link cdnjs.com
+ */
 
 if (!is_admin()) add_action('wp_enqueue_scripts', 'ukmtheme_scripts', 11);
 if (!function_exists('ukmtheme_scripts')) {
@@ -53,7 +63,10 @@ if (!function_exists('ukmtheme_scripts')) {
   }
 }
 
-// THEME UPDATE CHECKER
+/**
+ * Semakan versi theme terkini secara automatik
+ * jangan tukar nama folder theme "ukmtheme-master"
+ */
 
 require( 'inc/theme-update-checker.php' );
 $ukmtheme_update_checker = new ThemeUpdateChecker(
@@ -61,7 +74,12 @@ $ukmtheme_update_checker = new ThemeUpdateChecker(
   'http://raw.github.com/jrajalu/ukmtheme/master/version.json'
 );
 
-// THEME SETUP FEATURES
+/**
+ * Tetapan pada theme
+ * html5 support, post format, post thumbnail, automatic-feed-links, css, javascript
+ * paparan admin bar pada muka hadapan disorokkan
+ * saiz logo mengikut saiz lebar theme sekarang ialah 960x100 piksel
+ */
 
 add_action( 'after_setup_theme', 'ukmtheme_setup' );
   function ukmtheme_setup() {
