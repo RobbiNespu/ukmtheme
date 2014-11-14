@@ -20,8 +20,8 @@ $ukmtheme = wp_get_theme();
   <div class="pure-u-1-2 footer-right-content">
     <?php get_template_part( 'templates/footer', 'social-link' ); ?>
     <p class="visitor-counter"><?php get_template_part( 'templates/visitor', 'counter' ); ?></p>
-    <p><?php _e( 'Copyright &copy;', 'ukmtheme' ); ?><?php echo date( 'Y' ); ?>&nbsp;<?php _e( 'The National University of Malaysia', 'ukmtheme' ); ?></p>
-    <p><?php _e( 'Best view with any modern web browser (Desktop &amp; Mobile)', 'ukmtheme' ); ?></p>
+    <p class="ut_copyright_statement"><?php _e( 'Copyright &copy;', 'ukmtheme' ); ?><?php echo date( 'Y' ); ?>&nbsp;<?php _e( 'The National University of Malaysia', 'ukmtheme' ); ?></p>
+    <p class="ut_bestview_statement"><?php _e( 'Best view with any modern web browser (Desktop &amp; Mobile)', 'ukmtheme' ); ?></p>
     <div class="ut_phone_access_wrapper">
       <i class="uk-icon-mobile-phone ut_phone_access"></i>
       <span class="ut_phone_access_text"><?php _e( 'This website can be access using mobile phone', 'ukmtheme' ); ?></span>
