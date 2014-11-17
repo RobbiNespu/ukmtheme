@@ -13,7 +13,7 @@ $ukmtheme = wp_get_theme();
 </div><!--.page-wrap-->
 <footer class="site-footer">
 <div class="wrap pure-g pure-r">
-  <div class="pure-u-1-2">
+  <div class="pure-u-2-3">
     <?php 
       wp_nav_menu(
         array(
@@ -23,7 +23,7 @@ $ukmtheme = wp_get_theme();
       )); 
     ?>
   </div>
-  <div class="pure-u-1-2">
+  <div class="pure-u-1-3">
     <?php get_template_part( 'templates/footer', 'social-link' ); ?>
   </div>
 </div>
