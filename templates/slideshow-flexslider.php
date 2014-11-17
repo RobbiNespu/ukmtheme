@@ -8,7 +8,15 @@
  *
  * @author Jamaludin Rajalu
  */
-$slideshow = new WP_Query('post_type=slideshow');
+
+$args = array(
+    'post_type'       => 'slideshow',
+    'post_per_page'   => 10,
+    'order'           => 'ASC'
+  );
+
+$slideshow = new WP_Query( $args );
+
 global $post;
 ?> 
 <script type="text/javascript">
@@ -30,9 +38,9 @@ $(document).ready(function() {
         </a>
         </li>            
       <?php endwhile; else: ?>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/slide-sample-1.png?ver=6.3" alt=""></li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/slide-sample-2.png?ver=6.3" alt=""></li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/slide-sample-3.png?ver=6.3" alt=""></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/sample-slide-1.min.jpg" alt=""></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/sample-slide-2.min.jpg" alt=""></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/sample-slide-3.min.jpg" alt=""></li>
       <?php endif; ?>
     </ul>
   </div>
