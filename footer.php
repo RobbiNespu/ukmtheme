@@ -36,7 +36,7 @@ $ukmtheme = wp_get_theme();
   </div>
 </div>
 <div class="wrap">
-  <p class="ut_copyright_statement"><?php _e( 'Copyright &copy;', 'ukmtheme' ); ?><?php echo date( 'Y' ); ?>&nbsp;<?php _e( 'The National University of Malaysia', 'ukmtheme' ); ?></p>
+  <p class="ut_copyright_statement"><?php _e( 'Copyright &copy;&nbsp;', 'ukmtheme' ); ?><?php echo date( 'Y' ); ?>&nbsp;<?php _e( 'The National University of Malaysia', 'ukmtheme' ); ?></p>
   <p class="ut_bestview_statement"><?php _e( 'This website can be access using mobile phone web browser and best view with any modern desktop web browser with minimum resolution 1024x768.', 'ukmtheme' ); ?><br/><?php get_template_part( 'templates/visitor', 'counter' ); ?></p>
   <p class="tukm-theme-version"><a href="http://www.ukm.my/template/" title="" target="_blank"><?php echo "v" . $ukmtheme->get( 'Version' ); ?></a></p>
 </div>
