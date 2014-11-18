@@ -313,3 +313,15 @@ function tukm_search_form( $form ) {
 }
 
 add_filter( 'get_search_form', 'tukm_search_form' );
+
+/**
+ * Custom Post Type Feed
+ * @link http://www.wpbeginner.com/wp-tutorials/how-to-add-custom-post-types-to-your-main-wordpress-rss-feed/
+ */
+
+function tukm_feed_request($qv) {
+  if (isset($qv['feed']) && !isset($qv['post_type']))
+    $qv['post_type'] = array( 'news', 'event' );
+  return $qv;
+}
+add_filter( 'request', 'tukm_feed_request' );
