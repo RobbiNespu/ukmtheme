@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: UKM Theme 6.4\n"
-"POT-Creation-Date: 2014-11-17 11:16+0800\n"
-"PO-Revision-Date: 2014-11-17 11:21+0800\n"
+"POT-Creation-Date: 2014-11-18 12:38+0800\n"
+"PO-Revision-Date: 2014-11-18 12:38+0800\n"
 "Last-Translator: \n"
 "Language-Team: ukmtheme <jrajalu@ukm.edu.my>\n"
 "Language: ms_MY\n"
@@ -48,8 +48,8 @@ msgid "Archives"
 msgstr "Arkib"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/footer.php:39
-msgid "Copyright &copy;"
-msgstr "Hakcipta &copy;"
+msgid "Copyright &copy;&nbsp;"
+msgstr "Hakcipta &copy;&nbsp;"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/footer.php:39
 msgid "The National University of Malaysia"
