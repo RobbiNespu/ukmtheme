@@ -35,13 +35,13 @@ class Latest_News_Widget_Thumbnail extends WP_Widget {
       $instance['newscat'] = '';
 
     if ( ! $newscat = absint( $instance['newscat'] ) )
-      $newscat= '';
+      $newscat = '';
 
     if ( ! isset( $instance['newscount'] ) )
       $instance['newscount'] = '4';
 
     if ( ! $newscount = absint( $instance['newscount'] ) )
-      $newscount= '4';
+      $newscount = '4';
     ?>
 
     <?php
