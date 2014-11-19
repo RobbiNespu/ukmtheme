@@ -56,7 +56,7 @@ function ut_gallery() {
 add_action( 'init', 'ut_gallery', 0 );
 
 
-function ukmtheme_staff_gallery_category_taxonomy() {
+function ukmtheme_gallery_category_taxonomy() {
 
   $labels = array(
     'name'                       => _x( 'Gallery Categories', 'Taxonomy General Name', 'ukmtheme' ),
@@ -96,4 +96,4 @@ function ukmtheme_staff_gallery_category_taxonomy() {
 }
 
 // Hook into the 'init' action
-add_action( 'init', 'ukmtheme_staff_gallery_category_taxonomy', 0 );
+add_action( 'init', 'ukmtheme_gallery_category_taxonomy', 0 );

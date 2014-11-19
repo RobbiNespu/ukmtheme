@@ -16,14 +16,19 @@ get_header(); ?>
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <div class="col-1-1">
           <div class="col-3-10 article">
-          <?php 
-            $saved_data = get_post_meta($post->ID,'ut_expertise_photo',true);
-            echo '<img src="'.$saved_data.'">';
+          <?php
+            $expertPhoto = get_post_meta($post->ID,'ut_expertise_photo',true);
+            if ( $expertPhoto ) {
+              echo '<img src="'.$expertPhoto.'">';
+            }
+            else {
+              echo '<img src="'. get_template_directory_uri() .'/assets/images/public/staff-photo.png">';
+            }
           ?>
           </div>
-          <div class="col-7-10">
+          <div class="col-7-10 article">
             <h2><?php the_title(); ?></h2>
-              <strong><?php _e('Email','ukmtheme'); ?>:</strong>&nbsp;<?php echo get_post_meta($post->ID, 'ut_expertise_email', true); ?>&nbsp;<strong><?php _e('Phone','ukmtheme'); ?>:</strong>&nbsp;<?php echo get_post_meta($post->ID, 'ut_expertise_contact', true); ?>
+              <p><strong><?php _e('Email','ukmtheme'); ?>:</strong>&nbsp;<?php echo get_post_meta($post->ID, 'ut_expertise_email', true); ?>&nbsp;<strong><?php _e('Phone','ukmtheme'); ?>:</strong>&nbsp;<?php echo get_post_meta($post->ID, 'ut_expertise_contact', true); ?></p>
             <p><strong><?php _e( 'Current Position', 'ukmtheme' ) ?>:</strong>
             <?php echo get_post_meta($post->ID, 'ut_expertise_position', true); ?></p>
             <p><strong><?php _e( 'Specialisation', 'ukmtheme' ) ?>:</strong>
