@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: UKM Theme 6.4\n"
-"POT-Creation-Date: 2014-11-18 12:38+0800\n"
-"PO-Revision-Date: 2014-11-18 12:38+0800\n"
+"POT-Creation-Date: 2014-11-20 11:15+0800\n"
+"PO-Revision-Date: 2014-11-20 11:18+0800\n"
 "Last-Translator: \n"
 "Language-Team: ukmtheme <jrajalu@ukm.edu.my>\n"
 "Language: ms_MY\n"
@@ -19,6 +19,7 @@ msgstr ""
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/404.php:16
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:76
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:87
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:99
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:143
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/index.php:22
@@ -57,11 +58,15 @@ msgstr "Universiti Kebangsaan Malaysia"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/footer.php:40
 msgid ""
-"This website can be access using mobile phone web browser and best view with "
-"any modern desktop web browser with minimum resolution 1024x768."
+"This site can be accessed using smart devices. Best viewed using the latest "
+"versions of web browsers on a minimum resolution of 1024x768.<br/>For "
+"further explanation can be read <a href=\"http://browsehappy.com/\" target="
+"\"_blank\">here</a>."
 msgstr ""
-"Laman ini boleh diakses menggunakan pelayar telefon mudah alih dan paparan "
-"terbaik di pelayar web moden desktop pada resolusi minimum 1024x768."
+"Web ini boleh diakses menggunakan peranti pintar. Paparan terbaik "
+"menggunakan pelayar web versi terkini pada resolusi minimum 1024x768. Untuk "
+"penjelasan lanjut boleh dibaca <a href=\"http://browsehappy.com/\" target="
+"\"_blank\">di sini</a>."
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:95
 msgid "Top Navigation"
@@ -344,14 +349,14 @@ msgstr "Nama"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:68
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:382
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:27
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:32
 msgid "Current Position"
 msgstr "Jawatan Semasa"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-expertise.php:69
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:312
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:376
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:26
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:31
 msgid "Email"
 msgstr "Emel"
 
@@ -565,6 +570,7 @@ msgid "Gallery Category"
 msgstr "Kategori Galeri"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-gallery.php:65
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:76
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-staff.php:88
 msgid "All Items"
 msgstr "Semua Item"
@@ -755,6 +761,55 @@ msgstr "ukmnews"
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/widget-news.php:20
 msgid "Latest News"
 msgstr "Berita Terkini"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:73
+msgid "News Categories"
+msgstr "Kategori Berita"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:74
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:75
+msgid "News Category"
+msgstr "Kategori Berita"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:77
+msgid "Parent News Category"
+msgstr "Induk Kategori Berita"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:78
+msgid "Parent News Category:"
+msgstr "Induk Kategori Berita:"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:79
+msgid "New News Category Name"
+msgstr "Nama Kategori Berita Baru"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:80
+msgid "Add New News Category"
+msgstr "Tambah Kategori Berita Baru"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:81
+msgid "Edit News Category"
+msgstr "Sunting Kategori Berita"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:82
+msgid "Update News Category"
+msgstr "Kemaskini Kategori Berita"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:83
+msgid "Separate News Categories with commas"
+msgstr "Asingkan Kategori Berita dengan koma"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:84
+msgid "Search News Categories"
+msgstr "Cari Kategori Berita"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:85
+msgid "Add or remove News Categories"
+msgstr "Tambah atau hapus Kategori Berita"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:86
+msgid "Choose from the most used News Categories"
+msgstr "Pilih daripada Kategori Berita yang paling digunakan"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-press.php:17
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-press.php:18
@@ -1597,7 +1652,7 @@ msgstr "cth: Profesor"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:388
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/archive-expertise.php:44
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:29
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:34
 msgid "Specialisation"
 msgstr "Pengkhususan"
 
@@ -1606,7 +1661,7 @@ msgid "Tourism and Hospitality Marketing, &amp; Services Marketing"
 msgstr "Tourism and Hospitality Marketing, &amp; Services Marketing"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:394
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:36
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:41
 msgid "Qualifications"
 msgstr "Kelayakan"
 
@@ -1615,7 +1670,7 @@ msgid "e.g. Doctor of Philosophy (University of Malaya) [2002-2005]"
 msgstr "cth. Doctor of Philosophy (University of Malaya) [2002-2005]"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:401
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:44
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:49
 msgid "Areas of Research"
 msgstr "Bidang Penyelidikan"
 
@@ -1636,7 +1691,7 @@ msgstr ""
 "30,2010. GSB-001-2009 (External Grant). Ongoing."
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:415
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:60
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:65
 msgid "Publications Journals"
 msgstr "Penerbitan Jurnal"
 
@@ -1651,7 +1706,7 @@ msgstr ""
 "International Journal of West Asian Studies. 1(1): 43-58. ISSN 1394-0902."
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:422
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:68
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:73
 msgid "Proceedings"
 msgstr "Prosiding"
 
@@ -1670,7 +1725,7 @@ msgstr ""
 "ISBN: 978-0-980-4557-0-7 (Presenter)."
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:429
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:76
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:81
 msgid "Book"
 msgstr "Buku"
 
@@ -1709,12 +1764,12 @@ msgstr ""
 "Malaysia. 2007/2008"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:450
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:100
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:105
 msgid "Seminar"
 msgstr "Seminar"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:457
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:108
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:113
 msgid "Award"
 msgstr "Anugerah"
 
@@ -1727,7 +1782,7 @@ msgstr ""
 "BusinessUniversiti Kebangsaan Malaysia"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:464
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:116
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:121
 msgid "Supervision"
 msgstr "Penyeliaan"
 
@@ -1770,12 +1825,12 @@ msgstr ""
 "(EKS)”. SMIDEC."
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:485
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:140
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:145
 msgid "Research Grant"
 msgstr "Geran Penyelidikan"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:492
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:148
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:153
 msgid "Teaching"
 msgstr "Mengajar"
 
@@ -1972,7 +2027,7 @@ msgstr "Widget Penghargaan"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-appreciation.php:80
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-event.php:81
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:78
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:103
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news.php:60
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-youtube.php:64
 msgid "New title"
@@ -1980,7 +2035,7 @@ msgstr "Tajuk Baru"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-appreciation.php:84
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-event.php:93
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:90
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:122
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news.php:72
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-youtube.php:75
 msgid "Title:"
@@ -2011,19 +2066,26 @@ msgstr "#Berita Terkini dengan Gambar"
 msgid "Latest news widget for page sidebar"
 msgstr "Widget berita untuk barsisi halaman"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:67
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:89
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/widget-news.php:42
 msgid "News Archive"
 msgstr "Arkib Berita"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:94
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news.php:76
-msgid "Number News to Show:"
-msgstr "Jumlah Berita untuk dipaparkan"
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:126
+msgid "News category slug:"
+msgstr "Slug kategori berita:"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:130
+msgid "Number of news to show:"
+msgstr "Jumlah Berita untuk dipaparkan:"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news.php:20
 msgid "#Latest News"
 msgstr "#Berita Terkini"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news.php:76
+msgid "Number News to Show:"
+msgstr "Jumlah Berita untuk dipaparkan"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-youtube.php:23
 msgid "#Youtube Video"
@@ -2526,7 +2588,7 @@ msgstr "Kembali ke Papan Pemuka"
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/archive-publication.php:50
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-appreciation.php:25
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-event.php:27
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:157
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:162
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-faq.php:22
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-gallery.php:34
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-news.php:22
@@ -2635,27 +2697,27 @@ msgstr "&nbsp;Besar"
 msgid "By:&nbsp;"
 msgstr "Oleh:&nbsp;"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:26
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:31
 msgid "Phone"
 msgstr "Telefon"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:52
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:57
 msgid "Research/Consultation<br/>/Expansion"
 msgstr "Penyelidikan/Perundingan<br/>/Pengembangan"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:84
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:89
 msgid "Articles in Antologi/Chapters in Book"
 msgstr "Artikel dalam Antologi/Bab dalam Buku"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:92
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:97
 msgid "Monograph, Working Papers and Non-Periodical Publications"
 msgstr "Monograf, Kertas Kerja dan Penerbitan Bukan berkala"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:124
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:129
 msgid "Administrative Services/Committee"
 msgstr "Khidmat Pentadbiran/Jawatankuasa"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:132
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:137
 msgid "Reports: Technical<br/>/Research/Consultation"
 msgstr "Laporan: Teknikal<br/>/Penyelidikan/Perundingan"
 
@@ -2691,6 +2753,14 @@ msgstr "Hello, semalat datang ke Universiti Kebangsaan Malaysia!"
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/widget-polylang.php:13
 msgid "Language"
 msgstr "Bahasa"
+
+#~ msgid ""
+#~ "This website can be access using mobile phone web browser and best view "
+#~ "with any modern desktop web browser with minimum resolution 1024x768."
+#~ msgstr ""
+#~ "Laman ini boleh diakses menggunakan pelayar telefon mudah alih dan "
+#~ "paparan terbaik di pelayar web moden desktop pada resolusi minimum "
+#~ "1024x768."
 
 #~ msgid "Best view with any modern web browser (Desktop &amp; Mobile)"
 #~ msgstr ""
@@ -2788,9 +2858,6 @@ msgstr "Bahasa"
 #~ "pixels."
 #~ msgstr ""
 #~ "Muat naik imej atau masukkan URL. dimensi imej yang perlu 300x350 piksel."
-
-#~ msgid "Categories"
-#~ msgstr "Kategori"
 
 #~ msgid "Staff Category"
 #~ msgstr "Kategori Staf"
