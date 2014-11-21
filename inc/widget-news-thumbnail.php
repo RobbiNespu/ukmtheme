@@ -9,16 +9,20 @@
  *
  * @author Jamaludin Rajalu
  *
- * Widget: Latest News with Thumbnail
+ * Widget: Latest News with Thumbnail and Category
  */
 
 class Latest_News_Widget_Thumbnail extends WP_Widget {
-
   function __construct() {
+
     parent::__construct(
+
       'latest_news_widget_thumbnail', // Base ID
-      __('#Latest News with Thumbnail', 'ukmtheme'),
-      array( 'description' => __( 'Latest news widget for page sidebar', 'ukmtheme' ), )
+
+      __('&bull; News with Thumbnail', 'ukmtheme'),
+
+      array( 'description' => __( 'Latest news list with thumbnail and category.', 'ukmtheme' ), )
+
     );
   }
 
@@ -28,28 +32,23 @@ class Latest_News_Widget_Thumbnail extends WP_Widget {
 
     echo $args['before_widget'];
 
-    if ( ! empty( $title ) )
+    if ( ! empty( $title ) ) {
       echo $args['before_title'] . $title . $args['after_title'];
+    }
 
-    if ( ! isset( $instance['newscat'] ) )
-      $instance['newscat'] = '';
+    if ( ! isset( $instance['newscat'] ) ) {
+      $newscat = $instance['newscat'];
+    }
 
-    if ( ! $newscat = absint( $instance['newscat'] ) )
-      $newscat = '';
+    if ( ! isset( $instance['newscount'] ) ) {
+      $newscount = $instance['newscount'];
+    }
 
-    if ( ! isset( $instance['newscount'] ) )
-      $instance['newscount'] = '4';
-
-    if ( ! $newscount = absint( $instance['newscount'] ) )
-      $newscount = '4';
-    ?>
-
-    <?php
     /**
-     * Events Widget Output
+     * Events Widget with Post Type
      * @link http://codex.wordpress.org/Widgets_API
+     * @link http://codex.wordpress.org/Class_Reference/WP_Query
      */
-
 
     $news_args = array(
       'post_type'       => 'news',
@@ -93,6 +92,7 @@ class Latest_News_Widget_Thumbnail extends WP_Widget {
     if ( isset( $instance['title'] ) ) {
       $title = $instance['title'];
     }
+    
     else {
       $title = __( 'New title', 'ukmtheme' );
     }
@@ -105,23 +105,27 @@ class Latest_News_Widget_Thumbnail extends WP_Widget {
       $newscount = $instance[ 'newscount' ];
     }
     
-    ?>
-    <p class="tukm-widget-text">
-      <label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?></label> 
-      <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo $title; ?>" />
-    </p>
-    <p class="tukm-widget-text">
-      <label for="<?php echo $this->get_field_id( 'newscat' ); ?>"><?php _e( 'News category slug:' ); ?></label> 
-      <input class="widefat" id="<?php echo $this->get_field_id( 'newscat' ); ?>" name="<?php echo $this->get_field_name( 'newscat' ); ?>" type="text" value="<?php echo $newscat; ?>" />
-    </p>
-    <p class="tukm-widget-text">
-      <label for="<?php echo $this->get_field_id( 'newscount' ); ?>"><?php _e( 'Number of news to show:','ukmtheme' ); ?></label> 
-      <input class="widefat" id="<?php echo $this->get_field_id( 'newscount' ); ?>" name="<?php echo $this->get_field_name( 'newscount' ); ?>" type="text" value="<?php echo $newscount; ?>" />
-    </p>
-    <?php 
+    
+    echo '<p class="tukm-widget-text">';
+    echo '<label for="'. $this->get_field_id('title') .'">' . __( 'Title:', 'ukmtheme' ) . '</label>';
+    echo '<input class="widefat" id="' . $this->get_field_id('title') . '" name="' . $this->get_field_name('title') .'" type="text" value="'. $title .'" />';
+    echo '</p>';
+
+    echo '<p class="tukm-widget-text">';
+    echo '<label for="'. $this->get_field_id('newscat') .'">'. __( 'News category slug: e.g. research', 'ukmtheme' ) .'</label>';
+    echo '<input class="widefat" id="'. $this->get_field_id('newscat') .'" name="'. $this->get_field_name('newscat') .'" type="text" value="'. $newscat .'" />';
+    echo '</p>';
+
+    echo '<p class="tukm-widget-text">';
+    echo '<label for="'. $this->get_field_id('newscount') .'">'. __( 'Number of news to show:', 'ukmtheme' ) .'</label>';
+    echo '<input class="widefat" id="'. $this->get_field_id('newscount') .'" name="'. $this->get_field_name('newscount') .'" type="text" value="'. $newscount .'" />';
+    echo '</p>';
+
+
   }
 
   public function update( $new_instance, $old_instance ) {
+
     $instance = array();
     $instance['title'] = ( ! empty( $new_instance['title'] ) ) ? strip_tags( $new_instance['title'] ) : '';
     $instance['newscat'] = ( ! empty( $new_instance['newscat'] ) ) ? strip_tags( $new_instance['newscat'] ) : '';

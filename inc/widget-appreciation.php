@@ -20,7 +20,7 @@ class Appreciation_Widget extends WP_Widget {
   function __construct() {
     parent::__construct(
       'appreciation_widget',
-      __('#Appreciation', 'ukmtheme'),
+      __('&bull; Appreciation', 'ukmtheme'),
       array( 'description' => __( 'Appreciation Widget', 'ukmtheme' ), )
     );
   }

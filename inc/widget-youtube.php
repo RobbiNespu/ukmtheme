@@ -20,7 +20,7 @@ class Youtube_Widget extends WP_Widget {
   function __construct() {
     parent::__construct(
       'youtube_widget', // Base ID
-      __('#Youtube Video', 'ukmtheme'), // Name
+      __('&bull; Youtube Video', 'ukmtheme'), // Name
       array( 'description' => __( 'Youtube video for sidebar', 'ukmtheme' ), ) // Args
     );
   }

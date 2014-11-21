@@ -17,7 +17,7 @@ class Event_Widget extends WP_Widget {
   function __construct() {
     parent::__construct(
       'event_widget', // Base ID
-      __('#Events', 'ukmtheme'),
+      __('&bull; Events', 'ukmtheme'),
       array( 'description' => __( 'Event Lists', 'ukmtheme' ), )
     );
   }
