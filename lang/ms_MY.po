@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: UKM Theme 6.4\n"
-"POT-Creation-Date: 2014-11-20 11:15+0800\n"
-"PO-Revision-Date: 2014-11-20 16:14+0800\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2014-11-21 14:39+0800\n"
+"PO-Revision-Date: 2014-11-21 14:41+0800\n"
+"Last-Translator: Jamaludin Rajalu <jrajalu@ukm.edu.my>\n"
 "Language-Team: ukmtheme <jrajalu@ukm.edu.my>\n"
 "Language: ms_MY\n"
 "MIME-Version: 1.0\n"
@@ -1691,7 +1691,7 @@ msgstr ""
 "30,2010. GSB-001-2009 (External Grant). Ongoing."
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:415
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:65
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:84
 msgid "Publications Journals"
 msgstr "Penerbitan Jurnal"
 
@@ -1706,7 +1706,7 @@ msgstr ""
 "International Journal of West Asian Studies. 1(1): 43-58. ISSN 1394-0902."
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:422
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:73
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:92
 msgid "Proceedings"
 msgstr "Prosiding"
 
@@ -1725,7 +1725,7 @@ msgstr ""
 "ISBN: 978-0-980-4557-0-7 (Presenter)."
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:429
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:81
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:100
 msgid "Book"
 msgstr "Buku"
 
@@ -1764,12 +1764,12 @@ msgstr ""
 "Malaysia. 2007/2008"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:450
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:105
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:124
 msgid "Seminar"
 msgstr "Seminar"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:457
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:113
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:132
 msgid "Award"
 msgstr "Anugerah"
 
@@ -1782,7 +1782,7 @@ msgstr ""
 "BusinessUniversiti Kebangsaan Malaysia"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:464
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:121
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:140
 msgid "Supervision"
 msgstr "Penyeliaan"
 
@@ -1825,12 +1825,12 @@ msgstr ""
 "(EKS)”. SMIDEC."
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:485
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:145
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:164
 msgid "Research Grant"
 msgstr "Geran Penyelidikan"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:492
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:153
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:172
 msgid "Teaching"
 msgstr "Mengajar"
 
@@ -1841,6 +1841,75 @@ msgid ""
 msgstr ""
 "cth. Courses Taught at Ph.D./DBA Level Hospitality Marketing: Theory and "
 "Research"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:505
+msgid "Hide Option (Please check if want to hide)"
+msgstr ""
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:512
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:513
+msgid "Hide Research/Consultation/Expansion"
+msgstr ""
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:518
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:519
+msgid "Hide Publications Journals"
+msgstr ""
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:524
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:525
+msgid "Hide Proceedings"
+msgstr ""
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:530
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:531
+msgid "Hide Book"
+msgstr ""
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:536
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:537
+msgid "Hide Articles in Antologi/Chapters in Book"
+msgstr ""
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:542
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:543
+msgid "Hide Monograph, Working Papers and Non-Periodical Publications"
+msgstr ""
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:548
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:549
+msgid "Hide Seminar"
+msgstr ""
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:554
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:555
+msgid "Hide Award"
+msgstr ""
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:560
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:561
+msgid "Hide Supervision"
+msgstr ""
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:566
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:567
+msgid "Hide Administrative Services/Committee"
+msgstr ""
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:572
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:573
+msgid "Hide Reports: Technical/Research/Consultation"
+msgstr ""
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:578
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:579
+msgid "Hide Research Grant"
+msgstr ""
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:584
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:585
+msgid "Hide Teaching"
+msgstr ""
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:19
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:50
@@ -2588,7 +2657,7 @@ msgstr "Kembali ke Papan Pemuka"
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/archive-publication.php:50
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-appreciation.php:25
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-event.php:27
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:162
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:181
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-faq.php:22
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-gallery.php:34
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-news.php:22
@@ -2701,29 +2770,33 @@ msgstr "Oleh:&nbsp;"
 msgid "Phone"
 msgstr "Telefon"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:57
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:76
 msgid "Research/Consultation<br/>/Expansion"
 msgstr "Penyelidikan/Perundingan<br/>/Pengembangan"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:89
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:108
 msgid "Articles in Antologi/Chapters in Book"
 msgstr "Artikel dalam Antologi/Bab dalam Buku"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:97
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:116
 msgid "Monograph, Working Papers and Non-Periodical Publications"
 msgstr "Monograf, Kertas Kerja dan Penerbitan Bukan berkala"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:129
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:148
 msgid "Administrative Services/Committee"
 msgstr "Khidmat Pentadbiran/Jawatankuasa"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:137
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:156
 msgid "Reports: Technical<br/>/Research/Consultation"
 msgstr "Laporan: Teknikal<br/>/Penyelidikan/Perundingan"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-gallery.php:21
 msgid "Back to Main"
 msgstr "Kembali ke Utama"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/taxonomy-newscat.php:18
+msgid "News:&nbsp;"
+msgstr "Berita:&nbsp;"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/visitor-counter.php:17
 msgid "Visitors"
@@ -2903,12 +2976,6 @@ msgstr "Bahasa"
 
 #~ msgid "Appears when using the optional post"
 #~ msgstr "Muncul apabila mengunakan kiriman pilihan"
-
-#~ msgid "Research/Consultation/Expansion"
-#~ msgstr "Penyelidikan/Perundingan/Pengembangan"
-
-#~ msgid "Reports: Technical/Research/Consultation"
-#~ msgstr "Laporan: Teknikal/Penyelidikan/Perundingan"
 
 #~ msgid "Footer Copyright Link"
 #~ msgstr "Pautan Hakcipta Pembawah"

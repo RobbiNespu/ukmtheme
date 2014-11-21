@@ -498,6 +498,97 @@ function ukmtheme_metaboxes( array $meta_boxes ) {
     ),
   );
 
+  // HIDE ITEM EXPERTISE
+
+  $meta_boxes['expertise_metabox_hide'] = array(
+    'id'          => 'expertise_metabox_hide',
+    'title'       => __( 'Hide Option (Please check if want to hide)', 'ukmtheme' ),
+    'pages'       => array( 'expertise', ),
+    'context'     => 'normal',
+    'priority'    => 'high',
+    'show_names'  => false,
+    'fields'      => array(
+      array(
+        'name'    => __( 'Hide Research/Consultation/Expansion', 'ukmtheme' ),
+        'desc'    => __( 'Hide Research/Consultation/Expansion', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_research_consultation_hide',
+        'type'    => 'checkbox',
+      ),
+      array(
+        'name'    => __( 'Hide Publications Journals', 'ukmtheme' ),
+        'desc'    => __( 'Hide Publications Journals', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_journal_hide',
+        'type'    => 'checkbox',
+      ),
+      array(
+        'name'    => __( 'Hide Proceedings', 'ukmtheme' ),
+        'desc'    => __( 'Hide Proceedings', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_proceedings_hide',
+        'type'    => 'checkbox',
+      ),
+      array(
+        'name'    => __( 'Hide Book', 'ukmtheme' ),
+        'desc'    => __( 'Hide Book', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_book_hide',
+        'type'    => 'checkbox',
+      ),
+      array(
+        'name'    => __( 'Hide Articles in Antologi/Chapters in Book', 'ukmtheme' ),
+        'desc'    => __( 'Hide Articles in Antologi/Chapters in Book', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_antologi_hide',
+        'type'    => 'checkbox',
+      ),
+      array(
+        'name'    => __( 'Hide Monograph, Working Papers and Non-Periodical Publications', 'ukmtheme' ),
+        'desc'    => __( 'Hide Monograph, Working Papers and Non-Periodical Publications', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_monograph_hide',
+        'type'    => 'checkbox',
+      ),
+      array(
+        'name'    => __( 'Hide Seminar', 'ukmtheme' ),
+        'desc'    => __( 'Hide Seminar', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_seminar_hide',
+        'type'    => 'checkbox',
+      ),
+      array(
+        'name'    => __( 'Hide Award', 'ukmtheme' ),
+        'desc'    => __( 'Hide Award', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_award_hide',
+        'type'    => 'checkbox',
+      ),
+      array(
+        'name'    => __( 'Hide Supervision', 'ukmtheme' ),
+        'desc'    => __( 'Hide Supervision', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_supervision_hide',
+        'type'    => 'checkbox',
+      ),
+      array(
+        'name'    => __( 'Hide Administrative Services/Committee', 'ukmtheme' ),
+        'desc'    => __( 'Hide Administrative Services/Committee', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_administrative_hide',
+        'type'    => 'checkbox',
+      ),
+      array(
+        'name'    => __( 'Hide Reports: Technical/Research/Consultation', 'ukmtheme' ),
+        'desc'    => __( 'Hide Reports: Technical/Research/Consultation', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_reports_hide',
+        'type'    => 'checkbox',
+      ),
+      array(
+        'name'    => __( 'Hide Research Grant', 'ukmtheme' ),
+        'desc'    => __( 'Hide Research Grant', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_research_grant_hide',
+        'type'    => 'checkbox',
+      ),
+      array(
+        'name'    => __( 'Hide Teaching', 'ukmtheme' ),
+        'desc'    => __( 'Hide Teaching', 'ukmtheme' ),
+        'id'      => $prefix . 'expertise_teaching_hide',
+        'type'    => 'checkbox',
+      ),
+    ),
+  );
+
 // END HERE
 
   return $meta_boxes;

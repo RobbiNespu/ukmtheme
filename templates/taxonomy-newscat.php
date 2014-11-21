@@ -15,7 +15,7 @@ get_header(); ?>
 <article class="wrap">
   <div class="content clearfix">
     <section class="col-3-4 article">
-    <h2><?php _e( 'Archives', 'ukmtheme' ) ; ?></h2>
+    <h2 class="content-title"><?php _e( 'News:&nbsp;', 'ukmtheme' ); single_cat_title(); ?></h2>
 
       <div class="uk-panel widgets-annc">
 

@@ -13,6 +13,28 @@
  *
  */
 
+// News
+
+add_filter( 'template_include', 'taxonomy_news_page_template', 99 );
+
+  function taxonomy_news_page_template( $template_newscat ) {
+
+    if ( is_tax( 'newscat' )  ) {
+
+      $new_template_newscat = get_template_directory() . '/templates/taxonomy-newscat.php';
+
+      if ( '' != $new_template_newscat ) {
+
+        return $new_template_newscat ;
+
+      }
+
+    }
+
+    return $template_newscat;
+
+  }
+
 // Staff Department
 
 add_filter( 'template_include', 'taxonomy_department_page_template', 99 );
