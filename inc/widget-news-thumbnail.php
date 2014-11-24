@@ -19,7 +19,7 @@ class Latest_News_Widget_Thumbnail extends WP_Widget {
 
       'latest_news_widget_thumbnail', // Base ID
 
-      __('&bull; News with Thumbnail', 'ukmtheme'),
+      __('&bull; News with Image', 'ukmtheme'),
 
       array( 'description' => __( 'Latest news list with thumbnail and category.', 'ukmtheme' ), )
 
@@ -100,9 +100,6 @@ class Latest_News_Widget_Thumbnail extends WP_Widget {
     if ( isset( $instance['newscat'] ) ) {
       $newscat = $instance['newscat'];
     }
-    else {
-      $newscat = __('Delete this if want to show all','ukmtheme');
-    }
 
     if ( isset( $instance[ 'newscount'] ) ) {
       $newscount = $instance[ 'newscount' ];
@@ -110,16 +107,15 @@ class Latest_News_Widget_Thumbnail extends WP_Widget {
     else {
       $newscount = '4';
     }
-    
-    
+       
     echo '<p class="tukm-widget-text">';
     echo '<label for="'. $this->get_field_id('title') .'">' . __( 'Title:', 'ukmtheme' ) . '</label>';
     echo '<input class="widefat" id="' . $this->get_field_id('title') . '" name="' . $this->get_field_name('title') .'" type="text" value="'. $title .'" />';
     echo '</p>';
 
     echo '<p class="tukm-widget-text">';
-    echo '<label for="'. $this->get_field_id('newscat') .'">'. __( 'News category slug: e.g. research', 'ukmtheme' ) .'</label>';
-    echo '<input class="widefat" id="'. $this->get_field_id('newscat') .'" name="'. $this->get_field_name('newscat') .'" type="text" value="'. $newscat .'" />';
+    echo '<label for="'. $this->get_field_id('newscat') .'">'. __( 'News category slug:', 'ukmtheme' ) .'</label>';
+    echo '<input class="widefat" id="'. $this->get_field_id('newscat') .'" placeholder="e.g. awesome" name="'. $this->get_field_name('newscat') .'" type="text" value="'. $newscat .'" />';
     echo '</p>';
 
     echo '<p class="tukm-widget-text">';

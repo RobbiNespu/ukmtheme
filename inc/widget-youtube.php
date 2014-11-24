@@ -34,20 +34,28 @@ class Youtube_Widget extends WP_Widget {
    * @param array $instance Saved values from database.
    */
   public function widget( $args, $instance ) {
+
     $title = apply_filters( 'widget_title', $instance['title'] );
 
     echo $args['before_widget'];
-    if ( ! empty( $title ) )
+    if ( ! empty( $title ) ) {
       echo $args['before_title'] . $title . $args['after_title'];
+    }
 
-    $youtubeVidID = $instance[ 'youtubeVidID' ];
+    if ( isset( $instance[ 'videoid' ] ) ) {
+      $videoid = $instance['videoid'];
+    }
+
     ?>
     <div id="youtubeWidget" style="margin-top:10px;margin-bottom-10px;">
-      <iframe src="//www.youtube.com/embed/<?php echo $youtubeVidID ?>?rel=0" frameborder="0" allowfullscreen></iframe>
+      <iframe src="//www.youtube.com/embed/<?php echo $instance['videoid']; ?>?rel=0" frameborder="0" allowfullscreen></iframe>
     </div>
+
     <?php
+
     echo $args['after_widget'];
-  }
+
+    }
 
   /**
    * Back-end widget form.
@@ -57,18 +65,18 @@ class Youtube_Widget extends WP_Widget {
    * @param array $instance Previously saved values from database.
    */
   public function form( $instance ) {
-    if ( isset( $instance[ 'title' ] ) ) {
-      $title = $instance[ 'title' ];
+    if ( isset( $instance['title'] ) ) {
+      $title = $instance['title'];
     }
     else {
-      $title = __( 'New title', 'ukmtheme' );
+      $title = __( 'Youtube Video', 'ukmtheme' );
     }
 
-    if ( isset( $instance[ 'youtubeVidID' ] ) ) {
-      $youtubeVidID = $instance[ 'youtubeVidID' ];
+    if ( isset( $instance['videoid'] ) ) {
+      $videoid = $instance['videoid'];
     }
     else {
-      $youtubeVidID = 'd8KTJ-VRBf0';
+      $videoid = 'fHDHJE15NKk';
     }
     ?>
     <p>
@@ -76,8 +84,8 @@ class Youtube_Widget extends WP_Widget {
     <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>">
     </p>
     <p>
-    <label for="<?php echo $this->get_field_id( 'youtubeVidID' ); ?>"><?php _e( 'Youtube Video ID:' ); ?></label>
-    <input class="widefat" id="<?php echo $this->get_field_id( 'youtubeVidID' ); ?>" name="<?php echo $this->get_field_name( 'youtubeVidID' ); ?>" type="text" value="<?php echo esc_attr( $youtubeVidID ); ?>">
+    <label for="<?php echo $this->get_field_id( 'videoid' ); ?>"><?php _e( 'Youtube video id:' ); ?></label>
+    <input class="widefat" id="<?php echo $this->get_field_id( 'videoid' ); ?>" name="<?php echo $this->get_field_name( 'videoid' ); ?>" type="text" value="<?php echo esc_attr( $videoid ); ?>">
     </p>
     <?php 
   }
@@ -95,7 +103,7 @@ class Youtube_Widget extends WP_Widget {
   public function update( $new_instance, $old_instance ) {
     $instance = array();
     $instance['title'] = ( ! empty( $new_instance['title'] ) ) ? strip_tags( $new_instance['title'] ) : '';
-    $instance['youtubeVidID'] = ( ! empty( $new_instance['youtubeVidID'] ) ) ? strip_tags( $new_instance['youtubeVidID'] ) : '';
+    $instance['videoid'] = ( ! empty( $new_instance['videoid'] ) ) ? strip_tags( $new_instance['videoid'] ) : '';
     return $instance;
   }
 

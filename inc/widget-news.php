@@ -80,16 +80,12 @@ class Latest_News_Widget extends WP_Widget {
     if ( isset( $instance['title'] ) ) {
       $title = $instance['title'];
     }
-    
     else {
       $title = __( 'Latest Awesome News', 'ukmtheme' );
     }
 
     if ( isset( $instance['newscat'] ) ) {
       $newscat = $instance['newscat'];
-    }
-    else {
-      $newscat = __('Delete this if want to show all','ukmtheme');
     }
 
     if ( isset( $instance[ 'newscount'] ) ) {
@@ -105,8 +101,8 @@ class Latest_News_Widget extends WP_Widget {
     echo '</p>';
 
     echo '<p class="tukm-widget-text">';
-    echo '<label for="'. $this->get_field_id('newscat') .'">'. __( 'News category slug: e.g. research', 'ukmtheme' ) .'</label>';
-    echo '<input class="widefat" id="'. $this->get_field_id('newscat') .'" name="'. $this->get_field_name('newscat') .'" type="text" value="'. $newscat .'" />';
+    echo '<label for="'. $this->get_field_id('newscat') .'">'. __( 'News category slug:', 'ukmtheme' ) .'</label>';
+    echo '<input class="widefat" id="'. $this->get_field_id('newscat') .'" placeholder="e.g. awesome" name="'. $this->get_field_name('newscat') .'" type="text" value="'. $newscat .'" />';
     echo '</p>';
 
     echo '<p class="tukm-widget-text">';

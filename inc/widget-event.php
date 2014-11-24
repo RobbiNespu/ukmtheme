@@ -18,7 +18,7 @@ class Event_Widget extends WP_Widget {
     parent::__construct(
       'event_widget',
       __('&bull; Upcoming Events', 'ukmtheme'),
-      array( 'description' => __( 'Event list or upcoming events', 'ukmtheme' ), )
+      array( 'description' => __( 'Event list or upcoming events.', 'ukmtheme' ), )
     );
   }
 
