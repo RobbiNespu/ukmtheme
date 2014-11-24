@@ -20,7 +20,7 @@ module.exports = function(grunt) {
         options: {
           paths: ['assets/css'],
           compress: true,
-          cleancss: true
+          cleancss: false
         },
         files: {
           'style.css': [
