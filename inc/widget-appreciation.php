@@ -77,7 +77,7 @@ class Appreciation_Widget extends WP_Widget {
       $title = $instance[ 'title' ];
     }
     else {
-      $title = __( 'New title', 'ukmtheme' );
+      $title = __( 'Appreciation', 'ukmtheme' );
     }
     ?>
     <p>
