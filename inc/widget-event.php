@@ -16,9 +16,9 @@ class Event_Widget extends WP_Widget {
 
   function __construct() {
     parent::__construct(
-      'event_widget', // Base ID
-      __('&bull; Events', 'ukmtheme'),
-      array( 'description' => __( 'Event Lists', 'ukmtheme' ), )
+      'event_widget',
+      __('&bull; Upcoming Events', 'ukmtheme'),
+      array( 'description' => __( 'Event list or upcoming events', 'ukmtheme' ), )
     );
   }
 
@@ -26,23 +26,21 @@ class Event_Widget extends WP_Widget {
     $title = apply_filters( 'widget_title', $instance['title'] );
 
     echo $args['before_widget'];
-    if ( ! empty( $title ) )
+    if ( ! empty( $title ) ) {
       echo $args['before_title'] . $title . $args['after_title'];
+    }
 
-    if ( ! isset( $instance['total'] ) )
-      $instance['total'] = '4';
+    if ( ! isset( $instance['total'] ) ) {
+      $total = $instance['total'];
+    }
 
-    if ( ! $total = absint( $instance['total'] ) )
-      $total= 4;
-    ?>
-      <?php
       /**
        * Events Widget Output
        * @link http://codex.wordpress.org/Widgets_API
        */
         $ut_event = array(
           'post_type'       => 'event',
-          'posts_per_page'  => $total,
+          'posts_per_page'  => $instance['total'],
           'orderby'         => 'menu_order',
           'order'           => 'DESC'
         );
@@ -70,34 +68,37 @@ class Event_Widget extends WP_Widget {
       </div>
 
     <?php
+
     echo $args['after_widget'];
   }
 
   public function form( $instance ) {
-    if ( isset( $instance[ 'title'] ) ) {
-      $title = $instance[ 'title' ];
+    if ( isset( $instance['title'] ) ) {
+      $title = $instance['title'];
     }
     else {
-      $title = __( 'New title', 'ukmtheme' );
+      $title = __( 'Upcoming Events', 'ukmtheme' );
     }
 
-    if ( isset( $instance[ 'total'] ) ) {
-      $total = $instance[ 'total' ];
+    if ( isset( $instance['total'] ) ) {
+      $total = $instance['total'];
     }
     else {
-      $total = 4;
+      $total = '4';
     }
-    
+
     ?>
     <p>
     <label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?></label> 
     <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>" />
     </p>
     <p>
-    <label for="<?php echo $this->get_field_id( 'total' ); ?>"><?php _e( 'Number Event to Show:','ukmtheme' ); ?></label> 
+    <label for="<?php echo $this->get_field_id( 'total' ); ?>"><?php _e( 'Number of events to show:','ukmtheme' ); ?></label> 
     <input class="widefat" id="<?php echo $this->get_field_id( 'total' ); ?>" name="<?php echo $this->get_field_name( 'total' ); ?>" type="text" value="<?php echo esc_attr( $total ); ?>" />
     </p>
-    <?php 
+    
+    <?php
+
   }
 
   public function update( $new_instance, $old_instance ) {
@@ -110,8 +111,8 @@ class Event_Widget extends WP_Widget {
 
 }
 
-function register_event_widget() {
-    register_widget( 'Event_Widget' );
-}
 add_action( 'widgets_init', 'register_Event_Widget' );
+  function register_event_widget() {
+    register_widget( 'Event_Widget' );
+  }
 ?>

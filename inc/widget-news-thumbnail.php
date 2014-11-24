@@ -94,15 +94,21 @@ class Latest_News_Widget_Thumbnail extends WP_Widget {
     }
     
     else {
-      $title = __( 'New title', 'ukmtheme' );
+      $title = __( 'Latest Awesome News', 'ukmtheme' );
     }
 
     if ( isset( $instance['newscat'] ) ) {
       $newscat = $instance['newscat'];
     }
+    else {
+      $newscat = __('Delete this if want to show all','ukmtheme');
+    }
 
     if ( isset( $instance[ 'newscount'] ) ) {
       $newscount = $instance[ 'newscount' ];
+    }
+    else {
+      $newscount = '4';
     }
     
     

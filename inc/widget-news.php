@@ -82,17 +82,22 @@ class Latest_News_Widget extends WP_Widget {
     }
     
     else {
-      $title = __( 'New title', 'ukmtheme' );
+      $title = __( 'Latest Awesome News', 'ukmtheme' );
     }
 
     if ( isset( $instance['newscat'] ) ) {
       $newscat = $instance['newscat'];
     }
+    else {
+      $newscat = __('Delete this if want to show all','ukmtheme');
+    }
 
     if ( isset( $instance[ 'newscount'] ) ) {
       $newscount = $instance[ 'newscount' ];
     }
-    
+    else {
+      $newscount = '4';
+    }
     
     echo '<p class="tukm-widget-text">';
     echo '<label for="'. $this->get_field_id('title') .'">' . __( 'Title:', 'ukmtheme' ) . '</label>';
