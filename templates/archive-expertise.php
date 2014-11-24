@@ -27,9 +27,14 @@ get_header(); ?>
   <div class="col-1-7">
       <div class="staff-photo">
       <a href="<?php echo get_permalink(); ?>">
-        <?php 
-          $saved_data = get_post_meta($post->ID,'ut_expertise_photo',true);
-          echo '<img src="'.$saved_data.'">';
+        <?php
+          $expertPhoto = get_post_meta($post->ID,'ut_expertise_photo',true);
+          if ( $expertPhoto ) {
+            echo '<img src="'.$expertPhoto.'">';
+          }
+          else {
+            echo '<img src="'. get_template_directory_uri() .'/assets/images/public/staff-photo.png">';
+          }
         ?>
       </a>
       </div>
@@ -37,10 +42,12 @@ get_header(); ?>
 
   <div class="col-6-7">
     <div class="staff-detail">
-      <a href="<?php echo get_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
-      <?php echo '<span class="staff-position">'; echo get_post_meta($post->ID, 'ut_expertise_position', true); echo '</span>'; ?>
-      <?php echo '<span class="staff-phone">'; echo get_post_meta($post->ID, 'ut_expertise_contact', true); echo '</span>'; ?>
-      <?php echo '<span class="staff-email">'; echo get_post_meta($post->ID, 'ut_expertise_email', true); echo '</span>'; ?>
+    <a href="<?php echo get_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
+      <?php
+        echo '<span class="staff-position">'. get_post_meta($post->ID, 'ut_expertise_position', true) .'</span>';
+        echo '<span class="staff-phone">'. get_post_meta($post->ID, 'ut_expertise_contact', true) .'</span>';
+        echo '<span class="staff-email">'. get_post_meta($post->ID, 'ut_expertise_email', true) .'</span>';
+      ?>
       <p><strong><?php _e( 'Specialisation', 'ukmtheme' ) ?></strong><br/><?php echo get_post_meta($post->ID, 'ut_expertise_specialisation', true); ?></p>
     </div>
   </div>

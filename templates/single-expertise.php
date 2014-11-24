@@ -12,7 +12,7 @@
 get_header(); ?>
 <article class="wrap">
   <div class="content clearfix">
-    <section class="col-3-4">
+    <section class="col-3-4 article">
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <div class="col-1-1">
           <div class="col-3-10 article">
