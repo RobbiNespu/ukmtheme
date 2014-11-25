@@ -17,9 +17,9 @@ $ukmtheme = wp_get_theme();
     <?php 
       wp_nav_menu(
         array(
-        'theme_location'    => 'footer',
-        'menu'              => 'Footer Navigation',
-        'menu_class'        => 'footer-menu',
+        'theme_location'  => 'footer',
+        'menu'            => 'Footer Navigation',
+        'menu_class'      => 'footer-menu',
       )); 
     ?>
   </div>

@@ -46,9 +46,9 @@
     <div class="col-1-2">
     <?php 
       wp_nav_menu(array(
-        'theme_location'    => 'top',
-        'menu'              => 'Top Navigation',
-        'menu_class'        => 'top-menu',
+        'theme_location'  => 'top',
+        'menu'            => 'Top Navigation',
+        'menu_class'      => 'top-menu',
       )); 
     ?>
     </div>
