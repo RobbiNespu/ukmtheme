@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     uglify: {
       options: {
-        banner: '/*! UKMTheme 6.3 by Jamaludin Rajalu <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+        banner: '/*! UKMTheme 6.5 by Jamaludin Rajalu <%= grunt.template.today("yyyy-mm-dd") %> */\n'
       },
       build: {
         src: [
@@ -13,7 +13,7 @@ module.exports = function(grunt) {
       ],
         dest: 'assets/js/script.min.js'
       }
-    },
+    }, // uglify
 
     less: {
       production: {
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
           ]
         }
       }
-    },
+    }, // less
 
     watch: {
       configFiles: {
@@ -56,9 +56,11 @@ module.exports = function(grunt) {
             spawn: false
           }
       }
-    }
+    } // watch
 
   }); // closingTask
+
+  // load grunt task
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-less');
