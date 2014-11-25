@@ -158,7 +158,7 @@ add_action( 'after_setup_theme', 'ukmtheme_module' );
        */
       require( get_template_directory() . '/inc/widget-appreciation.php' );
       require( get_template_directory() . '/inc/widget-event.php' );
-      require( get_template_directory() . '/inc/widget-news.php' );
+      require( get_template_directory() . '/inc/widget-news-list.php' );
       require( get_template_directory() . '/inc/widget-news-thumbnail.php' );
       require( get_template_directory() . '/inc/widget-youtube.php' );
     }

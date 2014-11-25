@@ -102,7 +102,7 @@ class Latest_News_Widget_Thumbnail extends WP_Widget {
     }
 
     if ( isset( $instance[ 'newscount'] ) ) {
-      $newscount = $instance[ 'newscount' ];
+      $newscount = $instance['newscount'];
     }
     else {
       $newscount = '4';
