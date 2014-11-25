@@ -16,7 +16,7 @@ get_header(); ?>
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
       <h2 class="content-title"><?php the_title(); ?></h2>
       <div class="content-article">
-          <?php the_content(); ?>
+        <?php the_content(); ?>
       </div>   
       <?php endwhile; else: ?>
         <h2><?php _e( 'Not Found', 'ukmtheme' ); ?></h2>
@@ -26,6 +26,6 @@ get_header(); ?>
 <aside class="col-1-4">
 	<?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
 </aside>
-</div><!-- content-wrap -->
+</div>
 </article>
 <?php get_footer(); ?>

@@ -54,12 +54,12 @@ if (!function_exists('ukmtheme_scripts')) {
     wp_enqueue_script( 'jquery', get_template_directory_uri() . '/assets/js/jquery-1.11.0.min.js', array(), '1.11.0', false );
     wp_enqueue_script( 'fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.pack.js', array(), '2.1.5', true );
     wp_enqueue_script( 'jcarousel', get_template_directory_uri() . '/lib/jcarousel/jquery.jcarousel.min.js', array(), '0.3.1', true );
-    wp_enqueue_script( 'responsiveTab', get_template_directory_uri() . '/lib/responsive-tab/js/jquery.responsiveTabs.min.js', array(), '1.3.6', true );
+    wp_enqueue_script( 'responsivetab', get_template_directory_uri() . '/lib/responsive-tab/js/jquery.responsiveTabs.min.js', array(), '1.3.6', true );
     wp_enqueue_script( 'default', get_template_directory_uri() . '/assets/js/script.min.js', array(), '6.5', true );
     // Stylesheet
     wp_enqueue_style( 'fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.css', false, '2.1.5' );
     wp_enqueue_style( 'responsiveTab', get_template_directory_uri() . '/lib/responsive-tab/css/responsive-tabs.css', false, '1.3.6' );
-    wp_enqueue_style( 'default', get_stylesheet_uri(), false, '6.5' );
+    wp_enqueue_style( 'style', get_stylesheet_uri(), false, '6.5' );
   }
 }
 
@@ -111,9 +111,9 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
   }
 
 /**
- * Configuration files:
- * Post type, metabox, widgets etc.
- * Comment post-type if do not necessary
+ * Fuction luaran dari folder /inc/
+ * Post type, metabox, widgets dll.
+ * Comment pautan yang tidak diperlukan sekiranya tidak perlu
  */
 
 add_action( 'after_setup_theme', 'ukmtheme_module' );
@@ -136,7 +136,10 @@ add_action( 'after_setup_theme', 'ukmtheme_module' );
       require( get_template_directory() . '/inc/post-type-tab.php');
       require( get_template_directory() . '/inc/post-type-video.php');
 
-      /** Theme configuration */
+      /** Theme configuration
+       * Appearance > Theme Options
+       * Appearance > The Docs
+       */
       require( get_template_directory() . '/inc/theme-archive-links.php' );
       require( get_template_directory() . '/inc/theme-include-archive.php' );
       require( get_template_directory() . '/inc/theme-include-single.php' );
