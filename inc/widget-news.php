@@ -57,14 +57,12 @@ class Latest_News_Widget extends WP_Widget {
       );
 
     $news_query = new WP_Query( $news_args );
-
+    echo '<ul>';
     if ( $news_query->have_posts() ) : while ( $news_query->have_posts() ) : $news_query->the_post(); ?>
-      <ul>
-        <li><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></li>
-      </ul>
-
-    <?php endwhile; endif; ?>
-
+      <li><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></li>
+    <?php endwhile; endif;
+    echo '</ul>';
+    ?>
     <div class="col-1-1 uk-panel ut-news-show-all">
       <a href="<?php echo get_post_type_archive_link('news'); ?>"><button class="uk-button uk-button-mini uk-button-primary"><?php _e('News Archive','ukmtheme'); ?></button></a>
     </div>
@@ -89,7 +87,7 @@ class Latest_News_Widget extends WP_Widget {
     }
 
     if ( isset( $instance[ 'newscount'] ) ) {
-      $newscount = $instance[ 'newscount' ];
+      $newscount = $instance['newscount'];
     }
     else {
       $newscount = '4';
