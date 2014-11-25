@@ -61,7 +61,7 @@
 <header>
   <h1 class="wrap logo">
     <a href="<?php bloginfo('url'); ?>">
-        <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+      <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
     </a>
   </h1>
   <div class="wrap secondary-menu">
@@ -75,6 +75,6 @@
       )); 
     ?>
   </div>
-    <?php if ( is_home() ) { get_template_part( 'templates/slideshow', 'flexslider' ); } else {/* Frontpage Slideshow */} ?>
+    <?php get_template_part( 'templates/slideshow', 'flexslider' ); ?>
 </header>
 </div>
