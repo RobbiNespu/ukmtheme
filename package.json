@@ -3,7 +3,7 @@
   "version": "6.5.4",
   "description": "WordPress Theme for UKM",
   "author": "Jamaludin Rajalu <jrajalu@ukm.edu.my>",
-  "license": "GPL",
+  "license": "CC BY-SA 4.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/jrajalu/ukmtheme"

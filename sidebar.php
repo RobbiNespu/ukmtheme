@@ -10,5 +10,5 @@
  */
  ?>
 <div class="col-1-1">
-    <?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
+  <?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
 </div>
