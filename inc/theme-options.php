@@ -35,6 +35,7 @@ function register_ukmtheme_settings() {
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_google_trans' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_visitor_id' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_news' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_one' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_three' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_four' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_basic' );
@@ -69,6 +70,7 @@ function theme_options_do_page() { ?>
           <td>
             <?php
               $widget_news_scroller = get_option('ukmtheme_widget_news');
+              $widget_one_box       = get_option('ukmtheme_widget_one');
               $widget_three_box     = get_option('ukmtheme_widget_three');
               $widget_four_box      = get_option('ukmtheme_widget_four');
               $widget_basic         = get_option('ukmtheme_widget_basic');
@@ -85,6 +87,8 @@ function theme_options_do_page() { ?>
             <label class="description" for="ukmtheme_widget_newsPortal"><?php _e( 'News Portal Widget', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_news' type='checkbox' value="news-scroller" <?php echo ( 'news-scroller' == $widget_news_scroller ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_news"><?php _e( 'News Scroller', 'ukmtheme' ); ?></label><br/>
+            <input id='checkbox' name='ukmtheme_widget_one' type='checkbox' value="box-one-column" <?php echo ( 'box-one-column' == $widget_one_box ) ? 'checked="checked"' : ''; ?> />
+            <label class="description" for="ukmtheme_widget_one"><?php _e( 'One Column Box', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_three' type='checkbox' value="box-three-column" <?php echo ( 'box-three-column' == $widget_three_box ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_three"><?php _e( 'Three Column Box', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_four' type='checkbox' value="box-four-column" <?php echo ( 'box-four-column' == $widget_four_box ) ? 'checked="checked"' : ''; ?> />

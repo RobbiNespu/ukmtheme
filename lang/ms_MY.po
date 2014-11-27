@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: UKM Theme 6.4\n"
-"POT-Creation-Date: 2014-11-21 14:39+0800\n"
-"PO-Revision-Date: 2014-11-21 14:41+0800\n"
+"POT-Creation-Date: 2014-11-27 11:32+0800\n"
+"PO-Revision-Date: 2014-11-27 11:38+0800\n"
 "Last-Translator: Jamaludin Rajalu <jrajalu@ukm.edu.my>\n"
 "Language-Team: ukmtheme <jrajalu@ukm.edu.my>\n"
 "Language: ms_MY\n"
@@ -80,56 +80,61 @@ msgstr "Navigasi Utama"
 msgid "Footer Navigation"
 msgstr "Navigasi Pembawah"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:174
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:177
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/archive-publication.php:45
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/taxonomy-pubcat.php:38
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/widget-news-ticker.php:28
 msgid "Read More"
 msgstr "Baca Selanjutnya"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:217
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:220
 msgid "Main Sidebar"
 msgstr "Barsisi Utama"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:219
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:222
 msgid "Appears on Front Page template, which has its own widgets"
 msgstr "Muncul pada Muka Hadapan templat, yang mempunyai widget sendiri"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:227
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:230
 msgid "Page Sidebar"
 msgstr "Barsisi Halaman"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:229
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:232
 msgid "Appears when using the optional page"
 msgstr "Muncul apabila menggunakan halaman pilihan"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:237
-msgid "Frontpage Three Boxes"
-msgstr "Tiga Kotak Halaman Depan"
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:240
+msgid "Frontpage One Boxes"
+msgstr "Satu Kotak Halaman Depan"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:239
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:249
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:259
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:242
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:252
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:262
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:272
 msgid "Appears when using the optional Front Page"
 msgstr "Muncul apabila menggunakan Halaman Depan pilhan"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:247
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:250
+msgid "Frontpage Three Boxes"
+msgstr "Tiga Kotak Halaman Depan"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:260
 msgid "Frontpage Four Boxes"
 msgstr "Empat Kotak Halaman Depan"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:257
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:270
 msgid "Frontpage Custom Box"
 msgstr "Kotak Khas Muka Hadapan"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:266
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:279
 msgid "Footer Content"
 msgstr "Isian Pembawah"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:268
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:281
 msgid "Appears in footer"
 msgstr "Muncul di dalam Pembawah"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:295
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:308
 #, php-format
 msgid "Page %s"
 msgstr "Halaman %s"
@@ -138,6 +143,7 @@ msgstr "Halaman %s"
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:18
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:19
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:32
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-appreciation.php:80
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/archive-appreciation.php:22
 msgid "Appreciation"
 msgstr "Penghargaan"
@@ -685,7 +691,7 @@ msgstr "Putaran Berita"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:17
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news-scroller.php:18
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:87
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:89
 msgid "News Scroller"
 msgstr "Putaran Berita"
 
@@ -1651,7 +1657,7 @@ msgid "e.g. Professor"
 msgstr "cth: Profesor"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:388
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/archive-expertise.php:44
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/archive-expertise.php:51
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/single-expertise.php:34
 msgid "Specialisation"
 msgstr "Pengkhususan"
@@ -1844,91 +1850,91 @@ msgstr ""
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:505
 msgid "Hide Option (Please check if want to hide)"
-msgstr ""
+msgstr "Opsey Sembunyi (Sila tandakan sekiranya mahu di sorok)"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:512
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:513
 msgid "Hide Research/Consultation/Expansion"
-msgstr ""
+msgstr "Sorok Penyelidikan/Perundingan/Pengembangan"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:518
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:519
 msgid "Hide Publications Journals"
-msgstr ""
+msgstr "Sorok Penerbitan Jurnal"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:524
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:525
 msgid "Hide Proceedings"
-msgstr ""
+msgstr "Sorok Prosiding"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:530
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:531
 msgid "Hide Book"
-msgstr ""
+msgstr "Sorok Buku"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:536
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:537
 msgid "Hide Articles in Antologi/Chapters in Book"
-msgstr ""
+msgstr "Sorok Artikel dalam Antologi/Bab dalam Buku"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:542
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:543
 msgid "Hide Monograph, Working Papers and Non-Periodical Publications"
-msgstr ""
+msgstr "Sorok Monograf, Kertas Kerja dan Penerbitan Bukan berkala"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:548
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:549
 msgid "Hide Seminar"
-msgstr ""
+msgstr "Sorok Seminar"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:554
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:555
 msgid "Hide Award"
-msgstr ""
+msgstr "Sorok Anugerah"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:560
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:561
 msgid "Hide Supervision"
-msgstr ""
+msgstr "Sorok Penyeliaan"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:566
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:567
 msgid "Hide Administrative Services/Committee"
-msgstr ""
+msgstr "Sorok Khidmat<br/> Pentadbiran/Jawatankuasa"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:572
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:573
 msgid "Hide Reports: Technical/Research/Consultation"
-msgstr ""
+msgstr "Sorok Laporan: Teknikal/Penyelidikan/Perundingan"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:578
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:579
 msgid "Hide Research Grant"
-msgstr ""
+msgstr "Sorok Geran Penyelidikan"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:584
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-metabox.php:585
 msgid "Hide Teaching"
-msgstr ""
+msgstr "Sorok Mengajar"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:19
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:50
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:51
 msgid "Theme Options"
 msgstr "Opsyen Tema"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:53
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:54
 msgid "Settings saved."
 msgstr "Tetapan disimpan"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:59
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:60
 msgid "General"
 msgstr "Umum"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:66
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:67
 msgid "Frontpage Layout"
 msgstr "Susun Atur Muka Hadapan"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:81
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:83
 msgid ""
 "Tandakan yang perlu sahaja. Sekiranya memilih \"Custom\", pastikan \"Basic "
 "tidak dipilih\". Untuk Facebook Like Box, masukkan url Facebook di ruangan "
@@ -1938,52 +1944,56 @@ msgstr ""
 "tidak dipilih\". Untuk Facebook Like Box, masukkan url Facebook di ruangan "
 "Social Link."
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:83
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:85
 msgid "Basic"
 msgstr "Asas"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:85
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:87
 msgid "News Portal Widget"
 msgstr "Widget Portal Berita"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:89
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:91
+msgid "One Column Box"
+msgstr "Kotak Satu Lajur"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:93
 msgid "Three Column Box"
 msgstr "Kotak Tiga Lajur"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:91
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:95
 msgid "Four Column Box"
 msgstr "Kotak Empat Lajur"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:93
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:97
 msgid "Event Slider"
 msgstr "Slider Peristiwa"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:95
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:99
 msgid "Frontpage Tabber"
 msgstr "Tabber Muka Hadapan"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:97
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:101
 msgid "Custom (uncheck Basic first)"
 msgstr "Custom (uncheck Basic first)"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:99
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:103
 msgid "Facebook Like Box"
 msgstr "Kotak Suka Facebook"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:104
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:108
 msgid "Language Switcher"
 msgstr "Pengalih Bahasa"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:111
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:115
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/widget-google-translate.php:13
 msgid "Google Translator"
 msgstr "Penterjemah Google"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:113
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:117
 msgid "Polylang Language Switcher"
 msgstr "Pengalih Bahasa Polylang"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:114
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:118
 msgid ""
 "Enable language menu. Do not enable this feature if the \"Polylang\" and "
 "\"Google Translator\" plugin is not activated."
@@ -1991,23 +2001,23 @@ msgstr ""
 "Dayakan menu bahasa. Jangan dayakan ciri ini sekiranya pemalam \"Polylang\"  "
 "dan \"Penterjemah Google\" tidak diaktifkan."
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:119
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:123
 msgid "Visitor Counter ID"
 msgstr "ID Jumlah Pengunjung"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:122
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:126
 msgid "View sample"
 msgstr "Papar sampel"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:123
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:127
 msgid "Generate your id"
 msgstr "Jana id anda"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:128
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:132
 msgid "Social Links"
 msgstr "Pautan Sosial"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:130
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:134
 msgid ""
 "Pautan capaian ke laman Facebook, Twitter dan Youtube rasmi UKM atau PTJ. "
 "Masukkan url lengkap seperti keterangan di bawah."
@@ -2015,27 +2025,27 @@ msgstr ""
 "Pautan capaian ke laman Facebook, Twitter dan Youtube rasmi UKM atau PTJ. "
 "Masukkan url lengkap seperti keterangan di bawah."
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:147
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:151
 msgid "Enter full url e.g: https://www.twitter.com/ukmnewsportal"
 msgstr "Masukkan url lengkap cth: https://www.twitter.com/ukmnewsportal"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:152
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:156
 msgid "Colour Options"
 msgstr "Opsyen Warna"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:154
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:158
 msgid "Colour option for style switcher."
 msgstr "Opsyen warna untuk pengalih warna."
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:163
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:167
 msgid "Primary"
 msgstr "Utama"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:169
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:173
 msgid "Secondary"
 msgstr "Kedua"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:175
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-options.php:179
 msgid "Tertiary"
 msgstr "Ketiga"
 
@@ -2087,86 +2097,93 @@ msgid "<h3>Pages</h3>"
 msgstr "<h3>Halaman</h3>"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-appreciation.php:23
-msgid "#Appreciation"
-msgstr "#Penghargaan"
+msgid "&bull; Appreciation"
+msgstr "&bull; Penghargaan"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-appreciation.php:24
 msgid "Appreciation Widget"
 msgstr "Widget Penghargaan"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-appreciation.php:80
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-event.php:81
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:103
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news.php:60
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-youtube.php:64
-msgid "New title"
-msgstr "Tajuk Baru"
-
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-appreciation.php:84
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-event.php:93
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:122
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news.php:72
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-youtube.php:75
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-event.php:92
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-list.php:97
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:112
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-youtube.php:83
 msgid "Title:"
 msgstr "Tajuk"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-event.php:20
-msgid "#Events"
-msgstr "#Acara"
+msgid "&bull; Upcoming Events"
+msgstr "&bull; Acara Akan Datang"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-event.php:21
-msgid "Event Lists"
-msgstr "Senarai Acara"
+msgid "Event list or upcoming events."
+msgstr "Senarai acara atau acara akan datang"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-event.php:67
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-event.php:65
 msgid "More Event"
 msgstr "Lagi Acara"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-event.php:97
-msgid "Number Event to Show:"
-msgstr "Jumlah Acara untuk Dipaparkan:"
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-event.php:80
+msgid "Upcoming Events"
+msgstr "Acara Akan Datang"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:20
-msgid "#Latest News with Thumbnail"
-msgstr "#Berita Terkini dengan Gambar"
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-event.php:96
+msgid "Number of events to show:"
+msgstr "Jumlah majlis untukdipaparkan:"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:21
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news.php:21
-msgid "Latest news widget for page sidebar"
-msgstr "Widget berita untuk barsisi halaman"
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-list.php:22
+msgid "&bull; News"
+msgstr "&bull; Berita"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:89
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-list.php:24
+msgid "News list with category."
+msgstr "Senarai berita beserta kategori."
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-list.php:67
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:81
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/widget-news.php:42
 msgid "News Archive"
 msgstr "Arkib Berita"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:126
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-list.php:82
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:97
+msgid "Latest Awesome News"
+msgstr "Berita Menarik Terkini"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-list.php:102
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:117
 msgid "News category slug:"
 msgstr "Slug kategori berita:"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:130
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-list.php:107
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:122
 msgid "Number of news to show:"
 msgstr "Jumlah Berita untuk dipaparkan:"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news.php:20
-msgid "#Latest News"
-msgstr "#Berita Terkini"
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:22
+msgid "&bull; News with Image"
+msgstr "&bull; Berita beserta Imej"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news.php:76
-msgid "Number News to Show:"
-msgstr "Jumlah Berita untuk dipaparkan"
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-news-thumbnail.php:24
+msgid "Latest news list with thumbnail and category."
+msgstr "Berita terkini beserta thumbnail dan kategori"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-youtube.php:23
-msgid "#Youtube Video"
-msgstr "#Video Youtube"
+msgid "&bull; Youtube Video"
+msgstr "&bull; Video Youtube"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-youtube.php:24
 msgid "Youtube video for sidebar"
 msgstr "Video Youtube untuk barsisi"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-youtube.php:79
-msgid "Youtube Video ID:"
-msgstr "ID Video Youtube:"
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-youtube.php:72
+msgid "Youtube Video"
+msgstr "Video Youtube"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/widget-youtube.php:87
+msgid "Youtube video id:"
+msgstr "ID video Youtube:"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/lib/metabox/example-functions.php:28
 msgid "Test Metabox"
@@ -2671,7 +2688,7 @@ msgstr "Maaf, tiada kiriman yang sepadan kriteria."
 msgid "Events List"
 msgstr "Senarai Acara"
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/archive-expertise.php:51
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/archive-expertise.php:58
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/archive-staff.php:72
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/taxonomy-department.php:73
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/taxonomy-position.php:73
@@ -2826,6 +2843,30 @@ msgstr "Hello, semalat datang ke Universiti Kebangsaan Malaysia!"
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/widget-polylang.php:13
 msgid "Language"
 msgstr "Bahasa"
+
+#~ msgid "#Appreciation"
+#~ msgstr "#Penghargaan"
+
+#~ msgid "New title"
+#~ msgstr "Tajuk Baru"
+
+#~ msgid "#Events"
+#~ msgstr "#Acara"
+
+#~ msgid "Event Lists"
+#~ msgstr "Senarai Acara"
+
+#~ msgid "Number Event to Show:"
+#~ msgstr "Jumlah Acara untuk Dipaparkan:"
+
+#~ msgid "Latest news widget for page sidebar"
+#~ msgstr "Widget berita untuk barsisi halaman"
+
+#~ msgid "#Latest News"
+#~ msgstr "#Berita Terkini"
+
+#~ msgid "Number News to Show:"
+#~ msgstr "Jumlah Berita untuk dipaparkan"
 
 #~ msgid ""
 #~ "This website can be access using mobile phone web browser and best view "
@@ -3031,9 +3072,6 @@ msgstr "Bahasa"
 
 #~ msgid "Option #2"
 #~ msgstr "Opsyen #1"
-
-#~ msgid "Upcoming Events"
-#~ msgstr "Acara Akan Datang"
 
 #~ msgid "Upcoming Event Lists"
 #~ msgstr "Senarai Acara Akan Datang"

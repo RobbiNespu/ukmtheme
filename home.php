@@ -15,6 +15,7 @@ get_header(); ?>
   <div class="wrap home-content">
   <?php
     $widget_news_scroller   = get_option('ukmtheme_widget_news');
+    $widget_one_box         = get_option('ukmtheme_widget_one');
     $widget_three_box       = get_option('ukmtheme_widget_three');
     $widget_four_box        = get_option('ukmtheme_widget_four');
     $widget_basic           = get_option('ukmtheme_widget_basic');
@@ -33,6 +34,7 @@ get_header(); ?>
 
     /** 1. */ get_template_part( 'templates/widget', $widget_event );
     /** 2. */ get_template_part( 'templates/widget', $widget_tabber );
+    /** 2. */ get_template_part( 'templates/widget', $widget_one_box );
     /** 3. */ get_template_part( 'templates/widget', $widget_news_portal );
     /** 4. */ get_template_part( 'templates/widget', $widget_news_scroller );
     /** 5. */ get_template_part( 'templates/widget', $widget_basic );

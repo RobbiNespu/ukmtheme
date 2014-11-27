@@ -235,6 +235,16 @@ if (!function_exists('ukmtheme_widgets_init')) {
       'before_title'    => '<h3 class="widget-title">',
       'after_title'     => '</h3>',
     ) );
+
+    register_sidebar( array(
+      'name'            => __( 'Frontpage One Boxes', 'ukmtheme' ),
+      'id'              => 'sidebar-7',
+      'description'     => __( 'Appears when using the optional Front Page', 'ukmtheme' ),
+      'before_widget'   => '<span>',
+      'after_widget'    => '</span>',
+      'before_title'    => '<h3 class="widget-title uk-hidden">',
+      'after_title'     => '</h3>',
+    ) );
     
     register_sidebar( array(
       'name'            => __( 'Frontpage Three Boxes', 'ukmtheme' ),
