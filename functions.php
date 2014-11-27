@@ -237,7 +237,7 @@ if (!function_exists('ukmtheme_widgets_init')) {
     ) );
 
     register_sidebar( array(
-      'name'            => __( 'Frontpage One Boxes', 'ukmtheme' ),
+      'name'            => __( 'Frontpage One Box', 'ukmtheme' ),
       'id'              => 'sidebar-7',
       'description'     => __( 'Appears when using the optional Front Page', 'ukmtheme' ),
       'before_widget'   => '<span>',

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: UKM Theme 6.4\n"
-"POT-Creation-Date: 2014-11-27 11:32+0800\n"
-"PO-Revision-Date: 2014-11-27 11:38+0800\n"
+"POT-Creation-Date: 2014-11-27 16:33+0800\n"
+"PO-Revision-Date: 2014-11-27 16:34+0800\n"
 "Last-Translator: Jamaludin Rajalu <jrajalu@ukm.edu.my>\n"
 "Language-Team: ukmtheme <jrajalu@ukm.edu.my>\n"
 "Language: ms_MY\n"
@@ -104,8 +104,8 @@ msgid "Appears when using the optional page"
 msgstr "Muncul apabila menggunakan halaman pilihan"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:240
-msgid "Frontpage One Boxes"
-msgstr "Satu Kotak Halaman Depan"
+msgid "Frontpage One Box"
+msgstr "Kotak Satu Lajur"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:242
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:252
