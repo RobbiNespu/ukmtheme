@@ -18,7 +18,7 @@ get_header();
 
   $news = new WP_Query( array( 
     'post_type'       => 'news',
-    'posts_per_page'  => 10,
+    'posts_per_page'  => 7,
     'paged'           => $paged,
   ));
   
