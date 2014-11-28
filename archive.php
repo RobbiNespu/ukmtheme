@@ -9,6 +9,7 @@
  * @since 4.0
  *
  * @author Jamaludin Rajalu
+ *
  */
 get_header(); ?>
 
@@ -19,7 +20,14 @@ get_header(); ?>
 
       <div class="uk-panel widgets-annc">
 
-      <?php while ( have_posts() ) : the_post(); ?>
+      <?php
+      
+      $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+      $args = array('posts_per_page' => 10, 'paged' => $paged );
+      query_posts($args);
+
+
+      while ( have_posts() ) : the_post(); ?>
 
         <div class="ut-news-list clearfix">
           <div class="col-1-5 ut-news-thumb">

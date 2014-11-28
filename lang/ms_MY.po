@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: UKM Theme 6.4\n"
-"POT-Creation-Date: 2014-11-27 16:33+0800\n"
-"PO-Revision-Date: 2014-11-27 16:34+0800\n"
+"POT-Creation-Date: 2014-11-28 15:32+0800\n"
+"PO-Revision-Date: 2014-11-28 15:32+0800\n"
 "Last-Translator: Jamaludin Rajalu <jrajalu@ukm.edu.my>\n"
 "Language-Team: ukmtheme <jrajalu@ukm.edu.my>\n"
 "Language: ms_MY\n"
@@ -12,7 +12,7 @@ msgstr ""
 "X-Generator: Poedit 1.6.7\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_attr__\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/"
 "themes/ukmtheme-master\n"
@@ -43,7 +43,7 @@ msgstr "Tidak Dijumpai"
 msgid "Sorry, no page matched your criteria."
 msgstr "Maaf, tiada laman yang sepadan kriteria."
 
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/archive.php:18
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/archive.php:19
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/theme-archive-links.php:89
 msgid "Archives"
 msgstr "Arkib"
@@ -138,6 +138,14 @@ msgstr "Muncul di dalam Pembawah"
 #, php-format
 msgid "Page %s"
 msgstr "Halaman %s"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:321
+msgid "Search..."
+msgstr "cari…"
+
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/functions.php:322
+msgid "Search"
+msgstr "Cari"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:17
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-appreciation.php:18
@@ -763,7 +771,7 @@ msgid "ukmnews"
 msgstr "ukmnews"
 
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/inc/post-type-news.php:40
-#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/archive-news.php:24
+#: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/archive-news.php:29
 #: /Users/user/Sites/wordpress-ukmtheme-v6/wp-content/themes/ukmtheme-master/templates/widget-news.php:20
 msgid "Latest News"
 msgstr "Berita Terkini"
@@ -2901,14 +2909,8 @@ msgstr "Bahasa"
 #~ msgid "Enable Google Analytics"
 #~ msgstr "Dayakan Google Analytics"
 
-#~ msgid "Search..."
-#~ msgstr "cari…"
-
 #~ msgid "Search for:"
 #~ msgstr "Cari untuk:"
-
-#~ msgid "Search"
-#~ msgstr "Cari"
 
 #~ msgid "Hide Scope of Work Title"
 #~ msgstr "Sembunyi Tajuk Bidang Tugas"

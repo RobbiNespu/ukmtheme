@@ -9,12 +9,17 @@
  * @since 4.0
  *
  * @author Jamaludin Rajalu
+ *
+ * @link http://codex.wordpress.org/Function_Reference/paginate_links
  */
 get_header();
+
+  $paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
 
   $news = new WP_Query( array( 
     'post_type'       => 'news',
     'posts_per_page'  => 10,
+    'paged'           => $paged,
   ));
   
 ?>
@@ -42,13 +47,13 @@ get_header();
               <a href="<?php echo get_permalink(); ?>"><h4 class="ut-news-title"><?php the_title(); ?></h4></a>
               <div class="ut-news-detail">
                 <?php the_excerpt(); ?>
-              </div><!--.ut-news-detail-->
-            </div><!--col-4-5-->
-        </div><!--.ut-news .clearfix-->
+              </div>
+            </div>
+        </div>
 
           <?php endwhile ?>
 
-      </div><!--.widgets-annc-->
+      </div>
     <p><?php get_template_part( 'templates/content', 'paginate' ); ?></p>
     </section><!--.col-1-1-->
     <aside class="col-1-4">
