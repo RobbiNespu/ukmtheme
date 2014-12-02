@@ -8,7 +8,6 @@
  *
  * @author Jamaludin Rajalu
  */
-$ukmtheme = wp_get_theme();
 ?>
 </div><!--.page-wrap-->
 <footer class="site-footer">
