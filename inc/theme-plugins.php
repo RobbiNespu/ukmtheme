@@ -39,6 +39,12 @@ function ukmtheme_register_required_plugins() {
     ),
 
     array(
+      'name'      => 'Really Simple CAPTCHA',
+      'slug'      => 'really-simple-captcha',
+      'required'  => false,
+    ),
+
+    array(
       'name'      => 'Easy WP SMTP',
       'slug'      => 'easy-wp-smtp',
       'required'  => false,
@@ -53,12 +59,6 @@ function ukmtheme_register_required_plugins() {
     array(
       'name'      => 'Google Language Translator',
       'slug'      => 'google-language-translator',
-      'required'  => false,
-    ),
-
-    array(
-      'name'      => 'Slim Jetpack',
-      'slug'      => 'slimjetpack',
       'required'  => false,
     ),
 
