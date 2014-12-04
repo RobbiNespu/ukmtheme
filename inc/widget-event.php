@@ -42,7 +42,8 @@ class Event_Widget extends WP_Widget {
           'post_type'       => 'event',
           'posts_per_page'  => $instance['total'],
           'orderby'         => 'menu_order',
-          'order'           => 'DESC'
+          'post_status'     => array( 'publish', 'future' ),
+          'order'           => 'ASC'
         );
         $loop = new WP_Query( $ut_event );
       ?>

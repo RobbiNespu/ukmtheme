@@ -11,11 +11,15 @@
  */
 get_header();
 
+  $paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
+
   $event = new WP_Query( array( 
     'post_type'       => 'event',
-    'posts_per_page'  => 10,
+    'posts_per_page'  => 7,
     'orderby'         => 'menu_order',
-    'order'           => 'DESC',
+    'post_status'     => array( 'publish', 'future' ),
+    'order'           => 'ASC',
+    'paged'           => $paged,
   ));
 
 ?>
