@@ -79,7 +79,7 @@ function ut_expertise_custom_columns( $column ){
     case 'ut_expertise_photo' : 
       $expertPhoto = get_post_meta($post->ID,'ut_expertise_photo',true);
        if ( $expertPhoto ) {
-        echo '<img src="'.$expertPhoto.'" width="60">';
+        echo '<img src="'.$expertPhoto.'" width="60">'; break;
        }
        else {
         echo '<img src="'. get_template_directory_uri() .'/assets/images/public/staff-photo.png" width="60">'; break;
