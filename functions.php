@@ -339,4 +339,15 @@ function tukm_feed_request($qv) {
 }
 add_filter( 'request', 'tukm_feed_request' );
 
+/**
+ * CONTACT FORM 7 ADD CLASS
+ */
+
+add_filter( 'wpcf7_form_class_attr', 'tukm_custom_form_class_attr' );
+
+function tukm_custom_form_class_attr( $class ) {
+  $class .= ' uk-form';
+  return $class;
+}
+
 /** end here */
