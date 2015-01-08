@@ -42,7 +42,7 @@ class Youtube_Widget extends WP_Widget {
       echo $args['before_title'] . $title . $args['after_title'];
     }
 
-    if ( isset( $instance[ 'videoid' ] ) ) {
+    if ( isset( $instance['videoid'] ) ) {
       $videoid = $instance['videoid'];
     }
 

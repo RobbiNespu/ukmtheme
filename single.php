@@ -19,7 +19,7 @@ get_header(); ?>
           <?php the_content(); ?>
         </div>   
       <?php endwhile; else: ?>
-          <p><?php _e( 'Sorry, no post matched your criteria.', 'ukmtheme' ); ?></p>
+        <p><?php _e( 'Sorry, no post matched your criteria.', 'ukmtheme' ); ?></p>
       <?php endif; ?>
     </section>
     <aside class="col-1-4">
