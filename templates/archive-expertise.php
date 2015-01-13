@@ -10,8 +10,8 @@
  */
 get_header(); ?>
 <article class="wrap">
-<div class="content clearfix">
-<section class="col-3-4 article">
+<div class="pure-g pre-g-r content">
+<section class="pure-u-3-4 article">
 <h2 class="content-title"><?php single_cat_title(); ?></h2>
 
 <?php
@@ -23,8 +23,8 @@ get_header(); ?>
   ));
 ?>
 <?php if ( $expert->have_posts() ) : while ( $expert->have_posts() ) : $expert->the_post(); ?>
-<div class="uk-panel uk-panel-box uk-panel-box-secondary staff-wrap">
-  <div class="col-1-7">
+<div class="pure-g uk-panel uk-panel-box uk-panel-box-secondary staff-wrap">
+  <div class="pure-u-1-7">
       <div class="staff-photo">
       <a href="<?php echo get_permalink(); ?>">
         <?php
@@ -33,14 +33,14 @@ get_header(); ?>
             echo '<img src="'.$expertPhoto.'">';
           }
           else {
-            echo '<img src="'. get_template_directory_uri() .'/assets/images/public/staff-photo.png">';
+            echo '<img src="'. get_template_directory_uri() .'/img/staff-photo.png">';
           }
         ?>
       </a>
       </div>
   </div>
 
-  <div class="col-6-7">
+  <div class="pure-u-6-7">
     <div class="staff-detail">
     <a href="<?php echo get_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
       <?php
@@ -60,7 +60,7 @@ get_header(); ?>
 <?php endif; ?>
 <p><?php get_template_part( 'templates/content', 'paginate' ); ?></p>
 </section>
-<aside class="col-1-4">
+<aside class="pure-u-1-4">
   <?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
 </aside>
 </div><!--.content-->

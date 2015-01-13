@@ -40,7 +40,7 @@ function ut_expertise() {
     'show_in_nav_menus'   => false,
     'show_in_admin_bar'   => false,
     //'menu_position'       => 20,
-    'menu_icon'           => get_template_directory_uri() . '/assets/images/admin/icon-expertise.svg',
+    'menu_icon'           => get_template_directory_uri() . '/img/icon-expertise.svg',
     'can_export'          => true,
     'has_archive'         => true,
     'exclude_from_search' => false,
@@ -82,7 +82,7 @@ function ut_expertise_custom_columns( $column ){
         echo '<img src="'.$expertPhoto.'" width="60">'; break;
        }
        else {
-        echo '<img src="'. get_template_directory_uri() .'/assets/images/public/staff-photo.png" width="60">'; break;
+        echo '<img src="'. get_template_directory_uri() .'/img/staff-photo.png" width="60">'; break;
        }
     case 'ut_expertise_position' : echo get_post_meta($post->ID,'ut_expertise_position',true); break;
     case 'ut_expertise_email' : echo get_post_meta($post->ID,'ut_expertise_email',true); break;

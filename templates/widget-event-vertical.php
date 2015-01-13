@@ -13,9 +13,9 @@
 ?>
 
 <div class="widgets-wrap">
-  <div class="ut-event-list-vertical">
+  <div class="pure-g pure-g-r ut-event-list-vertical">
     <h3><?php _e('Upcoming Event', 'ukmtheme') ?></h3>
-    <div class="col-1-1">
+    <div class="pure-u-1-1">
     <ul class="ut-event-list-wrap">
     <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
       <li>

@@ -60,14 +60,14 @@ class Latest_News_Widget_Thumbnail extends WP_Widget {
 
     if ( $news_query->have_posts() ) : while ( $news_query->have_posts() ) : $news_query->the_post(); ?>
 
-      <div class="ut-news-list clearfix">
-        <div class="col-1-5 ut-news-thumb">
+      <div class="pure-g ut-news-list">
+        <div class="pure-u-1-5 ut-news-thumb">
           <?php 
             if ( has_post_thumbnail() ) { the_post_thumbnail(); }
-            else { echo '<img src="' . get_template_directory_uri() . '/assets/images/public/thumbnail.png" height="auto" width="auto"/>'; }
+            else { echo '<img src="' . get_template_directory_uri() . '/img/thumbnail.png" height="auto" width="auto"/>'; }
           ?>
         </div>
-          <div class="col-4-5 ut-news-content-widget">
+          <div class="pure-u-4-5 ut-news-content-widget">
               <a href="<?php echo get_permalink(); ?>"><h4 class="ut-news-title"><?php the_title(); ?></h4></a>
               <div class="ut-news-detail">
                   <?php the_excerpt(); ?>
@@ -77,7 +77,7 @@ class Latest_News_Widget_Thumbnail extends WP_Widget {
 
     <?php endwhile; endif; ?>
 
-    <div class="col-1-1 uk-panel ut-news-show-all">
+    <div class="pure-u-1 uk-panel ut-news-show-all">
       <a href="<?php echo get_post_type_archive_link('news'); ?>"><button class="uk-button uk-button-mini uk-button-primary"><?php _e('News Archive','ukmtheme'); ?></button></a>
     </div>
 

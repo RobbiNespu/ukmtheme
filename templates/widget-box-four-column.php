@@ -13,7 +13,7 @@
  */
 ?>
 <div class="uk-panel uk-panel-box uk-panel-box-secondary widgets-wrap">
-  <div class="col-1-1">
+  <div class="pure-g pure-g-r">
     <?php if (dynamic_sidebar( 'sidebar-4' )) : else : ?><?php endif; ?>
   </div>
 </div>

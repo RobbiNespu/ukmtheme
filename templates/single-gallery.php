@@ -11,11 +11,11 @@
  */
 get_header(); ?>
 <article class="wrap">
-<div class="content clearfix">
-  <section class="col-3-4 article">
+<div class="pure-g pure-g-r content">
+  <section class="pure-u-3-4 article">
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
       <h2 class="content-title"><?php the_title(); ?></h2>
-      <div class="content-article">
+      <div class="content-article clearfix">
         <p><?php _e('Date:&nbsp;','ukmtheme'); ?><?php echo get_post_meta($post->ID, 'ut_gallery_date', true); ?>&nbsp;|&nbsp;
         <?php _e('Photo by:&nbsp;','ukmtheme'); ?><?php echo get_post_meta($post->ID, 'ut_gallery_photographer', true); ?>&nbsp;|&nbsp;
         <a href="<?php echo get_post_type_archive_link( 'gallery' ); ?>"><?php _e('Back to Main','ukmtheme'); ?></a></p>
@@ -35,9 +35,9 @@ get_header(); ?>
     <?php endif; ?>
     <?php get_template_part('templates/content','edit' ); ?>
   </section>
-  <aside class="col-1-4">
+  <aside class="pure-u-1-4">
     <?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
   </aside>
-</div><!-- content-wrap -->
+</div>
 </article>
 <?php get_footer(); ?>

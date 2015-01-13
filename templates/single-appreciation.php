@@ -11,8 +11,8 @@
  */
 get_header(); ?>
 <article class="wrap">
-<div class="content clearfix">
-  <section class="col-3-4 article">
+<div class="pure-g pure-g-r content">
+  <section class="pure-u-3-4 article">
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
       <div class="content-article">
       <p><?php echo get_post_meta($post->ID, 'ut_appreciation_date', true); ?></p>
@@ -26,7 +26,7 @@ get_header(); ?>
     <?php endif; ?>
     <?php get_template_part('templates/content','edit' ); ?>
   </section>
-  <aside class="col-1-4">
+  <aside class="pure-u-1-4">
     <?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
   </aside>
 </div><!-- content-wrap -->

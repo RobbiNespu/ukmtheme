@@ -27,8 +27,8 @@ $(document).ready(function(){
   ));
 ?>
 <article class="wrap">
-  <div class="content clearfix">
-    <section class="col-3-4 article">
+  <div class="pure-g pure-g-r content">
+    <section class="pure-u-3-4 article">
     <h2><?php echo __( 'Frequently Asked Questions', 'ukmtheme' ) ?></h2>
     <ol class="ut-faq">
       <?php if ( $faq->have_posts() ) : while ( $faq->have_posts() ) : $faq->the_post(); ?>
@@ -43,7 +43,7 @@ $(document).ready(function(){
       <?php endif; ?>
     </ol>
     </section>
-    <aside class="col-1-4">
+    <aside class="pure-u-1-4">
       <?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
     </aside>
   </div><!-- content-wrap -->

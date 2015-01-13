@@ -42,8 +42,8 @@
 <div class="page-wrap">
 <div class="banner mn_color ut_color">
 <nav class="top">
-  <div class="wrap">
-    <div class="col-1-2">
+  <div class="wrap pure-g pure-u-g">
+    <div class="pure-u-1-2">
     <?php 
       wp_nav_menu(array(
         'theme_location'  => 'top',
@@ -52,7 +52,7 @@
       )); 
     ?>
     </div>
-    <div class="col-1-2">
+    <div class="pure-u-1-2">
       <?php get_template_part( 'templates/nav', 'search' ); ?>
       <?php get_template_part( 'templates/off', 'canvas-tools' );?>
     </div>
@@ -75,6 +75,6 @@
       )); 
     ?>
   </div>
-    <?php if ( is_home() ) { get_template_part( 'templates/slideshow', 'flexslider' ); } else {/** Frontpage Slideshow */} ?>
+    <?php if ( is_home() ) { get_template_part( 'templates/slideshow', 'uikit' ); } else {/** Frontpage Slideshow */} ?>
 </header>
 </div>

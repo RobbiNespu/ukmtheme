@@ -20,18 +20,18 @@ get_header();
 
 ?>
 <article class="wrap">
-  <div class="content clearfix">
-    <section class="col-3-4 article">
+  <div class="pure-g pure-g-r content">
+    <section class="pure-u-3-4 article">
     <h2><?php _e( 'Publication', 'ukmtheme' ); ?></h2>
       <?php if ( $publication->have_posts() ) : while ( $publication->have_posts() ) : $publication->the_post(); ?>
-        <div class="col-1-1 ut-publication-archive-wrap">
-          <div class="col-3-10 article ut-publication">
+        <div class="pure-g ut-publication-archive-wrap">
+          <div class="pure-u-3-10 article ut-publication">
           <?php 
             $saved_data = get_post_meta($post->ID,'ut_publication_cover',true);
             echo '<img src="'.$saved_data.'">';
           ?>
           </div>
-          <div class="col-7-10 ut-publication-detail-wrap">
+          <div class="pure-u-7-10 ut-publication-detail-wrap">
             <div class="ut-publication-detail">
               <h3><?php the_title(); ?></h3>
               <h4><?php _e('Detail','ukmtheme') ?></h4>
@@ -51,7 +51,7 @@ get_header();
       <?php endif; ?>
       <p><?php get_template_part( 'templates/content', 'paginate' ); ?></p>
     </section>
-    <aside class="col-1-4">
+    <aside class="pure-u-1-4">
       <?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
     </aside>
   </div><!-- content-wrap -->

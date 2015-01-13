@@ -9,5 +9,11 @@
  *
  * @author Jamaludin Rajalu
  */
-  edit_post_link( __('Edit This','ukmtheme'),'<p class="col-1-1">','</p>' );
+
+echo '<div class="clearfix">';
+
+edit_post_link( __('Edit This','ukmtheme'),'<p>','</p>' );
+
+echo '</div>';
+
 ?> 

@@ -13,18 +13,18 @@
  */
 get_header(); ?>
 <article class="wrap">
-  <div class="content clearfix">
-    <section class="col-3-4 article">
+  <div class="pure-g pure-g-r content">
+    <section class="pure-u-3-4 article">
     <h2 class="content-title"><?php single_cat_title(); ?></h2>
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-        <div class="col-1-1 ut-publication-archive-wrap">
-          <div class="col-3-10 article ut-publication">
+        <div class="pure-u-1-1 ut-publication-archive-wrap">
+          <div class="pure-u-3-10 article ut-publication">
           <?php 
             $saved_data = get_post_meta($post->ID,'ut_publication_cover',true);
             echo '<img src="'.$saved_data.'">';
           ?>
           </div>
-          <div class="col-7-10 ut-publication-detail-wrap">
+          <div class="pure-u-7-10 ut-publication-detail-wrap">
             <div class="ut-publication-detail">
               <h3><?php the_title(); ?></h3>
               <h4><?php _e('Detail','ukmtheme') ?></h4>
@@ -36,7 +36,7 @@ get_header(); ?>
                 <tr><td><?php _e('Reference/Download','ukmtheme'); ?></td><td>:&nbsp;<a href="<?php echo get_post_meta($post->ID, 'ut_publication_reference', true); ?>"><?php _e('Click here','ukmtheme') ?></a></td></tr>
               </table>
               <a href="<?php echo get_permalink(); ?>"><button class="uk-button uk-button-small uk-button-primary"><?php _e('Read More','ukmtheme'); ?></button></a>
-              </div><!--.ut-publication-detail-->
+              </div>
           </div>
         </div>
       <?php endwhile; else: ?>
@@ -44,9 +44,9 @@ get_header(); ?>
       <?php endif; ?>
       <p><?php get_template_part( 'templates/content', 'paginate' ); ?></p>
     </section>
-    <aside class="col-1-4">
+    <aside class="pure-u-1-4">
       <?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
     </aside>
-  </div><!-- content-wrap -->
+  </div>
 </article>
 <?php get_footer(); ?>

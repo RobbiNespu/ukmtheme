@@ -10,8 +10,8 @@
  */
 get_header(); ?>
 <article class="wrap">
-<div class="content clearfix">
-<section class="col-3-4 article">
+<div class="pure-g pure-g-r content">
+<section class="pure-u-3-4 article">
 <h2 class="content-title"><?php _e('Directory', 'ukmtheme'); ?></h2>
 <?php
   $staff = new WP_Query( array( 
@@ -22,8 +22,8 @@ get_header(); ?>
   ));
 ?>
 <?php if ( $staff->have_posts() ) : while ( $staff->have_posts() ) : $staff->the_post(); ?>
-<div class="uk-panel uk-panel-box uk-panel-box-secondary staff-wrap">
-  <div class="col-1-7">
+<div class="pure-g uk-panel uk-panel-box uk-panel-box-secondary staff-wrap">
+  <div class="pure-u-1-7">
       <div class="staff-photo">
         <?php
           $staff_photo = get_post_meta($post->ID,'ut_staff_photo',true);
@@ -32,13 +32,13 @@ get_header(); ?>
           <?php }
 
           else { ?>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/staff-photo.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/staff-photo.png">
           <?php }
         ?>
       </div>
   </div>
 
-  <div class="col-6-7">
+  <div class="pure-u-6-7">
     <div class="staff-detail">
       <h3><?php the_title(); ?></h3>
       <?php echo '<span class="staff-position">'; echo get_the_term_list( $post->ID, 'position', '', ', ', '' ); echo '</span>'; ?>
@@ -65,7 +65,7 @@ get_header(); ?>
     </div>
   </div>
   <?php get_template_part('templates/content','edit' ); ?>
-</div><!--staff-wrap-->
+</div>
 
 <?php endwhile; else: ?>
 
@@ -74,7 +74,7 @@ get_header(); ?>
 <?php endif; ?>
 <?php wp_reset_postdata(); ?>
 </section>
-<aside class="col-1-4">
+<aside class="pure-u-1-4">
   <?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
 </aside>
 </div><!--.content-->

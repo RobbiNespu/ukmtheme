@@ -9,12 +9,12 @@
  *
  * @author Jamaludin Rajalu
  *
- * Template Name: Page: One Column
+ * Template Name: Page: One pure-uumn
  */
 get_header(); ?>
 <article class="wrap">
-<div class="content clearfix">
-<section class="col-1-1 article">
+<div class="pure-g pure-g-r content">
+<section class="pure-u-1-1 article">
   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     <h2 class="content-title"><?php the_title(); ?></h2>
     <div class="content-article">

@@ -9,11 +9,11 @@
  *
  * @author Jamaludin Rajalu
  *
- * Widgets: Three Column
+ * Widgets: Three pure-uumn
  */
 ?>
 <div class="uk-panel uk-panel-box uk-panel-box-secondary widgets-wrap">
-  <div class="col-1-1">
+  <div class="pure-u-1-1">
     <?php if (dynamic_sidebar( 'sidebar-7' )) : else : ?><?php endif; ?>
   </div>
 </div>

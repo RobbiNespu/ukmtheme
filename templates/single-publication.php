@@ -11,17 +11,17 @@
  */
 get_header(); ?>
 <article class="wrap">
-  <div class="content clearfix">
-    <section class="col-3-4">
+  <div class="pure-g pure-g-r">
+    <section class="pure-u-3-4">
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-        <div class="col-1-1">
-            <div class="col-3-10 article">
+        <div class="pure-u-1-1">
+            <div class="pure-u-3-10 article">
             <?php 
               $saved_data = get_post_meta($post->ID,'ut_publication_cover',true);
               echo '<img src="'.$saved_data.'">';
             ?>
             </div>
-            <div class="col-7-10">
+            <div class="pure-u-7-10">
               <h2 class="content-title"><?php the_title(); ?></h2>
               <h4><?php _e('Detail','ukmtheme') ?></h4>
               <table>
@@ -42,7 +42,7 @@ get_header(); ?>
       <?php endif; ?>
       <?php get_template_part('templates/content','edit' ); ?>
     </section>
-    <aside class="col-1-4">
+    <aside class="pure-u-1-4">
       <?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
     </aside>
   </div><!-- content-wrap -->

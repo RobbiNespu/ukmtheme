@@ -11,8 +11,8 @@
  */
 get_header(); ?>
 <article class="wrap">
-  <div class="content clearfix">
-    <section class="col-3-4 article">
+  <div class="pure-g pure-g-r content">
+    <section class="pure-u-3-4 article">
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <h2 class="content-title"><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h2>
         <div class="content-article">
@@ -24,8 +24,8 @@ get_header(); ?>
       <?php endif; ?>
       <?php get_search_form(); ?>
     </section>
-    <aside class="col-1-4">
-      <?php get_template_part( 'sidebar', 'page' ); ?>
+    <aside class="pure-u-1-4">
+      <?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
     </aside>
   </div><!-- content-wrap -->
 </article>

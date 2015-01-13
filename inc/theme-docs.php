@@ -35,8 +35,8 @@ function ut_theme_docs() {
     <div class="postbox">
       <h3 class="hndle"><span>Mengubah Logo</span></h3>
       <div class="inside">
-        <p>Untuk menukar logo di bahagian Header, muat turun template <a href="<?php echo get_template_directory_uri(); ?>/assets/psd/logo_ukm.psd">di sini</a>. Gunakan perisian Photoshop untuk mengubah nama pada header. Untuk akses percuma untuk mengubah grafik tersebut anda boleh menggunakan perisian Pixlr di capaian berikut <a href="http://apps.pixlr.com/editor/" target="_blank">apps.pixlr.com/editor/</a>.</p>
-        <img style="display:block;width:100%;max-width:641px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/public/pixlr-sample.png" alt="Pixlr">
+        <p>Untuk menukar logo di bahagian Header, muat turun template <a href="<?php echo get_template_directory_uri(); ?>/img/logo_ukm.psd">di sini</a>. Gunakan perisian Photoshop untuk mengubah nama pada header. Untuk akses percuma untuk mengubah grafik tersebut anda boleh menggunakan perisian Pixlr di capaian berikut <a href="http://apps.pixlr.com/editor/" target="_blank">apps.pixlr.com/editor/</a>.</p>
+        <img style="display:block;width:100%;max-width:641px;" src="<?php echo get_template_directory_uri(); ?>/img/pixlr-sample.png" alt="Pixlr">
         <ol>
           <li>Simpan imej ke format PNG</li>
           <li>Pergi ke bahagian Appearance > Header, kemudian pilih fail yang ingin dimuat naik</li>

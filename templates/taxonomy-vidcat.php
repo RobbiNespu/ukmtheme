@@ -13,7 +13,7 @@
  get_header();
 ?>
 <article class="wrap">
-  <div class="content clearfix">
+  <div class="pure-g pure-g-r content">
     <section class="article-video">
     <h2><?php _e( 'Video', 'ukmtheme' ); ?>:&nbsp;<?php single_cat_title(); ?></h2>
 
@@ -21,14 +21,14 @@
 
       <?php while ( have_posts() ) : the_post(); ?>
 
-        <div class="col-1-3 video-archive">
+        <div class="pure-u-1-3 video-archive">
           <?php echo apply_filters( 'the_content', get_post_meta( get_the_ID(), $prefix . 'ut_video_url', true ) ); ?>
            <a class="video-archive-title" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
         </div>
         <?php endwhile ?>
       </div>
       <p><?php get_template_part( 'templates/content', 'paginate' ); ?></p>
-    </section><!--.col-1-1-->
+    </section><!--.pure-u-1-1-->
   </div>
 </article>
 <?php get_footer(); ?>

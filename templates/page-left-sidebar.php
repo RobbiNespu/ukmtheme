@@ -13,11 +13,11 @@
  */
 get_header(); ?>
 <article class="wrap">
-  <div class="content clearfix">
-    <aside class="col-1-4">
+  <div class="pure-g pure-g-r content">
+    <aside class="pure-u-1-4">
      <?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
     </aside>
-    <section class="col-3-4 article">
+    <section class="pure-u-3-4 article">
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <h2 class="content-title"><?php the_title(); ?></h2>
         <div class="content-article">

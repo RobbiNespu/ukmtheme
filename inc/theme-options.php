@@ -123,7 +123,7 @@ function theme_options_do_page() { ?>
         <th scope="row"><?php _e('Visitor Counter ID','ukmtheme'); ?></th>
         <td>
         <input type="text" name="ukmtheme_visitor_id" value="<?php echo get_option('ukmtheme_visitor_id'); ?>" class="regular-text" placeholder="768059" />
-        <p class="description"><a class="thickbox" href="<?php echo get_template_directory_uri(); ?>/assets/images/admin/site_counter_sample.png"><?php _e( 'View sample', 'ukmtheme' ); ?></a>
+        <p class="description"><a class="thickbox" href="<?php echo get_template_directory_uri(); ?>/img/site_counter_sample.png"><?php _e( 'View sample', 'ukmtheme' ); ?></a>
         &nbsp;|&nbsp;<?php _e( 'Generate your id', 'ukmtheme' ); ?>&nbsp;<a href="http://www.supercounters.com/hitcounter?tab=plugin-information&amp;plugin=simple-comment-editing&amp;TB_iframe=true&amp;width=830&amp;height=565" class="thickbox" title="www.supercounter.com">here</a></p>
         </td>
         </tr>

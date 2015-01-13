@@ -1,4 +1,4 @@
-##UKM Theme v6.5.9
+##UKM Theme v6.6.0
 
 Muat turun versi terkini [ukmtheme-master.zip](https://github.com/jrajalu/ukmtheme/archive/master.zip).
 
