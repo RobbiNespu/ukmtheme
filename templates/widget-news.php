@@ -15,19 +15,19 @@ $loop = new WP_Query( $args );
 
 ?>
 <div class="uk-panel uk-panel-box uk-panel-box-secondary widgets-wrap">
-<div class="pure-g pure-r">
+<div class="pure-g pure-g-r">
   <div class="pure-u-2-3">
     <div class="uk-panel widgets-annc">
     <h3><?php _e('Latest News','ukmtheme') ?></h3>
     <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-      <div class="ut-news-list clearfix">
+      <div class="pure-g ut-news-list clearfix">
         <div class="pure-u-1-5 ut-news-thumb">
           <?php
           if ( has_post_thumbnail() ) {
             the_post_thumbnail();
           }
           else {
-            echo '<img src="' . get_template_directory_uri() . '/assets/images/public/thumbnail.png?ver=6.3" height="auto" width="auto"/>';
+            echo '<img src="' . get_template_directory_uri() . '/img/thumbnail.png?ver=6.3" height="auto" width="auto"/>';
           }
           ?>
         </div>
