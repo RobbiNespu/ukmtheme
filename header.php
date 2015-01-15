@@ -44,12 +44,12 @@
 <nav class="top">
   <div class="wrap pure-g pure-u-g">
     <div class="pure-u-1-2">
-    <?php 
+    <?php
       wp_nav_menu(array(
         'theme_location'  => 'top',
         'menu'            => 'Top Navigation',
         'menu_class'      => 'top-menu',
-      )); 
+      ));
     ?>
     </div>
     <div class="pure-u-1-2">
@@ -65,16 +65,16 @@
     </a>
   </h1>
   <div class="wrap secondary-menu">
-    <?php 
+    <?php
       wp_nav_menu(array(
         'theme_location'    => 'main',
         'menu'              => 'Main Navigation',
         'container_id'      => 'cssmenu',
         'fallback_cb'       => false,
         'walker'            => new CSS_Menu_Maker_Walker()
-      )); 
+      ));
     ?>
   </div>
-    <?php if ( is_home() ) { get_template_part( 'templates/slideshow', 'uikit' ); } else {/** Frontpage Slideshow */} ?>
+    <?php if ( is_home() ) { get_template_part( 'templates/slideshow', 'owl' ); } else {/** Frontpage Slideshow */} ?>
 </header>
 </div>

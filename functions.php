@@ -20,10 +20,8 @@ add_action('login_head', 'add_favicon');
 add_action('admin_head', 'add_favicon');
 
 /**
- * skrip untuk dashboard
- * menjalankan javascript dan stylesheet
- * gunakan cdn untuk capaian pantas
- * @link cdnjs.com
+ * Load admin scripts
+ * Theme option for color picker
  */
 
 add_action( 'admin_enqueue_scripts', 'ut_wp_admin_scripts' );
@@ -36,7 +34,7 @@ add_action( 'admin_enqueue_scripts', 'ut_wp_admin_scripts' );
     wp_enqueue_style( 'thickbox' );
     wp_enqueue_style( 'wp-color-picker' );
     wp_enqueue_style( 'admin', get_template_directory_uri() . '/css/admin.css', false, '6.5' );
-    
+
   }
 
 /**
@@ -72,10 +70,13 @@ if (!function_exists('ukmtheme_scripts')) {
     wp_enqueue_script( 'fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.pack.js', array(), '2.1.5', true );
     wp_enqueue_script( 'jcarousel', get_template_directory_uri() . '/lib/jcarousel/jquery.jcarousel.min.js', array(), '0.3.1', true );
     wp_enqueue_script( 'responsivetab', get_template_directory_uri() . '/lib/responsive-tab/js/jquery.responsiveTabs.min.js', array(), '1.3.6', true );
+    wp_enqueue_script( 'owl-corousel', get_template_directory_uri() . '/lib/owl-carousel/owl.carousel.min.js', array(), '1.3.3', true );
     wp_enqueue_script( 'default', get_template_directory_uri() . '/js/script.min.js', array(), '6.5', true );
     // Stylesheet
     wp_enqueue_style( 'fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.css', false, '2.1.5' );
     wp_enqueue_style( 'responsiveTab', get_template_directory_uri() . '/lib/responsive-tab/css/responsive-tabs.css', false, '1.3.6' );
+    wp_enqueue_style( 'owl-carousel', get_template_directory_uri() . '/lib/owl-carousel/owl.carousel.css', false, '1.3.3' );
+    wp_enqueue_style( 'owl-carousel-theme', get_template_directory_uri() . '/lib/owl-carousel/owl.theme.css', false, '1.3.3' );
     wp_enqueue_style( 'style', get_stylesheet_uri(), false, '6.5' );
   }
 }
@@ -101,13 +102,13 @@ require( 'inc/theme-update-checker.php' );
 add_action( 'after_setup_theme', 'ukmtheme_setup' );
   function ukmtheme_setup() {
 
-    add_theme_support( 'html5', array( 'search-form' ) ); 
+    add_theme_support( 'html5', array( 'search-form' ) );
     add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'audio', 'quote', 'link', 'gallery', ) );
     add_theme_support( 'post-thumbnails' );
     add_theme_support( 'automatic-feed-links' );
 
     load_theme_textdomain( 'ukmtheme', get_template_directory() . '/lang' );
-      
+
     register_nav_menus( array(
       'top'       => __( 'Top Navigation', 'ukmtheme' ),
       'main'      => __( 'Main Navigation', 'ukmtheme' ),
@@ -122,9 +123,9 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
       'header-text'   => false,
       )
     );
-    
+
     add_filter('show_admin_bar', '__return_false');
-    
+
   }
 
 /**
@@ -262,7 +263,7 @@ if (!function_exists('ukmtheme_widgets_init')) {
       'before_title'    => '<h3 class="widget-title uk-hidden">',
       'after_title'     => '</h3>',
     ) );
-    
+
     register_sidebar( array(
       'name'            => __( 'Frontpage Three Boxes', 'ukmtheme' ),
       'id'              => 'sidebar-3',

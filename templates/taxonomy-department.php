@@ -14,16 +14,16 @@ get_header(); ?>
 <section class="pure-u-3-4 article">
 <h2 class="content-title"><?php single_cat_title(); ?></h2>
 <?php
-  $staff = new WP_Query( array( 
+  $staff = new WP_Query( array(
     'post_type'       => 'staff',
     'department'        => get_the_term_list( $post->ID, 'department' ),
-    'posts_per_page'  => -1, 
-    'orderby'         => 'menu_order', 
-    'order'           => 'ASC' 
+    'posts_per_page'  => -1,
+    'orderby'         => 'menu_order',
+    'order'           => 'ASC'
   ));
 ?>
 <?php if ( $staff->have_posts() ) : while ( $staff->have_posts() ) : $staff->the_post(); ?>
-<div class="uk-panel uk-panel-box uk-panel-box-secondary staff-wrap">
+<div class="pure-g uk-panel uk-panel-box uk-panel-box-secondary staff-wrap">
   <div class="pure-u-1-7">
       <div class="staff-photo">
         <?php
@@ -51,15 +51,15 @@ get_header(); ?>
        $scope_title         = get_post_meta($post->ID, 'ut_staff_work_scope_title', true);
        $scope_title_custom  = get_post_meta($post->ID, 'ut_staff_work_scope_title_custom', true);
 
-        if($scope == on) { 
+        if($scope == on) {
           if($scope_title == on) { ?>
-            <h4><?php echo $scope_title_custom; ?></h4>            
-          <?php }          
+            <h4><?php echo $scope_title_custom; ?></h4>
+          <?php }
           else { ?>
             <h4><?php _e( 'Scope of Work','ukmtheme' ); ?></h4>
           <?php } ?>
-        <?php echo '<span class="staff-scope">'; echo get_post_meta($post->ID, 'ut_staff_work_scope_desc', true); echo '</span>'; ?>        
-        <?php }  
+        <?php echo '<span class="staff-scope">'; echo get_post_meta($post->ID, 'ut_staff_work_scope_desc', true); echo '</span>'; ?>
+        <?php }
         else {
           echo '';
         } ?>
@@ -71,7 +71,7 @@ get_header(); ?>
 <?php endwhile; else: ?>
 
 <p><?php _e( 'Sorry, no posts matched your criteria.', 'ukmtheme' ); ?></p>
-    
+
 <?php endif; ?>
 </section>
 <aside class="pure-u-1-4">
