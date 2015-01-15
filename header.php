@@ -75,6 +75,6 @@
       ));
     ?>
   </div>
-    <?php if ( is_home() ) { get_template_part( 'templates/slideshow', 'owl' ); } else {/** Frontpage Slideshow */} ?>
+    <?php if ( is_home() ) { get_template_part( 'templates/slideshow', 'flexslider' ); } else {/** Frontpage Slideshow */} ?>
 </header>
 </div>

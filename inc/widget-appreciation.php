@@ -40,14 +40,6 @@ class Appreciation_Widget extends WP_Widget {
     if ( ! empty( $title ) )
     echo $args['before_title'] . $title . $args['after_title'];
     ?>
-      <script type="text/javascript">
-        $(function () {
-          $('#newsList').newsTicker({
-            interval: "60000",
-            effect: "fadeIn",
-          });
-        });
-      </script>
       <div id="newsData"></div>
       <ul id="newsList">
       <?php

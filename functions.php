@@ -71,12 +71,14 @@ if (!function_exists('ukmtheme_scripts')) {
     wp_enqueue_script( 'jcarousel', get_template_directory_uri() . '/lib/jcarousel/jquery.jcarousel.min.js', array(), '0.3.1', true );
     wp_enqueue_script( 'responsivetab', get_template_directory_uri() . '/lib/responsive-tab/js/jquery.responsiveTabs.min.js', array(), '1.3.6', true );
     wp_enqueue_script( 'owl-corousel', get_template_directory_uri() . '/lib/owl-carousel/owl.carousel.min.js', array(), '1.3.3', true );
+    wp_enqueue_script( 'flexslider', get_template_directory_uri() . '/lib/flexslider/jquery.flexslider-min.js', array(), '2.2.2', true );
     wp_enqueue_script( 'default', get_template_directory_uri() . '/js/script.min.js', array(), '6.5', true );
     // Stylesheet
     wp_enqueue_style( 'fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.css', false, '2.1.5' );
     wp_enqueue_style( 'responsiveTab', get_template_directory_uri() . '/lib/responsive-tab/css/responsive-tabs.css', false, '1.3.6' );
     wp_enqueue_style( 'owl-carousel', get_template_directory_uri() . '/lib/owl-carousel/owl.carousel.css', false, '1.3.3' );
     wp_enqueue_style( 'owl-carousel-theme', get_template_directory_uri() . '/lib/owl-carousel/owl.theme.css', false, '1.3.3' );
+    wp_enqueue_style( 'flexslider', get_template_directory_uri() . '/lib/flexslider/flexslider.css', false, '2.2.2' );
     wp_enqueue_style( 'style', get_stylesheet_uri(), false, '6.5' );
   }
 }
@@ -124,7 +126,7 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
       )
     );
 
-    add_filter('show_admin_bar', '__return_false');
+    add_filter( 'show_admin_bar', '__return_false' );
 
   }
 
@@ -358,7 +360,8 @@ function tukm_feed_request($qv) {
 add_filter( 'request', 'tukm_feed_request' );
 
 /**
- * CONTACT FORM 7 ADD CLASS
+ * Contact form 7
+ * Add class "form"
  */
 
 add_filter( 'wpcf7_form_class_attr', 'tukm_custom_form_class_attr' );

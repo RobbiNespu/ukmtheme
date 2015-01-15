@@ -19,12 +19,6 @@ $args = array(
 $tabber = new WP_Query( $args );
 ?>
 
-<script type="text/javascript">
-$(document).ready(function () {
-  $('#responsive-tabs').responsiveTabs();
-});
-</script>
-
 <div id="responsive-tabs">
   <ul>
     <?php while ( $tabber->have_posts() ) : $tabber->the_post(); ?>
