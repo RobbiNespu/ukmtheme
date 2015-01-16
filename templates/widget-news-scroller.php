@@ -15,17 +15,12 @@
     );
   $loop = new WP_Query( $args );
 ?>
-<script>
-$(function(){
-  $("#ticker01").liScroll();
-});
-</script>
 
 <div class="wrap">
   <div class="uk-panel uk-panel-box widgets-wrap">
-    <ul id="ticker01" class="pure-u-1-1">
+    <ul id="news-scroller">
     <?php if ( $loop->have_posts() ) : while ( $loop->have_posts() ) : $loop->the_post(); ?>
-      <li><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></li>
+      <li><?php the_content(); ?></li>
     <?php endwhile; else: ?>
       <li><?php _e( 'Hello, welcome to Universiti Kebangsaan Malaysia!', 'ukmtheme' ); ?></li>
     <?php endif; ?>

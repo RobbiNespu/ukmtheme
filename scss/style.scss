@@ -4,17 +4,20 @@
  * Theme URI: http://www.ukm.my/template
  * Author: Jamaludin Rajalu
  * Author URI: https://github.com/jrajalu
- * Version: 6.6.2
+ * Version: 6.6.3
  * License: Creative Commons Attribution-ShareAlike 4.0 International License
  * License URI: http://creativecommons.org/licenses/by-sa/4.0/
+ *
+ *
+ * Universiti Kebangsaan Malaysia 2015
  *
  */
 
 @import "compass";
 
 @import "webfonts";
-@import "wordpress-core";
 @import "pure-css-grid";
+@import "wordpress-core";
 @import "cssmenu";
 @import "gallery";
 @import "jcarousel";
@@ -164,7 +167,7 @@ article.wrap,
   margin: 0 auto;
 }
 
-.banner {
+.header-wrap {
   background: #b00000; /* Old browsers */
   background: -moz-linear-gradient(top,  #b00000 0%, #d10000 50%, #b00000 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b00000), color-stop(50%,#d10000), color-stop(100%,#b00000)); /* Chrome,Safari4+ */

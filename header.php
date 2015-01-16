@@ -40,7 +40,7 @@
 </head>
 <body <?php body_class(); ?>>
 <div class="page-wrap">
-<div class="banner mn_color ut_color">
+<div class="header-wrap mn_color ut_color">
 <nav class="top">
   <div class="wrap pure-g pure-u-g">
     <div class="pure-u-1-2">

@@ -5,11 +5,11 @@ module.exports = function(grunt) {
     // uglify
     uglify: {
       options: {
-        banner: '/*! UKMTheme 6.5 by Jamaludin Rajalu <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+        banner: '/*! UKMTheme 6.6 by Jamaludin Rajalu <%= grunt.template.today("yyyy-mm-dd") %> */\n'
       },
       build: {
         src: [
-        'js/extra/*.js'
+        'js/_UKMTheme.js'
       ],
         dest: 'js/script.min.js'
       }
@@ -41,7 +41,7 @@ module.exports = function(grunt) {
           }
       },
       js: {
-        files: ['js/extra/*.js'],
+        files: ['js/_UKMTheme.js'],
         tasks: ['uglify'],
           options: {
             spawn: false

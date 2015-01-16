@@ -73,6 +73,9 @@ if (!function_exists('ukmtheme_scripts')) {
     wp_enqueue_script( 'owl-corousel', get_template_directory_uri() . '/lib/owl-carousel/owl.carousel.min.js', array(), '1.3.3', true );
     wp_enqueue_script( 'flexslider', get_template_directory_uri() . '/lib/flexslider/jquery.flexslider-min.js', array(), '2.2.2', true );
     wp_enqueue_script( 'newsTicker', get_template_directory_uri() . '/lib/jqnewsticker/newsTicker.js', array(), '1.0.2', true );
+    wp_enqueue_script( 'liScroll', get_template_directory_uri() . '/lib/liscroll/jquery.li-scroller.1.0.js', array(), '1.0', true );
+    wp_enqueue_script( 'textResizer', get_template_directory_uri() . '/lib/textresizer/jquery.textresizer.js', array(), '1.1.0', true );
+    wp_enqueue_script( 'fitvids', get_template_directory_uri() . '/lib/fitvids/jquery.fitvids.js', array(), '1.0.3', true );
     wp_enqueue_script( 'default', get_template_directory_uri() . '/js/script.min.js', array(), '6.5', true );
     // Stylesheet
     wp_enqueue_style( 'fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.css', false, '2.1.5' );

@@ -9,22 +9,15 @@
  *
  * @author Jamaludin Rajalu
  */
-get_header(); ?>
-<script type="text/javascript">
-$(document).ready(function(){
-  $('.ut-faq .ut-faq-q').click(function(e){
-    e.preventDefault();
-    $(this).closest('li').find('.ut-faq-a').not(':animated').slideToggle();
-  });
-});
-</script>
-<?php
+get_header(); 
+
   $faq = new WP_Query( array( 
     'post_type'       => 'faq', 
     'posts_per_page'  => -1, 
     'orderby'         => 'menu_order', 
     'order'           => 'ASC' 
   ));
+  
 ?>
 <article class="wrap">
   <div class="pure-g pure-g-r content">
