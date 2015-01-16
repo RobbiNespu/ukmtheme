@@ -20,7 +20,7 @@
   <div class="uk-panel uk-panel-box widgets-wrap">
     <ul id="news-scroller">
     <?php if ( $loop->have_posts() ) : while ( $loop->have_posts() ) : $loop->the_post(); ?>
-      <li><?php the_content(); ?></li>
+      <li><?php the_title(); ?></li>
     <?php endwhile; else: ?>
       <li><?php _e( 'Hello, welcome to Universiti Kebangsaan Malaysia!', 'ukmtheme' ); ?></li>
     <?php endif; ?>
