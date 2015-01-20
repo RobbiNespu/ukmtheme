@@ -23,8 +23,8 @@ get_header(); ?>
   ));
 ?>
 <?php if ( $staff->have_posts() ) : while ( $staff->have_posts() ) : $staff->the_post(); ?>
-<div class="pure-g uk-panel uk-panel-box uk-panel-box-secondary staff-wrap">
-  <div class="pure-u-1-7">
+<div class="pure-g staff-wrap">
+  <div class="pure-u-1-5">
       <div class="staff-photo">
         <?php
           $staff_photo = get_post_meta($post->ID,'ut_staff_photo',true);
@@ -33,13 +33,13 @@ get_header(); ?>
           <?php }
 
           else { ?>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/public/staff-photo.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/staff-photo.png">
           <?php }
         ?>
       </div>
   </div>
 
-  <div class="pure-u-6-7">
+  <div class="pure-u-4-5">
     <div class="staff-detail">
       <h3><?php the_title(); ?></h3>
       <?php echo '<span class="staff-position">'; echo get_the_term_list( $post->ID, 'position', '', ', ', '' ); echo '</span>'; ?>
@@ -51,27 +51,28 @@ get_header(); ?>
        $scope_title         = get_post_meta($post->ID, 'ut_staff_work_scope_title', true);
        $scope_title_custom  = get_post_meta($post->ID, 'ut_staff_work_scope_title_custom', true);
 
-        if($scope == on) {
+        if($scope == on) { 
           if($scope_title == on) { ?>
-            <h4><?php echo $scope_title_custom; ?></h4>
-          <?php }
+            <h4><?php echo $scope_title_custom; ?></h4>            
+          <?php }          
           else { ?>
             <h4><?php _e( 'Scope of Work','ukmtheme' ); ?></h4>
           <?php } ?>
-        <?php echo '<span class="staff-scope">'; echo get_post_meta($post->ID, 'ut_staff_work_scope_desc', true); echo '</span>'; ?>
-        <?php }
+        <?php echo '<span class="staff-scope">'; echo get_post_meta($post->ID, 'ut_staff_work_scope_desc', true); echo '</span>'; ?>        
+        <?php }  
         else {
           echo '';
         } ?>
+        <?php get_template_part('templates/content','edit' ); ?>
     </div>
   </div>
-  <?php get_template_part('templates/content','edit' ); ?>
 </div><!--staff-wrap-->
+<hr>
 
 <?php endwhile; else: ?>
 
 <p><?php _e( 'Sorry, no posts matched your criteria.', 'ukmtheme' ); ?></p>
-
+    
 <?php endif; ?>
 </section>
 <aside class="pure-u-1-4">

@@ -9,10 +9,10 @@
  * @author Jamaludin Rajalu
  */
 get_header(); ?>
-<article class="pure-g pure-g-r content">
-  <div class="pure-u-1-1 staff-wrap">
-    <h2 class="content-title"><?php the_title(); ?></h2>
-      <div class="pure-u-1-10">
+<article class="wrap">
+  <div class="pure-g pure-g-r content">
+    <h2 class="pure-u-1 content-title"><?php the_title(); ?></h2>
+      <div class="pure-u-1-4">
         <?php
           $staff_photo = get_post_meta($post->ID,'ut_staff_photo',true);
           if ( $staff_photo ) { ?>
@@ -24,7 +24,7 @@ get_header(); ?>
           <?php }
         ?>
 		  </div>
-  		<div class="pure-u-9-10">
+  		<div class="pure-u-3-4">
         <div class="staff-detail">
           <?php echo '<span class="staff-position">'; echo get_the_term_list( $post->ID, 'position', '', ', ', '' ); echo '</span>'; ?>
           <?php echo '<span class="staff-department">'; echo get_the_term_list( $post->ID, 'department', '', ', ', '' ); echo '</span>'; ?>

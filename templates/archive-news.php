@@ -55,7 +55,7 @@ get_header();
 
       </div>
     <p><?php get_template_part( 'templates/content', 'paginate' ); ?></p>
-    </section><!--.pure-u-1-1-->
+    </section>
     <aside class="pure-u-1-4">
       <?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
     </aside>

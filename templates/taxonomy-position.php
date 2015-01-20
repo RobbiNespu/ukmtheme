@@ -23,8 +23,8 @@ get_header(); ?>
   ));
 ?>
 <?php if ( $staff->have_posts() ) : while ( $staff->have_posts() ) : $staff->the_post(); ?>
-<div class="pure-g uk-panel uk-panel-box uk-panel-box-secondary staff-wrap">
-  <div class="pure-u-1-7">
+<div class="pure-g staff-wrap">
+  <div class="pure-u-1-5">
       <div class="staff-photo">
         <?php
           $staff_photo = get_post_meta($post->ID,'ut_staff_photo',true);
@@ -39,7 +39,7 @@ get_header(); ?>
       </div>
   </div>
 
-  <div class="pure-u-6-7">
+  <div class="pure-u-4-5">
     <div class="staff-detail">
       <h3><?php the_title(); ?></h3>
       <?php echo '<span class="staff-position">'; echo get_the_term_list( $post->ID, 'position', '', ', ', '' ); echo '</span>'; ?>
@@ -63,10 +63,11 @@ get_header(); ?>
         else {
           echo '';
         } ?>
+        <?php get_template_part('templates/content','edit' ); ?>
     </div>
   </div>
-  <?php get_template_part('templates/content','edit' ); ?>
 </div><!--staff-wrap-->
+<hr>
 
 <?php endwhile; else: ?>
 

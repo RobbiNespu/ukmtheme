@@ -45,8 +45,8 @@ function ukmtheme_register_required_plugins() {
     ),
 
     array(
-      'name'      => 'Easy WP SMTP',
-      'slug'      => 'easy-wp-smtp',
+      'name'      => 'WP Mail SMTP',
+      'slug'      => 'wp-mail-smtp',
       'required'  => false,
     ),
 

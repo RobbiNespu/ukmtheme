@@ -343,7 +343,7 @@ add_filter( 'wp_title', 'ukmtheme_wp_title', 10, 2 );
 function tukm_search_form( $form ) {
   $form = '<form role="search" method="get" class="uk-form" id="searchform" class="searchform" action="' . home_url( '/' ) . '" >
   <input type="search" class="search-field" placeholder="' . esc_attr__( 'Search...','ukmtheme' ) . '" value="' . get_search_query() . '" name="s" id="s" />
-  <input type="submit" class="search-submit uk-button uk-button-primary" id="searchsubmit" value="'. esc_attr__( 'Search' ) .'" />
+  <button class="search-submit uk-button uk-button-primary" id="searchsubmit">'. esc_attr__( 'Search' ) .'</button>
   </form>';
 
   return $form;
