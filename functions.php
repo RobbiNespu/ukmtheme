@@ -375,4 +375,19 @@ function tukm_custom_form_class_attr( $class ) {
   return $class;
 }
 
+/**
+ * Reading Settings
+ * Blog pages show at most
+ * @link http://codex.wordpress.org/Function_Reference/query_posts
+ * @link http://codex.wordpress.org/Plugin_API/Action_Reference/pre_get_posts
+ *
+ */
+
+function tukm_pages_show_at_most( $query ) {
+  if ( $query->is_main_query() ) {
+    $query->set( 'posts_per_page', 7 );
+  }
+}
+add_action( 'pre_get_posts', 'tukm_pages_show_at_most' );
+
 /** end here */

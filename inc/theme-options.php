@@ -27,6 +27,7 @@ function register_ukmtheme_settings() {
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_facebook' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_twitter' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_youtube' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_instagram' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_mn_color' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_snd_color' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_trd_color' );
@@ -148,6 +149,13 @@ function theme_options_do_page() { ?>
         <th scope="row">Youtube</th>
         <td>
           <input type="text" name="ukmtheme_youtube" value="<?php echo get_option('ukmtheme_youtube'); ?>" class="regular-text" placeholder="http://www.youtube.com/user/ptmukm" />
+        </td>
+        </tr>
+
+        <tr valign="top">
+        <th scope="row">Instagram</th>
+        <td>
+          <input type="text" name="ukmtheme_instagram" value="<?php echo get_option('ukmtheme_instagram'); ?>" class="regular-text" placeholder="http://instagram.com/jrajalu" />
           <p class="description"><?php _e( 'Enter full url e.g: https://www.twitter.com/ukmnewsportal', 'ukmtheme' ); ?></p>
         </td>
         </tr>
