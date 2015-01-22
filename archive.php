@@ -16,20 +16,13 @@ get_header(); ?>
 <article class="wrap">
   <div class="pure-g pure-g-r content">
     <section class="pure-u-3-4 article">
-    <h2><?php _e( 'Archives', 'ukmtheme' ) ; ?></h2>
+    <h2><?php single_cat_title(); ?></h2>
 
       <div class="uk-panel widgets-annc">
 
-      <?php
-      
-      $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-      $args = array('posts_per_page' => 7 'paged' => $paged );
-      query_posts($args);
+      <?php while ( have_posts() ) : the_post(); ?>
 
-
-      while ( have_posts() ) : the_post(); ?>
-
-        <div class="ut-news-list clearfix">
+        <div class="pure-g ut-news-list">
           <div class="pure-u-1-5 ut-news-thumb">
             <?php
               if ( has_post_thumbnail() ) {
