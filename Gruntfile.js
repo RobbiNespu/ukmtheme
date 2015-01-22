@@ -9,7 +9,7 @@ module.exports = function(grunt) {
       },
       build: {
         src: [
-        'js/_UKMTheme.js'
+        'js/theme-script.js'
       ],
         dest: 'js/script.min.js'
       }
@@ -41,7 +41,7 @@ module.exports = function(grunt) {
           }
       },
       js: {
-        files: ['js/_UKMTheme.js'],
+        files: ['js/theme-script.js'],
         tasks: ['uglify'],
           options: {
             spawn: false
@@ -49,7 +49,7 @@ module.exports = function(grunt) {
       }
     } 
 
-  }); // closingTask
+  }); // closing task
 
   // load grunt task
 

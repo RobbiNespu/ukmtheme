@@ -93,7 +93,7 @@ $(document).ready(function(){
     closeEffect     : 'none'
   });
 
-  // Auto height
+  // Auto height div
 
   var currentTallest = 0,
      currentRowStart = 0,
