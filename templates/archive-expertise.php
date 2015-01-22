@@ -12,7 +12,7 @@ get_header(); ?>
 <article class="wrap">
 <div class="pure-g pre-g-r content">
 <section class="pure-u-3-4 article">
-<h2 class="content-title"><?php single_cat_title(); ?></h2>
+<h2><?php _e( 'Expertise', 'ukmtheme' ) ; ?></h2>
 
 <?php
   $expert = new WP_Query( array( 

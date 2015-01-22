@@ -23,7 +23,7 @@ get_header(); ?>
       <?php
       
       $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-      $args = array('posts_per_page' => 10, 'paged' => $paged );
+      $args = array('posts_per_page' => 7 'paged' => $paged );
       query_posts($args);
 
 
@@ -36,7 +36,7 @@ get_header(); ?>
                 the_post_thumbnail();
               }
               else {
-                echo '<img src="' . get_template_directory_uri() . '/assets/images/public/thumbnail.png" />';
+                echo '<img src="' . get_template_directory_uri() . '/img/thumbnail.png" />';
               }
             ?>
           </div>

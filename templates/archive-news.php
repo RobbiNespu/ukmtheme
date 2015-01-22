@@ -39,7 +39,7 @@ get_header();
                 the_post_thumbnail();
               }
               else {
-                echo '<img src="' . get_template_directory_uri() . '/img/thumbnail.png?ver=6.3" />';
+                echo '<img src="' . get_template_directory_uri() . '/img/thumbnail.png" />';
               }
             ?>
             </div>
