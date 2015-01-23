@@ -7,12 +7,19 @@
  * @since 4.0
  *
  * @author Jamaludin Rajalu
+ *
+ * @link http://codex.wordpress.org/Function_Reference/term_description
  */
 get_header(); ?>
+<div class="title-box-wrapper">
+  <div class="wrap title-box">
+    <h1><?php single_cat_title(); ?></h1>
+    <p><?php echo term_description(); ?></p>
+  </div>
+</div>
 <article class="wrap">
 <div class="pure-g pure-g-r content">
 <section class="pure-u-3-4 article">
-<h2 class="content-title"><?php single_cat_title(); ?></h2>
 <?php
   $staff = new WP_Query( array(
     'post_type'       => 'staff',

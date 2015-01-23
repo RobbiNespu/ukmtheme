@@ -265,6 +265,18 @@ section.article {
   }
 }
 
+.title-box-wrapper {
+  background: #E8E8E8;
+  border-bottom: 1px solid #DBDBDB;
+  .title-box {
+    padding: 20px;
+    color: #444;
+    h1, h2, p {
+      color: #444;
+    }
+  }
+}
+
 /* =Flex Slider 2 Tweak
 -------------------------------------------------------------- */
 .flexslider {
