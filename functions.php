@@ -390,4 +390,14 @@ function tukm_pages_show_at_most( $query ) {
 }
 add_action( 'pre_get_posts', 'tukm_pages_show_at_most' );
 
+/**
+ * Enabling HTML in your category & taxonomy descriptions
+ * @link http://docs.appthemes.com/tutorials/allow-html-in-wordpress-category-taxonomy-descriptions/
+ */
+
+remove_filter( 'pre_term_description', 'wp_filter_kses' );
+remove_filter( 'pre_link_description', 'wp_filter_kses' );
+remove_filter( 'pre_link_notes', 'wp_filter_kses' );
+remove_filter( 'term_description', 'wp_kses_data' );
+
 /** end here */
