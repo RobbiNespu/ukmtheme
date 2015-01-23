@@ -33,7 +33,8 @@ $(document).ready(function(){
 
   $('.flexslider').flexslider( {
 
-    animation: "fade"
+    animation: "fade",
+    smoothHeight: true
 
   });
 
