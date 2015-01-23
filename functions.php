@@ -95,7 +95,7 @@ if (!function_exists('ukmtheme_scripts')) {
 require( 'inc/theme-update-checker.php' );
   new ThemeUpdateChecker(
     'ukmtheme-master',
-    'http://raw.github.com/jrajalu/ukmtheme/master/version.json'
+    'http://cdn.rawgit.com/jrajalu/ukmtheme/master/version.json'
 );
 
 /**
