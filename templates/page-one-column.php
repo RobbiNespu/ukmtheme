@@ -9,7 +9,7 @@
  *
  * @author Jamaludin Rajalu
  *
- * Template Name: Page: One pure-uumn
+ * Template Name: Page: One column without sidebar
  */
 get_header(); ?>
 <article class="wrap">
