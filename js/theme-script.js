@@ -17,20 +17,6 @@ $(document).ready(function(){
 
   });
 
-  // owl-carousel
-
-  // $("#owl-main-slider").owlCarousel({
-
-  //   slideSpeed : 300,
-  //   paginationSpeed : 400,
-  //   singleItem: true,
-  //   autoPlay: 7000,
-  //   pagination: false
-
-  // });
-
-  // Fles Slider 2
-
   $('.flexslider').flexslider( {
 
     animation: "fade",

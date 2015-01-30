@@ -47,45 +47,29 @@ add_action( 'admin_enqueue_scripts', 'ut_wp_admin_scripts' );
 add_action( 'wp_enqueue_scripts', 'jquery' );
  function jquery() {
   wp_deregister_script( 'jquery' );
-  wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/jquery.min.js', array(), '2.1.3', false );
+  wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/jquery.min.js', array(), '1.11.2', false );
  }
 
-add_action( 'wp_enqueue_scripts', 'uikit' );
-  function uikit() {
-    wp_enqueue_script( 'uikit', get_template_directory_uri() . '/js/uikit.min.js', array(), '2.15.0', true );
-    // wp_enqueue_script( 'uikit_cover', get_template_directory_uri() . '/js/components/cover.min.js', array(), '2.15.0', true );
-    // wp_enqueue_script( 'uikit_slideshow', get_template_directory_uri() . '/js/components/slideshow.min.js', array(), '2.15.0', true );
-    // wp_enqueue_script( 'uikit_slideshow_fx', get_template_directory_uri() . '/js/components/slideshow-fx.min.js', array(), '2.15.0', true );
-
-    wp_enqueue_style( 'uikit', get_template_directory_uri() . '/css/uikit.almost-flat.min.css', false, '2.15.0');
-    // wp_enqueue_style( 'uikit_cover', get_template_directory_uri() . '/css/components/cover.almost-flat.min.css', false, '2.15.0' );
-    // wp_enqueue_style( 'uikit_slideshow', get_template_directory_uri() . '/css/components/slideshow.almost-flat.min.css', false, '2.15.0' );
-    // wp_enqueue_style( 'uikit_slidenav', get_template_directory_uri() . '/css/components/slidenav.almost-flat.min.css', false, '2.15.0' );
-  }
-
-if (!is_admin()) add_action('wp_enqueue_scripts', 'ukmtheme_scripts', 11);
-if (!function_exists('ukmtheme_scripts')) {
+add_action( 'wp_enqueue_scripts', 'ukmtheme_scripts' );
   function ukmtheme_scripts() {
-    // Javascript
+    // javascripts
+    wp_enqueue_script( 'uikit', get_template_directory_uri() . '/js/uikit.min.js', array(), '2.15.0', true );
     wp_enqueue_script( 'fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.pack.js', array(), '2.1.5', true );
     wp_enqueue_script( 'jcarousel', get_template_directory_uri() . '/lib/jcarousel/jquery.jcarousel.min.js', array(), '0.3.1', true );
     wp_enqueue_script( 'responsivetab', get_template_directory_uri() . '/lib/responsive-tab/js/jquery.responsiveTabs.min.js', array(), '1.3.6', true );
-    // wp_enqueue_script( 'owl-corousel', get_template_directory_uri() . '/lib/owl-carousel/owl.carousel.min.js', array(), '1.3.3', true );
     wp_enqueue_script( 'flexslider', get_template_directory_uri() . '/lib/flexslider/jquery.flexslider-min.js', array(), '2.2.2', true );
     wp_enqueue_script( 'newsTicker', get_template_directory_uri() . '/lib/jqnewsticker/newsTicker.js', array(), '1.0.2', true );
     wp_enqueue_script( 'liScroll', get_template_directory_uri() . '/lib/liscroll/jquery.li-scroller.1.0.js', array(), '1.0', true );
     wp_enqueue_script( 'textResizer', get_template_directory_uri() . '/lib/textresizer/jquery.textresizer.js', array(), '1.1.0', true );
     wp_enqueue_script( 'fitvids', get_template_directory_uri() . '/lib/fitvids/jquery.fitvids.js', array(), '1.0.3', true );
     wp_enqueue_script( 'default', get_template_directory_uri() . '/js/script.min.js', array(), '6.5', true );
-    // Stylesheet
+    // stylesheet
+    wp_enqueue_style( 'uikit', get_template_directory_uri() . '/css/uikit.almost-flat.min.css', false, '2.15.0');
     wp_enqueue_style( 'fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.css', false, '2.1.5' );
     wp_enqueue_style( 'responsiveTab', get_template_directory_uri() . '/lib/responsive-tab/css/responsive-tabs.css', false, '1.3.6' );
-    // wp_enqueue_style( 'owl-carousel', get_template_directory_uri() . '/lib/owl-carousel/owl.carousel.css', false, '1.3.3' );
-    // wp_enqueue_style( 'owl-carousel-theme', get_template_directory_uri() . '/lib/owl-carousel/owl.theme.css', false, '1.3.3' );
     wp_enqueue_style( 'flexslider', get_template_directory_uri() . '/lib/flexslider/flexslider.css', false, '2.2.2' );
     wp_enqueue_style( 'style', get_stylesheet_uri(), false, '6.5' );
   }
-}
 
 /**
  * Semakan versi theme terkini secara automatik

@@ -91,6 +91,12 @@ function ukmtheme_register_required_plugins() {
       'slug'      => 'widget-visibility',
       'required'  => false,
     ),
+
+    array(
+      'name'      => 'Lockdown WP Admin',
+      'slug'      => 'lockdown-wp-admin',
+      'required'  => false,
+    ),
   );
 
   /**
