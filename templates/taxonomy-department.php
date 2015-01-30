@@ -83,14 +83,6 @@ get_header(); ?>
 <?php endif; ?>
 </section>
 <aside class="pure-u-1-4">
-  <ul>
-    <?php
-      wp_list_categories(array(
-        'taxonomy'  => 'department',
-        'title_li'  => ''
-      ));
-    ?>
-  </ul>
   <?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
 </aside>
 </div><!--.content-->
