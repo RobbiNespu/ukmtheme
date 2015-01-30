@@ -79,6 +79,18 @@ function ukmtheme_register_required_plugins() {
       'slug'      => 'all-in-one-seo-pack',
       'required'  => false,
     ),
+
+    array(
+      'name'      => 'Simple Custom CSS',
+      'slug'      => 'simple-custom-css',
+      'required'  => false,
+    ),
+
+    array(
+      'name'      => 'Widget Visibility',
+      'slug'      => 'widget-visibility',
+      'required'  => false,
+    ),
   );
 
   /**
