@@ -10,8 +10,8 @@
  * 
  */
   $args = array(
-    'post_type'       => 'news',
-    'posts_per_page'  => 5
+    'post_type'       => 'news_scroller',
+    'posts_per_page'  => 10
     );
   $loop = new WP_Query( $args );
 ?>
