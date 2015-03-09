@@ -10,6 +10,19 @@
  *
  * Post Type: Expertise
  */
+
+// Edit title field term
+function title_expert_input ( $title ) {
+
+  if ( get_post_type() == 'expertise' ) {
+    $title = __( 'Expert Name', 'ukmtheme' );
+  }
+  return $title;
+}
+
+add_filter( 'enter_title_here', 'title_expert_input' );
+
+
 function ut_expertise() {
 
   $labels = array(

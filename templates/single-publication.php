@@ -11,10 +11,10 @@
  */
 get_header(); ?>
 <article class="wrap">
-  <div class="pure-g pure-g-r">
-    <section class="pure-u-3-4">
+  <div class="pure-g pure-g-r content">
+    <section class="pure-u-3-4 article">
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-        <div class="pure-u-1-1">
+        <div class="pure-g pure-g-r">
             <div class="pure-u-3-10 article">
             <?php 
               $saved_data = get_post_meta($post->ID,'ut_publication_cover',true);

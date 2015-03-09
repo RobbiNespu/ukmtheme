@@ -22,7 +22,7 @@ get_header();
 <article class="wrap">
   <div class="pure-g pure-g-r content">
     <section class="pure-u-3-4 article">
-    <h2><?php _e( 'Publication', 'ukmtheme' ); ?></h2>
+    <h2 class="content-title"><?php _e( 'Publication', 'ukmtheme' ); ?></h2>
       <?php if ( $publication->have_posts() ) : while ( $publication->have_posts() ) : $publication->the_post(); ?>
         <div class="pure-g ut-publication-archive-wrap">
           <div class="pure-u-3-10 article ut-publication">

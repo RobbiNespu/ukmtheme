@@ -23,8 +23,8 @@ get_header(); ?>
   ));
 ?>
 <?php if ( $expert->have_posts() ) : while ( $expert->have_posts() ) : $expert->the_post(); ?>
-<div class="pure-g uk-panel uk-panel-box uk-panel-box-secondary staff-wrap">
-  <div class="pure-u-1-7">
+<div class="pure-g staff-wrap">
+  <div class="pure-u-1-5">
       <div class="staff-photo">
       <a href="<?php echo get_permalink(); ?>">
         <?php
@@ -40,7 +40,7 @@ get_header(); ?>
       </div>
   </div>
 
-  <div class="pure-u-6-7">
+  <div class="pure-u-4-5">
     <div class="staff-detail">
     <a href="<?php echo get_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
       <?php
@@ -52,7 +52,7 @@ get_header(); ?>
     </div>
   </div>
 </div><!--staff-wrap-->
-
+<hr>
 <?php endwhile; else: ?>
 
 <p><?php _e( 'Sorry, no posts matched your criteria.', 'ukmtheme' ); ?></p>
