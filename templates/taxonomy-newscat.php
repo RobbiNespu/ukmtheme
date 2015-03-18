@@ -14,14 +14,7 @@
  */
 get_header();
 
-  $paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
 
-  $news = new WP_Query( array( 
-    'post_type'       => 'news',
-    'posts_per_page'  => 7,
-    'paged'           => $paged,
-  ));
-  
 ?>
 <article class="wrap">
   <div class="pure-g pure-g-r content">
@@ -30,7 +23,7 @@ get_header();
 
       <div class="uk-panel widgets-annc">
 
-      <?php while ( $news->have_posts() ) : $news->the_post(); ?>
+      <?php while ( have_posts() ) : the_post(); ?>
 
         <div class="pure-g ut-news-list">
             <div class="pure-u-1-5 ut-news-thumb">
@@ -39,7 +32,7 @@ get_header();
                 the_post_thumbnail();
               }
               else {
-                echo '<img src="' . get_template_directory_uri() . '/assets/images/public/thumbnail.png?ver=6.3" />';
+                echo '<img src="' . get_template_directory_uri() . '/img/thumbnail.png?ver=6.6" />';
               }
             ?>
             </div>
