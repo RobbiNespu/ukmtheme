@@ -97,6 +97,12 @@ function ukmtheme_register_required_plugins() {
       'slug'      => 'lockdown-wp-admin',
       'required'  => false,
     ),
+
+    array(
+      'name'      => 'Add Meta Tags',
+      'slug'      => 'add-meta-tags',
+      'required'  => false,
+    ),
   );
 
   /**
