@@ -21,13 +21,6 @@
       <li class="btn_theme"><a href="#" style="background:<?php echo get_option('ukmtheme_trd_color'); ?>;" class="trd_btn"></a></li>
     </ul>
     <h4><?php _e( 'Font Size', 'ukmtheme' ); ?></h4>
-    <script>
-      $(document).ready(function () {
-        $("#text-resizer-controls li a").textresizer({
-          target: "body"
-        });
-      });
-    </script>
     <ul id="text-resizer-controls" class="textresizer">
       <li><a href="#"><i class="uk-icon-minus-square"></i><?php _e('&nbsp;Small','ukmtheme'); ?></a></li>
       <li><a href="#"><i class="uk-icon-font"></i><?php _e('&nbsp;Reset','ukmtheme'); ?></a></li>

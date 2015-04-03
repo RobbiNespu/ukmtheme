@@ -29,13 +29,24 @@ add_action( 'admin_enqueue_scripts', 'ut_wp_admin_scripts' );
     // Javascript
     wp_enqueue_script( 'thickbox' );
     wp_enqueue_script( 'wp-color-picker' );
-    wp_enqueue_script( 'wp-color-picker-option', get_template_directory_uri() . '/js/options.js', array('wp-color-picker'), '6.5', true );
+    wp_enqueue_script( 'wp-color-picker-option', get_template_directory_uri() . '/js/admin.min.js', array('wp-color-picker'), '6.7', true );
     // Stylesheet
     wp_enqueue_style( 'thickbox' );
     wp_enqueue_style( 'wp-color-picker' );
-    wp_enqueue_style( 'admin', get_template_directory_uri() . '/css/admin.css', false, '6.5' );
+    wp_enqueue_style( 'admin', get_template_directory_uri() . '/css/admin.min.css', false, '6.7' );
 
   }
+
+/**
+ * @link http://pexetothemes.com/support/knowledgebase/quick-gallery-not-displaying-image-attachment-titles-in-wordpress-3-7/
+ */
+
+
+function ukmtheme_add_title_to_attachment( $markup, $id ){
+  $att = get_post( $id );
+  return str_replace( '<a ', '<a title="'.$att->post_title.'" ', $markup );
+}
+add_filter( 'wp_get_attachment_link', 'ukmtheme_add_title_to_attachment', 10, 5 );
 
 /**
  * skrip untuk antaramuka web
@@ -44,31 +55,15 @@ add_action( 'admin_enqueue_scripts', 'ut_wp_admin_scripts' );
  * @link cdnjs.com
  */
 
-add_action( 'wp_enqueue_scripts', 'jquery' );
- function jquery() {
-  wp_deregister_script( 'jquery' );
-  wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/jquery.min.js', array(), '1.11.2', false );
- }
-
 add_action( 'wp_enqueue_scripts', 'ukmtheme_scripts' );
   function ukmtheme_scripts() {
     // javascripts
-    wp_enqueue_script( 'uikit', get_template_directory_uri() . '/js/uikit.min.js', array(), '2.15.0', true );
-    wp_enqueue_script( 'fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.pack.js', array(), '2.1.5', true );
-    wp_enqueue_script( 'jcarousel', get_template_directory_uri() . '/lib/jcarousel/jquery.jcarousel.min.js', array(), '0.3.1', true );
-    wp_enqueue_script( 'responsivetab', get_template_directory_uri() . '/lib/responsive-tab/js/jquery.responsiveTabs.min.js', array(), '1.3.6', true );
-    wp_enqueue_script( 'flexslider', get_template_directory_uri() . '/lib/flexslider/jquery.flexslider-min.js', array(), '2.2.2', true );
-    wp_enqueue_script( 'newsTicker', get_template_directory_uri() . '/lib/jqnewsticker/newsTicker.js', array(), '1.0.2', true );
-    wp_enqueue_script( 'liScroll', get_template_directory_uri() . '/lib/liscroll/jquery.li-scroller.1.0.js', array(), '1.0', true );
-    wp_enqueue_script( 'textResizer', get_template_directory_uri() . '/lib/textresizer/jquery.textresizer.js', array(), '1.1.0', true );
-    wp_enqueue_script( 'fitvids', get_template_directory_uri() . '/lib/fitvids/jquery.fitvids.js', array(), '1.0.3', true );
-    wp_enqueue_script( 'default', get_template_directory_uri() . '/js/script.min.js', array(), '6.5', true );
+    wp_deregister_script( 'jquery' );
+    wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/jquery.min.js', array(), '2.13', false );
+    wp_enqueue_script( 'library', get_template_directory_uri() . '/js/library.all.min.js', array(), '6.7', true );
+    wp_enqueue_script( 'default', get_template_directory_uri() . '/js/scripts.min.js', array(), '6.7', true );
     // stylesheet
-    wp_enqueue_style( 'uikit', get_template_directory_uri() . '/css/uikit.almost-flat.min.css', false, '2.15.0');
-    wp_enqueue_style( 'fancybox', get_template_directory_uri() . '/lib/fancybox/source/jquery.fancybox.css', false, '2.1.5' );
-    wp_enqueue_style( 'responsiveTab', get_template_directory_uri() . '/lib/responsive-tab/css/responsive-tabs.css', false, '1.3.6' );
-    wp_enqueue_style( 'flexslider', get_template_directory_uri() . '/lib/flexslider/flexslider.css', false, '2.2.2' );
-    wp_enqueue_style( 'style', get_stylesheet_uri(), false, '6.5' );
+    wp_enqueue_style( 'style', get_stylesheet_uri(), false, '6.7' );
   }
 
 /**

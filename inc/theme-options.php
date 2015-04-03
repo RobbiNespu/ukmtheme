@@ -16,7 +16,7 @@ add_action('admin_menu', 'ukmtheme_create_menu');
 
 function ukmtheme_create_menu() {   
   // create theme option menu
-  add_theme_page( __( 'Theme Options', 'ukmtheme' ), __( 'Theme Options', 'ukmtheme' ), 'edit_theme_options', 'theme_options', 'theme_options_do_page' );
+  add_menu_page( __( 'Theme Options', 'ukmtheme' ), __( 'Theme Options', 'ukmtheme' ), 'edit_theme_options', 'theme_options', 'theme_options_do_page', 'dashicons-admin-generic', 55 );
   
   // call register settings function
   add_action( 'admin_init', 'register_ukmtheme_settings' );
@@ -34,6 +34,7 @@ function register_ukmtheme_settings() {
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_bg' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_languages' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_google_trans' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_visitor_counter' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_visitor_id' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_news' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_one' );
@@ -97,9 +98,9 @@ function theme_options_do_page() { ?>
             <input id='checkbox' name='ukmtheme_widget_event' type='checkbox' value="event-slider" <?php echo ( 'event-slider' == $widget_event ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_event"><?php _e( 'Event Slider', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_tabber' type='checkbox' value="tabber" <?php echo ( 'tabber' == $widget_tabber ) ? 'checked="checked"' : ''; ?> />
-            <label class="description" for="ukmtheme_widget_tabber"><?php _e( 'Frontpage Tabber', 'ukmtheme' ); ?></label><br/>
+            <label class="description" for="ukmtheme_widget_tabber"><?php _e( 'Tabber', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_custom' type='checkbox' value="custom" <?php echo ( 'custom' == $widget_custom ) ? 'checked="checked"' : ''; ?> />
-            <label class="description" for="ukmtheme_widget_custom"><?php _e( 'Custom (uncheck Basic first)', 'ukmtheme' ); ?></label><br/>
+            <label class="description" for="ukmtheme_widget_custom"><?php _e( 'Custom (uncheck Basic sekiranya mahu menggunakan widget ini)', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_facebook' type='checkbox' value="facebook" <?php echo ( 'facebook' == $widget_facebook ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_facebook"><?php _e( 'Facebook Like Box', 'ukmtheme' ); ?></label><br/>
           </td>
@@ -121,8 +122,14 @@ function theme_options_do_page() { ?>
         </tr>
         <!-- Visitor Counter -->
         <tr valign="top">
-        <th scope="row"><?php _e('Visitor Counter ID','ukmtheme'); ?></th>
+        <th scope="row"><?php _e('Visitor Counter','ukmtheme'); ?></th>
         <td>
+        <?php
+          $visitor_counter  = get_option('ukmtheme_visitor_counter');
+        ?>
+        <input id='checkbox' name='ukmtheme_visitor_counter' type='checkbox' value="counter" <?php echo ( 'counter' == $visitor_counter ) ? 'checked="checked"' : ''; ?> />
+        <label class="description" for="ukmtheme_visitor_counter"><?php _e( 'Papar jumlah pengunjung di bahagian Footer' ); ?></label><br/>
+        <p class="description"><?php _e( 'Masukkan id yang telah dijana. Rujuk link yang disediakan', 'ukmtheme' ); ?></p>
         <input type="text" name="ukmtheme_visitor_id" value="<?php echo get_option('ukmtheme_visitor_id'); ?>" class="regular-text" placeholder="768059" />
         <p class="description"><a class="thickbox" href="<?php echo get_template_directory_uri(); ?>/img/site_counter_sample.png"><?php _e( 'View sample', 'ukmtheme' ); ?></a>
         &nbsp;|&nbsp;<?php _e( 'Generate your id', 'ukmtheme' ); ?>&nbsp;<a href="http://www.supercounters.com/hitcounter?tab=plugin-information&amp;plugin=simple-comment-editing&amp;TB_iframe=true&amp;width=830&amp;height=565" class="thickbox" title="www.supercounter.com">here</a></p>
