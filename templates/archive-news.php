@@ -1,16 +1,14 @@
 <?php
 /**
+ *
  * @link http://www.ukm.my/template
+ * @package ukmtheme
+ * @version 6.x.x
+ * @author Jamaludin Rajalu
+ *
  * @link http://codex.wordpress.org/Function_Reference/get_post_type_archive_link
  * @link http://codex.wordpress.org/Function_Reference/post_type_archive_title
  *
- * @package WordPress
- * @subpackage ukmtheme
- * @since 4.0
- *
- * @author Jamaludin Rajalu
- *
- * @link http://codex.wordpress.org/Function_Reference/paginate_links
  */
 get_header();
 

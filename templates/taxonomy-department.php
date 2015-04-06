@@ -40,7 +40,7 @@ get_header(); ?>
           <?php }
 
           else { ?>
-          <img src="<?php echo get_template_directory_uri(); ?>/img/staff-photo.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder_staff.png">
           <?php }
         ?>
       </div>

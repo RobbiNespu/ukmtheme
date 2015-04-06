@@ -26,7 +26,8 @@ $(document).ready(function(){
   $('#owl-main-slider').owlCarousel({
 
     autoPlay: 10000,
-    navigation : false,
+    navigation : true,
+    navigationText: ['<i class="uk-icon-angle-left"></i>','<i class="uk-icon-angle-right"></i>'],
     slideSpeed : 300,
     paginationSpeed : 400,
     pagination: false,

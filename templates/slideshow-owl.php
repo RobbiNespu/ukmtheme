@@ -19,6 +19,7 @@ $slideshow = new WP_Query( $args );
 
 global $post; ?>
 
+<div class="carousel-wrap">
 <div id="owl-main-slider" class="wrap owl-carousel owl-theme">
     <?php if( $slideshow->have_posts() ) : while( $slideshow->have_posts() ) : $slideshow->the_post(); ?>
       <div class="item">
@@ -27,8 +28,9 @@ global $post; ?>
       </a>
       </div>
     <?php endwhile; else: ?>
-      <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/img/sample-slide-1.min.jpg" width="960" height="350" alt="Slide-1"></div>
-      <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/img/sample-slide-2.min.jpg" width="960" height="350" alt="Slide-2"></div>
-      <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/img/sample-slide-3.min.jpg" width="960" height="350" alt="Slide-3"></div>
+      <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/img/placeholder_owl_slider_a.jpg" width="960" height="350" alt="Slide-1"></div>
+      <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/img/placeholder_owl_slider_b.jpg" width="960" height="350" alt="Slide-2"></div>
+      <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/img/placeholder_owl_slider_c.jpg" width="960" height="350" alt="Slide-3"></div>
     <?php endif; ?>
+</div>
 </div>

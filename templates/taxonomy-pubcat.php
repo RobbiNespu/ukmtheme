@@ -19,10 +19,16 @@ get_header(); ?>
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <div class="pure-g ut-publication-archive-wrap">
           <div class="pure-u-3-10 article ut-publication">
-          <?php 
-            $saved_data = get_post_meta($post->ID,'ut_publication_cover',true);
-            echo '<img src="'.$saved_data.'">';
-          ?>
+            <?php
+              $pub_cover = get_post_meta($post->ID,'ut_publication_cover',true);
+              if ( $pub_cover ) { ?>
+              <img src="<?php echo $pub_cover; ?>" alt="">
+              <?php }
+
+              else { ?>
+              <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder_publication.png">
+              <?php }
+            ?>
           </div>
           <div class="pure-u-7-10 ut-publication-detail-wrap">
             <div class="ut-publication-detail">

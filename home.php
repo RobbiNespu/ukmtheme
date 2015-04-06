@@ -1,14 +1,11 @@
 <?php
 /**
+ *
  * @link http://www.ukm.my/template
- *
- * @package WordPress
- * @subpackage ukmtheme
- * @since 4.0
- *
+ * @package ukmtheme
+ * @version 6.x.x
  * @author Jamaludin Rajalu
  *
- * Tetapan muka hadapan laman
  */
 get_header(); ?>
 <div class="home-content-wrap">

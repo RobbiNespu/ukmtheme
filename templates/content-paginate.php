@@ -1,13 +1,11 @@
 <?php
 /**
+ *
  * @link http://www.ukm.my/template
- * @link http://codex.wordpress.org/The_Loop
- *
- * @package WordPress
- * @subpackage ukmtheme
- * @since 4.0
- *
+ * @package ukmtheme
+ * @version 6.x.x
  * @author Jamaludin Rajalu
+ *
  */
 global $wp_query;
 

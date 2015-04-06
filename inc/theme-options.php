@@ -16,26 +16,39 @@ add_action('admin_menu', 'ukmtheme_create_menu');
 
 function ukmtheme_create_menu() {   
   // create theme option menu
-  add_menu_page( __( 'Theme Options', 'ukmtheme' ), __( 'Theme Options', 'ukmtheme' ), 'edit_theme_options', 'theme_options', 'theme_options_do_page', 'dashicons-admin-generic', 55 );
+  add_theme_page( __( 'Theme Options', 'ukmtheme' ), __( 'Theme Options', 'ukmtheme' ), 'edit_theme_options', 'theme_options', 'theme_options_do_page', 'dashicons-admin-generic', 55 );
   
   // call register settings function
   add_action( 'admin_init', 'register_ukmtheme_settings' );
 }
 
 function register_ukmtheme_settings() {
-  //register our settings
+  /**
+   * Theme Option settings
+   */
+
+  // Social Media
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_facebook' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_twitter' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_youtube' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_instagram' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_facebook_hide' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_twitter_hide' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_youtube_hide' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_instagram_hide' );
+  register_setting( 'ukmtheme-settings-group', 'ukmtheme_rss_hide' );
+  // Colour
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_mn_color' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_snd_color' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_trd_color' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_bg' );
+  // Translation
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_languages' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_google_trans' );
+  // Visitor Counter
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_visitor_counter' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_visitor_id' );
+  // Frontpage Widget
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_news' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_one' );
   register_setting( 'ukmtheme-settings-group', 'ukmtheme_widget_three' );
@@ -82,7 +95,7 @@ function theme_options_do_page() { ?>
               $widget_tabber        = get_option('ukmtheme_widget_tabber');
               $widget_news_portal   = get_option('ukmtheme_widget_newsPortal');
             ?>
-            <p class="description"><?php _e( 'Tandakan yang perlu sahaja. Sekiranya memilih "Custom", pastikan "Basic tidak dipilih". Untuk Facebook Like Box, masukkan url Facebook di ruangan Social Link.'); ?></p>
+            <p class="description"><?php _e( 'Tandakan yang perlu sahaja. Sekiranya memilih "Custom", pastikan "Basic tidak dipilih". Untuk Facebook Like Box, masukkan url Facebook di ruangan Social Link.'); ?></p><br>
             <input id='checkbox' name='ukmtheme_widget_basic' type='checkbox' value="news" <?php echo ( 'news' == $widget_basic ) ? 'checked="checked"' : ''; ?> />
             <label class="description" for="ukmtheme_widget_basic"><?php _e( 'Basic', 'ukmtheme' ); ?></label><br/>
             <input id='checkbox' name='ukmtheme_widget_newsPortal' type='checkbox' value="news-portal" <?php echo ( 'news-portal' == $widget_news_portal ) ? 'checked="checked"' : ''; ?> />
@@ -164,6 +177,34 @@ function theme_options_do_page() { ?>
         <td>
           <input type="text" name="ukmtheme_instagram" value="<?php echo get_option('ukmtheme_instagram'); ?>" class="regular-text" placeholder="http://instagram.com/jrajalu" />
           <p class="description"><?php _e( 'Enter full url e.g: https://www.twitter.com/ukmnewsportal', 'ukmtheme' ); ?></p>
+        </td>
+        </tr>
+        <!-- hide social media icon on footer -->
+        <tr valign="top">
+        <th scope="row"><?php _e( 'Hide Social Media Icon','ukmtheme' ); ?></th>
+        <td>
+          <?php
+            $hide_facebook    = get_option('ukmtheme_facebook_hide');
+            $hide_twitter     = get_option('ukmtheme_twitter_hide');
+            $hide_youtube     = get_option('ukmtheme_youtube_hide');
+            $hide_instagram   = get_option('ukmtheme_instagram_hide');
+            $hide_rss         = get_option('ukmtheme_rss_hide');
+          ?>
+          <p class="description"><?php _e( 'Sorok ikon social media di bahagian footer'); ?></p><br>
+          <input id='checkbox' name='ukmtheme_facebook_hide' type='checkbox' value="ut_hidden" <?php echo ( 'ut_hidden' == $hide_facebook ) ? 'checked="checked"' : ''; ?> />
+          <label class="description" for="ukmtheme_facebook_hide"><?php _e( 'Facebook', 'ukmtheme' ); ?></label><br/>
+
+          <input id='checkbox' name='ukmtheme_twitter_hide' type='checkbox' value="ut_hidden" <?php echo ( 'ut_hidden' == $hide_twitter ) ? 'checked="checked"' : ''; ?> />
+          <label class="description" for="ukmtheme_twitter_hide"><?php _e( 'Twitter', 'ukmtheme' ); ?></label><br/>
+
+          <input id='checkbox' name='ukmtheme_youtube_hide' type='checkbox' value="ut_hidden" <?php echo ( 'ut_hidden' == $hide_youtube ) ? 'checked="checked"' : ''; ?> />
+          <label class="description" for="ukmtheme_youtube_hide"><?php _e( 'YouTube', 'ukmtheme' ); ?></label><br/>
+
+          <input id='checkbox' name='ukmtheme_instagram_hide' type='checkbox' value="ut_hidden" <?php echo ( 'ut_hidden' == $hide_instagram ) ? 'checked="checked"' : ''; ?> />
+          <label class="description" for="ukmtheme_instagram_hide"><?php _e( 'Instagram', 'ukmtheme' ); ?></label><br/>
+
+          <input id='checkbox' name='ukmtheme_rss_hide' type='checkbox' value="ut_hidden" <?php echo ( 'ut_hidden' == $hide_rss ) ? 'checked="checked"' : ''; ?> />
+          <label class="description" for="ukmtheme_rss_hide"><?php _e( 'RSS', 'ukmtheme' ); ?></label><br/>
         </td>
         </tr>
       </tbody>

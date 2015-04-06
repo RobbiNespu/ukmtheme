@@ -121,7 +121,14 @@ function ut_publication_custom_columns( $column ){
   global $post;
   
   switch ($column) {
-    case 'ut_publication_cover' : $publicationCover = get_post_meta($post->ID,'ut_publication_cover',true); echo '<img src="'.$publicationCover.'" width="60">';break;
+    case 'ut_publication_cover' :
+      $pub_cover = get_post_meta($post->ID,'ut_publication_cover',true);
+      if ( $pub_cover ) { ?>
+      <img src="<?php echo $pub_cover; ?>" alt="" width="50">
+      <?php }
+      else { ?>
+    <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder_publication.png" width="50">
+    <?php } break;
     case 'pubcat' : echo get_the_term_list( $post->ID, 'pubcat', '', ', ',''); break;
     case 'ut_publication_author' : echo get_post_meta($post->ID,'ut_publication_author',true); break;
     case 'ut_publication_publisher' : echo get_post_meta($post->ID,'ut_publication_publisher',true); break;

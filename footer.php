@@ -1,12 +1,11 @@
 <?php
 /**
+ *
  * @link http://www.ukm.my/template
- *
- * @package WordPress
- * @subpackage ukmtheme
- * @since 4.0
- *
+ * @package ukmtheme
+ * @version 6.x.x
  * @author Jamaludin Rajalu
+ *
  */
 
 $counter = get_option( 'ukmtheme_visitor_counter' );

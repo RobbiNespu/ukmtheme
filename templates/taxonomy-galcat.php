@@ -24,8 +24,14 @@
         <div class="ut-news-list clearfix">
             <div class="pure-u-1-5 ut-news-thumb">
             <?php
-              $saved_data = get_post_meta($post->ID,'ut_gallery_cover',true);
-              echo '<img src="'.$saved_data.'">'
+              $gal_cover = get_post_meta($post->ID,'ut_gallery_cover',true);
+              if ( $gal_cover ) { ?>
+              <img src="<?php echo $gal_cover; ?>" alt="">
+              <?php }
+
+              else { ?>
+              <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder_gallery.png">
+              <?php }
             ?>
             </div>
             <div class="pure-u-4-5 ut-news-content">

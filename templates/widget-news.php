@@ -20,7 +20,7 @@ $loop = new WP_Query( $args );
     <div class="uk-panel widgets-annc">
     <h3><?php _e('Latest News','ukmtheme') ?></h3>
     <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-      <div class="pure-g ut-news-list clearfix">
+      <div class="pure-g pure-g-r ut-news-list clearfix">
         <div class="pure-u-1-5 ut-news-thumb">
           <?php
           if ( has_post_thumbnail() ) {

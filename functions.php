@@ -1,12 +1,11 @@
 <?php
 /**
+ *
  * @link http://www.ukm.my/template
- *
- * @package WordPress
- * @subpackage ukmtheme
- * @since 4.0
- *
+ * @package ukmtheme
+ * @version 6.x.x
  * @author Jamaludin Rajalu
+ *
  */
 
 // FAVICON FOR ADMIN PAGE
@@ -74,7 +73,7 @@ add_action( 'wp_enqueue_scripts', 'ukmtheme_scripts' );
 require( 'inc/theme-update-checker.php' );
   new ThemeUpdateChecker(
     'ukmtheme-master',
-    'http://raw.github.com/jrajalu/ukmtheme/master/version.json'
+    'https://raw.githubusercontent.com/jrajalu/ukmtheme/master/version.json'
 );
 
 /**
@@ -139,9 +138,13 @@ add_action( 'after_setup_theme', 'ukmtheme_module' );
       require( get_template_directory() . '/inc/post-type-tab.php');
       require( get_template_directory() . '/inc/post-type-video.php');
 
-      /** Theme configuration
+      /**
+       *
+       * Theme configuration
+       *
        * Appearance > Theme Options
        * Appearance > The Docs
+       *
        */
       require( get_template_directory() . '/inc/theme-archive-links.php' );
       require( get_template_directory() . '/inc/theme-include-archive.php' );
@@ -319,7 +322,7 @@ add_filter( 'wp_title', 'ukmtheme_wp_title', 10, 2 );
  * @link http://codex.wordpress.org/Function_Reference/get_search_form
  */
 
-function tukm_search_form( $form ) {
+function ukmtheme_search_form( $form ) {
   $form = '<form role="search" method="get" class="uk-form" id="searchform" class="searchform" action="' . home_url( '/' ) . '" >
   <input type="search" class="search-field" placeholder="' . esc_attr__( 'Search...','ukmtheme' ) . '" value="' . get_search_query() . '" name="s" id="s" />
   <button class="search-submit uk-button uk-button-primary" id="searchsubmit">'. esc_attr__( 'Search' ) .'</button>
@@ -328,28 +331,28 @@ function tukm_search_form( $form ) {
   return $form;
 }
 
-add_filter( 'get_search_form', 'tukm_search_form' );
+add_filter( 'get_search_form', 'ukmtheme_search_form' );
 
 /**
  * Custom Post Type Feed
  * @link http://www.wpbeginner.com/wp-tutorials/how-to-add-custom-post-types-to-your-main-wordpress-rss-feed/
  */
 
-function tukm_feed_request($qv) {
+function ukmtheme_feed_request($qv) {
   if (isset($qv['feed']) && !isset($qv['post_type']))
     $qv['post_type'] = array( 'news', 'event' );
   return $qv;
 }
-add_filter( 'request', 'tukm_feed_request' );
+add_filter( 'request', 'ukmtheme_feed_request' );
 
 /**
  * Contact form 7
  * Add class "form"
  */
 
-add_filter( 'wpcf7_form_class_attr', 'tukm_custom_form_class_attr' );
+add_filter( 'wpcf7_form_class_attr', 'ukmtheme_custom_form_class_attr' );
 
-function tukm_custom_form_class_attr( $class ) {
+function ukmtheme_custom_form_class_attr( $class ) {
   $class .= ' uk-form';
   return $class;
 }

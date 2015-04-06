@@ -18,7 +18,7 @@ $blue: #00B4F5;
 // MISC
 
 .ut_hidden {
-  display: none;
+  display: none !important;
 }
 
 .ut_divider {
@@ -30,7 +30,7 @@ $blue: #00B4F5;
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   margin: 0;
   padding: 0;
   margin-bottom: 10px;
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 14px;
   line-height: normal;
 }
 
@@ -966,6 +966,50 @@ ul.ut-event-list {
   color: #444;
   text-decoration: none;
 }
+
+// owl slider
+
+#owl-main-slider .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.carousel-wrap {
+  .owl-buttons {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+  }
+}
+
+.carousel-wrap {
+  .owl-theme .owl-controls .owl-buttons div {
+    position: absolute;
+    color: #fff;
+    zoom: 1;
+    width: 60px;
+    height: 60px;
+    display: block;
+    font-size: 48px;
+    filter: Alpha(Opacity=50);
+    opacity: .5;
+    background: transparent;
+    padding: 0 0 0 0;
+    margin: -38px 0 0 0;
+  }
+}
+
+.carousel-wrap {
+  .owl-prev {
+    left: 1%;
+  }
+  .owl-next {
+    right: 1%;
+  }
+}
+
 
 // MOBILE DEVICES
 
