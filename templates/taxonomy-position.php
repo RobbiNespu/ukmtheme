@@ -23,7 +23,7 @@ get_header(); ?>
   ));
 ?>
 <?php if ( $staff->have_posts() ) : while ( $staff->have_posts() ) : $staff->the_post(); ?>
-<div class="pure-g staff-wrap">
+<div class="pure-g staff-wrap ut_divider">
   <div class="pure-u-1-5">
       <div class="staff-photo">
         <?php
@@ -67,7 +67,6 @@ get_header(); ?>
     </div>
   </div>
 </div><!--staff-wrap-->
-<hr>
 
 <?php endwhile; else: ?>
 
