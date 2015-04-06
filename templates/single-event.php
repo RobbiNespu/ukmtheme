@@ -13,13 +13,7 @@ get_header(); ?>
 <article class="wrap">
 <div class="pure-g pure-g-r content">
   <section class="pure-u-3-4 article">
-    <?php 
-      $event = new WP_Query( array( 
-        'post_type'    => 'event',
-        'post_status'  => array( 'publish', 'future' )
-      ));
-
-    if ( $event->have_posts() ) : while ( $event->have_posts() ) : $event->the_post(); ?>
+    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
       <h2 class="content-title"><?php the_title(); ?></h2>
       <div class="content-article">
         <ul class="ut-event-list">
