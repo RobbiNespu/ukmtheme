@@ -15,7 +15,7 @@
 <article class="wrap">
   <div class="pure-g pure-g-r content">
     <section class="article-video">
-    <h2><?php _e( 'Video', 'ukmtheme' ); ?>:&nbsp;<?php single_cat_title(); ?></h2>
+    <h2 class="content-title"><?php _e( 'Video', 'ukmtheme' ); ?>:&nbsp;<?php single_cat_title(); ?></h2>
 
       <div class="uk-panel video-archive-wrap">
 
