@@ -8,7 +8,10 @@
  *
  */
 
-// FAVICON FOR ADMIN PAGE
+/**
+ * favicon.ico for all pages
+ * wp-login, dashboard, frontpage
+ */
 
 function add_favicon() {
   $favicon_url = get_stylesheet_directory_uri() . '/favicon.ico';
