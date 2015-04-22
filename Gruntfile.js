@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 module.exports = function(grunt) {
 
   // Project configuration
@@ -175,6 +175,7 @@ module.exports = function(grunt) {
           position: 'top',
           banner: '/*\n'+
                   'Theme Name: <%= pkg.name %>\n'+
+                  'Theme URI: <%= pkg.repository.url %>\n'+
                   'Version: <%= pkg.version %>\n'+
                   'Description: <%= pkg.description %>\n'+
                   'Author: <%= pkg.author %>\n'+

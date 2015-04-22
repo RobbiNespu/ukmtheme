@@ -1,12 +1,12 @@
 {
-  "name": "ukmtheme",
-  "version": "6.7.0",
+  "name": "UKMtheme",
+  "version": "6.7.1",
   "description": "WordPress Theme for UKM",
   "author": "Jamaludin Rajalu",
   "license": "CC BY",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jrajalu/ukmtheme"
+    "url": "https://github.com/jrajalu/ukmtheme"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
