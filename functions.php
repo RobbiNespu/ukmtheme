@@ -90,9 +90,11 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
   function ukmtheme_setup() {
 
     add_theme_support( 'html5', array( 'search-form' ) );
-    add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'audio', 'quote', 'link', 'gallery', ) );
     add_theme_support( 'post-thumbnails' );
-    add_theme_support( 'automatic-feed-links' );
+
+    remove_action('wp_head', 'wp_generator');
+    remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+    remove_action( 'wp_print_styles', 'print_emoji_styles' );
 
     load_theme_textdomain( 'ukmtheme', get_template_directory() . '/lang' );
 
