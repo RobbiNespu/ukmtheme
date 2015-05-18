@@ -47,7 +47,7 @@ class Youtube_Widget extends WP_Widget {
     }
 
     ?>
-    <div id="youtubeWidget" style="margin-top:10px;margin-bottom-10px;">
+    <div id="youtubeWidget" style="margin-top:10px;margin-bottom:10px;">
       <iframe src="//www.youtube.com/embed/<?php echo $instance['videoid']; ?>?rel=0" frameborder="0" allowfullscreen></iframe>
     </div>
 

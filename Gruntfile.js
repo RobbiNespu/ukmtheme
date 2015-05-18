@@ -76,7 +76,7 @@ module.exports = function(grunt) {
           'bower_components/responsive-tabs/js/jquery.responsiveTabs.js',
           'bower_components/magnific-popup/dist/jquery.magnific-popup.js'
         ],
-        dest: 'js/library.all.js',
+        dest: 'js/library.all.js'
       }
     },
 

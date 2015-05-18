@@ -14,7 +14,7 @@
     "ukm",
     "ukmtheme",
     "template",
-    "wordpress",
+    "wordpress"
   ],
   "license": "CC BY",
   "devDependencies": {
