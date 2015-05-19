@@ -26,8 +26,8 @@ add_action('admin_head', 'add_favicon');
  * Theme option for color picker
  */
 
-add_action( 'admin_enqueue_scripts', 'ut_wp_admin_scripts' );
-  function ut_wp_admin_scripts() {
+add_action( 'admin_enqueue_scripts', 'ukmtheme_wp_admin_scripts' );
+  function ukmtheme_wp_admin_scripts() {
     // Javascript
     wp_enqueue_script( 'thickbox' );
     wp_enqueue_script( 'wp-color-picker' );
@@ -92,7 +92,7 @@ add_action( 'after_setup_theme', 'ukmtheme_setup' );
     add_theme_support( 'html5', array( 'search-form' ) );
     add_theme_support( 'post-thumbnails' );
 
-    remove_action('wp_head', 'wp_generator');
+    remove_action( 'wp_head', 'wp_generator' );
     remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
     remove_action( 'wp_print_styles', 'print_emoji_styles' );
 
