@@ -12,6 +12,8 @@ get_header();
   $publication = new WP_Query( array( 
     'post_type'       => 'publication',
     'posts_per_page'  => 10,
+    'orderby'         => 'menu_order',
+    'order'           => 'ASC'
   ));
 
 ?>

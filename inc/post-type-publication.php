@@ -42,7 +42,7 @@ function ut_publication() {
     'labels'              => $labels,
     'supports'            => array( 'title', 'editor', ),
     'taxonomies'          => array( 'pubcat' ),
-    'hierarchical'        => false,
+    'hierarchical'        => true,
     'public'              => true,
     'show_ui'             => true,
     'show_in_menu'        => true,

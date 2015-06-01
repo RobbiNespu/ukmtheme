@@ -1,22 +1,27 @@
 <?php
 /**
+ *
  * @link http://www.ukm.my/template
- * @link http://codex.wordpress.org/The_Loop
- *
- * @package WordPress
- * @subpackage ukmtheme
- * @since 4.0
- *
+ * @package ukmtheme
+ * @version 6.x.x
  * @author Jamaludin Rajalu
  *
- * Taxonomy: Publication Category
  */
-get_header(); ?>
+get_header();
+
+  $publication = new WP_Query( array( 
+    'post_type'       => 'publication',
+    'posts_per_page'  => 10,
+    'orderby'         => 'menu_order',
+    'order'           => 'ASC'
+  ));
+
+?>
 <article class="wrap">
   <div class="pure-g pure-g-r content">
     <section class="pure-u-3-4 article">
-    <h2 class="content-title"><?php single_cat_title(); ?></h2>
-      <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+    <h2 class="content-title"><?php _e( 'Publication', 'ukmtheme' ); ?></h2>
+      <?php if ( $publication->have_posts() ) : while ( $publication->have_posts() ) : $publication->the_post(); ?>
         <div class="pure-g ut-publication-archive-wrap">
           <div class="pure-u-3-10 article ut-publication">
             <?php
@@ -42,7 +47,7 @@ get_header(); ?>
                 <tr><td><?php _e('Reference/Download','ukmtheme'); ?></td><td>:&nbsp;<a href="<?php echo get_post_meta($post->ID, 'ut_publication_reference', true); ?>"><?php _e('Click here','ukmtheme') ?></a></td></tr>
               </table>
               <a href="<?php echo get_permalink(); ?>"><button class="uk-button uk-button-small uk-button-primary"><?php _e('Read More','ukmtheme'); ?></button></a>
-              </div>
+              </div><!--.ut-publication-detail-->
           </div>
         </div>
       <?php endwhile; else: ?>
@@ -53,6 +58,6 @@ get_header(); ?>
     <aside class="pure-u-1-4">
       <?php if (dynamic_sidebar( 'sidebar-2' )) : else : ?><?php endif; ?>
     </aside>
-  </div>
+  </div><!-- content-wrap -->
 </article>
 <?php get_footer(); ?>
