@@ -11,6 +11,7 @@ get_header();
 
   $publication = new WP_Query( array( 
     'post_type'       => 'publication',
+    'pubcat'          => get_the_term_list( $post->ID, 'pubcat' ),
     'posts_per_page'  => 10,
     'orderby'         => 'menu_order',
     'order'           => 'ASC'

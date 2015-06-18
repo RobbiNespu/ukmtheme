@@ -12,7 +12,8 @@
 get_header(); 
 
   $faq = new WP_Query( array( 
-    'post_type'       => 'faq', 
+    'post_type'       => 'faq',
+    'faqcat'          => get_the_term_list( $post->ID, 'faqcat' ),
     'posts_per_page'  => -1, 
     'orderby'         => 'menu_order', 
     'order'           => 'ASC' 
